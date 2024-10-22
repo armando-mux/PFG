@@ -8,3 +8,61 @@ This is the main repository for my final degree proyect. It basically consists i
 
 ## Current stage of the proyect.
 I'm still gathering infromation and developing some scripts for the step 2.
+
+
+---
+---
+---
+---
+
+
+# Actual notes about development.
+In order to go with step 2 development, I've divided the kind of data we should collect in three types: network data, HW resources data and Log and event data. 
+
+# Bibliographic aproaches.
+
+## Useful info regarding each OS.
+
+### Andoid
+
+There is some interesting references in the survey [(Cen, 2023)](https://drive.google.com/file/d/1gDN4WYrqDrvKwQ9MQQxUuXCnOZvOMlZf/view?usp=drive_link) regarding early detection solutions for Android in refs. 63-74.
+
+## Useful info regarding the data I should look for.
+
+### Network data.
+I still have to decide wether to use a different tool per each OS or to use psutils for all of them. Look for what kind of info uses other realted works.
+
+According to ref [(Schoenbachler, 2023)](https://drive.google.com/file/d/1UnIbWdUNv8WK9_bSsCPjqGDaKZr2R7Pf/view?usp=drive_link/), it's a good idea to look for the number of different hosts connectec, UDP connections made and DNS connections. I assume that the relevant fact is the number. 
+
+
+
+### HW activity and performance.
+In [(Alam, 2018)](https://drive.google.com/file/d/1Sv0PCjQSWHR4QB3pADWbKkMS6PUE3gQm/view?usp=drive_link), they develop a RAPPER (Ransomware Prevention via Performance Counter), and they use HPCs for this performance evaluation. Maybe is a good idea to use them along with psutils library.
+
+
+### Registry events, API calls and filesystem activity (OS related activity)
+In [(Ganfure, 2020)](https://drive.google.com/file/d/1VRWqS83AVqN8JwuVcMT-_DXu-_utwsCY/view?usp=drive_link) they develop a detector using the filesystem activity: 
+```
+we propose a simple but effective
+concept of user-file interaction modeling with deep generative
+autoencoder architecture. Unlike other works aiming to look at
+ransomware signature or dynamic behavior, this work aimed to
+capture a legitimate user’s behavior by logging the recurrence
+of user-file interaction such as create, delete, changed, and
+rename operations every t seconds.
+```
+
+
+---
+---
+---
+---
+
+# To do list
+
+[] Develop the program that collect the data for Windows.
+[] Develop the program that collect the data for Android.
+[] Develop the program that collect the data for Linux.
+[] Make a list of important items to look for in the network case.
+[] Make a list of important items to look for in the HW case.
+[] Make a list of important items to look for in the  case.
