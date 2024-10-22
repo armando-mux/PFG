@@ -11,9 +11,7 @@ I'm still gathering infromation and developing some scripts for the step 2.
 
 
 ---
----
----
----
+
 
 
 # Actual notes about development.
@@ -54,15 +52,18 @@ rename operations every t seconds.
 
 
 ---
----
----
----
+
 
 # To do list
 
-[] Develop the program that collect the data for Windows.
+[x] Develop the program that collect the data for Windows.
+
 [] Develop the program that collect the data for Android.
+
 [] Develop the program that collect the data for Linux.
+
 [] Make a list of important items to look for in the network case.
+
 [] Make a list of important items to look for in the HW case.
+
 [] Make a list of important items to look for in the  case.
