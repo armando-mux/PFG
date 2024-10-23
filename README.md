@@ -60,4 +60,12 @@ rename operations every t seconds.
 - [ ] [S. Razaulla, C. Fachkha, C. Markarian, A. Gawanmeh, W. Mansoor, B.C.M. Fung, C. Assi, The age of ransomware: A survey on the evolution, taxonomy, and research directions, IEEE Access 11 (2023) 40698–40723](https://drive.google.com/file/d/1HNFoCorE563P4CcsnqMZx0n1NpIbhsqH/view?usp=drive_link)
 - [ ] [N. A. Malik et al., "Behavior and Characteristics of Ransomware - A Survey," 2024 ](https://drive.google.com/file/d/1cM_TlbnNcM9yIeVNsBWD0KAm7DPTpPFm/view?usp=drive_link)
 - [ ] [Dynamic Behavioural Analysis of Privacy-Breaching and Data Theft Ransomware. Mehmet Ozturk. PREPRINT!](https://drive.google.com/file/d/1RcHAlOiV-h8YnfBl5_GJiaPiqsOJgDy4/view?usp=drive_link)
-S
+
+## HW activity and performance bibl.
+- [x] [RAPPER: Ransomware Prevention via Performance Counters. Manaar Alam et al. 2018](https://drive.google.com/file/d/1Sv0PCjQSWHR4QB3pADWbKkMS6PUE3gQm/view?usp=drive_link)
+
+## Network activity.
+- [x] [Sorting Ransomware from Malware Utilizing Machine Learning Methods with Dynamic Analysis. Schoenbachler et al. 2023](https://drive.google.com/file/d/1UnIbWdUNv8WK9_bSsCPjqGDaKZr2R7Pf/view?usp=drive_link/)
+
+## Registry events, API calls and filesystem activity (OS related activity) bibl.
+- [x] [DeepGuard: Deep Generative User-behavior Analytics for Ransomware Detection. Ganfure. 2020](https://drive.google.com/file/d/1VRWqS83AVqN8JwuVcMT-_DXu-_utwsCY/view?usp=drive_link)
