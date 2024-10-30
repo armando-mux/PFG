@@ -1,26 +1,3 @@
-# PFG
-## Basic description.
-This is the main repository for my final degree proyect. It basically consists in a end-point detection system of ransomware based on it's behavour. It will have seeral stages:
-1. Gathering all the information and bibliography.
-2. Buiding a program for the following platforms: Android, Windows and Linux. The idea of this program is collecting all the relevant data concerning the machine behavour, so we can disguise if it's an infected one (with any kind of ransomware) or not. The nature of this data is (by now) of three types: network activity, APIs and System calls (depending on which OS are we refering) and hardware resources use.
-3. Buiding another program that will be alocated in the "network manager" host. It will collect all the data from the machines in the network and send it to the cloud (see steep 4). It will also receive the alerts from the cloud in case of detecting a suspicious behavour in one of the machines.
-4. Create a data lake in the Azure Cloud and create a detection system usion ML and AI tools. After creating and training the model, it will scan all the data sent by the program in step 3 and send the proper alert if necessary.
-
-## Current stage of the proyect.
-I'm still gathering infromation and developing some scripts for the step 2.
-
-
----
-
-
-
-# Actual notes about development.
-In order to go with step 2 development, I've divided the kind of data we should collect in three types: network data, HW resources data and Log and event data. 
-
-
-
---- 
-
 # Bibliographic notes.
 Here I'll put all my bibliografic references with notes regarding the useful items about the data I should collect. 
 
@@ -28,6 +5,14 @@ Here I'll put all my bibliografic references with notes regarding the useful ite
 
 There is some interesting references in the survey [(Cen, 2023)](https://drive.google.com/file/d/1gDN4WYrqDrvKwQ9MQQxUuXCnOZvOMlZf/view?usp=drive_link) regarding early detection solutions for Android in refs. 63-74. A brief explanation about kinds of detection and ransomware is also included in this ref.
 
+In [K. Begovic, 2023](https://drive.google.com/file/d/1dasBBxs1z0l7t0a2kdBiZEFqBvSFk7QR/view?usp=drive_link) make a interesting and more tecnical review of the several types of ransomware and detection, mostly from the criptograhic point of view. They sepparate different aproaches in three categories:
+- API and system call monitoring-based detection. They mention several aproaches of this kind and give a list of windows API related to this. Keep an eye also in OpenSSL. These API are the following ones:
+
+![Table 1 from paper with API calls in WINDOWS](./tabla1.JPG)
+
+- I/O monitoring. They monitor memory access and filesystem usage as well as network flow. Check some references to find out more specifically. Entropy analisys of files infilesystem (?).
+
+![Table 2 from paper](./tabla2.JPG)
 
 ## Network data.
 I still have to decide wether to use a different tool per each OS or to use psutils for all of them. Look for what kind of info uses other realted works.
@@ -56,7 +41,7 @@ rename operations every t seconds.
 
 ## Surveys
 - [x] [Ransomware early detection: A survey. Mingcan Cen, Frank Jiang, Xingsheng Qin, Qinghong Jiang, Robin Doss. 2023](https://drive.google.com/file/d/1gDN4WYrqDrvKwQ9MQQxUuXCnOZvOMlZf/view?usp=drive_link)
-- [ ] [K. Begovic, A. Al-Ali, Q. Malluhi, Cryptographic ransomware encryption detection: Survey, Comput. Secur. 132 (2023)](https://drive.google.com/file/d/1dasBBxs1z0l7t0a2kdBiZEFqBvSFk7QR/view?usp=drive_link)    
+- [x] [K. Begovic, A. Al-Ali, Q. Malluhi, Cryptographic ransomware encryption detection: Survey, Comput. Secur. 132 (2023)](https://drive.google.com/file/d/1dasBBxs1z0l7t0a2kdBiZEFqBvSFk7QR/view?usp=drive_link)    
 - [ ] [S. Razaulla, C. Fachkha, C. Markarian, A. Gawanmeh, W. Mansoor, B.C.M. Fung, C. Assi, The age of ransomware: A survey on the evolution, taxonomy, and research directions, IEEE Access 11 (2023) 40698–40723](https://drive.google.com/file/d/1HNFoCorE563P4CcsnqMZx0n1NpIbhsqH/view?usp=drive_link)
 - [ ] [N. A. Malik et al., "Behavior and Characteristics of Ransomware - A Survey," 2024 ](https://drive.google.com/file/d/1cM_TlbnNcM9yIeVNsBWD0KAm7DPTpPFm/view?usp=drive_link)
 - [ ] [Dynamic Behavioural Analysis of Privacy-Breaching and Data Theft Ransomware. Mehmet Ozturk. PREPRINT!](https://drive.google.com/file/d/1RcHAlOiV-h8YnfBl5_GJiaPiqsOJgDy4/view?usp=drive_link)
