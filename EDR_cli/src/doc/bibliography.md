@@ -17,7 +17,14 @@ In [K. Begovic, 2023](https://drive.google.com/file/d/1dasBBxs1z0l7t0a2kdBiZEFqB
 ## Network data.
 I still have to decide wether to use a different tool per each OS or to use psutils for all of them. Look for what kind of info uses other realted works.
 
-According to ref [(Schoenbachler, 2023)](https://drive.google.com/file/d/1UnIbWdUNv8WK9_bSsCPjqGDaKZr2R7Pf/view?usp=drive_link/), it's a good idea to look for the number of different hosts connectec, UDP connections made and DNS connections. I assume that the relevant fact is the number. 
+According to ref [(Schoenbachler, 2023)](https://drive.google.com/file/d/1UnIbWdUNv8WK9_bSsCPjqGDaKZr2R7Pf/view?usp=drive_link/), it's a good idea to look for the number of different hosts connectec, UDP connections made and DNS connections. I assume that the relevant fact is the number.
+
+Other interesting ref is [(M.Akibis et al., 2024)](https://drive.google.com/file/d/1S2iyGnuRVN_Zegtd7Xwtdl9fVOtuDjvF/view?usp=drive_link):
+
+```
+Ransomware tends to generate unusually high volumes of small, frequent packets, particularly during its lateral spread phase, creating  discernible patterns that can be captured through traffic monitoring systems [19, 20]. Additionally, communication frequency tends to escalate as ransomware attempts to connect with external command-and-control servers, which creates a distinguishable deviation from typical network behavior [21].
+
+```
 
 
 
@@ -28,13 +35,7 @@ In [(Alam, 2018)](https://drive.google.com/file/d/1Sv0PCjQSWHR4QB3pADWbKkMS6PUE3
 ## Registry events, API calls and filesystem activity (OS related activity)
 In [(Ganfure, 2020)](https://drive.google.com/file/d/1VRWqS83AVqN8JwuVcMT-_DXu-_utwsCY/view?usp=drive_link) they develop a detector using the filesystem activity: 
 ```
-we propose a simple but effective
-concept of user-file interaction modeling with deep generative
-autoencoder architecture. Unlike other works aiming to look at
-ransomware signature or dynamic behavior, this work aimed to
-capture a legitimate user’s behavior by logging the recurrence
-of user-file interaction such as create, delete, changed, and
-rename operations every t seconds.
+we propose a simple but effective concept of user-file interaction modeling with deep generative autoencoder architecture. Unlike other works aiming to look at ransomware signature or dynamic behavior, this work aimed to capture a legitimate user’s behavior by logging the recurrence of user-file interaction such as create, delete, changed, and rename operations every t seconds.
 ```
 
 # To do.
@@ -51,6 +52,8 @@ rename operations every t seconds.
 
 ## Network activity.
 - [x] [Sorting Ransomware from Malware Utilizing Machine Learning Methods with Dynamic Analysis. Schoenbachler et al. 2023](https://drive.google.com/file/d/1UnIbWdUNv8WK9_bSsCPjqGDaKZr2R7Pf/view?usp=drive_link/)
+
+- [ ] [Measuring Ransomware Propagation Patterns via Network Traffic Analysis: An Automated Approach. M.Akibis et al. 2024 PREPRINT](https://drive.google.com/file/d/1S2iyGnuRVN_Zegtd7Xwtdl9fVOtuDjvF/view?usp=drive_link)
 
 ## Registry events, API calls and filesystem activity (OS related activity) bibl.
 - [x] [DeepGuard: Deep Generative User-behavior Analytics for Ransomware Detection. Ganfure. 2020](https://drive.google.com/file/d/1VRWqS83AVqN8JwuVcMT-_DXu-_utwsCY/view?usp=drive_link)
