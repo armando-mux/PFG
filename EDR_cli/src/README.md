@@ -17,6 +17,10 @@ I'm still gathering infromation and developing some scripts for the step 2.
 # Actual notes about development.
 In order to go with step 2 development, I've divided the kind of data we should collect in three types: network data, HW resources data and Log and event data. 
 
+Network: there are problems with the pcapy library, which would be fine. But it's not well adapted to python 3.12, so i'm using pyshark instead. I have to consider if pcap archives does make sense for my purpose or if I should use more light log archives with key info.
+
+
+
 
 
 --- 
