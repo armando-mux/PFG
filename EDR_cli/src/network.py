@@ -1,30 +1,50 @@
-import signal
-import pyshark
-import pyshark.packet
-import pyshark.packet.fields
-import pyshark.packet.packet
+import libpcap
+import sys
+import socket
+import struct
 
-# Configura la interfaz de red para la captura en vivo
-INTERFACE = 'Wi-Fi'  # Cambia 'Ethernet' al nombre de tu interfaz de red
-def show_packet(packet):
-   try:
-        # Obtiene detalles del paquete
-        src_ip = packet.ip.src if hasattr(packet, 'ip') else "N/A"
-        dst_ip = packet.ip.dst if hasattr(packet, 'ip') else "N/A"
-        protocol = packet.highest_layer  # Protocolo de alto nivel
-        length = packet.length  # Tamaño del paquete
-        date = packet.frame_info.time_epoch
+# Definimos el callback para manejar los paquetes capturados
+def packet_handler(ts, pkt, pktlen):
+    print(f"Paquete capturado - Timestamp: {ts}, Longitud: {pktlen} bytes")
+    try:
+        # Extraemos la dirección IP de origen y destino si es un paquete IP
+        eth_header = struct.unpack("!6s6sH", pkt[0:14])
+        eth_proto = socket.ntohs(eth_header[2])
 
-        # Muestra la información en la terminal
-        print(f"Paquete capturado - Origen: {src_ip}, Destino: {dst_ip}, Protocolo: {protocol}, Tamaño: {length} bytes, Fecha: {date}")
-   except AttributeError:
-       print()    
+        # Si el protocolo es IP (0x0800), procesamos el paquete
+        if eth_proto == 0x0800:
+            ip_header = pkt[14:34]
+            iph = struct.unpack("!BBHHHBBH4s4s", ip_header)
+            src_ip = socket.inet_ntoa(iph[8])
+            dst_ip = socket.inet_ntoa(iph[9])
+            print(f"IP Origen: {src_ip}, IP Destino: {dst_ip}")
+    except Exception as e:
+        print(f"Error procesando el paquete: {e}")
 
-        
+# Función principal para iniciar la captura
+def main():
+    # Verificamos si estamos en Windows o Unix/Linux
+    if sys.platform.startswith("win"):
+        interface = "\\Device\\NPF_{F0A73EDF-FF6E-4CE9-B594-03DA7816414B}"  # Reemplaza con la interfaz correcta
+    else:
+        interface = "any"  # Captura de todas las interfaces en Unix/Linux
 
-# Iniciar la captura en vivo en la interfaz especificada
-capture = pyshark.LiveCapture(interface=INTERFACE)
+    print(f"Capturando en la interfaz: {interface}")
 
-print("Iniciando monitoreo de paquetes de red en tiempo real... Presiona Ctrl+C para detener.")
-# Procesa cada paquete capturado en tiempo real
-capture.apply_on_packets(show_packet)
+    # Iniciamos la captura con libpcap
+    pcap = libpcap.pcap(name=interface, promisc=False, timeout_ms=50)
+    try:
+        # Captura paquetes
+        libpcap.dispatch(pcap);
+        pcap.loop(0, packet_handler)
+    except KeyboardInterrupt:
+        print("\nDeteniendo la captura de paquetes")
+    finally:
+        # Cerramos la captura de paquetes
+        libpcap.close(pcap)
+
+if __name__ == "__main__":
+    try:
+        main()
+    except KeyboardInterrupt:
+        print("\nDeteniendo el programa")
