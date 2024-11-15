@@ -34,3 +34,7 @@ def list_interfaces():
 
 if __name__ == "__main__":
     list_interfaces()
+    errbuf = ctypes.create_string_buffer(256)
+    
+    captura = libpcap.open_live(None , 256, 0, 100, errbuf)
+    print(captura)
