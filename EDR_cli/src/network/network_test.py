@@ -1,11 +1,23 @@
 import subprocess
 import pyshark
+import re
+import asyncio
+
+
+def extraer_nombres(lines):
+   
+    # Expresión regular para extraer el texto entre el punto y el paréntesis
+    match = re.findall(r'\d+\.\s*(.+?)\s*\(', lines)
+    return match
+    
 
 
  ## Listar interfaces de red; en Win 'any' no sirve.
 def get_interfaces():
     interfaces = subprocess.run("Tshark -D", capture_output=True, text=True).stdout
-   
+    resultado = extraer_nombres(interfaces)
+    return resultado
+    
     
 ## extraer informacion de cada paquete dentro de la captura en vivo
 def handle_packet(paquete):
@@ -24,25 +36,37 @@ def handle_packet(paquete):
     print(f"  Longitud: {length} bytes\n")
 
     
-## loop de captura en vivo
-def capturar_paquetes():
+    
+## loop de captura en vivo de una interfaz
+async def capturar_paquetes(interfaz):
     try:
-        # Captura en vivo de todas las interfaces
-        captura = pyshark.LiveCapture(interface="\\Device\\NPF_{F0A73EDF-FF6E-4CE9-B594-03DA7816414B}")
-       
-        print("Capturando paquetes... Presiona Ctrl+C para detener.")
+       captura = pyshark.LiveCapture(interface=interfaz)
+       print(f"Capturando paquetes en interfaz {interfaz} ... Presiona Ctrl+C para detener.")
 
-        # Iterar sobre cada paquete capturado
-        for paquete in captura.sniff_continuously():
-            handle_packet(paquete)
+       # Ejecuta la captura en un hilo separado
+       await asyncio.to_thread(iterar_paquetes, captura)
 
     except KeyboardInterrupt:
         print("\nCaptura detenida por el usuario.")
 
     except Exception as e:
         print(f"Error: {e}")
+        
+        
+def iterar_paquetes(captura):
+    for paquete in captura.sniff_continuously():
+        handle_packet(paquete)
 
+# Metodo para iniciar el monitoreo de todas las interfaces.
+
+async def monitoreo():
+    interfaces = get_interfaces()
+    tareas = [capturar_paquetes(interfaz) for interfaz in interfaces]
+    await asyncio.gather(*tareas)
 
 ## main
 if __name__ == "__main__":
-    capturar_paquetes()
+    try:
+        asyncio.run(monitoreo())  # Inicia el bucle de eventos asyncio y ejecuta la función `monitoreo`
+    except KeyboardInterrupt:
+        print("\nMonitoreo detenido por el usuario.")
