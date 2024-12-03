@@ -37,21 +37,6 @@ def handle_packet(paquete):
     except Exception as e:
         print(f"Error: {e}")
 
-def extraer_nombres(lines):
-   
-    # Expresión regular para extraer el texto entre el punto y el paréntesis
-    matches = re.findall(r'\d+\.\s*(.+?)\s*\(', lines)
-    return matches
-
- ## Listar interfaces de red; en Win 'any' no sirve.
-def get_interfaces():
-    interfaces = subprocess.run("Tshark -D", capture_output=True, text=True).stdout
-    resultado = extraer_nombres(interfaces)
-    return resultado
-
-
-cap = pyshark.LiveCapture()
-lim = (len(get_interfaces())-1)
-cap.interfaces = get_interfaces()[0:lim]
+cap = pyshark.LiveCapture(interface='any')
 for packet in cap.sniff_continuously():
     handle_packet(packet)
