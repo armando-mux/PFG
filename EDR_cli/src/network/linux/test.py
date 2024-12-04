@@ -1,5 +1,5 @@
-import re
-import subprocess
+import csv
+import os
 import pyshark
 
 class Paquete:
@@ -16,7 +16,18 @@ class Paquete:
     def __str__(self):
         return f"[{self.timestamp}] {self.transport_protocol} - {self.app_protocol}" + f"  Origen: {self.ip_src}:{self.port_src}" + f"  Destino: {self.ip_dst}:{self.port_dst}" + f"  Longitud: {self.length} bytes\n" 
     
-def handle_packet(paquete):
+    def to_row(self):
+        return [
+            self.timestamp.isoformat(),
+            self.ip_src,
+            self.ip_dst,
+            self.port_src,
+            self.port_dst,
+            self.transport_protocol,
+            self.app_protocol,
+            self.length
+        ] 
+def handle_packet(paquete, csv_writer):
     try: 
         timestamp = paquete.sniff_time
         ip_src = paquete.ip.src if hasattr(paquete, 'ip') else (paquete.ipv6.src if hasattr(paquete, 'ipv6') else "N/A")
@@ -33,10 +44,53 @@ def handle_packet(paquete):
         length = paquete.length
     
         paquete_resumen = Paquete(timestamp, ip_src, ip_dst, port_src, port_dst, transport_protocol, app_protocol, length)
-        print(f"{paquete_resumen}")
+        print(paquete_resumen)
+        csv_writer.writerow(paquete_resumen.to_row())
+        
     except Exception as e:
         print(f"Error: {e}")
+        
+        
 
-cap = pyshark.LiveCapture(interface='any')
-for packet in cap.sniff_continuously():
-    handle_packet(packet)
+def start_capture(output_dir, max_file_size_mb=10):
+    os.makedirs(output_dir, exist_ok=True)
+    file_index = 0
+    outputabsdir = os.path.abspath(output_dir)
+    current_file_path = os.path.join(outputabsdir, f"packets_{file_index}.csv")
+    print(f"Ruta {current_file_path} creada")
+    file_handle = open(current_file_path, mode='w', newline='')
+    csv_writer = csv.writer(file_handle)
+    
+    # Write the header row
+    csv_writer.writerow([
+        "timestamp", "ip_src", "ip_dst", 
+        "port_src", "port_dst", 
+        "transport_protocol", "app_protocol", "length"
+    ])
+    
+    try:
+        cap = pyshark.LiveCapture(interface='any')
+        for packet in cap.sniff_continuously():
+            handle_packet(packet, csv_writer)
+            file_handle.flush()  # Ensure data is written to disk
+            if os.path.getsize(current_file_path) > max_file_size_mb * 1024 * 1024:
+                file_handle.close()
+                file_index += 1
+                current_file_path = os.path.join(outputabsdir, f"packets_{file_index}.csv")
+                file_handle = open(current_file_path, mode='w', newline='')
+                csv_writer = csv.writer(file_handle)
+                csv_writer.writerow([
+                    "timestamp", "ip_src", "ip_dst", 
+                    "port_src", "port_dst", 
+                    "transport_protocol", "app_protocol", "length"
+                ])
+    finally:
+        file_handle.close()
+        
+        
+def main():
+    print("Comienza monitoreo")
+    start_capture(output_dir=".\\network_logs_csv", max_file_size_mb=10)
+
+if __name__ == "__main__":
+    main()
