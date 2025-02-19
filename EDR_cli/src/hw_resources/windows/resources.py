@@ -1,0 +1,69 @@
+import time
+import psutil
+import csv
+import os
+
+# Directorio y nombre base del archivo de registro
+name_base = "HW_resources"
+path = ".\\EDR_cli\\src\\hw_resources\\"
+if not os.path.exists(path):
+    os.makedirs(path)
+file_counter = 0
+# Tamaño máximo permitido del archivo en bytes (10 MB)
+max_file_size = 10 * 1024 * 1024
+current_file_name = f"{path}{name_base}_{file_counter}.csv"
+
+
+# Función para crear un nuevo archivo y escribir el encabezado
+def create_new_file():
+    current_file_name = f"{path}{name_base}_{file_counter}.csv"
+    with open(current_file_name, mode='w', newline='') as csvfile:
+        writer = csv.writer(csvfile)
+        # Escribir la cabecera
+        writer.writerow([
+            "Timestamp", "CPU Total (%)", "CPU User (%)", "CPU System (%)", 
+            "CPU Idle (%)", "CPU Interrupt (%)", "CPU DCP (%)",
+            "Mem Total", "Mem Available", "Mem Percent", "Mem used", "Mem Free",
+            "Swap Total", "Swap Used", "Swap Free", "Swap Percent", "Swap Sin", "Swap Sout",
+            "Disco - Lecturas Completadas", 
+            "Disco - Escrituras Completadas"
+        ])
+    print(f"Nuevo archivo creado: {current_file_name}")
+
+# Crea el archivo inicial
+create_new_file()
+
+while True:
+    # Obtiene el uso de la CPU
+    cpu_percent = psutil.cpu_times_percent()
+    cpu_simple_percent = psutil.cpu_percent()
+    
+    # Obtiene el uso de la memoria
+    memory_info = psutil.virtual_memory()
+    
+    # Obtiene el número de operaciones de disco
+    disk_info = psutil.disk_io_counters(perdisk=False, nowrap=False)
+    
+    # Recopila los datos a registrar
+    data_row = [
+        time.strftime("%Y-%m-%d %H:%M:%S"),  # Timestamp
+        cpu_simple_percent,
+        cpu_percent.user, cpu_percent.system, cpu_percent.idle, 
+        cpu_percent.interrupt, cpu_percent.dpc,
+        memory_info.percent,
+        disk_info.read_count, disk_info.write_count
+    ]
+    
+    # Verifica el tamaño del archivo antes de escribir
+    if os.path.exists(current_file_name) and os.path.getsize(current_file_name) > max_file_size:
+        print(f"El archivo {current_file_name} ha alcanzado el tamaño máximo permitido.")
+        file_counter =+ 1
+        create_new_file()
+    
+    # Escribe los datos en el archivo actual
+    with open(current_file_name, mode='a', newline='') as csvfile:
+        writer = csv.writer(csvfile)
+        writer.writerow(data_row)
+
+    # Espera un segundo antes de la próxima iteración
+    time.sleep(0.5)

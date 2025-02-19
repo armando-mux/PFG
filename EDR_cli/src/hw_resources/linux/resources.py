@@ -21,9 +21,13 @@ def create_new_file():
         writer = csv.writer(csvfile)
         # Escribir la cabecera
         writer.writerow([
-            "Timestamp", "CPU Total (%)", "CPU User (%)", "CPU System (%)", 
-            "CPU Idle (%)", "CPU Interrupt (%)", "CPU DCP (%)",
-            "Memoria (%)", "Disco - Lecturas Completadas", 
+            "Timestamp", "CPU Total", "CPU User", "CPU Nice", "CPU System", 
+            "CPU Idle", "CPU Iowait", "CPU Irq", "CPU SoftIrq", "CPU Steal", 
+            "CPU Guest", "CPU Guest nice", 
+            "Mem Total", "Mem Available", "Mem Percent", "Mem used", "Mem Free",
+            "Mem Active", "Mem Inactive", "Buffers", "Cached", "Shared", "Slab",
+            "Swap Total", "Swap Used", "Swap Free", "Swap Percent", "Swap Sin", "Swap Sout",            
+            "Disco - Lecturas Completadas", 
             "Disco - Escrituras Completadas"
         ])
     print(f"Nuevo archivo creado: {current_file_name}")
@@ -38,7 +42,7 @@ while True:
     
     # Obtiene el uso de la memoria
     memory_info = psutil.virtual_memory()
-    
+    swap_info = psutil.swap_memory()
     # Obtiene el número de operaciones de disco
     disk_info = psutil.disk_io_counters(perdisk=False, nowrap=False)
     
@@ -46,9 +50,13 @@ while True:
     data_row = [
         time.strftime("%Y-%m-%d %H:%M:%S"),  # Timestamp
         cpu_simple_percent,
-        cpu_percent.user, cpu_percent.system, cpu_percent.idle, 
-        cpu_percent.interrupt, cpu_percent.dpc,
-        memory_info.percent,
+        cpu_percent.user, cpu_percent.nice, cpu_percent.system, cpu_percent.idle, 
+        cpu_percent.iowait, cpu_percent.irq, cpu_percent.softirq, cpu_percent.steal, 
+        cpu_percent.guest, cpu_percent.guest_nice,
+        memory_info.total, memory_info.available, memory_info.percent, memory_info.used,
+        memory_info.free, memory_info.active, memory_info.inactive, memory_info.buffers, 
+        memory_info.cached, memory_info.shared, memory_info.slab,
+        swap_info.total, swap_info.used, swap_info.free, swap_info.percent, swap_info.sin, swap_info.sout,
         disk_info.read_count, disk_info.write_count
     ]
     
