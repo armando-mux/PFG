@@ -5,7 +5,7 @@ import os
 
 # Directorio y nombre base del archivo de registro
 name_base = "HW_resources"
-path = ".\\EDR_cli\\src\\hw_resources\\"
+path = "C:\\Users\\arman\\Documents\\UNED\\PFG\\Pydev\\PFG\\EDR_cli\\logs\\"
 if not os.path.exists(path):
     os.makedirs(path)
 file_counter = 0

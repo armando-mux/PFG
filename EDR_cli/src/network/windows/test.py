@@ -103,7 +103,7 @@ def start_capture(output_dir, max_file_size_mb=10):
 
 def main():
     print("Comienza monitoreo")
-    start_capture(output_dir=".\\network_logs_csv", max_file_size_mb=10)
+    start_capture(output_dir="EDR_cli\\logs", max_file_size_mb=10)
 
 if __name__ == "__main__":
     main()

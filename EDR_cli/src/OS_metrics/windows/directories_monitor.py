@@ -6,7 +6,7 @@ import time
 import csv
 
 
-CSV_FILE = "filesystem_event.csv"
+CSV_FILE = "C:\\Users\\arman\\Documents\\UNED\\PFG\\Pydev\\PFG\\EDR_cli\\logs\\filesystem_event.csv"
 
 if not os.path.exists(CSV_FILE):
     with open(CSV_FILE, mode="w", newline="", encoding="utf-8") as file:
