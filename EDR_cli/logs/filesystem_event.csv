@@ -1,0 +1,35 @@
+Date,Time,Event,Path src,Path Dst,Archive,isDirectory
+2025-03-13,11:59:43,CREATED,C:\Users\arman\Documents\UNED\PFG\Pydev\PFG\EDR_cli\logs\packets_0.csv,,packets_0.csv,False
+2025-03-13,11:59:44,CREATED,C:\Users\arman\AppData\Local\Temp\vymuak8h,,vymuak8h,False
+2025-03-13,11:59:44,MODIFIED,C:\Users\arman\AppData\Local\Temp\vymuak8h,,vymuak8h,False
+2025-03-13,11:59:44,DELETED,C:\Users\arman\AppData\Local\Temp\vymuak8h,,vymuak8h,False
+2025-03-13,11:59:44,MODIFIED,C:\Users\arman\AppData\Local\Temp,,Temp,True
+2025-03-13,11:59:44,CREATED,C:\Users\arman\AppData\Local\Temp\wireshark_-DQ3N32.pcapng,,wireshark_-DQ3N32.pcapng,False
+2025-03-13,11:59:44,MODIFIED,C:\Users\arman\AppData\Local\Temp\wireshark_-DQ3N32.pcapng,,wireshark_-DQ3N32.pcapng,False
+2025-03-13,11:59:44,MODIFIED,C:\Users\arman\AppData\Local\Temp,,Temp,True
+2025-03-13,11:59:44,MODIFIED,C:\Users\arman\AppData\Local\Temp\wireshark_-DQ3N32.pcapng,,wireshark_-DQ3N32.pcapng,False
+2025-03-13,11:59:45,MODIFIED,C:\Users\arman\AppData\Roaming\Code\User\workspaceStorage\2df9069d7cb23d9d41b404ae7a71bd82,,2df9069d7cb23d9d41b404ae7a71bd82,True
+2025-03-13,11:59:45,MODIFIED,C:\Users\arman\AppData\Roaming\Code\User\globalStorage,,globalStorage,True
+2025-03-13,11:59:45,CREATED,C:\Users\arman\AppData\Roaming\Code\User\workspaceStorage\2df9069d7cb23d9d41b404ae7a71bd82\state.vscdb-journal,,state.vscdb-journal,False
+2025-03-13,11:59:45,CREATED,C:\Users\arman\AppData\Roaming\Code\User\globalStorage\state.vscdb-journal,,state.vscdb-journal,False
+2025-03-13,11:59:45,MODIFIED,C:\Users\arman\AppData\Roaming\Code\User\globalStorage,,globalStorage,True
+2025-03-13,11:59:45,MODIFIED,C:\Users\arman\AppData\Roaming\Code\User\workspaceStorage\2df9069d7cb23d9d41b404ae7a71bd82\state.vscdb-journal,,state.vscdb-journal,False
+2025-03-13,11:59:45,MODIFIED,C:\Users\arman\AppData\Roaming\Code\User\globalStorage\state.vscdb-journal,,state.vscdb-journal,False
+2025-03-13,11:59:45,MODIFIED,C:\Users\arman\AppData\Roaming\Code\User\workspaceStorage\2df9069d7cb23d9d41b404ae7a71bd82\state.vscdb-journal,,state.vscdb-journal,False
+2025-03-13,11:59:45,MODIFIED,C:\Users\arman\AppData\Roaming\Code\User\globalStorage\state.vscdb-journal,,state.vscdb-journal,False
+2025-03-13,11:59:45,MODIFIED,C:\Users\arman\AppData\Roaming\Code\User\workspaceStorage\2df9069d7cb23d9d41b404ae7a71bd82\state.vscdb,,state.vscdb,False
+2025-03-13,11:59:45,MODIFIED,C:\Users\arman\AppData\Roaming\Code\User\globalStorage\state.vscdb,,state.vscdb,False
+2025-03-13,11:59:45,DELETED,C:\Users\arman\AppData\Roaming\Code\User\workspaceStorage\2df9069d7cb23d9d41b404ae7a71bd82\state.vscdb-journal,,state.vscdb-journal,False
+2025-03-13,11:59:45,DELETED,C:\Users\arman\AppData\Roaming\Code\User\globalStorage\state.vscdb-journal,,state.vscdb-journal,False
+2025-03-13,11:59:45,MODIFIED,C:\Users\arman\AppData\Roaming\Code\User\workspaceStorage\2df9069d7cb23d9d41b404ae7a71bd82,,2df9069d7cb23d9d41b404ae7a71bd82,True
+2025-03-13,11:59:45,MODIFIED,C:\Users\arman\AppData\Roaming\Code\User\globalStorage,,globalStorage,True
+2025-03-13,11:59:45,MODIFIED,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\git\dist\main.js,,main.js,False
+2025-03-13,12:18:45,MODIFIED,C:\Windows\System32\TextShaping.dll,,TextShaping.dll,False
+2025-03-13,12:18:45,MODIFIED,C:\Windows\System32\netmsg.dll,,netmsg.dll,False
+2025-03-13,12:18:46,MODIFIED,C:\Users\arman\AppData\Local\Temp,,Temp,True
+2025-03-13,12:18:46,CREATED,C:\Users\arman\AppData\Local\Temp\05u_ppca,,05u_ppca,False
+2025-03-13,12:18:46,MODIFIED,C:\Users\arman\AppData\Local\Temp\05u_ppca,,05u_ppca,False
+2025-03-13,12:18:46,DELETED,C:\Users\arman\AppData\Local\Temp\05u_ppca,,05u_ppca,False
+2025-03-13,12:18:46,MODIFIED,C:\Users\arman\AppData\Local\Temp,,Temp,True
+2025-03-13,12:18:46,CREATED,C:\Users\arman\AppData\Local\Temp\wireshark_-IJYT32.pcapng,,wireshark_-IJYT32.pcapng,False
+2025-03-13,12:18:46,MODIFIED,C:\Users\arman\AppData\Local\Temp\wireshark_-IJYT32.pcapng,,wireshark_-IJYT32.pcapng,False
