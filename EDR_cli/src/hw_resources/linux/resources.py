@@ -6,7 +6,7 @@ import os
 
 # Directorio y nombre base del archivo de registro
 name_base = "HW_resources"
-ruta_log = Path(__file__).resolve().parent.parent.parent.parent / "logs" 
+ruta_log = Path(__file__).resolve().parent.parent.parent.parent / "logs"
 if not os.path.exists(ruta_log):
     os.makedirs(ruta_log)
 file_counter = 0
@@ -19,7 +19,7 @@ current_file_name = f"{ruta_log}/{name_base}_{file_counter}.csv"
 # Función para crear un nuevo archivo y escribir el encabezado
 def create_new_file():
     global current_file_name, file_counter
-    current_file_name = f"{ruta_log}{name_base}_{file_counter}.csv"
+    current_file_name = f"{ruta_log}/{name_base}_{file_counter}.csv"
     with open(current_file_name, mode='w', newline='') as csvfile:
         writer = csv.writer(csvfile)
         # Escribir la cabecera

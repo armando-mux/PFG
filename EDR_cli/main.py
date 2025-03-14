@@ -34,6 +34,8 @@ ruta_log = directorio_script / "logs"
 # Verificar si la carpeta log existe, y si no, crearla
 ruta_log.mkdir(parents=True, exist_ok=True)
 
+# Detectar el sistema operativo
+sistema_operativo = platform.system()
 
 # Construir la ruta a los scripts
 
@@ -56,14 +58,14 @@ scripts_linux = [script1lin, script2lin, script3lin]
 
 # Función para ejecutar un script
 def ejecutar_script(script):
-    try:
-        subprocess.run(["python", script], check=True)
-    except subprocess.CalledProcessError as e:
-        print(f"Error al ejecutar {script}: {e}")
+	try:
+		if sistema_operativo == "Windows":
+			subprocess.run(["python", script], check=True)
+		elif sistema_operativo == "Linux":
+			subprocess.run(["python3", script], check=True)
+	except subprocess.CalledProcessError as e:
+		print(f"Error al ejecutar {script}: {e}")
 
-
-# Detectar el sistema operativo
-sistema_operativo = platform.system()
 
 
 # Seleccionar los scripts correspondientes
@@ -77,5 +79,6 @@ else:
 
 
 # Ejecutar los scripts simultáneamente
+	
 with ThreadPoolExecutor() as executor:
-    executor.map(ejecutar_script, scripts)
+	executor.map(ejecutar_script, scripts)

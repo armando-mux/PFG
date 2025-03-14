@@ -30,7 +30,7 @@ class CustomEventHandler(FileSystemEventHandler):
             writer.writerow([date_time[0], date_time[1], event_type, src_path, dest_path, file_name, isdirectory])
         
     def on_modified(self, event):
-        if not(event.src_path.startswith(excluded)):
+        if not(event.src_path.startswith(self.excluded_path)):
             self.log_event(event.is_directory, "MODIFIED", event.src_path)
 
     def on_created(self, event):

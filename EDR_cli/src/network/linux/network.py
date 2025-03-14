@@ -51,7 +51,6 @@ def handle_packet(paquete, csv_writer):
         length = paquete.length
     
         paquete_resumen = Paquete(timestamp, ip_src, ip_dst, port_src, port_dst, transport_protocol, app_protocol, length)
-        print(paquete_resumen)
         csv_writer.writerow(paquete_resumen.to_row())
         
     except Exception as e:
@@ -93,7 +92,7 @@ def start_capture(output_dir, max_file_size_mb=10):
         
         
 def main():
-    ruta_log = Path(__file__).parent.parent.parent
+    ruta_log = Path(__file__).resolve().parent.parent.parent.parent / "logs"
     start_capture(output_dir=ruta_log, max_file_size_mb=10)
 
 if __name__ == "__main__":
