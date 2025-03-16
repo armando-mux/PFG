@@ -26030,3 +26030,108 @@ Date,Time,Event,Path src,Path Dst,Archive,isDirectory
 2025-03-14,21:45:22,CREATED,/home/armando/.cache/tracker3/files/last-crawl.txt.8DLC32,,last-crawl.txt.8DLC32,False
 2025-03-14,21:45:22,MODIFIED,/home/armando/.cache/tracker3/files,,files,True
 2025-03-14,21:45:22,MODIFIED,/home/armando/.cache/tracker3/files/last-crawl.txt.8DLC32,,last-crawl.txt.8DLC32,False
+2025-03-14,21:58:46,MODIFIED,C:\Users\arman\AppData\Local\Temp,,Temp,True
+2025-03-14,21:58:46,MODIFIED,C:\Windows\System32\Npcap\wpcap.dll,,wpcap.dll,False
+2025-03-14,21:58:46,MODIFIED,C:\Windows\System32\Npcap\Packet.dll,,Packet.dll,False
+2025-03-14,21:58:46,MODIFIED,C:\Windows\System32\drivers\npcap.sys,,npcap.sys,False
+2025-03-14,21:58:47,MODIFIED,C:\Windows\System32\tdh.dll,,tdh.dll,False
+2025-03-14,21:58:47,MODIFIED,C:\Users\arman\AppData\Roaming\Wireshark\preferences,,preferences,False
+2025-03-14,21:58:47,MODIFIED,C:\Users\arman\AppData\Local\Programs\Python\Python312\Lib\site-packages\pyshark\config.ini,,config.ini,False
+2025-03-14,21:58:48,CREATED,C:\Users\arman\AppData\Local\Temp\lfq4uf15,,lfq4uf15,False
+2025-03-14,21:58:48,MODIFIED,C:\Users\arman\AppData\Local\Temp\lfq4uf15,,lfq4uf15,False
+2025-03-14,21:58:48,DELETED,C:\Users\arman\AppData\Local\Temp\lfq4uf15,,lfq4uf15,False
+2025-03-14,21:58:48,MODIFIED,C:\Users\arman\AppData\Local\Temp,,Temp,True
+2025-03-14,21:58:48,CREATED,C:\Users\arman\AppData\Local\Temp\wireshark_-F4AD32.pcapng,,wireshark_-F4AD32.pcapng,False
+2025-03-14,21:58:48,MODIFIED,C:\Users\arman\AppData\Local\Temp\wireshark_-F4AD32.pcapng,,wireshark_-F4AD32.pcapng,False
+2025-03-14,21:58:48,MODIFIED,C:\Users\arman\AppData\Local\Temp,,Temp,True
+2025-03-14,21:58:48,MODIFIED,C:\Users\arman\AppData\Local\Temp\wireshark_-F4AD32.pcapng,,wireshark_-F4AD32.pcapng,False
+2025-03-14,21:58:53,MODIFIED,C:\Users\arman\AppData\Roaming\Code\CachedData\6609ac3d66f4eade5cf376d1cb76f13985724bcb\chrome\js\index-dir,,index-dir,True
+2025-03-14,21:58:53,CREATED,C:\Users\arman\AppData\Roaming\Code\CachedData\6609ac3d66f4eade5cf376d1cb76f13985724bcb\chrome\js\index-dir\temp-index,,temp-index,False
+2025-03-14,21:58:53,MODIFIED,C:\Users\arman\AppData\Roaming\Code\CachedData\6609ac3d66f4eade5cf376d1cb76f13985724bcb\chrome\js\index-dir\temp-index,,temp-index,False
+2025-03-14,21:58:53,MODIFIED,C:\Users\arman\AppData\Roaming\Code\CachedData\6609ac3d66f4eade5cf376d1cb76f13985724bcb\chrome\js\index-dir,,index-dir,True
+2025-03-14,21:58:53,CREATED,C:\Users\arman\AppData\Roaming\Code\CachedData\6609ac3d66f4eade5cf376d1cb76f13985724bcb\chrome\js\index-dir\the-real-index~RF7b36406.TMP,,the-real-index~RF7b36406.TMP,False
+2025-03-14,21:58:53,MODIFIED,C:\Users\arman\AppData\Roaming\Code\CachedData\6609ac3d66f4eade5cf376d1cb76f13985724bcb\chrome\js\index-dir,,index-dir,True
+2025-03-14,21:58:53,DELETED,C:\Users\arman\AppData\Roaming\Code\CachedData\6609ac3d66f4eade5cf376d1cb76f13985724bcb\chrome\js\index-dir\the-real-index~RF7b36406.TMP,,the-real-index~RF7b36406.TMP,False
+2025-03-14,21:58:53,MOVED,C:\Users\arman\AppData\Roaming\Code\CachedData\6609ac3d66f4eade5cf376d1cb76f13985724bcb\chrome\js\index-dir\the-real-index,C:\Users\arman\AppData\Roaming\Code\CachedData\6609ac3d66f4eade5cf376d1cb76f13985724bcb\chrome\js\index-dir\the-real-index~RF7b36406.TMP,the-real-index,False
+2025-03-14,21:58:53,MODIFIED,C:\Users\arman\AppData\Roaming\Code\CachedData\6609ac3d66f4eade5cf376d1cb76f13985724bcb\chrome\js\index-dir,,index-dir,True
+2025-03-14,21:58:53,MOVED,C:\Users\arman\AppData\Roaming\Code\CachedData\6609ac3d66f4eade5cf376d1cb76f13985724bcb\chrome\js\index-dir\temp-index,C:\Users\arman\AppData\Roaming\Code\CachedData\6609ac3d66f4eade5cf376d1cb76f13985724bcb\chrome\js\index-dir\the-real-index,temp-index,False
+2025-03-14,21:58:53,MODIFIED,C:\Users\arman\AppData\Roaming\Code\CachedData\6609ac3d66f4eade5cf376d1cb76f13985724bcb\chrome\js\index-dir,,index-dir,True
+2025-03-14,21:58:54,MODIFIED,C:\Users\arman\AppData\Roaming\Code\CachedData\6609ac3d66f4eade5cf376d1cb76f13985724bcb\chrome\js\index-dir\the-real-index,,the-real-index,False
+2025-03-14,21:58:54,DELETED,C:\Users\arman\AppData\Roaming\Code\CachedData\6609ac3d66f4eade5cf376d1cb76f13985724bcb\chrome\js\index-dir\the-real-index~RF7b36406.TMP,,the-real-index~RF7b36406.TMP,False
+2025-03-14,21:58:54,MODIFIED,C:\Users\arman\AppData\Roaming\Code\CachedData\6609ac3d66f4eade5cf376d1cb76f13985724bcb\chrome\js\index-dir,,index-dir,True
+2025-03-14,21:58:54,MODIFIED,C:\Users\arman\.vscode\extensions\mechatroner.rainbow-csv-3.18.0\language-configuration.json,,language-configuration.json,False
+2025-03-14,21:58:54,MODIFIED,C:\Users\arman\.vscode\extensions\mechatroner.rainbow-csv-3.18.0\syntaxes\csv.tmLanguage.json,,csv.tmLanguage.json,False
+2025-03-14,21:58:54,MODIFIED,C:\Users\arman\.vscode\extensions\mechatroner.rainbow-csv-3.18.0\rainbow_utils.js,,rainbow_utils.js,False
+2025-03-14,21:58:54,MODIFIED,C:\Users\arman\.vscode\extensions\mechatroner.rainbow-csv-3.18.0\rbql_core\rbql-js\rbql.js,,rbql.js,False
+2025-03-14,21:58:54,MODIFIED,C:\Users\arman\.vscode\extensions\mechatroner.rainbow-csv-3.18.0\rbql_core\rbql-js\rbql_csv.js,,rbql_csv.js,False
+2025-03-14,21:58:54,MODIFIED,C:\Users\arman\.vscode\extensions\mechatroner.rainbow-csv-3.18.0\contrib\wcwidth\index.js,,index.js,False
+2025-03-14,21:58:54,MODIFIED,C:\Users\arman\.vscode\extensions\mechatroner.rainbow-csv-3.18.0\contrib\wcwidth\combining.js,,combining.js,False
+2025-03-14,21:58:54,MODIFIED,C:\Users\arman\AppData\Roaming\Code\User\workspaceStorage\2df9069d7cb23d9d41b404ae7a71bd82,,2df9069d7cb23d9d41b404ae7a71bd82,True
+2025-03-14,21:58:54,MODIFIED,C:\Users\arman\AppData\Roaming\Code\User\globalStorage,,globalStorage,True
+2025-03-14,21:58:54,CREATED,C:\Users\arman\AppData\Roaming\Code\User\workspaceStorage\2df9069d7cb23d9d41b404ae7a71bd82\state.vscdb-journal,,state.vscdb-journal,False
+2025-03-14,21:58:54,CREATED,C:\Users\arman\AppData\Roaming\Code\User\globalStorage\state.vscdb-journal,,state.vscdb-journal,False
+2025-03-14,21:58:54,MODIFIED,C:\Users\arman\AppData\Roaming\Code\User\globalStorage,,globalStorage,True
+2025-03-14,21:58:54,MODIFIED,C:\Users\arman\AppData\Roaming\Code\User\workspaceStorage\2df9069d7cb23d9d41b404ae7a71bd82\state.vscdb-journal,,state.vscdb-journal,False
+2025-03-14,21:58:54,MODIFIED,C:\Users\arman\AppData\Roaming\Code\User\globalStorage\state.vscdb-journal,,state.vscdb-journal,False
+2025-03-14,21:58:54,MODIFIED,C:\Users\arman\AppData\Roaming\Code\User\workspaceStorage\2df9069d7cb23d9d41b404ae7a71bd82\state.vscdb-journal,,state.vscdb-journal,False
+2025-03-14,21:58:54,MODIFIED,C:\Users\arman\AppData\Roaming\Code\User\globalStorage\state.vscdb-journal,,state.vscdb-journal,False
+2025-03-14,21:58:55,MODIFIED,C:\Users\arman\AppData\Roaming\Code\User\workspaceStorage\2df9069d7cb23d9d41b404ae7a71bd82\state.vscdb,,state.vscdb,False
+2025-03-14,21:58:55,MODIFIED,C:\Users\arman\AppData\Roaming\Code\User\globalStorage\state.vscdb,,state.vscdb,False
+2025-03-14,21:58:55,DELETED,C:\Users\arman\AppData\Roaming\Code\User\workspaceStorage\2df9069d7cb23d9d41b404ae7a71bd82\state.vscdb-journal,,state.vscdb-journal,False
+2025-03-14,21:58:55,DELETED,C:\Users\arman\AppData\Roaming\Code\User\globalStorage\state.vscdb-journal,,state.vscdb-journal,False
+2025-03-14,21:58:55,MODIFIED,C:\Users\arman\AppData\Roaming\Code\User\workspaceStorage\2df9069d7cb23d9d41b404ae7a71bd82,,2df9069d7cb23d9d41b404ae7a71bd82,True
+2025-03-14,21:58:55,MODIFIED,C:\Users\arman\AppData\Roaming\Code\User\globalStorage,,globalStorage,True
+2025-03-14,21:58:58,MODIFIED,C:\Users\arman\ntuser.dat.LOG1,,ntuser.dat.LOG1,False
+2025-03-14,21:58:59,CREATED,C:\Windows\System32\drivers\DriverData\Intel\DPTF\dv\dptf.dv.tmp,,dptf.dv.tmp,False
+2025-03-14,21:58:59,MODIFIED,C:\Windows\System32\drivers\DriverData\Intel\DPTF\dv\dptf.dv.tmp,,dptf.dv.tmp,False
+2025-03-14,21:58:59,MODIFIED,C:\Windows\System32\drivers\DriverData\Intel\DPTF\dv,,dv,True
+2025-03-14,21:58:59,MOVED,C:\Windows\System32\drivers\DriverData\Intel\DPTF\dv\dptf.dv.tmp,C:\Windows\System32\drivers\DriverData\Intel\DPTF\dv\dptf.dv.temp,dptf.dv.tmp,False
+2025-03-14,21:58:59,MODIFIED,C:\Windows\System32\drivers\DriverData\Intel\DPTF\dv,,dv,True
+2025-03-14,21:58:59,DELETED,C:\Windows\System32\drivers\DriverData\Intel\DPTF\dv\dptf.dv,,dptf.dv,False
+2025-03-14,21:58:59,MODIFIED,C:\Windows\System32\drivers\DriverData\Intel\DPTF\dv,,dv,True
+2025-03-14,21:58:59,MOVED,C:\Windows\System32\drivers\DriverData\Intel\DPTF\dv\dptf.dv.temp,C:\Windows\System32\drivers\DriverData\Intel\DPTF\dv\dptf.dv,dptf.dv.temp,False
+2025-03-14,21:58:59,MODIFIED,C:\Windows\System32\drivers\DriverData\Intel\DPTF\dv,,dv,True
+2025-03-14,21:58:59,MODIFIED,C:\Windows\System32\drivers\DriverData\Intel\DPTF\dv\dptf.dv,,dptf.dv,False
+2025-03-14,21:58:59,CREATED,C:\Windows\System32\drivers\DriverData\Intel\DPTF\dv\dptf.dv.tmp,,dptf.dv.tmp,False
+2025-03-14,21:58:59,MODIFIED,C:\Windows\System32\drivers\DriverData\Intel\DPTF\dv\dptf.dv.tmp,,dptf.dv.tmp,False
+2025-03-14,21:59:00,MODIFIED,C:\Windows\System32\drivers\DriverData\Intel\DPTF\dv,,dv,True
+2025-03-14,21:59:00,MOVED,C:\Windows\System32\drivers\DriverData\Intel\DPTF\dv\dptf.dv.tmp,C:\Windows\System32\drivers\DriverData\Intel\DPTF\dv\dptf.dv.temp,dptf.dv.tmp,False
+2025-03-14,21:59:00,MODIFIED,C:\Windows\System32\drivers\DriverData\Intel\DPTF\dv,,dv,True
+2025-03-14,21:59:00,MODIFIED,C:\Windows\System32\drivers\DriverData\Intel\DPTF\dv\dptf.dv.temp,,dptf.dv.temp,False
+2025-03-14,21:59:00,DELETED,C:\Windows\System32\drivers\DriverData\Intel\DPTF\dv\dptf.dv,,dptf.dv,False
+2025-03-14,21:59:00,MODIFIED,C:\Windows\System32\drivers\DriverData\Intel\DPTF\dv,,dv,True
+2025-03-14,21:59:00,MOVED,C:\Windows\System32\drivers\DriverData\Intel\DPTF\dv\dptf.dv.temp,C:\Windows\System32\drivers\DriverData\Intel\DPTF\dv\dptf.dv,dptf.dv.temp,False
+2025-03-14,21:59:00,MODIFIED,C:\Windows\System32\drivers\DriverData\Intel\DPTF\dv,,dv,True
+2025-03-14,21:59:00,MODIFIED,C:\Windows\System32\drivers\DriverData\Intel\DPTF\dv\dptf.dv,,dptf.dv,False
+2025-03-14,21:59:01,MODIFIED,C:\Users\arman\AppData\Local\Google\Chrome\User Data\Default\Network,,Network,True
+2025-03-14,21:59:02,CREATED,C:\Users\arman\AppData\Local\Google\Chrome\User Data\Default\Network\175e39eb-baa1-4134-958d-3a31760eb7d8.tmp,,175e39eb-baa1-4134-958d-3a31760eb7d8.tmp,False
+2025-03-14,21:59:02,MODIFIED,C:\Users\arman\AppData\Local\Google\Chrome\User Data\Default,,Default,True
+2025-03-14,21:59:02,MODIFIED,C:\Users\arman\AppData\Local\Google\Chrome\User Data\Default\Network\175e39eb-baa1-4134-958d-3a31760eb7d8.tmp,,175e39eb-baa1-4134-958d-3a31760eb7d8.tmp,False
+2025-03-14,21:59:02,MODIFIED,C:\Users\arman\AppData\Local\Google\Chrome\User Data\Default\Network,,Network,True
+2025-03-14,21:59:02,CREATED,C:\Users\arman\AppData\Local\Google\Chrome\User Data\Default\Network\Network Persistent State~RF7b38559.TMP,,Network Persistent State~RF7b38559.TMP,False
+2025-03-14,21:59:02,MODIFIED,C:\Users\arman\AppData\Local\Google\Chrome\User Data\Default\Network,,Network,True
+2025-03-14,21:59:02,DELETED,C:\Users\arman\AppData\Local\Google\Chrome\User Data\Default\Network\Network Persistent State~RF7b38559.TMP,,Network Persistent State~RF7b38559.TMP,False
+2025-03-14,21:59:02,MOVED,C:\Users\arman\AppData\Local\Google\Chrome\User Data\Default\Network\Network Persistent State,C:\Users\arman\AppData\Local\Google\Chrome\User Data\Default\Network\Network Persistent State~RF7b38559.TMP,Network Persistent State,False
+2025-03-14,21:59:02,MODIFIED,C:\Users\arman\AppData\Local\Google\Chrome\User Data\Default\Network,,Network,True
+2025-03-14,21:59:02,MOVED,C:\Users\arman\AppData\Local\Google\Chrome\User Data\Default\Network\175e39eb-baa1-4134-958d-3a31760eb7d8.tmp,C:\Users\arman\AppData\Local\Google\Chrome\User Data\Default\Network\Network Persistent State,175e39eb-baa1-4134-958d-3a31760eb7d8.tmp,False
+2025-03-14,21:59:02,MODIFIED,C:\Users\arman\AppData\Local\Google\Chrome\User Data\Default\Network,,Network,True
+2025-03-14,21:59:02,MODIFIED,C:\Users\arman\AppData\Local\Google\Chrome\User Data\Default\Network\Network Persistent State,,Network Persistent State,False
+2025-03-14,21:59:02,DELETED,C:\Users\arman\AppData\Local\Google\Chrome\User Data\Default\Network\Network Persistent State~RF7b38559.TMP,,Network Persistent State~RF7b38559.TMP,False
+2025-03-14,21:59:02,MODIFIED,C:\Users\arman\AppData\Local\Google\Chrome\User Data\Default\Network,,Network,True
+2025-03-14,21:59:06,CREATED,C:\Users\arman\AppData\Roaming\Code\User\globalStorage\state.vscdb-journal,,state.vscdb-journal,False
+2025-03-14,21:59:06,CREATED,C:\Users\arman\AppData\Roaming\Code\User\workspaceStorage\2df9069d7cb23d9d41b404ae7a71bd82\state.vscdb-journal,,state.vscdb-journal,False
+2025-03-14,21:59:06,MODIFIED,C:\Users\arman\AppData\Roaming\Code\User\globalStorage\state.vscdb-journal,,state.vscdb-journal,False
+2025-03-14,21:59:06,MODIFIED,C:\Users\arman\AppData\Roaming\Code\User\workspaceStorage\2df9069d7cb23d9d41b404ae7a71bd82\state.vscdb-journal,,state.vscdb-journal,False
+2025-03-14,21:59:06,MODIFIED,C:\Users\arman\AppData\Roaming\Code\User\globalStorage\state.vscdb-journal,,state.vscdb-journal,False
+2025-03-14,21:59:06,MODIFIED,C:\Users\arman\AppData\Roaming\Code\User\workspaceStorage\2df9069d7cb23d9d41b404ae7a71bd82\state.vscdb-journal,,state.vscdb-journal,False
+2025-03-14,21:59:06,MODIFIED,C:\Users\arman\AppData\Roaming\Code\User\globalStorage\state.vscdb-journal,,state.vscdb-journal,False
+2025-03-14,21:59:06,MODIFIED,C:\Users\arman\AppData\Roaming\Code\User\workspaceStorage\2df9069d7cb23d9d41b404ae7a71bd82\state.vscdb,,state.vscdb,False
+2025-03-14,21:59:06,MODIFIED,C:\Users\arman\AppData\Roaming\Code\User\globalStorage\state.vscdb,,state.vscdb,False
+2025-03-14,21:59:06,MODIFIED,C:\Users\arman\AppData\Roaming\Code\User\workspaceStorage\2df9069d7cb23d9d41b404ae7a71bd82\state.vscdb-journal,,state.vscdb-journal,False
+2025-03-14,21:59:06,DELETED,C:\Users\arman\AppData\Roaming\Code\User\workspaceStorage\2df9069d7cb23d9d41b404ae7a71bd82\state.vscdb-journal,,state.vscdb-journal,False
+2025-03-14,21:59:06,MODIFIED,C:\Users\arman\AppData\Roaming\Code\User\globalStorage\state.vscdb-journal,,state.vscdb-journal,False
+2025-03-14,21:59:06,DELETED,C:\Users\arman\AppData\Roaming\Code\User\globalStorage\state.vscdb-journal,,state.vscdb-journal,False
+2025-03-14,21:59:09,MODIFIED,C:\Users\arman\AppData\Local\Microsoft\Windows\Explorer\thumbcache_96.db,,thumbcache_96.db,False
+2025-03-14,21:59:09,MODIFIED,C:\Users\arman\AppData\Local\Microsoft\Windows\Explorer\thumbcache_idx.db,,thumbcache_idx.db,False
+2025-03-14,21:59:09,MODIFIED,C:\Users\arman\AppData\Local\Microsoft\Windows\Explorer\thumbcache_256.db,,thumbcache_256.db,False
+2025-03-14,21:59:09,MODIFIED,C:\Users\arman\AppData\Local\Packages\Microsoft.Windows.Search_cw5n1h2txyewy\Settings\settings.dat.LOG2,,settings.dat.LOG2,False

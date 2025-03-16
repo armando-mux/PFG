@@ -49,7 +49,7 @@ def main():
     csv_file = f"{ruta_log}/filesystem_event.csv"
     
     # Paths a monitorear
-    paths = ["C:\\Users", "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\", "C:\\Windows\\System32\\", 
+    paths = ["C:\\Users", "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\", 
                 "C:\\Windows\\System32\\", "C:\\Windows\\SysWOW64\\", "C:\\Windows\\Temp\\", "C:\\Windows\\Tasks\\"]
 
     

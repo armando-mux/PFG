@@ -48,6 +48,7 @@ def main():
     
         # Obtiene el uso de la memoria
         memory_info = psutil.virtual_memory()
+        swap_memory = psutil.swap_memory()
     
         # Obtiene el número de operaciones de disco
         disk_info = psutil.disk_io_counters(perdisk=False, nowrap=False)
@@ -55,10 +56,9 @@ def main():
         # Recopila los datos a registrar
         data_row = [
             time.strftime("%Y-%m-%d %H:%M:%S"),  # Timestamp
-            cpu_simple_percent,
-            cpu_percent.user, cpu_percent.system, cpu_percent.idle, 
-            cpu_percent.interrupt, cpu_percent.dpc,
-            memory_info.percent,
+            cpu_simple_percent, cpu_percent.user, cpu_percent.system, cpu_percent.idle, cpu_percent.interrupt, cpu_percent.dpc, 
+            memory_info.total, memory_info.available, memory_info.percent, memory_info.used, memory_info.free, 
+            swap_memory.total, swap_memory.used, swap_memory.free, swap_memory.percent, swap_memory.sin, swap_memory.sout,
             disk_info.read_count, disk_info.write_count
         ]
     

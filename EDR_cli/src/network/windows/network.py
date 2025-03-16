@@ -87,7 +87,9 @@ def start_capture(output_dir, max_file_size_mb=10):
         cap.interfaces = get_interfaces()[0:lim]
         for packet in cap.sniff_continuously():
             handle_packet(packet, csv_writer)
-            file_handle.flush()  # Ensure data is written to disk
+            file_handle.flush()
+            # El siguiente codigo comienza a implementar la logica de dividir los archivos de captura en archivos de 10MB
+            # para ir creando nuevos archivos de captura y subiendo a la nube los ya creados, pero esta inacabado
             if os.path.getsize(current_file_path) > max_file_size_mb * 1024 * 1024:
                 file_handle.close()
                 file_index += 1

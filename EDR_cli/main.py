@@ -42,13 +42,13 @@ sistema_operativo = platform.system()
 # Scrips de windows
 script1win = directorio_script / "src" / "network" / "windows" / "network.py"
 script2win = directorio_script / "src" / "hw_resources" / "windows" / "resources.py"
-script3win = directorio_script / "src" / "OS_metrics" / "windows" / "directories_monitor.py"
+script3win = directorio_script / "src" / "directories" / "windows" / "directories_monitor.py"
 
 
 # Scripts de linux
 script1lin = directorio_script / "src" / "network" / "linux" / "network.py"
 script2lin = directorio_script / "src" / "hw_resources" / "linux" / "resources.py"
-script3lin = directorio_script / "src" / "OS_metrics" / "linux" / "directories_monitor.py"
+script3lin = directorio_script / "src" / "directories" / "linux" / "directories_monitor.py"
 
 
 # Definir los scripts para cada sistema operativo
