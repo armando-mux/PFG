@@ -39,6 +39,7 @@ class CustomEventHandler(FileSystemEventHandler):
     def on_deleted(self, event):
         self.log_event(event.is_directory, "DELETED", event.src_path)
         
+        
     def on_moved(self, event):
         self.log_event(event.is_directory, "MOVED", event.src_path, event.dest_path)  
 

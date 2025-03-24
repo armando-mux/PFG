@@ -1,0 +1,1086 @@
+Timestamp,PID,Nombre,Ruta,Usuario,Tiempo de creación,Proceso padre,Numero lecturas,Bytes leidos,Numero escrituras,Bytes escritos,Numero otras operaciones,Bytes otras operaciones
+2025-03-24 11:33:48,4,System,,NT AUTHORITY\SYSTEM,2025-03-24 09:21:19,0 (System Idle Process),317,66738492,3216,486108676,103192,3880102
+2025-03-24 11:33:48,172,Registry,Registry,NT AUTHORITY\SYSTEM,2025-03-24 09:21:13,N/A,4,16384,4059,157270016,318,3859
+2025-03-24 11:33:48,632,smss.exe,C:\Windows\System32\smss.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:19,4 (System),22,16804,15,66032,556,13540
+2025-03-24 11:33:48,680,csrss.exe,C:\Windows\System32\csrss.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:31,N/A,205095,5462360,0,0,17646,369170
+2025-03-24 11:33:48,696,wininit.exe,C:\Windows\System32\wininit.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:31,N/A,3,17924,0,0,354,2858
+2025-03-24 11:33:48,836,csrss.exe,C:\Windows\System32\csrss.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:29,N/A,537,424141,0,0,11051,270925
+2025-03-24 11:33:48,960,services.exe,C:\Windows\System32\services.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:31,696 (wininit.exe),3,8308,1,160,7558,161880
+2025-03-24 11:33:48,984,lsass.exe,C:\Windows\System32\lsass.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:31,696 (wininit.exe),1633,175456,907,242882,119214,9707539
+2025-03-24 11:33:48,1084,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:31,960 (services.exe),59,180294,1,65536,62478,3852588
+2025-03-24 11:33:48,1136,winlogon.exe,C:\Windows\System32\winlogon.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:31,N/A,4,18064,0,0,310,236966
+2025-03-24 11:33:48,1156,fontdrvhost.exe,C:\Windows\System32\fontdrvhost.exe,Font Driver Host\UMFD-0,2025-03-24 09:21:31,696 (wininit.exe),0,0,0,0,30,744
+2025-03-24 11:33:48,1220,fontdrvhost.exe,C:\Windows\System32\fontdrvhost.exe,Font Driver Host\UMFD-1,2025-03-24 09:21:31,1136 (winlogon.exe),0,0,0,0,129,3218
+2025-03-24 11:33:48,1280,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\Servicio de red,2025-03-24 09:21:31,960 (services.exe),31,126976,0,0,7209,520940
+2025-03-24 11:33:48,1332,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:31,960 (services.exe),0,0,0,0,103,396
+2025-03-24 11:33:48,1400,dwm.exe,C:\Windows\System32\dwm.exe,Window Manager\DWM-1,2025-03-24 09:21:32,1136 (winlogon.exe),27,109658,0,0,2863,139208
+2025-03-24 11:33:48,1612,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,28,110
+2025-03-24 11:33:48,1620,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,240,15447
+2025-03-24 11:33:48,1628,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,25,238
+2025-03-24 11:33:48,1636,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,251,13460
+2025-03-24 11:33:48,1644,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,543,46952
+2025-03-24 11:33:48,1700,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 10:51:17,960 (services.exe),3,42720,0,0,152,16686
+2025-03-24 11:33:48,1736,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,229,8600
+2025-03-24 11:33:48,1744,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,67,302
+2025-03-24 11:33:48,1852,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),31440,127122176,1102,36040872,5733,106286
+2025-03-24 11:33:48,1904,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),28,9396,548,17191370,8960,2461078
+2025-03-24 11:33:48,1932,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,103,4646
+2025-03-24 11:33:48,1944,IntelCpHDCPSvc.exe,C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_6b10ae7f2f9034c5\IntelCpHDCPSvc.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),1,20,1,16,23,244
+2025-03-24 11:33:48,1972,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),15,70,0,0,113,4262
+2025-03-24 11:33:48,1988,python.exe,C:\Users\arman\AppData\Local\Programs\Python\Python312\python.exe,DESKTOP-AOEVUGH\arman,2025-03-24 11:33:48,13432 (powershell.exe),102,1241892,0,0,2238,209190
+2025-03-24 11:33:48,1992,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),34,714,0,0,41,582
+2025-03-24 11:33:48,2096,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),2,8192,0,0,51734,1649768
+2025-03-24 11:33:48,2192,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),180,3620,0,0,118,2622
+2025-03-24 11:33:48,2200,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,2569,98078
+2025-03-24 11:33:48,2208,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 11:26:12,16688 (chrome.exe),59,63904,83,38528,162,15056
+2025-03-24 11:33:48,2252,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,1306,109270
+2025-03-24 11:33:48,2308,igfxCUIServiceN.exe,C:\Windows\System32\DriverStore\FileRepository\cui_dch.inf_amd64_8f68d4f94f46f7aa\igfxCUIServiceN.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),72,1448,0,0,177,2478
+2025-03-24 11:33:48,2348,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,119,626
+2025-03-24 11:33:48,2456,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,125,1628
+2025-03-24 11:33:48,2468,WUDFHost.exe,C:\Windows\System32\WUDFHost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),1,1644,16,1646,372,4458
+2025-03-24 11:33:48,2628,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\Servicio de red,2025-03-24 09:21:32,960 (services.exe),2,232,2,320,33048,2243103
+2025-03-24 11:33:48,2636,ApplicationFrameHost.exe,C:\Windows\System32\ApplicationFrameHost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:23:01,1084 (svchost.exe),130,67272,1,8,620,9366
+2025-03-24 11:33:48,2644,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,216,412798
+2025-03-24 11:33:48,2668,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,2596,123294
+2025-03-24 11:33:48,2692,RuntimeBroker.exe,C:\Windows\System32\RuntimeBroker.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:51:40,1084 (svchost.exe),0,0,0,0,140,3082
+2025-03-24 11:33:48,2740,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,48,142
+2025-03-24 11:33:48,2748,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:22:05,960 (services.exe),374,833956,0,0,818,62762
+2025-03-24 11:33:48,2764,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),0,0,20,7200,5845,151158
+2025-03-24 11:33:48,2784,NVDisplay.Container.exe,C:\Windows\System32\DriverStore\FileRepository\nvmi.inf_amd64_ca70e03e74b1e469\Display.NvContainer\NVDisplay.Container.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),46,3677209,209,32165,2504,37390
+2025-03-24 11:33:48,2896,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,24545,1985270
+2025-03-24 11:33:48,2956,msedgewebview2.exe,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\134.0.3124.83\msedgewebview2.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:39,13628 (msedgewebview2.exe),13,1636,6,72,76,1056
+2025-03-24 11:33:48,2964,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,142,2054
+2025-03-24 11:33:48,3024,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),3,313138,583,7193446,10481,153642
+2025-03-24 11:33:48,3032,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,36,110
+2025-03-24 11:33:48,3124,MemCompression,MemCompression,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,4 (System),0,0,0,0,0,0
+2025-03-24 11:33:48,3164,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,186,2466
+2025-03-24 11:33:48,3208,dasHost.exe,C:\Windows\System32\dasHost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,2964 (svchost.exe),0,0,0,0,42,110
+2025-03-24 11:33:48,3308,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,17638,785562
+2025-03-24 11:33:48,3316,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),9481,38602408,80,201480,842,886
+2025-03-24 11:33:48,3384,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\Servicio de red,2025-03-24 09:21:32,960 (services.exe),9,4314,0,0,48924,3580404
+2025-03-24 11:33:48,3476,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 11:25:58,16688 (chrome.exe),4769,1224992,7072,5361823,164,15056
+2025-03-24 11:33:48,3488,WUDFHost.exe,C:\Windows\System32\WUDFHost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),1084,5759942,36,3408,136631,15509549
+2025-03-24 11:33:48,3552,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:33,960 (services.exe),0,0,0,0,284,12206
+2025-03-24 11:33:48,3596,NVDisplay.Container.exe,C:\Windows\System32\DriverStore\FileRepository\nvmi.inf_amd64_ca70e03e74b1e469\Display.NvContainer\NVDisplay.Container.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,2784 (NVDisplay.Container.exe),307,30105522,341,317897,5273,225805
+2025-03-24 11:33:48,3656,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),5115,41659100,143,1957912,411,44420
+2025-03-24 11:33:48,3780,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,988,40222
+2025-03-24 11:33:48,3820,WmiPrvSE.exe,C:\Windows\System32\wbem\WmiPrvSE.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,1084 (svchost.exe),16,5491020,3,356,26946,410958
+2025-03-24 11:33:48,4052,dasHost.exe,C:\Windows\System32\dasHost.exe,NT AUTHORITY\Servicio de red,2025-03-24 09:21:33,2964 (svchost.exe),0,0,0,0,24,110
+2025-03-24 11:33:48,4136,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 11:26:11,16688 (chrome.exe),404,152408,235,72874,164,15056
+2025-03-24 11:33:48,4180,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:33,960 (services.exe),0,0,0,0,2272,63810
+2025-03-24 11:33:49,4284,wlanext.exe,C:\Windows\System32\wlanext.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,4588 (svchost.exe),35,2248,0,0,120,6274
+2025-03-24 11:33:49,4296,conhost.exe,C:\Windows\System32\conhost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,4284 (wlanext.exe),0,0,0,0,51,1806
+2025-03-24 11:33:49,4348,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:33,960 (services.exe),0,0,0,0,901,72186
+2025-03-24 11:33:49,4352,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:33,960 (services.exe),0,0,0,0,1936,50942
+2025-03-24 11:33:49,4380,vpnagent.exe,C:\Program Files (x86)\Cisco\Cisco AnyConnect Secure Mobility Client\vpnagent.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),41,572873,0,0,2433,99481
+2025-03-24 11:33:49,4400,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),16,2599317,50,4998,1156,21985
+2025-03-24 11:33:49,4452,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:35,16688 (chrome.exe),266902,224777768,591944,457919039,116339,1145116
+2025-03-24 11:33:49,4480,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:44:23,15596 (Code.exe),195944,140625736,169900,807780312,66296,1279555
+2025-03-24 11:33:49,4564,WmiPrvSE.exe,C:\Windows\System32\wbem\WmiPrvSE.exe,NT AUTHORITY\Servicio de red,2025-03-24 09:21:33,1084 (svchost.exe),6157,33265399,1485,142344,54762,894124
+2025-03-24 11:33:49,4588,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),1224,282413,1,160,1725,278571
+2025-03-24 11:33:49,4596,RuntimeBroker.exe,C:\Windows\System32\RuntimeBroker.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:37:27,1084 (svchost.exe),0,0,0,0,50,864
+2025-03-24 11:33:49,4744,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:33,960 (services.exe),0,0,1,32768,34043,2672242
+2025-03-24 11:33:49,4936,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),0,0,0,0,4093,381148
+2025-03-24 11:33:49,4948,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:34,16688 (chrome.exe),252,9144,216,2592,1065,7686
+2025-03-24 11:33:49,5112,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),1,0,0,0,2975,895340
+2025-03-24 11:33:49,5140,spoolsv.exe,C:\Windows\System32\spoolsv.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),12,12847,2,320,1584,147509
+2025-03-24 11:33:49,5188,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\Servicio de red,2025-03-24 09:21:33,960 (services.exe),434,26632,309,38444,4706,278670
+2025-03-24 11:33:49,5252,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:36,960 (services.exe),264,5392,0,0,124,3262
+2025-03-24 11:33:49,5264,ctfmon.exe,C:\Windows\System32\ctfmon.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:37,5252 (svchost.exe),1147,4564487,0,0,9452,36738
+2025-03-24 11:33:49,5328,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:37,960 (services.exe),18,121505,0,0,50582,2015140
+2025-03-24 11:33:49,5360,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),249,18062041,763,1542177,16220,1091192
+2025-03-24 11:33:49,5368,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:33,960 (services.exe),674,209841124,22102,96993418,36673,3105920
+2025-03-24 11:33:49,5376,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\Servicio de red,2025-03-24 09:21:33,960 (services.exe),1713,1347492,97,152050,7693,431612
+2025-03-24 11:33:49,5384,DSAService.exe,C:\Program Files (x86)\Intel\Driver and Support Assistant\DSAService.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),678,4532039,6139,12526701,503671,173459103
+2025-03-24 11:33:49,5392,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:33,960 (services.exe),0,0,0,0,91,1112
+2025-03-24 11:33:49,5400,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),0,0,0,0,80146,4046934
+2025-03-24 11:33:49,5420,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),45,23040,0,0,153,2534
+2025-03-24 11:33:49,5436,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),700,2871096,89,181440,519,14838
+2025-03-24 11:33:49,5452,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:33,960 (services.exe),0,0,129,19937,132,9402
+2025-03-24 11:33:49,5520,MSIService.exe,C:\Windows\SysWOW64\MSIService.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),0,0,0,0,61,88
+2025-03-24 11:33:49,5528,MSI_Central_Service.exe,C:\Program Files (x86)\MSI\One Dragon Center\MSI_Central_Service.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),0,0,4,164,958,12204
+2025-03-24 11:33:49,5536,DSAUpdateService.exe,C:\Program Files (x86)\Intel\Driver and Support Assistant\DSAUpdateService.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),111,265310,14,2555,2764,63096
+2025-03-24 11:33:49,5544,Sendevsvc.exe,C:\Program Files (x86)\MSI\MSI NBFoundation Service\Sendevsvc.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),147,840096,42,50232,9427,330126
+2025-03-24 11:33:49,5552,ArcControlService.exe,C:\Program Files\Intel\Intel Arc Control\ArcControlService.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),285,2552401,292,40396,1546,9318
+2025-03-24 11:33:49,5564,Mystic_Light_Service.exe,C:\Program Files (x86)\MSI\One Dragon Center\Mystic_Light\Mystic_Light_Service.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),15,56090,0,0,419,6566
+2025-03-24 11:33:49,5576,MSIAPService.exe,C:\Program Files (x86)\MSI\MSI NBFoundation Service\MSIAPService.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),64,62473,105,12501,1530,13250
+2025-03-24 11:33:49,5592,OneApp.IGCC.WinService.exe,C:\Windows\System32\DriverStore\FileRepository\igcc_dch.inf_amd64_8b07a004bf9bbf23\OneApp.IGCC.WinService.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),145,303822,14,996,1824,31696
+2025-03-24 11:33:49,5616,esif_uf.exe,C:\Windows\System32\DriverStore\FileRepository\dptf_cpu.inf_amd64_4ce8bafd96682424\esif_uf.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),27,1640,43,2504,127,1616
+2025-03-24 11:33:49,5628,jhi_service.exe,C:\Windows\System32\DriverStore\FileRepository\dal.inf_amd64_af50fdb80983f7bc\jhi_service.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),0,0,0,0,47,522
+2025-03-24 11:33:49,5652,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\Servicio de red,2025-03-24 09:21:33,960 (services.exe),0,0,0,0,167,4362
+2025-03-24 11:33:49,5660,RuntimeBroker.exe,C:\Windows\System32\RuntimeBroker.exe,DESKTOP-AOEVUGH\arman,2025-03-24 11:05:56,1084 (svchost.exe),1,13506,0,0,824,14066
+2025-03-24 11:33:49,5672,MsMpEng.exe,C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.25010.11-0\MsMpEng.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),41338,2622406247,8436,637905733,961056,142856082
+2025-03-24 11:33:49,5680,HPPrintScanDoctorService.exe,C:\Program Files\HPPrintScanDoctor\HPPrintScanDoctorService.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),73,6555918,1,306,2173,93572
+2025-03-24 11:33:49,5688,IntelAudioService.exe,C:\Windows\System32\DriverStore\FileRepository\intcoed.inf_amd64_625d5a9ea859462f\AS\IAS\IntelAudioService.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),159,414550,0,0,2392,45721
+2025-03-24 11:33:49,5704,nvWmi64.exe,C:\Windows\System32\DriverStore\FileRepository\nvmi.inf_amd64_ca70e03e74b1e469\NVWMI\nvWmi64.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),91,819225,75,596138,167,2540
+2025-03-24 11:33:49,5712,MpDefenderCoreService.exe,C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.25010.11-0\MpDefenderCoreService.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),567,7512075,21,27337,31622,500288
+2025-03-24 11:33:49,5780,WMIRegistrationService.exe,C:\Windows\System32\DriverStore\FileRepository\mewmiprov.inf_amd64_d51901c26227fb29\WMIRegistrationService.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),0,0,0,0,699,11858
+2025-03-24 11:33:49,5788,RtkAudUService64.exe,C:\Windows\System32\DriverStore\FileRepository\realtekservice.inf_amd64_3cf99e411755df38\RtkAudUService64.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),0,0,0,0,3323,93823
+2025-03-24 11:33:49,5812,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),911,60104,608,101692,2828,11386
+2025-03-24 11:33:49,5836,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:23:02,960 (services.exe),4,87363,2,8192,2409,154793
+2025-03-24 11:33:49,5880,MoUsoCoreWorker.exe,C:\Windows\System32\MoUsoCoreWorker.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:23:02,1084 (svchost.exe),5276,8589483,1647,3368302,16298,431541
+2025-03-24 11:33:49,5896,OfficeClickToRun.exe,C:\Program Files\Common Files\microsoft shared\ClickToRun\OfficeClickToRun.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),3255,8759537,26,667997,37753,1370951
+2025-03-24 11:33:49,5908,UserOOBEBroker.exe,C:\Windows\System32\oobe\UserOOBEBroker.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:23:02,1084 (svchost.exe),0,0,0,0,134,540
+2025-03-24 11:33:49,6080,LMS.exe,C:\Windows\System32\DriverStore\FileRepository\lms.inf_amd64_fddb643595e0b8d0\LMS.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),3,54,106,8301,105,319
+2025-03-24 11:33:49,6112,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:33,960 (services.exe),0,0,0,0,478,39006
+2025-03-24 11:33:49,6136,RuntimeBroker.exe,C:\Windows\System32\RuntimeBroker.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:30:49,1084 (svchost.exe),24,130475,2,248,3361,32838
+2025-03-24 11:33:49,6320,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),4,464,4,640,401,19236
+2025-03-24 11:33:49,6532,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:44:23,15596 (Code.exe),1493,2184945,3382,1317948,3963,106785
+2025-03-24 11:33:49,6736,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 11:00:17,4480 (Code.exe),5444,97595879,1391,388554,1971,31858
+2025-03-24 11:33:49,6892,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:44:22,15596 (Code.exe),50,8168,16,192,680,9248
+2025-03-24 11:33:49,6952,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:44:24,15596 (Code.exe),659,1748698,3256,13600914,2735,72882
+2025-03-24 11:33:49,7004,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:40:13,17100 (msedge.exe),35,6306,20,240,181,1192
+2025-03-24 11:33:49,7040,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:44:23,15596 (Code.exe),584800,784748944,595572,1594795664,230,15060
+2025-03-24 11:33:49,7140,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:35,16688 (chrome.exe),76200,21088168,78020,8861136,167,14340
+2025-03-24 11:33:49,7160,SearchIndexer.exe,C:\Windows\System32\SearchIndexer.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:34,960 (services.exe),3919,13140750,3000,4929244,43263,13347938
+2025-03-24 11:33:49,7192,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:44:25,4480 (Code.exe),3852,9955584,637,739870,2494,29444
+2025-03-24 11:33:49,7224,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:40:13,17100 (msedge.exe),1320,8775013,68,83192,585,33296
+2025-03-24 11:33:49,7408,msedgewebview2.exe,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\134.0.3124.83\msedgewebview2.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:40,13628 (msedgewebview2.exe),5010,12559582,2229,661413,1459,65254
+2025-03-24 11:33:49,7412,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:40:13,17100 (msedge.exe),1925,5958734,3745,2039436,2956,54227
+2025-03-24 11:33:49,7456,Video.UI.exe,C:\Program Files\WindowsApps\Microsoft.ZuneVideo_10.25011.10061.0_x64__8wekyb3d8bbwe\Video.UI.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:51:39,1084 (svchost.exe),349,14542191,59,257010,1812,28166
+2025-03-24 11:33:49,7528,SecurityHealthService.exe,C:\Windows\System32\SecurityHealthService.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:49,960 (services.exe),0,0,1,4096,667,4624
+2025-03-24 11:33:49,7532,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:44:23,15596 (Code.exe),317501,1559257610,278078,31992220,71635,2831826
+2025-03-24 11:33:49,7576,SystemSettings.exe,C:\Windows\ImmersiveControlPanel\SystemSettings.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:52:27,1084 (svchost.exe),46,49969,4,40,1700,18114
+2025-03-24 11:33:49,7752,taskhostw.exe,C:\Windows\System32\taskhostw.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:36,1904 (svchost.exe),36,1918916,924,21761500,9058,106036
+2025-03-24 11:33:49,8116,dllhost.exe,C:\Windows\System32\dllhost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:34,1084 (svchost.exe),25,1605632,44,905216,732,22828
+2025-03-24 11:33:49,8264,conhost.exe,C:\Windows\System32\conhost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:44:25,6952 (Code.exe),2,0,3,246,215,9735
+2025-03-24 11:33:49,8308,AggregatorHost.exe,C:\Windows\System32\AggregatorHost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:36,5360 (svchost.exe),4,183,0,0,345,9324
+2025-03-24 11:33:49,8608,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:40:13,17100 (msedge.exe),224,391597,125,93334,86,10896
+2025-03-24 11:33:49,8724,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:36,960 (services.exe),1,63942,0,0,11063,481620
+2025-03-24 11:33:49,8776,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:41:52,960 (services.exe),33,888832,29,147456,884,18382
+2025-03-24 11:33:49,8916,nvWmi64.exe,C:\Windows\System32\DriverStore\FileRepository\nvmi.inf_amd64_ca70e03e74b1e469\NVWMI\nvWmi64.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:36,5704 (nvWmi64.exe),1,1,0,0,491,118812
+2025-03-24 11:33:49,8944,sihost.exe,C:\Windows\System32\sihost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:36,2456 (svchost.exe),237,970752,0,0,12112,697970
+2025-03-24 11:33:49,9020,svchost.exe,C:\Windows\System32\svchost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:36,960 (services.exe),96061,393505271,4851,10613321,11820,442114
+2025-03-24 11:33:49,9028,svchost.exe,C:\Windows\System32\svchost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:36,960 (services.exe),0,0,0,0,288,220414
+2025-03-24 11:33:49,9068,PresentationFontCache.exe,C:\Windows\Microsoft.NET\Framework64\v3.0\WPF\PresentationFontCache.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:36,960 (services.exe),19,827314,0,0,310,3446
+2025-03-24 11:33:49,9084,svchost.exe,C:\Windows\System32\svchost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:36,960 (services.exe),285,1163364,5401,11400944,1219,46373
+2025-03-24 11:33:49,9128,explorer.exe,C:\Windows\explorer.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:37,N/A,86345,51528577,2880,4339803,104373,3471775
+2025-03-24 11:33:49,9144,taskhostw.exe,C:\Windows\System32\taskhostw.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:36,1904 (svchost.exe),10,17251,2,188,574,5656
+2025-03-24 11:33:49,9208,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:40:25,17100 (msedge.exe),95,88520,104,95288,116,11940
+2025-03-24 11:33:49,9224,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:37,960 (services.exe),58,28420,8,36116,11423,359902
+2025-03-24 11:33:49,9364,igfxEMN.exe,C:\Windows\System32\DriverStore\FileRepository\cui_dch.inf_amd64_8f68d4f94f46f7aa\igfxEMN.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:37,2308 (igfxCUIServiceN.exe),0,0,3,25308,28982,12333944
+2025-03-24 11:33:49,9512,StartMenuExperienceHost.exe,C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\StartMenuExperienceHost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:38,1084 (svchost.exe),128,311227,53,22628,1532,15164
+2025-03-24 11:33:49,9912,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 11:22:13,960 (services.exe),25,3062320,6,49428,1632,77816
+2025-03-24 11:33:49,9972,svchost.exe,C:\Windows\System32\svchost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:37,960 (services.exe),0,0,0,0,312,3396
+2025-03-24 11:33:49,10188,MSI.CentralServer.exe,C:\Program Files (x86)\MSI\One Dragon Center\MSI.CentralServer.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:38,5528 (MSI_Central_Service.exe),323,1048981,992,11673939,18114,520971
+2025-03-24 11:33:49,10228,conhost.exe,C:\Windows\System32\conhost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:38,10188 (MSI.CentralServer.exe),0,0,0,0,380,28418
+2025-03-24 11:33:49,10300,RuntimeBroker.exe,C:\Windows\System32\RuntimeBroker.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:38,1084 (svchost.exe),30,152687,2,248,11022,125530
+2025-03-24 11:33:49,10336,audiodg.exe,C:\Windows\System32\audiodg.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 11:33:45,4180 (svchost.exe),0,0,0,0,561,16158
+2025-03-24 11:33:49,10396,WhatsApp.exe,C:\Program Files\WindowsApps\5319275A.WhatsAppDesktop_2.2509.4.0_x64__cv1g1gvanyjgm\WhatsApp.exe,DESKTOP-AOEVUGH\arman,2025-03-24 11:05:55,1084 (svchost.exe),3606,12595377,148,299720,2838,72608
+2025-03-24 11:33:49,10488,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:38,960 (services.exe),3,36,0,0,11678,290172
+2025-03-24 11:33:49,10648,SearchApp.exe,C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\SearchApp.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:38,1084 (svchost.exe),5936,35675702,2735,20472570,15645,1489226
+2025-03-24 11:33:49,10692,powershell.exe,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:44:25,6952 (Code.exe),171,487783,4,143,3812,61096
+2025-03-24 11:33:49,10848,RuntimeBroker.exe,C:\Windows\System32\RuntimeBroker.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:39,1084 (svchost.exe),44525,5866579,3,408,8322,609706
+2025-03-24 11:33:49,11200,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:39,960 (services.exe),12,144024,1,16466,1330,113367
+2025-03-24 11:33:49,11816,RuntimeBroker.exe,C:\Windows\System32\RuntimeBroker.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:39,1084 (svchost.exe),93034,17590785,9,288,11604,833224
+2025-03-24 11:33:49,11996,NisSrv.exe,C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.25010.11-0\NisSrv.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:42,960 (services.exe),0,0,0,0,631,2818
+2025-03-24 11:33:49,12224,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:38,16688 (chrome.exe),695,258224,744,514540,168,14944
+2025-03-24 11:33:49,12364,SoundTune.exe,C:\Program Files (x86)\MSI\One Dragon Center\Sound Tune\SoundTune.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:53,1904 (svchost.exe),67,232514,17,883,1573,33994
+2025-03-24 11:33:49,12500,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:44:23,15596 (Code.exe),205,1195906,283,1137928,19686,415016
+2025-03-24 11:33:49,12676,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:44,960 (services.exe),5,1640,0,0,201,546
+2025-03-24 11:33:49,12712,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:40:25,17100 (msedge.exe),2087,2121272,2664,5685339,121,12032
+2025-03-24 11:33:49,12848,RtkAudUService64.exe,C:\Windows\System32\DriverStore\FileRepository\realtekservice.inf_amd64_3cf99e411755df38\RtkAudUService64.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:50,9128 (explorer.exe),0,0,0,0,2468,33033
+2025-03-24 11:33:49,12900,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:35,16688 (chrome.exe),41300,36439858,27221,33784043,593,15280
+2025-03-24 11:33:49,13028,PhoneExperienceHost.exe,C:\Program Files\WindowsApps\Microsoft.YourPhone_1.25021.67.0_x64__8wekyb3d8bbwe\PhoneExperienceHost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:49,1084 (svchost.exe),302,574053,1,8,4367,152068
+2025-03-24 11:33:49,13036,CompPkgSrv.exe,C:\Windows\System32\CompPkgSrv.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:21,1084 (svchost.exe),0,0,0,0,37,244
+2025-03-24 11:33:49,13184,SecurityHealthSystray.exe,C:\Windows\System32\SecurityHealthSystray.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:49,9128 (explorer.exe),0,0,0,0,80,798
+2025-03-24 11:33:49,13248,Rechner + UWP.exe,C:\Program Files\WindowsApps\14385JonasZoche.Rechner_4.1.9019.0_x64__7yjengah4ymn8\Rechner + UWP.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:37:26,1084 (svchost.exe),761,96462,23,11250,920,7140
+2025-03-24 11:33:49,13408,dllhost.exe,C:\Windows\System32\dllhost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:50,1084 (svchost.exe),142,8294400,301,9134080,2157,58516
+2025-03-24 11:33:49,13432,powershell.exe,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,DESKTOP-AOEVUGH\arman,2025-03-24 11:20:27,6952 (Code.exe),172,537675,382,20585,10954,145512
+2025-03-24 11:33:49,13628,msedgewebview2.exe,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\134.0.3124.83\msedgewebview2.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:39,17120 (SearchApp.exe),8627,17952697,6521,17169566,45253,3185565
+2025-03-24 11:33:49,13740,svchost.exe,C:\Windows\System32\svchost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:23:23,960 (services.exe),126,7208964,17,294916,867,9540
+2025-03-24 11:33:49,13772,Canva.exe,C:\Users\arman\AppData\Local\Programs\Canva\Canva.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:53,N/A,7,538329,0,0,366,5020
+2025-03-24 11:33:49,13812,msedgewebview2.exe,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\134.0.3124.83\msedgewebview2.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:40,13628 (msedgewebview2.exe),765,2858816,1200,497626,2268,53952
+2025-03-24 11:33:49,13908,msedgewebview2.exe,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\134.0.3124.83\msedgewebview2.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:40,13628 (msedgewebview2.exe),146,907215,105,562863,90,11190
+2025-03-24 11:33:49,14152,Canva.exe,C:\Users\arman\AppData\Local\Programs\Canva\Canva.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:52,N/A,4,144,4,48,307,1028
+2025-03-24 11:33:49,14352,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:55,960 (services.exe),10,40960,18,122880,6292,119984
+2025-03-24 11:33:49,14640,Start_HDR.exe,C:\Program Files (x86)\MSI\One Dragon Center\Base Module\Start_HDR.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:00,1904 (svchost.exe),38,134262,5,78134,501,8748
+2025-03-24 11:33:49,15172,IGCC.exe,C:\Program Files\WindowsApps\AppUp.IntelGraphicsExperience_1.100.5688.0_x64__8j3eq9eme6ctt\IGCC.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:58,1084 (svchost.exe),470,20987,25,11390,846,9556
+2025-03-24 11:33:49,15224,IGCCTray.exe,C:\Program Files\WindowsApps\AppUp.IntelGraphicsExperience_1.100.5688.0_x64__8j3eq9eme6ctt\GCP.ML.BackgroundSysTray\IGCCTray.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:57,9128 (explorer.exe),739,1025915,35,3998,3998,53848
+2025-03-24 11:33:49,15376,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:46,16688 (chrome.exe),464,14211518,414,72104,1116,22348
+2025-03-24 11:33:49,15408,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:46,16688 (chrome.exe),1939,65652,2067,89404,634,36640
+2025-03-24 11:33:49,15420,conhost.exe,C:\Windows\System32\conhost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 11:20:27,6952 (Code.exe),27,794,64,7775,7703,552603
+2025-03-24 11:33:49,15532,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:23:37,960 (services.exe),1,116,1,160,684,594
+2025-03-24 11:33:49,15596,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:44:22,9128 (explorer.exe),164713,100874498,81856,54988359,47016,1314134
+2025-03-24 11:33:49,15628,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:23:36,960 (services.exe),1,116,1,160,612,21346
+2025-03-24 11:33:49,15868,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:22:07,960 (services.exe),0,0,0,0,550,341270
+2025-03-24 11:33:49,15992,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:44:27,4480 (Code.exe),23311,132290230,3791,2622066,88023,3801394
+2025-03-24 11:33:49,16624,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:38,16688 (chrome.exe),1092,1007720,1495,852636,168,14754
+2025-03-24 11:33:49,16688,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:34,9128 (explorer.exe),937298,1108917148,668534,690773807,276513,12761150
+2025-03-24 11:33:49,16812,LockApp.exe,C:\Windows\SystemApps\Microsoft.LockApp_cw5n1h2txyewy\LockApp.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:30:49,1084 (svchost.exe),94,45525,36,19929,934,9002
+2025-03-24 11:33:49,17088,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:35,16688 (chrome.exe),94802,11288080,137611,139138452,168,14340
+2025-03-24 11:33:49,17100,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:40:13,N/A,8166,40377115,5440,18351007,46799,3037674
+2025-03-24 11:33:49,17120,SearchApp.exe,C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\SearchApp.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:39,1084 (svchost.exe),342,837158,292,880296,1797,25834
+2025-03-24 11:33:49,17176,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:44:23,15596 (Code.exe),5269,70563009,1608,7020812,47511,4116142
+2025-03-24 11:33:49,17256,TextInputHost.exe,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:38,1084 (svchost.exe),8,45443,1,8,769,4504
+2025-03-24 11:33:49,17356,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:35,16688 (chrome.exe),600281,1605509322,531973,62441977,97101,3822170
+2025-03-24 11:33:49,17380,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:38,16688 (chrome.exe),80973,15408058,89743,161522581,169,14784
+2025-03-24 11:33:49,17396,msedgewebview2.exe,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\134.0.3124.83\msedgewebview2.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:40,13628 (msedgewebview2.exe),2176,1842937,2470,3434180,125,12698
+2025-03-24 11:33:54,4,System,,NT AUTHORITY\SYSTEM,2025-03-24 09:21:19,0 (System Idle Process),317,66738492,3219,486120964,103192,3880102
+2025-03-24 11:33:54,172,Registry,Registry,NT AUTHORITY\SYSTEM,2025-03-24 09:21:13,N/A,4,16384,4059,157270016,318,3859
+2025-03-24 11:33:54,632,smss.exe,C:\Windows\System32\smss.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:19,4 (System),22,16804,15,66032,556,13540
+2025-03-24 11:33:54,680,csrss.exe,C:\Windows\System32\csrss.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:31,N/A,205553,5473352,0,0,17822,376794
+2025-03-24 11:33:54,696,wininit.exe,C:\Windows\System32\wininit.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:31,N/A,3,17924,0,0,354,2858
+2025-03-24 11:33:54,836,csrss.exe,C:\Windows\System32\csrss.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:29,N/A,537,424141,0,0,11051,270925
+2025-03-24 11:33:54,960,services.exe,C:\Windows\System32\services.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:31,696 (wininit.exe),3,8308,1,160,7558,161880
+2025-03-24 11:33:54,984,lsass.exe,C:\Windows\System32\lsass.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:31,696 (wininit.exe),1633,175456,907,242882,119286,9712063
+2025-03-24 11:33:54,1084,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:31,960 (services.exe),59,180294,1,65536,62478,3852588
+2025-03-24 11:33:54,1136,winlogon.exe,C:\Windows\System32\winlogon.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:31,N/A,4,18064,0,0,310,236966
+2025-03-24 11:33:54,1156,fontdrvhost.exe,C:\Windows\System32\fontdrvhost.exe,Font Driver Host\UMFD-0,2025-03-24 09:21:31,696 (wininit.exe),0,0,0,0,30,744
+2025-03-24 11:33:54,1220,fontdrvhost.exe,C:\Windows\System32\fontdrvhost.exe,Font Driver Host\UMFD-1,2025-03-24 09:21:31,1136 (winlogon.exe),0,0,0,0,129,3218
+2025-03-24 11:33:54,1280,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\Servicio de red,2025-03-24 09:21:31,960 (services.exe),31,126976,0,0,7209,520940
+2025-03-24 11:33:54,1332,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:31,960 (services.exe),0,0,0,0,103,396
+2025-03-24 11:33:54,1400,dwm.exe,C:\Windows\System32\dwm.exe,Window Manager\DWM-1,2025-03-24 09:21:32,1136 (winlogon.exe),27,109658,0,0,2863,139208
+2025-03-24 11:33:54,1612,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,28,110
+2025-03-24 11:33:54,1620,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,240,15447
+2025-03-24 11:33:54,1628,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,25,238
+2025-03-24 11:33:54,1636,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,251,13460
+2025-03-24 11:33:54,1644,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,543,46952
+2025-03-24 11:33:54,1700,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 10:51:17,960 (services.exe),3,42720,0,0,152,16686
+2025-03-24 11:33:54,1736,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,229,8600
+2025-03-24 11:33:54,1744,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,67,302
+2025-03-24 11:33:54,1852,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),31440,127122176,1102,36040872,5733,106286
+2025-03-24 11:33:54,1904,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),28,9396,548,17191370,8960,2461078
+2025-03-24 11:33:54,1932,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,103,4646
+2025-03-24 11:33:54,1944,IntelCpHDCPSvc.exe,C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_6b10ae7f2f9034c5\IntelCpHDCPSvc.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),1,20,1,16,23,244
+2025-03-24 11:33:54,1972,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),15,70,0,0,113,4262
+2025-03-24 11:33:54,1988,python.exe,C:\Users\arman\AppData\Local\Programs\Python\Python312\python.exe,DESKTOP-AOEVUGH\arman,2025-03-24 11:33:48,13432 (powershell.exe),102,1241892,5,38966,2248,209458
+2025-03-24 11:33:54,1992,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),34,714,0,0,41,582
+2025-03-24 11:33:54,2096,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),2,8192,0,0,51734,1649768
+2025-03-24 11:33:54,2192,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),180,3620,0,0,118,2622
+2025-03-24 11:33:54,2200,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,2569,98078
+2025-03-24 11:33:54,2208,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 11:26:12,16688 (chrome.exe),59,63904,83,38528,162,15056
+2025-03-24 11:33:54,2252,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,1306,109270
+2025-03-24 11:33:54,2308,igfxCUIServiceN.exe,C:\Windows\System32\DriverStore\FileRepository\cui_dch.inf_amd64_8f68d4f94f46f7aa\igfxCUIServiceN.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),72,1448,0,0,177,2478
+2025-03-24 11:33:54,2348,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,119,626
+2025-03-24 11:33:54,2456,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,125,1628
+2025-03-24 11:33:54,2468,WUDFHost.exe,C:\Windows\System32\WUDFHost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),1,1644,16,1646,372,4458
+2025-03-24 11:33:54,2628,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\Servicio de red,2025-03-24 09:21:32,960 (services.exe),2,232,2,320,33065,2244767
+2025-03-24 11:33:54,2636,ApplicationFrameHost.exe,C:\Windows\System32\ApplicationFrameHost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:23:01,1084 (svchost.exe),130,67272,1,8,620,9366
+2025-03-24 11:33:54,2644,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,216,412798
+2025-03-24 11:33:54,2668,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,2596,123294
+2025-03-24 11:33:54,2692,RuntimeBroker.exe,C:\Windows\System32\RuntimeBroker.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:51:40,1084 (svchost.exe),0,0,0,0,140,3082
+2025-03-24 11:33:54,2740,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,48,142
+2025-03-24 11:33:54,2748,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:22:05,960 (services.exe),374,833956,0,0,818,62762
+2025-03-24 11:33:54,2764,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),0,0,20,7200,5845,151158
+2025-03-24 11:33:54,2784,NVDisplay.Container.exe,C:\Windows\System32\DriverStore\FileRepository\nvmi.inf_amd64_ca70e03e74b1e469\Display.NvContainer\NVDisplay.Container.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),46,3677209,209,32165,2504,37390
+2025-03-24 11:33:54,2896,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,24545,1985270
+2025-03-24 11:33:54,2956,msedgewebview2.exe,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\134.0.3124.83\msedgewebview2.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:39,13628 (msedgewebview2.exe),13,1636,6,72,76,1056
+2025-03-24 11:33:54,2964,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,142,2054
+2025-03-24 11:33:54,3024,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),3,313138,583,7193446,10481,153642
+2025-03-24 11:33:54,3032,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,36,110
+2025-03-24 11:33:54,3124,MemCompression,MemCompression,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,4 (System),0,0,0,0,0,0
+2025-03-24 11:33:54,3164,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,186,2466
+2025-03-24 11:33:54,3208,dasHost.exe,C:\Windows\System32\dasHost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,2964 (svchost.exe),0,0,0,0,42,110
+2025-03-24 11:33:54,3308,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,17638,785562
+2025-03-24 11:33:54,3316,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),9481,38602408,80,201480,842,886
+2025-03-24 11:33:54,3384,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\Servicio de red,2025-03-24 09:21:32,960 (services.exe),9,4314,0,0,49007,3585690
+2025-03-24 11:33:54,3476,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 11:25:58,16688 (chrome.exe),4769,1224992,7072,5361823,164,15056
+2025-03-24 11:33:54,3488,WUDFHost.exe,C:\Windows\System32\WUDFHost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),1084,5759942,36,3408,136731,15520465
+2025-03-24 11:33:54,3552,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:33,960 (services.exe),0,0,0,0,284,12206
+2025-03-24 11:33:54,3596,NVDisplay.Container.exe,C:\Windows\System32\DriverStore\FileRepository\nvmi.inf_amd64_ca70e03e74b1e469\Display.NvContainer\NVDisplay.Container.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,2784 (NVDisplay.Container.exe),307,30105522,341,317897,5273,225805
+2025-03-24 11:33:54,3656,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),5115,41659100,143,1957912,411,44420
+2025-03-24 11:33:54,3780,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,988,40222
+2025-03-24 11:33:54,3820,WmiPrvSE.exe,C:\Windows\System32\wbem\WmiPrvSE.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,1084 (svchost.exe),16,5491020,3,356,26946,410958
+2025-03-24 11:33:54,4052,dasHost.exe,C:\Windows\System32\dasHost.exe,NT AUTHORITY\Servicio de red,2025-03-24 09:21:33,2964 (svchost.exe),0,0,0,0,24,110
+2025-03-24 11:33:54,4136,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 11:26:11,16688 (chrome.exe),404,152408,235,72874,164,15056
+2025-03-24 11:33:54,4180,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:33,960 (services.exe),0,0,0,0,2272,63810
+2025-03-24 11:33:54,4284,wlanext.exe,C:\Windows\System32\wlanext.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,4588 (svchost.exe),35,2248,0,0,120,6274
+2025-03-24 11:33:54,4296,conhost.exe,C:\Windows\System32\conhost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,4284 (wlanext.exe),0,0,0,0,51,1806
+2025-03-24 11:33:54,4348,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:33,960 (services.exe),0,0,0,0,901,72186
+2025-03-24 11:33:54,4352,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:33,960 (services.exe),0,0,0,0,1936,50942
+2025-03-24 11:33:54,4380,vpnagent.exe,C:\Program Files (x86)\Cisco\Cisco AnyConnect Secure Mobility Client\vpnagent.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),41,572873,0,0,2433,99481
+2025-03-24 11:33:54,4400,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),16,2599317,50,4998,1156,21985
+2025-03-24 11:33:54,4452,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:35,16688 (chrome.exe),266912,224779264,591980,457922623,116400,1145853
+2025-03-24 11:33:54,4480,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:44:23,15596 (Code.exe),197201,140883174,170750,811415236,67480,1293757
+2025-03-24 11:33:54,4564,WmiPrvSE.exe,C:\Windows\System32\wbem\WmiPrvSE.exe,NT AUTHORITY\Servicio de red,2025-03-24 09:21:33,1084 (svchost.exe),6157,33265399,1485,142344,54762,894124
+2025-03-24 11:33:54,4588,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),1224,282413,1,160,1725,278571
+2025-03-24 11:33:54,4596,RuntimeBroker.exe,C:\Windows\System32\RuntimeBroker.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:37:27,1084 (svchost.exe),0,0,0,0,50,864
+2025-03-24 11:33:54,4744,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:33,960 (services.exe),0,0,1,32768,34043,2672242
+2025-03-24 11:33:54,4936,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),0,0,0,0,4093,381148
+2025-03-24 11:33:54,4948,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:34,16688 (chrome.exe),252,9144,216,2592,1065,7686
+2025-03-24 11:33:54,5112,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),1,0,0,0,2975,895340
+2025-03-24 11:33:54,5140,spoolsv.exe,C:\Windows\System32\spoolsv.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),12,12847,2,320,1584,147509
+2025-03-24 11:33:54,5188,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\Servicio de red,2025-03-24 09:21:33,960 (services.exe),434,26632,309,38444,4706,278670
+2025-03-24 11:33:54,5252,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:36,960 (services.exe),264,5392,0,0,124,3262
+2025-03-24 11:33:54,5264,ctfmon.exe,C:\Windows\System32\ctfmon.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:37,5252 (svchost.exe),1147,4564487,0,0,9452,36738
+2025-03-24 11:33:54,5328,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:37,960 (services.exe),18,121505,0,0,50582,2015140
+2025-03-24 11:33:54,5360,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),249,18062041,763,1542177,16220,1091192
+2025-03-24 11:33:54,5368,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:33,960 (services.exe),674,209841124,22102,96993418,36673,3105920
+2025-03-24 11:33:54,5376,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\Servicio de red,2025-03-24 09:21:33,960 (services.exe),1713,1347492,97,152050,7693,431612
+2025-03-24 11:33:54,5384,DSAService.exe,C:\Program Files (x86)\Intel\Driver and Support Assistant\DSAService.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),678,4532039,6139,12526701,503671,173459103
+2025-03-24 11:33:54,5392,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:33,960 (services.exe),0,0,0,0,91,1112
+2025-03-24 11:33:54,5400,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),0,0,0,0,80146,4046934
+2025-03-24 11:33:54,5420,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),45,23040,0,0,153,2534
+2025-03-24 11:33:54,5436,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),700,2871096,89,181440,519,14838
+2025-03-24 11:33:54,5452,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:33,960 (services.exe),0,0,129,19937,132,9402
+2025-03-24 11:33:54,5520,MSIService.exe,C:\Windows\SysWOW64\MSIService.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),0,0,0,0,61,88
+2025-03-24 11:33:54,5528,MSI_Central_Service.exe,C:\Program Files (x86)\MSI\One Dragon Center\MSI_Central_Service.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),0,0,4,164,958,12204
+2025-03-24 11:33:54,5536,DSAUpdateService.exe,C:\Program Files (x86)\Intel\Driver and Support Assistant\DSAUpdateService.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),111,265310,14,2555,2764,63096
+2025-03-24 11:33:54,5544,Sendevsvc.exe,C:\Program Files (x86)\MSI\MSI NBFoundation Service\Sendevsvc.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),147,840096,42,50232,9427,330126
+2025-03-24 11:33:54,5552,ArcControlService.exe,C:\Program Files\Intel\Intel Arc Control\ArcControlService.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),285,2552401,292,40396,1546,9318
+2025-03-24 11:33:54,5564,Mystic_Light_Service.exe,C:\Program Files (x86)\MSI\One Dragon Center\Mystic_Light\Mystic_Light_Service.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),15,56090,0,0,419,6566
+2025-03-24 11:33:54,5576,MSIAPService.exe,C:\Program Files (x86)\MSI\MSI NBFoundation Service\MSIAPService.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),64,62473,105,12501,1530,13250
+2025-03-24 11:33:54,5592,OneApp.IGCC.WinService.exe,C:\Windows\System32\DriverStore\FileRepository\igcc_dch.inf_amd64_8b07a004bf9bbf23\OneApp.IGCC.WinService.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),145,303822,14,996,1824,31696
+2025-03-24 11:33:54,5616,esif_uf.exe,C:\Windows\System32\DriverStore\FileRepository\dptf_cpu.inf_amd64_4ce8bafd96682424\esif_uf.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),27,1640,43,2504,127,1616
+2025-03-24 11:33:54,5628,jhi_service.exe,C:\Windows\System32\DriverStore\FileRepository\dal.inf_amd64_af50fdb80983f7bc\jhi_service.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),0,0,0,0,47,522
+2025-03-24 11:33:54,5652,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\Servicio de red,2025-03-24 09:21:33,960 (services.exe),0,0,0,0,167,4362
+2025-03-24 11:33:54,5660,RuntimeBroker.exe,C:\Windows\System32\RuntimeBroker.exe,DESKTOP-AOEVUGH\arman,2025-03-24 11:05:56,1084 (svchost.exe),1,13506,0,0,824,14066
+2025-03-24 11:33:54,5672,MsMpEng.exe,C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.25010.11-0\MsMpEng.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),41338,2622406247,8436,637905733,968464,143627247
+2025-03-24 11:33:54,5680,HPPrintScanDoctorService.exe,C:\Program Files\HPPrintScanDoctor\HPPrintScanDoctorService.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),73,6555918,1,306,2173,93572
+2025-03-24 11:33:54,5688,IntelAudioService.exe,C:\Windows\System32\DriverStore\FileRepository\intcoed.inf_amd64_625d5a9ea859462f\AS\IAS\IntelAudioService.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),159,414550,0,0,2392,45721
+2025-03-24 11:33:54,5704,nvWmi64.exe,C:\Windows\System32\DriverStore\FileRepository\nvmi.inf_amd64_ca70e03e74b1e469\NVWMI\nvWmi64.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),91,819225,75,596138,167,2540
+2025-03-24 11:33:54,5712,MpDefenderCoreService.exe,C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.25010.11-0\MpDefenderCoreService.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),567,7512075,21,27337,31622,500288
+2025-03-24 11:33:54,5780,WMIRegistrationService.exe,C:\Windows\System32\DriverStore\FileRepository\mewmiprov.inf_amd64_d51901c26227fb29\WMIRegistrationService.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),0,0,0,0,699,11858
+2025-03-24 11:33:54,5788,RtkAudUService64.exe,C:\Windows\System32\DriverStore\FileRepository\realtekservice.inf_amd64_3cf99e411755df38\RtkAudUService64.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),0,0,0,0,3323,93823
+2025-03-24 11:33:54,5812,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),911,60104,608,101692,2828,11386
+2025-03-24 11:33:54,5836,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:23:02,960 (services.exe),4,87363,2,8192,2409,154793
+2025-03-24 11:33:54,5880,MoUsoCoreWorker.exe,C:\Windows\System32\MoUsoCoreWorker.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:23:02,1084 (svchost.exe),5276,8589483,1647,3368302,16298,431541
+2025-03-24 11:33:54,5896,OfficeClickToRun.exe,C:\Program Files\Common Files\microsoft shared\ClickToRun\OfficeClickToRun.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),3255,8759537,26,667997,37753,1370951
+2025-03-24 11:33:54,5908,UserOOBEBroker.exe,C:\Windows\System32\oobe\UserOOBEBroker.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:23:02,1084 (svchost.exe),0,0,0,0,134,540
+2025-03-24 11:33:54,6080,LMS.exe,C:\Windows\System32\DriverStore\FileRepository\lms.inf_amd64_fddb643595e0b8d0\LMS.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),3,54,106,8301,105,319
+2025-03-24 11:33:54,6112,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:33,960 (services.exe),0,0,0,0,478,39006
+2025-03-24 11:33:54,6136,RuntimeBroker.exe,C:\Windows\System32\RuntimeBroker.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:30:49,1084 (svchost.exe),24,130475,2,248,3361,32838
+2025-03-24 11:33:54,6320,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),4,464,4,640,401,19236
+2025-03-24 11:33:54,6532,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:44:23,15596 (Code.exe),1499,2204793,3394,1319404,3975,106841
+2025-03-24 11:33:54,6736,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 11:00:17,4480 (Code.exe),5444,97595879,1391,388554,1971,31858
+2025-03-24 11:33:54,6892,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:44:22,15596 (Code.exe),50,8168,16,192,680,9248
+2025-03-24 11:33:54,6952,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:44:24,15596 (Code.exe),661,1748938,3272,13670738,2769,73614
+2025-03-24 11:33:54,7004,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:40:13,17100 (msedge.exe),35,6306,20,240,181,1192
+2025-03-24 11:33:54,7040,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:44:23,15596 (Code.exe),587727,788984632,598692,1602780904,230,15060
+2025-03-24 11:33:54,7140,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:35,16688 (chrome.exe),76200,21088168,78020,8861136,167,14340
+2025-03-24 11:33:54,7160,SearchIndexer.exe,C:\Windows\System32\SearchIndexer.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:34,960 (services.exe),3919,13140750,3000,4929244,43274,13350938
+2025-03-24 11:33:54,7192,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:44:25,4480 (Code.exe),3852,9955584,637,739870,2494,29444
+2025-03-24 11:33:54,7224,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:40:13,17100 (msedge.exe),1320,8775013,68,83192,585,33296
+2025-03-24 11:33:54,7408,msedgewebview2.exe,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\134.0.3124.83\msedgewebview2.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:40,13628 (msedgewebview2.exe),5010,12559582,2229,661413,1459,65254
+2025-03-24 11:33:54,7412,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:40:13,17100 (msedge.exe),1925,5958734,3745,2039436,2956,54227
+2025-03-24 11:33:54,7456,Video.UI.exe,C:\Program Files\WindowsApps\Microsoft.ZuneVideo_10.25011.10061.0_x64__8wekyb3d8bbwe\Video.UI.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:51:39,1084 (svchost.exe),349,14542191,59,257010,1812,28166
+2025-03-24 11:33:54,7528,SecurityHealthService.exe,C:\Windows\System32\SecurityHealthService.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:49,960 (services.exe),0,0,1,4096,667,4624
+2025-03-24 11:33:54,7532,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:44:23,15596 (Code.exe),318768,1566863242,279264,32125052,71961,2844866
+2025-03-24 11:33:54,7576,SystemSettings.exe,C:\Windows\ImmersiveControlPanel\SystemSettings.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:52:27,1084 (svchost.exe),46,49969,4,40,1700,18114
+2025-03-24 11:33:54,7752,taskhostw.exe,C:\Windows\System32\taskhostw.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:36,1904 (svchost.exe),36,1918916,924,21761500,9058,106036
+2025-03-24 11:33:54,8116,dllhost.exe,C:\Windows\System32\dllhost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:34,1084 (svchost.exe),25,1605632,44,905216,732,22828
+2025-03-24 11:33:54,8264,conhost.exe,C:\Windows\System32\conhost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:44:25,6952 (Code.exe),2,0,3,246,215,9735
+2025-03-24 11:33:54,8308,AggregatorHost.exe,C:\Windows\System32\AggregatorHost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:36,5360 (svchost.exe),4,183,0,0,345,9324
+2025-03-24 11:33:54,8608,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:40:13,17100 (msedge.exe),224,391597,125,93334,86,10896
+2025-03-24 11:33:54,8724,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:36,960 (services.exe),1,63942,0,0,11489,499996
+2025-03-24 11:33:54,8776,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:41:52,960 (services.exe),33,888832,29,147456,884,18382
+2025-03-24 11:33:54,8916,nvWmi64.exe,C:\Windows\System32\DriverStore\FileRepository\nvmi.inf_amd64_ca70e03e74b1e469\NVWMI\nvWmi64.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:36,5704 (nvWmi64.exe),1,1,0,0,491,118812
+2025-03-24 11:33:54,8944,sihost.exe,C:\Windows\System32\sihost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:36,2456 (svchost.exe),237,970752,0,0,12112,697970
+2025-03-24 11:33:54,9020,svchost.exe,C:\Windows\System32\svchost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:36,960 (services.exe),96061,393505271,4851,10613321,11820,442114
+2025-03-24 11:33:54,9028,svchost.exe,C:\Windows\System32\svchost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:36,960 (services.exe),0,0,0,0,288,220414
+2025-03-24 11:33:54,9068,PresentationFontCache.exe,C:\Windows\Microsoft.NET\Framework64\v3.0\WPF\PresentationFontCache.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:36,960 (services.exe),19,827314,0,0,310,3446
+2025-03-24 11:33:54,9084,svchost.exe,C:\Windows\System32\svchost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:36,960 (services.exe),285,1163364,5401,11400944,1219,46373
+2025-03-24 11:33:54,9128,explorer.exe,C:\Windows\explorer.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:37,N/A,86345,51528577,2880,4339803,104388,3471775
+2025-03-24 11:33:54,9144,taskhostw.exe,C:\Windows\System32\taskhostw.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:36,1904 (svchost.exe),10,17251,2,188,574,5656
+2025-03-24 11:33:54,9208,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:40:25,17100 (msedge.exe),95,88520,104,95288,116,11940
+2025-03-24 11:33:54,9224,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:37,960 (services.exe),58,28420,8,36116,11423,359902
+2025-03-24 11:33:54,9364,igfxEMN.exe,C:\Windows\System32\DriverStore\FileRepository\cui_dch.inf_amd64_8f68d4f94f46f7aa\igfxEMN.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:37,2308 (igfxCUIServiceN.exe),0,0,3,25308,28982,12333944
+2025-03-24 11:33:54,9512,StartMenuExperienceHost.exe,C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\StartMenuExperienceHost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:38,1084 (svchost.exe),128,311227,53,22628,1532,15164
+2025-03-24 11:33:54,9912,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 11:22:13,960 (services.exe),25,3062320,6,49428,1632,77816
+2025-03-24 11:33:54,9972,svchost.exe,C:\Windows\System32\svchost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:37,960 (services.exe),0,0,0,0,312,3396
+2025-03-24 11:33:54,10188,MSI.CentralServer.exe,C:\Program Files (x86)\MSI\One Dragon Center\MSI.CentralServer.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:38,5528 (MSI_Central_Service.exe),323,1048981,992,11673939,18114,520971
+2025-03-24 11:33:54,10228,conhost.exe,C:\Windows\System32\conhost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:38,10188 (MSI.CentralServer.exe),0,0,0,0,380,28418
+2025-03-24 11:33:54,10300,RuntimeBroker.exe,C:\Windows\System32\RuntimeBroker.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:38,1084 (svchost.exe),30,152687,2,248,11022,125530
+2025-03-24 11:33:54,10336,audiodg.exe,C:\Windows\System32\audiodg.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 11:33:45,4180 (svchost.exe),0,0,0,0,561,16158
+2025-03-24 11:33:54,10396,WhatsApp.exe,C:\Program Files\WindowsApps\5319275A.WhatsAppDesktop_2.2509.4.0_x64__cv1g1gvanyjgm\WhatsApp.exe,DESKTOP-AOEVUGH\arman,2025-03-24 11:05:55,1084 (svchost.exe),3606,12595377,148,299720,2838,72608
+2025-03-24 11:33:54,10488,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:38,960 (services.exe),3,36,0,0,11678,290172
+2025-03-24 11:33:54,10648,SearchApp.exe,C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\SearchApp.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:38,1084 (svchost.exe),5936,35675702,2735,20472570,15645,1489226
+2025-03-24 11:33:54,10692,powershell.exe,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:44:25,6952 (Code.exe),171,487783,4,143,3812,61096
+2025-03-24 11:33:54,10848,RuntimeBroker.exe,C:\Windows\System32\RuntimeBroker.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:39,1084 (svchost.exe),44525,5866579,3,408,8322,609706
+2025-03-24 11:33:54,11200,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:39,960 (services.exe),12,144024,1,16466,1330,113367
+2025-03-24 11:33:54,11816,RuntimeBroker.exe,C:\Windows\System32\RuntimeBroker.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:39,1084 (svchost.exe),93034,17590785,9,288,11604,833224
+2025-03-24 11:33:54,11996,NisSrv.exe,C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.25010.11-0\NisSrv.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:42,960 (services.exe),0,0,0,0,631,2818
+2025-03-24 11:33:54,12224,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:38,16688 (chrome.exe),695,258224,744,514540,168,14944
+2025-03-24 11:33:54,12364,SoundTune.exe,C:\Program Files (x86)\MSI\One Dragon Center\Sound Tune\SoundTune.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:53,1904 (svchost.exe),67,232514,17,883,1573,33994
+2025-03-24 11:33:54,12500,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:44:23,15596 (Code.exe),208,1200274,291,1172840,19812,418740
+2025-03-24 11:33:54,12676,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:44,960 (services.exe),5,1640,0,0,201,546
+2025-03-24 11:33:54,12712,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:40:25,17100 (msedge.exe),2087,2121272,2664,5685339,121,12032
+2025-03-24 11:33:54,12848,RtkAudUService64.exe,C:\Windows\System32\DriverStore\FileRepository\realtekservice.inf_amd64_3cf99e411755df38\RtkAudUService64.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:50,9128 (explorer.exe),0,0,0,0,2468,33033
+2025-03-24 11:33:54,12900,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:35,16688 (chrome.exe),41304,36440306,27224,33784379,593,15280
+2025-03-24 11:33:54,13028,PhoneExperienceHost.exe,C:\Program Files\WindowsApps\Microsoft.YourPhone_1.25021.67.0_x64__8wekyb3d8bbwe\PhoneExperienceHost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:49,1084 (svchost.exe),302,574053,1,8,4367,152068
+2025-03-24 11:33:54,13036,CompPkgSrv.exe,C:\Windows\System32\CompPkgSrv.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:21,1084 (svchost.exe),0,0,0,0,37,244
+2025-03-24 11:33:54,13184,SecurityHealthSystray.exe,C:\Windows\System32\SecurityHealthSystray.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:49,9128 (explorer.exe),0,0,0,0,80,798
+2025-03-24 11:33:54,13248,Rechner + UWP.exe,C:\Program Files\WindowsApps\14385JonasZoche.Rechner_4.1.9019.0_x64__7yjengah4ymn8\Rechner + UWP.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:37:26,1084 (svchost.exe),761,96462,23,11250,920,7140
+2025-03-24 11:33:54,13408,dllhost.exe,C:\Windows\System32\dllhost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:50,1084 (svchost.exe),142,8294400,301,9134080,2157,58516
+2025-03-24 11:33:55,13432,powershell.exe,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,DESKTOP-AOEVUGH\arman,2025-03-24 11:20:27,6952 (Code.exe),172,537675,382,20585,10954,145512
+2025-03-24 11:33:55,13628,msedgewebview2.exe,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\134.0.3124.83\msedgewebview2.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:39,17120 (SearchApp.exe),8627,17952697,6521,17169566,45253,3185565
+2025-03-24 11:33:55,13740,svchost.exe,C:\Windows\System32\svchost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:23:23,960 (services.exe),126,7208964,17,294916,867,9540
+2025-03-24 11:33:55,13772,Canva.exe,C:\Users\arman\AppData\Local\Programs\Canva\Canva.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:53,N/A,7,538329,0,0,366,5020
+2025-03-24 11:33:55,13812,msedgewebview2.exe,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\134.0.3124.83\msedgewebview2.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:40,13628 (msedgewebview2.exe),765,2858816,1200,497626,2268,53952
+2025-03-24 11:33:55,13908,msedgewebview2.exe,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\134.0.3124.83\msedgewebview2.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:40,13628 (msedgewebview2.exe),146,907215,105,562863,90,11190
+2025-03-24 11:33:55,14152,Canva.exe,C:\Users\arman\AppData\Local\Programs\Canva\Canva.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:52,N/A,4,144,4,48,307,1028
+2025-03-24 11:33:55,14352,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:55,960 (services.exe),10,40960,18,122880,6292,119984
+2025-03-24 11:33:55,14640,Start_HDR.exe,C:\Program Files (x86)\MSI\One Dragon Center\Base Module\Start_HDR.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:00,1904 (svchost.exe),38,134262,5,78134,501,8748
+2025-03-24 11:33:55,15172,IGCC.exe,C:\Program Files\WindowsApps\AppUp.IntelGraphicsExperience_1.100.5688.0_x64__8j3eq9eme6ctt\IGCC.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:58,1084 (svchost.exe),470,20987,25,11390,846,9556
+2025-03-24 11:33:55,15224,IGCCTray.exe,C:\Program Files\WindowsApps\AppUp.IntelGraphicsExperience_1.100.5688.0_x64__8j3eq9eme6ctt\GCP.ML.BackgroundSysTray\IGCCTray.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:57,9128 (explorer.exe),739,1025915,35,3998,3998,53848
+2025-03-24 11:33:55,15376,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:46,16688 (chrome.exe),464,14211518,414,72104,1116,22348
+2025-03-24 11:33:55,15408,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:46,16688 (chrome.exe),1939,65652,2067,89404,634,36640
+2025-03-24 11:33:55,15420,conhost.exe,C:\Windows\System32\conhost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 11:20:27,6952 (Code.exe),27,794,64,7775,7703,552603
+2025-03-24 11:33:55,15532,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:23:37,960 (services.exe),1,116,1,160,684,594
+2025-03-24 11:33:55,15596,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:44:22,9128 (explorer.exe),165521,101040136,82289,55233287,47244,1319844
+2025-03-24 11:33:55,15628,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:23:36,960 (services.exe),1,116,1,160,612,21346
+2025-03-24 11:33:55,15868,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:22:07,960 (services.exe),0,0,0,0,550,341270
+2025-03-24 11:33:55,15992,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:44:27,4480 (Code.exe),23317,132290642,3791,2622066,88133,3806530
+2025-03-24 11:33:55,16624,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:38,16688 (chrome.exe),1092,1007720,1495,852636,168,14754
+2025-03-24 11:33:55,16688,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:34,9128 (explorer.exe),937335,1108922148,668554,690776615,276547,12762630
+2025-03-24 11:33:55,16812,LockApp.exe,C:\Windows\SystemApps\Microsoft.LockApp_cw5n1h2txyewy\LockApp.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:30:49,1084 (svchost.exe),94,45525,36,19929,934,9002
+2025-03-24 11:33:55,17088,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:35,16688 (chrome.exe),94802,11288080,137616,139139140,168,14340
+2025-03-24 11:33:55,17100,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:40:13,N/A,8166,40377115,5440,18351007,46799,3037674
+2025-03-24 11:33:55,17120,SearchApp.exe,C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\SearchApp.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:39,1084 (svchost.exe),342,837158,292,880296,1797,25834
+2025-03-24 11:33:55,17176,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:44:23,15596 (Code.exe),5291,70582897,1622,7084300,47511,4116142
+2025-03-24 11:33:55,17256,TextInputHost.exe,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:38,1084 (svchost.exe),8,45443,1,8,769,4504
+2025-03-24 11:33:55,17356,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:35,16688 (chrome.exe),600286,1605510330,531973,62441977,97101,3822170
+2025-03-24 11:33:55,17380,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:38,16688 (chrome.exe),80983,15409722,89765,161524781,169,14784
+2025-03-24 11:33:55,17396,msedgewebview2.exe,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\134.0.3124.83\msedgewebview2.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:40,13628 (msedgewebview2.exe),2176,1842937,2470,3434180,125,12698
+2025-03-24 11:34:00,4,System,,NT AUTHORITY\SYSTEM,2025-03-24 09:21:19,0 (System Idle Process),317,66738492,3221,486256132,103208,3884430
+2025-03-24 11:34:00,172,Registry,Registry,NT AUTHORITY\SYSTEM,2025-03-24 09:21:13,N/A,4,16384,4059,157270016,318,3859
+2025-03-24 11:34:00,632,smss.exe,C:\Windows\System32\smss.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:19,4 (System),22,16804,15,66032,556,13540
+2025-03-24 11:34:00,680,csrss.exe,C:\Windows\System32\csrss.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:31,N/A,205856,5480624,0,0,17952,382306
+2025-03-24 11:34:00,696,wininit.exe,C:\Windows\System32\wininit.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:31,N/A,3,17924,0,0,354,2858
+2025-03-24 11:34:00,836,csrss.exe,C:\Windows\System32\csrss.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:29,N/A,537,424141,0,0,11051,270925
+2025-03-24 11:34:00,960,services.exe,C:\Windows\System32\services.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:31,696 (wininit.exe),3,8308,1,160,7558,161880
+2025-03-24 11:34:00,984,lsass.exe,C:\Windows\System32\lsass.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:31,696 (wininit.exe),1633,175456,907,242882,119364,9716809
+2025-03-24 11:34:00,1084,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:31,960 (services.exe),59,180294,1,65536,62561,3859332
+2025-03-24 11:34:00,1136,winlogon.exe,C:\Windows\System32\winlogon.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:31,N/A,4,18064,0,0,310,236966
+2025-03-24 11:34:00,1156,fontdrvhost.exe,C:\Windows\System32\fontdrvhost.exe,Font Driver Host\UMFD-0,2025-03-24 09:21:31,696 (wininit.exe),0,0,0,0,30,744
+2025-03-24 11:34:00,1220,fontdrvhost.exe,C:\Windows\System32\fontdrvhost.exe,Font Driver Host\UMFD-1,2025-03-24 09:21:31,1136 (winlogon.exe),0,0,0,0,129,3218
+2025-03-24 11:34:00,1280,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\Servicio de red,2025-03-24 09:21:31,960 (services.exe),31,126976,0,0,7209,520940
+2025-03-24 11:34:00,1332,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:31,960 (services.exe),0,0,0,0,103,396
+2025-03-24 11:34:00,1400,dwm.exe,C:\Windows\System32\dwm.exe,Window Manager\DWM-1,2025-03-24 09:21:32,1136 (winlogon.exe),27,109658,0,0,2863,139208
+2025-03-24 11:34:00,1612,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,28,110
+2025-03-24 11:34:00,1620,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,240,15447
+2025-03-24 11:34:00,1628,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,25,238
+2025-03-24 11:34:00,1636,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,251,13460
+2025-03-24 11:34:00,1644,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,543,46952
+2025-03-24 11:34:00,1700,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 10:51:17,960 (services.exe),3,42720,0,0,152,16686
+2025-03-24 11:34:00,1736,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,229,8600
+2025-03-24 11:34:00,1744,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,67,302
+2025-03-24 11:34:00,1852,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),31441,127187712,1102,36040872,5733,106286
+2025-03-24 11:34:00,1904,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),28,9396,548,17191370,8960,2461078
+2025-03-24 11:34:00,1932,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,103,4646
+2025-03-24 11:34:00,1944,IntelCpHDCPSvc.exe,C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_6b10ae7f2f9034c5\IntelCpHDCPSvc.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),1,20,1,16,23,244
+2025-03-24 11:34:00,1972,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),15,70,0,0,113,4262
+2025-03-24 11:34:00,1988,python.exe,C:\Users\arman\AppData\Local\Programs\Python\Python312\python.exe,DESKTOP-AOEVUGH\arman,2025-03-24 11:33:48,13432 (powershell.exe),102,1241892,10,77756,2258,209726
+2025-03-24 11:34:00,1992,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),34,714,0,0,41,582
+2025-03-24 11:34:00,2096,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),2,8192,0,0,51734,1649768
+2025-03-24 11:34:00,2192,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),180,3620,0,0,118,2622
+2025-03-24 11:34:00,2200,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,2569,98078
+2025-03-24 11:34:00,2208,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 11:26:12,16688 (chrome.exe),59,63904,83,38528,162,15056
+2025-03-24 11:34:00,2252,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,1308,109454
+2025-03-24 11:34:00,2308,igfxCUIServiceN.exe,C:\Windows\System32\DriverStore\FileRepository\cui_dch.inf_amd64_8f68d4f94f46f7aa\igfxCUIServiceN.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),72,1448,0,0,177,2478
+2025-03-24 11:34:00,2348,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,119,626
+2025-03-24 11:34:00,2456,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,125,1628
+2025-03-24 11:34:00,2468,WUDFHost.exe,C:\Windows\System32\WUDFHost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),1,1644,16,1646,372,4458
+2025-03-24 11:34:00,2628,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\Servicio de red,2025-03-24 09:21:32,960 (services.exe),2,232,2,320,33103,2246903
+2025-03-24 11:34:00,2636,ApplicationFrameHost.exe,C:\Windows\System32\ApplicationFrameHost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:23:01,1084 (svchost.exe),130,67272,1,8,620,9366
+2025-03-24 11:34:00,2644,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,216,412798
+2025-03-24 11:34:00,2668,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,2596,123294
+2025-03-24 11:34:00,2692,RuntimeBroker.exe,C:\Windows\System32\RuntimeBroker.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:51:40,1084 (svchost.exe),0,0,0,0,140,3082
+2025-03-24 11:34:00,2740,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,48,142
+2025-03-24 11:34:00,2748,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:22:05,960 (services.exe),374,833956,0,0,818,62762
+2025-03-24 11:34:00,2764,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),0,0,20,7200,5845,151158
+2025-03-24 11:34:00,2784,NVDisplay.Container.exe,C:\Windows\System32\DriverStore\FileRepository\nvmi.inf_amd64_ca70e03e74b1e469\Display.NvContainer\NVDisplay.Container.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),46,3677209,209,32165,2504,37390
+2025-03-24 11:34:00,2896,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,24566,1987070
+2025-03-24 11:34:00,2956,msedgewebview2.exe,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\134.0.3124.83\msedgewebview2.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:39,13628 (msedgewebview2.exe),13,1636,6,72,76,1056
+2025-03-24 11:34:00,2964,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,142,2054
+2025-03-24 11:34:00,3024,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),3,313138,584,7201752,10489,153642
+2025-03-24 11:34:00,3032,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,36,110
+2025-03-24 11:34:00,3124,MemCompression,MemCompression,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,4 (System),0,0,0,0,0,0
+2025-03-24 11:34:00,3164,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,186,2466
+2025-03-24 11:34:00,3208,dasHost.exe,C:\Windows\System32\dasHost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,2964 (svchost.exe),0,0,0,0,42,110
+2025-03-24 11:34:00,3308,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,17648,785866
+2025-03-24 11:34:00,3316,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),9481,38602408,80,201480,842,886
+2025-03-24 11:34:00,3384,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\Servicio de red,2025-03-24 09:21:32,960 (services.exe),9,4314,0,0,49050,3589298
+2025-03-24 11:34:00,3476,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 11:25:58,16688 (chrome.exe),4769,1224992,7072,5361823,164,15056
+2025-03-24 11:34:00,3488,WUDFHost.exe,C:\Windows\System32\WUDFHost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),1084,5759942,36,3408,136818,15530504
+2025-03-24 11:34:00,3552,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:33,960 (services.exe),0,0,0,0,284,12206
+2025-03-24 11:34:00,3596,NVDisplay.Container.exe,C:\Windows\System32\DriverStore\FileRepository\nvmi.inf_amd64_ca70e03e74b1e469\Display.NvContainer\NVDisplay.Container.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,2784 (NVDisplay.Container.exe),307,30105522,341,317897,5273,225805
+2025-03-24 11:34:00,3656,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),5115,41659100,143,1957912,411,44420
+2025-03-24 11:34:00,3780,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,988,40222
+2025-03-24 11:34:00,3820,WmiPrvSE.exe,C:\Windows\System32\wbem\WmiPrvSE.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,1084 (svchost.exe),16,5491020,3,356,26946,410958
+2025-03-24 11:34:00,4052,dasHost.exe,C:\Windows\System32\dasHost.exe,NT AUTHORITY\Servicio de red,2025-03-24 09:21:33,2964 (svchost.exe),0,0,0,0,24,110
+2025-03-24 11:34:00,4136,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 11:26:11,16688 (chrome.exe),404,152408,235,72874,164,15056
+2025-03-24 11:34:00,4180,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:33,960 (services.exe),0,0,0,0,2272,63810
+2025-03-24 11:34:00,4284,wlanext.exe,C:\Windows\System32\wlanext.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,4588 (svchost.exe),35,2248,0,0,120,6274
+2025-03-24 11:34:00,4296,conhost.exe,C:\Windows\System32\conhost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,4284 (wlanext.exe),0,0,0,0,51,1806
+2025-03-24 11:34:00,4348,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:33,960 (services.exe),0,0,0,0,901,72186
+2025-03-24 11:34:00,4352,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:33,960 (services.exe),0,0,0,0,1936,50942
+2025-03-24 11:34:00,4380,vpnagent.exe,C:\Program Files (x86)\Cisco\Cisco AnyConnect Secure Mobility Client\vpnagent.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),41,572873,0,0,2433,99481
+2025-03-24 11:34:00,4400,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),16,2599317,50,4998,1156,21985
+2025-03-24 11:34:00,4452,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:35,16688 (chrome.exe),266912,224779264,591980,457922623,116400,1145853
+2025-03-24 11:34:00,4480,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:44:23,15596 (Code.exe),197706,141004727,171079,812784011,68309,1301651
+2025-03-24 11:34:00,4564,WmiPrvSE.exe,C:\Windows\System32\wbem\WmiPrvSE.exe,NT AUTHORITY\Servicio de red,2025-03-24 09:21:33,1084 (svchost.exe),6157,33265399,1485,142344,54762,894124
+2025-03-24 11:34:00,4588,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),1225,282461,1,160,1725,278571
+2025-03-24 11:34:00,4596,RuntimeBroker.exe,C:\Windows\System32\RuntimeBroker.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:37:27,1084 (svchost.exe),0,0,0,0,50,864
+2025-03-24 11:34:00,4744,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:33,960 (services.exe),0,0,1,32768,34103,2676106
+2025-03-24 11:34:00,4936,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),0,0,0,0,4100,381860
+2025-03-24 11:34:00,4948,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:34,16688 (chrome.exe),252,9144,216,2592,1065,7686
+2025-03-24 11:34:00,5112,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),1,0,0,0,2975,895340
+2025-03-24 11:34:00,5140,spoolsv.exe,C:\Windows\System32\spoolsv.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),12,12847,2,320,1584,147509
+2025-03-24 11:34:00,5188,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\Servicio de red,2025-03-24 09:21:33,960 (services.exe),434,26632,309,38444,4712,279198
+2025-03-24 11:34:00,5252,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:36,960 (services.exe),264,5392,0,0,124,3262
+2025-03-24 11:34:00,5264,ctfmon.exe,C:\Windows\System32\ctfmon.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:37,5252 (svchost.exe),1147,4564487,0,0,9452,36738
+2025-03-24 11:34:00,5328,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:37,960 (services.exe),18,121505,0,0,50582,2015140
+2025-03-24 11:34:00,5360,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),249,18062041,763,1542177,16222,1091352
+2025-03-24 11:34:00,5368,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:33,960 (services.exe),674,209841124,22102,96993418,36721,3112216
+2025-03-24 11:34:00,5376,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\Servicio de red,2025-03-24 09:21:33,960 (services.exe),1713,1347492,97,152050,7695,431772
+2025-03-24 11:34:00,5384,DSAService.exe,C:\Program Files (x86)\Intel\Driver and Support Assistant\DSAService.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),678,4532039,6139,12526701,503671,173459103
+2025-03-24 11:34:00,5392,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:33,960 (services.exe),0,0,0,0,91,1112
+2025-03-24 11:34:00,5400,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),0,0,0,0,80300,4054710
+2025-03-24 11:34:00,5420,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),45,23040,0,0,153,2534
+2025-03-24 11:34:00,5436,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),700,2871096,89,181440,521,14886
+2025-03-24 11:34:00,5452,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:33,960 (services.exe),0,0,129,19937,132,9402
+2025-03-24 11:34:00,5520,MSIService.exe,C:\Windows\SysWOW64\MSIService.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),0,0,0,0,61,88
+2025-03-24 11:34:00,5528,MSI_Central_Service.exe,C:\Program Files (x86)\MSI\One Dragon Center\MSI_Central_Service.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),0,0,4,164,958,12204
+2025-03-24 11:34:00,5536,DSAUpdateService.exe,C:\Program Files (x86)\Intel\Driver and Support Assistant\DSAUpdateService.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),111,265310,14,2555,2764,63096
+2025-03-24 11:34:00,5544,Sendevsvc.exe,C:\Program Files (x86)\MSI\MSI NBFoundation Service\Sendevsvc.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),147,840096,42,50232,9427,330126
+2025-03-24 11:34:00,5552,ArcControlService.exe,C:\Program Files\Intel\Intel Arc Control\ArcControlService.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),285,2552401,292,40396,1546,9318
+2025-03-24 11:34:00,5564,Mystic_Light_Service.exe,C:\Program Files (x86)\MSI\One Dragon Center\Mystic_Light\Mystic_Light_Service.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),15,56090,0,0,419,6566
+2025-03-24 11:34:00,5576,MSIAPService.exe,C:\Program Files (x86)\MSI\MSI NBFoundation Service\MSIAPService.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),64,62473,105,12501,1530,13250
+2025-03-24 11:34:00,5592,OneApp.IGCC.WinService.exe,C:\Windows\System32\DriverStore\FileRepository\igcc_dch.inf_amd64_8b07a004bf9bbf23\OneApp.IGCC.WinService.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),145,303822,14,996,1824,31696
+2025-03-24 11:34:00,5616,esif_uf.exe,C:\Windows\System32\DriverStore\FileRepository\dptf_cpu.inf_amd64_4ce8bafd96682424\esif_uf.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),27,1640,43,2504,127,1616
+2025-03-24 11:34:00,5628,jhi_service.exe,C:\Windows\System32\DriverStore\FileRepository\dal.inf_amd64_af50fdb80983f7bc\jhi_service.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),0,0,0,0,47,522
+2025-03-24 11:34:00,5652,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\Servicio de red,2025-03-24 09:21:33,960 (services.exe),0,0,0,0,167,4362
+2025-03-24 11:34:00,5660,RuntimeBroker.exe,C:\Windows\System32\RuntimeBroker.exe,DESKTOP-AOEVUGH\arman,2025-03-24 11:05:56,1084 (svchost.exe),1,13506,0,0,824,14066
+2025-03-24 11:34:00,5672,MsMpEng.exe,C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.25010.11-0\MsMpEng.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),41338,2622406247,8436,637905733,974035,144207182
+2025-03-24 11:34:00,5680,HPPrintScanDoctorService.exe,C:\Program Files\HPPrintScanDoctor\HPPrintScanDoctorService.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),73,6555918,1,306,2175,93732
+2025-03-24 11:34:00,5688,IntelAudioService.exe,C:\Windows\System32\DriverStore\FileRepository\intcoed.inf_amd64_625d5a9ea859462f\AS\IAS\IntelAudioService.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),159,414550,0,0,2392,45721
+2025-03-24 11:34:00,5704,nvWmi64.exe,C:\Windows\System32\DriverStore\FileRepository\nvmi.inf_amd64_ca70e03e74b1e469\NVWMI\nvWmi64.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),91,819225,75,596138,167,2540
+2025-03-24 11:34:00,5712,MpDefenderCoreService.exe,C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.25010.11-0\MpDefenderCoreService.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),567,7512075,21,27337,31644,501056
+2025-03-24 11:34:00,5780,WMIRegistrationService.exe,C:\Windows\System32\DriverStore\FileRepository\mewmiprov.inf_amd64_d51901c26227fb29\WMIRegistrationService.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),0,0,0,0,699,11858
+2025-03-24 11:34:00,5788,RtkAudUService64.exe,C:\Windows\System32\DriverStore\FileRepository\realtekservice.inf_amd64_3cf99e411755df38\RtkAudUService64.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),0,0,0,0,3323,93823
+2025-03-24 11:34:00,5812,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),911,60104,608,101692,2828,11386
+2025-03-24 11:34:00,5836,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:23:02,960 (services.exe),4,87363,2,8192,2411,154953
+2025-03-24 11:34:00,5880,MoUsoCoreWorker.exe,C:\Windows\System32\MoUsoCoreWorker.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:23:02,1084 (svchost.exe),5276,8589483,1647,3368302,16300,431701
+2025-03-24 11:34:00,5896,OfficeClickToRun.exe,C:\Program Files\Common Files\microsoft shared\ClickToRun\OfficeClickToRun.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),3255,8759537,26,667997,37803,1372971
+2025-03-24 11:34:00,5908,UserOOBEBroker.exe,C:\Windows\System32\oobe\UserOOBEBroker.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:23:02,1084 (svchost.exe),0,0,0,0,134,540
+2025-03-24 11:34:00,6080,LMS.exe,C:\Windows\System32\DriverStore\FileRepository\lms.inf_amd64_fddb643595e0b8d0\LMS.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),3,54,106,8301,105,319
+2025-03-24 11:34:00,6112,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:33,960 (services.exe),0,0,0,0,478,39006
+2025-03-24 11:34:00,6136,RuntimeBroker.exe,C:\Windows\System32\RuntimeBroker.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:30:49,1084 (svchost.exe),24,130475,2,248,3361,32838
+2025-03-24 11:34:00,6320,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),4,464,4,640,401,19236
+2025-03-24 11:34:00,6532,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:44:23,15596 (Code.exe),1501,2205233,3413,1328821,4145,108469
+2025-03-24 11:34:00,6736,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 11:00:17,4480 (Code.exe),5444,97595879,1391,388554,1971,31858
+2025-03-24 11:34:00,6892,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:44:22,15596 (Code.exe),50,8168,16,192,680,9248
+2025-03-24 11:34:00,6952,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:44:24,15596 (Code.exe),661,1748938,3276,13688194,2769,73614
+2025-03-24 11:34:00,7004,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:40:13,17100 (msedge.exe),35,6306,20,240,181,1192
+2025-03-24 11:34:00,7040,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:44:23,15596 (Code.exe),589435,790540728,600581,1608839640,230,15060
+2025-03-24 11:34:00,7140,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:35,16688 (chrome.exe),76200,21088168,78020,8861136,167,14340
+2025-03-24 11:34:00,7160,SearchIndexer.exe,C:\Windows\System32\SearchIndexer.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:34,960 (services.exe),3919,13140750,3000,4929244,43280,13353978
+2025-03-24 11:34:00,7192,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:44:25,4480 (Code.exe),3852,9955584,637,739870,2494,29444
+2025-03-24 11:34:00,7224,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:40:13,17100 (msedge.exe),1320,8775013,68,83192,585,33296
+2025-03-24 11:34:00,7408,msedgewebview2.exe,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\134.0.3124.83\msedgewebview2.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:40,13628 (msedgewebview2.exe),5010,12559582,2229,661413,1459,65254
+2025-03-24 11:34:00,7412,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:40:13,17100 (msedge.exe),1925,5958734,3745,2039436,2956,54227
+2025-03-24 11:34:00,7456,Video.UI.exe,C:\Program Files\WindowsApps\Microsoft.ZuneVideo_10.25011.10061.0_x64__8wekyb3d8bbwe\Video.UI.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:51:39,1084 (svchost.exe),349,14542191,59,257010,1812,28166
+2025-03-24 11:34:00,7528,SecurityHealthService.exe,C:\Windows\System32\SecurityHealthService.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:49,960 (services.exe),0,0,1,4096,667,4624
+2025-03-24 11:34:00,7532,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:44:23,15596 (Code.exe),319810,1572733562,280221,32232236,72212,2854906
+2025-03-24 11:34:00,7576,SystemSettings.exe,C:\Windows\ImmersiveControlPanel\SystemSettings.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:52:27,1084 (svchost.exe),46,49969,4,40,1700,18114
+2025-03-24 11:34:00,7752,taskhostw.exe,C:\Windows\System32\taskhostw.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:36,1904 (svchost.exe),36,1918916,924,21761500,9058,106036
+2025-03-24 11:34:00,8116,dllhost.exe,C:\Windows\System32\dllhost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:34,1084 (svchost.exe),25,1605632,44,905216,732,22828
+2025-03-24 11:34:00,8264,conhost.exe,C:\Windows\System32\conhost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:44:25,6952 (Code.exe),2,0,3,246,215,9735
+2025-03-24 11:34:00,8308,AggregatorHost.exe,C:\Windows\System32\AggregatorHost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:36,5360 (svchost.exe),4,183,0,0,345,9324
+2025-03-24 11:34:00,8608,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:40:13,17100 (msedge.exe),224,391597,125,93334,86,10896
+2025-03-24 11:34:00,8724,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:36,960 (services.exe),1,63942,0,0,11777,512072
+2025-03-24 11:34:00,8776,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:41:52,960 (services.exe),33,888832,29,147456,884,18382
+2025-03-24 11:34:00,8916,nvWmi64.exe,C:\Windows\System32\DriverStore\FileRepository\nvmi.inf_amd64_ca70e03e74b1e469\NVWMI\nvWmi64.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:36,5704 (nvWmi64.exe),1,1,0,0,491,118812
+2025-03-24 11:34:00,8944,sihost.exe,C:\Windows\System32\sihost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:36,2456 (svchost.exe),237,970752,0,0,12112,697970
+2025-03-24 11:34:00,9020,svchost.exe,C:\Windows\System32\svchost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:36,960 (services.exe),96061,393505271,4851,10613321,11840,442722
+2025-03-24 11:34:00,9028,svchost.exe,C:\Windows\System32\svchost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:36,960 (services.exe),0,0,0,0,288,220414
+2025-03-24 11:34:00,9068,PresentationFontCache.exe,C:\Windows\Microsoft.NET\Framework64\v3.0\WPF\PresentationFontCache.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:36,960 (services.exe),19,827314,0,0,310,3446
+2025-03-24 11:34:00,9084,svchost.exe,C:\Windows\System32\svchost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:36,960 (services.exe),285,1163364,5401,11400944,1219,46373
+2025-03-24 11:34:00,9128,explorer.exe,C:\Windows\explorer.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:37,N/A,86345,51528577,2880,4339803,104422,3472543
+2025-03-24 11:34:00,9144,taskhostw.exe,C:\Windows\System32\taskhostw.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:36,1904 (svchost.exe),10,17251,2,188,574,5656
+2025-03-24 11:34:00,9208,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:40:25,17100 (msedge.exe),95,88520,104,95288,116,11940
+2025-03-24 11:34:00,9224,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:37,960 (services.exe),58,28420,8,36116,11443,360510
+2025-03-24 11:34:00,9364,igfxEMN.exe,C:\Windows\System32\DriverStore\FileRepository\cui_dch.inf_amd64_8f68d4f94f46f7aa\igfxEMN.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:37,2308 (igfxCUIServiceN.exe),0,0,3,25308,28982,12333944
+2025-03-24 11:34:00,9512,StartMenuExperienceHost.exe,C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\StartMenuExperienceHost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:38,1084 (svchost.exe),128,311227,53,22628,1532,15164
+2025-03-24 11:34:00,9912,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 11:22:13,960 (services.exe),25,3062320,6,49428,1632,77816
+2025-03-24 11:34:00,9972,svchost.exe,C:\Windows\System32\svchost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:37,960 (services.exe),0,0,0,0,312,3396
+2025-03-24 11:34:00,10188,MSI.CentralServer.exe,C:\Program Files (x86)\MSI\One Dragon Center\MSI.CentralServer.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:38,5528 (MSI_Central_Service.exe),323,1048981,992,11673939,18114,520971
+2025-03-24 11:34:00,10228,conhost.exe,C:\Windows\System32\conhost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:38,10188 (MSI.CentralServer.exe),0,0,0,0,380,28418
+2025-03-24 11:34:00,10300,RuntimeBroker.exe,C:\Windows\System32\RuntimeBroker.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:38,1084 (svchost.exe),30,152687,2,248,11022,125530
+2025-03-24 11:34:00,10336,audiodg.exe,C:\Windows\System32\audiodg.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 11:33:45,4180 (svchost.exe),0,0,0,0,561,16158
+2025-03-24 11:34:00,10396,WhatsApp.exe,C:\Program Files\WindowsApps\5319275A.WhatsAppDesktop_2.2509.4.0_x64__cv1g1gvanyjgm\WhatsApp.exe,DESKTOP-AOEVUGH\arman,2025-03-24 11:05:55,1084 (svchost.exe),3606,12595377,148,299720,2838,72608
+2025-03-24 11:34:00,10488,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:38,960 (services.exe),3,36,0,0,11678,290172
+2025-03-24 11:34:00,10648,SearchApp.exe,C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\SearchApp.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:38,1084 (svchost.exe),5936,35675702,2735,20472570,15645,1489226
+2025-03-24 11:34:00,10692,powershell.exe,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:44:25,6952 (Code.exe),171,487783,4,143,3812,61096
+2025-03-24 11:34:00,10848,RuntimeBroker.exe,C:\Windows\System32\RuntimeBroker.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:39,1084 (svchost.exe),44525,5866579,3,408,8322,609706
+2025-03-24 11:34:00,11200,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:39,960 (services.exe),12,144024,1,16466,1330,113367
+2025-03-24 11:34:00,11816,RuntimeBroker.exe,C:\Windows\System32\RuntimeBroker.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:39,1084 (svchost.exe),93034,17590785,9,288,11604,833224
+2025-03-24 11:34:00,11996,NisSrv.exe,C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.25010.11-0\NisSrv.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:42,960 (services.exe),0,0,0,0,631,2818
+2025-03-24 11:34:00,12224,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:38,16688 (chrome.exe),695,258224,744,514540,168,14944
+2025-03-24 11:34:00,12364,SoundTune.exe,C:\Program Files (x86)\MSI\One Dragon Center\Sound Tune\SoundTune.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:53,1904 (svchost.exe),67,232514,17,883,1573,33994
+2025-03-24 11:34:00,12500,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:44:23,15596 (Code.exe),213,1204882,297,1199024,19890,420898
+2025-03-24 11:34:00,12676,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:44,960 (services.exe),5,1640,0,0,201,546
+2025-03-24 11:34:00,12712,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:40:25,17100 (msedge.exe),2087,2121272,2664,5685339,121,12032
+2025-03-24 11:34:00,12848,RtkAudUService64.exe,C:\Windows\System32\DriverStore\FileRepository\realtekservice.inf_amd64_3cf99e411755df38\RtkAudUService64.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:50,9128 (explorer.exe),0,0,0,0,2468,33033
+2025-03-24 11:34:00,12900,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:35,16688 (chrome.exe),41304,36440306,27226,33784593,593,15280
+2025-03-24 11:34:00,13028,PhoneExperienceHost.exe,C:\Program Files\WindowsApps\Microsoft.YourPhone_1.25021.67.0_x64__8wekyb3d8bbwe\PhoneExperienceHost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:49,1084 (svchost.exe),302,574053,1,8,4367,152068
+2025-03-24 11:34:00,13036,CompPkgSrv.exe,C:\Windows\System32\CompPkgSrv.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:21,1084 (svchost.exe),0,0,0,0,37,244
+2025-03-24 11:34:00,13184,SecurityHealthSystray.exe,C:\Windows\System32\SecurityHealthSystray.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:49,9128 (explorer.exe),0,0,0,0,80,798
+2025-03-24 11:34:00,13248,Rechner + UWP.exe,C:\Program Files\WindowsApps\14385JonasZoche.Rechner_4.1.9019.0_x64__7yjengah4ymn8\Rechner + UWP.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:37:26,1084 (svchost.exe),761,96462,23,11250,920,7140
+2025-03-24 11:34:00,13408,dllhost.exe,C:\Windows\System32\dllhost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:50,1084 (svchost.exe),142,8294400,301,9134080,2157,58516
+2025-03-24 11:34:00,13432,powershell.exe,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,DESKTOP-AOEVUGH\arman,2025-03-24 11:20:27,6952 (Code.exe),172,537675,382,20585,10954,145512
+2025-03-24 11:34:00,13628,msedgewebview2.exe,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\134.0.3124.83\msedgewebview2.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:39,17120 (SearchApp.exe),8627,17952697,6521,17169566,45253,3185565
+2025-03-24 11:34:00,13740,svchost.exe,C:\Windows\System32\svchost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:23:23,960 (services.exe),126,7208964,17,294916,867,9540
+2025-03-24 11:34:00,13772,Canva.exe,C:\Users\arman\AppData\Local\Programs\Canva\Canva.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:53,N/A,7,538329,0,0,366,5020
+2025-03-24 11:34:00,13812,msedgewebview2.exe,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\134.0.3124.83\msedgewebview2.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:40,13628 (msedgewebview2.exe),765,2858816,1200,497626,2268,53952
+2025-03-24 11:34:00,13908,msedgewebview2.exe,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\134.0.3124.83\msedgewebview2.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:40,13628 (msedgewebview2.exe),146,907215,105,562863,90,11190
+2025-03-24 11:34:00,14152,Canva.exe,C:\Users\arman\AppData\Local\Programs\Canva\Canva.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:52,N/A,4,144,4,48,307,1028
+2025-03-24 11:34:00,14352,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:55,960 (services.exe),10,40960,18,122880,6292,119984
+2025-03-24 11:34:00,14640,Start_HDR.exe,C:\Program Files (x86)\MSI\One Dragon Center\Base Module\Start_HDR.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:00,1904 (svchost.exe),38,134262,5,78134,501,8748
+2025-03-24 11:34:00,15172,IGCC.exe,C:\Program Files\WindowsApps\AppUp.IntelGraphicsExperience_1.100.5688.0_x64__8j3eq9eme6ctt\IGCC.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:58,1084 (svchost.exe),470,20987,25,11390,846,9556
+2025-03-24 11:34:00,15224,IGCCTray.exe,C:\Program Files\WindowsApps\AppUp.IntelGraphicsExperience_1.100.5688.0_x64__8j3eq9eme6ctt\GCP.ML.BackgroundSysTray\IGCCTray.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:57,9128 (explorer.exe),739,1025915,35,3998,3998,53848
+2025-03-24 11:34:00,15376,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:46,16688 (chrome.exe),464,14211518,414,72104,1116,22348
+2025-03-24 11:34:00,15408,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:46,16688 (chrome.exe),1939,65652,2067,89404,634,36640
+2025-03-24 11:34:00,15420,conhost.exe,C:\Windows\System32\conhost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 11:20:27,6952 (Code.exe),27,794,64,7775,7703,552603
+2025-03-24 11:34:00,15532,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:23:37,960 (services.exe),1,116,1,160,684,594
+2025-03-24 11:34:00,15596,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:44:22,9128 (explorer.exe),166113,101201588,82569,55282343,47284,1321446
+2025-03-24 11:34:00,15628,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:23:36,960 (services.exe),1,116,1,160,612,21346
+2025-03-24 11:34:00,15868,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:22:07,960 (services.exe),0,0,0,0,550,341270
+2025-03-24 11:34:00,15992,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:44:27,4480 (Code.exe),23320,132290848,3791,2622066,88188,3809098
+2025-03-24 11:34:00,16624,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:38,16688 (chrome.exe),1092,1007720,1495,852636,168,14754
+2025-03-24 11:34:00,16688,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:34,9128 (explorer.exe),937335,1108922148,668554,690776615,276547,12762630
+2025-03-24 11:34:00,16812,LockApp.exe,C:\Windows\SystemApps\Microsoft.LockApp_cw5n1h2txyewy\LockApp.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:30:49,1084 (svchost.exe),94,45525,36,19929,934,9002
+2025-03-24 11:34:00,17088,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:35,16688 (chrome.exe),94802,11288080,137616,139139140,168,14340
+2025-03-24 11:34:00,17100,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:40:13,N/A,8166,40377115,5440,18351007,46799,3037674
+2025-03-24 11:34:00,17120,SearchApp.exe,C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\SearchApp.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:39,1084 (svchost.exe),342,837158,292,880296,1797,25834
+2025-03-24 11:34:00,17176,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:44:23,15596 (Code.exe),5302,70585265,1626,7093468,47511,4116142
+2025-03-24 11:34:00,17256,TextInputHost.exe,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:38,1084 (svchost.exe),8,45443,1,8,769,4504
+2025-03-24 11:34:00,17356,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:35,16688 (chrome.exe),600286,1605510330,531973,62441977,97101,3822170
+2025-03-24 11:34:00,17380,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:38,16688 (chrome.exe),80983,15409722,89765,161524781,169,14784
+2025-03-24 11:34:00,17396,msedgewebview2.exe,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\134.0.3124.83\msedgewebview2.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:40,13628 (msedgewebview2.exe),2176,1842937,2470,3434180,125,12698
+2025-03-24 11:34:05,4,System,,NT AUTHORITY\SYSTEM,2025-03-24 09:21:19,0 (System Idle Process),317,66738492,3223,486518276,103224,3888758
+2025-03-24 11:34:05,172,Registry,Registry,NT AUTHORITY\SYSTEM,2025-03-24 09:21:13,N/A,4,16384,4059,157270016,318,3859
+2025-03-24 11:34:05,632,smss.exe,C:\Windows\System32\smss.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:19,4 (System),22,16804,15,66032,556,13540
+2025-03-24 11:34:05,680,csrss.exe,C:\Windows\System32\csrss.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:31,N/A,206313,5491592,0,0,18082,387818
+2025-03-24 11:34:05,696,wininit.exe,C:\Windows\System32\wininit.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:31,N/A,3,17924,0,0,354,2858
+2025-03-24 11:34:05,836,csrss.exe,C:\Windows\System32\csrss.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:29,N/A,537,424141,0,0,11051,270925
+2025-03-24 11:34:05,960,services.exe,C:\Windows\System32\services.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:31,696 (wininit.exe),3,8308,1,160,7558,161880
+2025-03-24 11:34:05,984,lsass.exe,C:\Windows\System32\lsass.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:31,696 (wininit.exe),1633,175456,907,242882,119412,9719825
+2025-03-24 11:34:05,1084,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:31,960 (services.exe),59,180294,1,65536,62640,3866012
+2025-03-24 11:34:05,1136,winlogon.exe,C:\Windows\System32\winlogon.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:31,N/A,4,18064,0,0,310,236966
+2025-03-24 11:34:05,1156,fontdrvhost.exe,C:\Windows\System32\fontdrvhost.exe,Font Driver Host\UMFD-0,2025-03-24 09:21:31,696 (wininit.exe),0,0,0,0,30,744
+2025-03-24 11:34:05,1220,fontdrvhost.exe,C:\Windows\System32\fontdrvhost.exe,Font Driver Host\UMFD-1,2025-03-24 09:21:31,1136 (winlogon.exe),0,0,0,0,129,3218
+2025-03-24 11:34:05,1280,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\Servicio de red,2025-03-24 09:21:31,960 (services.exe),31,126976,0,0,7209,520940
+2025-03-24 11:34:05,1332,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:31,960 (services.exe),0,0,0,0,103,396
+2025-03-24 11:34:05,1400,dwm.exe,C:\Windows\System32\dwm.exe,Window Manager\DWM-1,2025-03-24 09:21:32,1136 (winlogon.exe),27,109658,0,0,2863,139208
+2025-03-24 11:34:05,1612,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,28,110
+2025-03-24 11:34:05,1620,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,240,15447
+2025-03-24 11:34:05,1628,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,25,238
+2025-03-24 11:34:05,1636,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,251,13460
+2025-03-24 11:34:05,1644,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,543,46952
+2025-03-24 11:34:05,1700,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 10:51:17,960 (services.exe),3,42720,0,0,152,16686
+2025-03-24 11:34:05,1736,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,229,8600
+2025-03-24 11:34:05,1744,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,67,302
+2025-03-24 11:34:05,1852,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),31441,127187712,1102,36040872,5733,106286
+2025-03-24 11:34:05,1904,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),28,9396,548,17191370,8960,2461078
+2025-03-24 11:34:05,1932,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,103,4646
+2025-03-24 11:34:05,1944,IntelCpHDCPSvc.exe,C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_6b10ae7f2f9034c5\IntelCpHDCPSvc.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),1,20,1,16,23,244
+2025-03-24 11:34:05,1972,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),15,70,0,0,113,4262
+2025-03-24 11:34:05,1988,python.exe,C:\Users\arman\AppData\Local\Programs\Python\Python312\python.exe,DESKTOP-AOEVUGH\arman,2025-03-24 11:33:48,13432 (powershell.exe),102,1241892,15,116547,2268,209994
+2025-03-24 11:34:05,1992,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),34,714,0,0,41,582
+2025-03-24 11:34:05,2096,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),2,8192,0,0,51734,1649768
+2025-03-24 11:34:05,2192,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),180,3620,0,0,118,2622
+2025-03-24 11:34:05,2200,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,2569,98078
+2025-03-24 11:34:05,2208,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 11:26:12,16688 (chrome.exe),59,63904,83,38528,162,15056
+2025-03-24 11:34:05,2252,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,1310,109638
+2025-03-24 11:34:05,2308,igfxCUIServiceN.exe,C:\Windows\System32\DriverStore\FileRepository\cui_dch.inf_amd64_8f68d4f94f46f7aa\igfxCUIServiceN.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),72,1448,0,0,177,2478
+2025-03-24 11:34:05,2348,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,119,626
+2025-03-24 11:34:05,2456,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,125,1628
+2025-03-24 11:34:05,2468,WUDFHost.exe,C:\Windows\System32\WUDFHost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),1,1644,16,1646,372,4458
+2025-03-24 11:34:05,2628,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\Servicio de red,2025-03-24 09:21:32,960 (services.exe),2,232,2,320,33141,2249039
+2025-03-24 11:34:05,2636,ApplicationFrameHost.exe,C:\Windows\System32\ApplicationFrameHost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:23:01,1084 (svchost.exe),130,67272,1,8,620,9366
+2025-03-24 11:34:05,2644,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,216,412798
+2025-03-24 11:34:05,2668,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,2596,123294
+2025-03-24 11:34:05,2692,RuntimeBroker.exe,C:\Windows\System32\RuntimeBroker.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:51:40,1084 (svchost.exe),0,0,0,0,140,3082
+2025-03-24 11:34:05,2740,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,48,142
+2025-03-24 11:34:05,2748,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:22:05,960 (services.exe),374,833956,0,0,818,62762
+2025-03-24 11:34:05,2764,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),0,0,20,7200,5845,151158
+2025-03-24 11:34:05,2784,NVDisplay.Container.exe,C:\Windows\System32\DriverStore\FileRepository\nvmi.inf_amd64_ca70e03e74b1e469\Display.NvContainer\NVDisplay.Container.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),46,3677209,209,32165,2504,37390
+2025-03-24 11:34:05,2896,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,24587,1988870
+2025-03-24 11:34:05,2956,msedgewebview2.exe,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\134.0.3124.83\msedgewebview2.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:39,13628 (msedgewebview2.exe),13,1636,6,72,76,1056
+2025-03-24 11:34:05,2964,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,142,2054
+2025-03-24 11:34:05,3024,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),3,313138,584,7201752,10489,153642
+2025-03-24 11:34:05,3032,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,36,110
+2025-03-24 11:34:05,3124,MemCompression,MemCompression,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,4 (System),0,0,0,0,0,0
+2025-03-24 11:34:05,3164,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,186,2466
+2025-03-24 11:34:05,3208,dasHost.exe,C:\Windows\System32\dasHost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,2964 (svchost.exe),0,0,0,0,42,110
+2025-03-24 11:34:05,3308,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,17658,786170
+2025-03-24 11:34:05,3316,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),9481,38602408,80,201480,842,886
+2025-03-24 11:34:05,3384,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\Servicio de red,2025-03-24 09:21:32,960 (services.exe),9,4314,0,0,49092,3592826
+2025-03-24 11:34:05,3476,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 11:25:58,16688 (chrome.exe),4769,1224992,7072,5361823,164,15056
+2025-03-24 11:34:05,3488,WUDFHost.exe,C:\Windows\System32\WUDFHost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),1084,5759942,36,3408,136918,15541420
+2025-03-24 11:34:05,3552,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:33,960 (services.exe),0,0,0,0,284,12206
+2025-03-24 11:34:05,3596,NVDisplay.Container.exe,C:\Windows\System32\DriverStore\FileRepository\nvmi.inf_amd64_ca70e03e74b1e469\Display.NvContainer\NVDisplay.Container.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,2784 (NVDisplay.Container.exe),307,30105522,341,317897,5273,225805
+2025-03-24 11:34:05,3656,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),5115,41659100,143,1957912,411,44420
+2025-03-24 11:34:05,3780,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,988,40222
+2025-03-24 11:34:05,3820,WmiPrvSE.exe,C:\Windows\System32\wbem\WmiPrvSE.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,1084 (svchost.exe),16,5491020,3,356,26946,410958
+2025-03-24 11:34:05,4052,dasHost.exe,C:\Windows\System32\dasHost.exe,NT AUTHORITY\Servicio de red,2025-03-24 09:21:33,2964 (svchost.exe),0,0,0,0,24,110
+2025-03-24 11:34:05,4136,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 11:26:11,16688 (chrome.exe),404,152408,235,72874,164,15056
+2025-03-24 11:34:05,4180,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:33,960 (services.exe),0,0,0,0,2272,63810
+2025-03-24 11:34:05,4284,wlanext.exe,C:\Windows\System32\wlanext.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,4588 (svchost.exe),35,2248,0,0,120,6274
+2025-03-24 11:34:05,4296,conhost.exe,C:\Windows\System32\conhost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,4284 (wlanext.exe),0,0,0,0,51,1806
+2025-03-24 11:34:05,4348,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:33,960 (services.exe),0,0,0,0,901,72186
+2025-03-24 11:34:05,4352,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:33,960 (services.exe),0,0,0,0,1936,50942
+2025-03-24 11:34:05,4380,vpnagent.exe,C:\Program Files (x86)\Cisco\Cisco AnyConnect Secure Mobility Client\vpnagent.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),41,572873,0,0,2433,99481
+2025-03-24 11:34:05,4400,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),16,2599317,50,4998,1156,21985
+2025-03-24 11:34:05,4452,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:35,16688 (chrome.exe),266912,224779264,591980,457922623,116400,1145853
+2025-03-24 11:34:05,4480,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:44:23,15596 (Code.exe),198282,141131400,171586,814929586,69140,1309545
+2025-03-24 11:34:05,4564,WmiPrvSE.exe,C:\Windows\System32\wbem\WmiPrvSE.exe,NT AUTHORITY\Servicio de red,2025-03-24 09:21:33,1084 (svchost.exe),6157,33265399,1485,142344,54762,894124
+2025-03-24 11:34:05,4588,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),1226,282509,1,160,1725,278571
+2025-03-24 11:34:05,4596,RuntimeBroker.exe,C:\Windows\System32\RuntimeBroker.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:37:27,1084 (svchost.exe),0,0,0,0,50,864
+2025-03-24 11:34:05,4744,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:33,960 (services.exe),0,0,1,32768,34163,2679970
+2025-03-24 11:34:05,4936,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),0,0,0,0,4107,382572
+2025-03-24 11:34:05,4948,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:34,16688 (chrome.exe),252,9144,216,2592,1065,7686
+2025-03-24 11:34:05,5112,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),1,0,0,0,2975,895340
+2025-03-24 11:34:05,5140,spoolsv.exe,C:\Windows\System32\spoolsv.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),12,12847,2,320,1584,147509
+2025-03-24 11:34:05,5188,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\Servicio de red,2025-03-24 09:21:33,960 (services.exe),434,26632,309,38444,4718,279726
+2025-03-24 11:34:05,5252,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:36,960 (services.exe),264,5392,0,0,124,3262
+2025-03-24 11:34:05,5264,ctfmon.exe,C:\Windows\System32\ctfmon.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:37,5252 (svchost.exe),1147,4564487,0,0,9452,36738
+2025-03-24 11:34:05,5328,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:37,960 (services.exe),18,121505,0,0,50582,2015140
+2025-03-24 11:34:05,5360,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),249,18062041,763,1542177,16224,1091512
+2025-03-24 11:34:05,5368,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:33,960 (services.exe),674,209841124,22102,96993418,36761,3116248
+2025-03-24 11:34:05,5376,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\Servicio de red,2025-03-24 09:21:33,960 (services.exe),1713,1347492,97,152050,7697,431932
+2025-03-24 11:34:05,5384,DSAService.exe,C:\Program Files (x86)\Intel\Driver and Support Assistant\DSAService.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),678,4532039,6139,12526701,503671,173459103
+2025-03-24 11:34:05,5392,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:33,960 (services.exe),0,0,0,0,91,1112
+2025-03-24 11:34:05,5400,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),0,0,0,0,80454,4062486
+2025-03-24 11:34:05,5420,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),45,23040,0,0,153,2534
+2025-03-24 11:34:05,5436,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),700,2871096,89,181440,521,14886
+2025-03-24 11:34:05,5452,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:33,960 (services.exe),0,0,129,19937,132,9402
+2025-03-24 11:34:05,5520,MSIService.exe,C:\Windows\SysWOW64\MSIService.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),0,0,0,0,61,88
+2025-03-24 11:34:05,5528,MSI_Central_Service.exe,C:\Program Files (x86)\MSI\One Dragon Center\MSI_Central_Service.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),0,0,4,164,958,12204
+2025-03-24 11:34:05,5536,DSAUpdateService.exe,C:\Program Files (x86)\Intel\Driver and Support Assistant\DSAUpdateService.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),111,265310,14,2555,2764,63096
+2025-03-24 11:34:05,5544,Sendevsvc.exe,C:\Program Files (x86)\MSI\MSI NBFoundation Service\Sendevsvc.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),147,840096,42,50232,9427,330126
+2025-03-24 11:34:05,5552,ArcControlService.exe,C:\Program Files\Intel\Intel Arc Control\ArcControlService.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),285,2552401,292,40396,1546,9318
+2025-03-24 11:34:05,5564,Mystic_Light_Service.exe,C:\Program Files (x86)\MSI\One Dragon Center\Mystic_Light\Mystic_Light_Service.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),15,56090,0,0,419,6566
+2025-03-24 11:34:05,5576,MSIAPService.exe,C:\Program Files (x86)\MSI\MSI NBFoundation Service\MSIAPService.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),64,62473,105,12501,1530,13250
+2025-03-24 11:34:05,5592,OneApp.IGCC.WinService.exe,C:\Windows\System32\DriverStore\FileRepository\igcc_dch.inf_amd64_8b07a004bf9bbf23\OneApp.IGCC.WinService.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),145,303822,14,996,1824,31696
+2025-03-24 11:34:05,5616,esif_uf.exe,C:\Windows\System32\DriverStore\FileRepository\dptf_cpu.inf_amd64_4ce8bafd96682424\esif_uf.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),27,1640,43,2504,127,1616
+2025-03-24 11:34:05,5628,jhi_service.exe,C:\Windows\System32\DriverStore\FileRepository\dal.inf_amd64_af50fdb80983f7bc\jhi_service.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),0,0,0,0,47,522
+2025-03-24 11:34:05,5652,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\Servicio de red,2025-03-24 09:21:33,960 (services.exe),0,0,0,0,167,4362
+2025-03-24 11:34:05,5660,RuntimeBroker.exe,C:\Windows\System32\RuntimeBroker.exe,DESKTOP-AOEVUGH\arman,2025-03-24 11:05:56,1084 (svchost.exe),1,13506,0,0,824,14066
+2025-03-24 11:34:05,5672,MsMpEng.exe,C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.25010.11-0\MsMpEng.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),41338,2622406247,8436,637905733,979800,144786173
+2025-03-24 11:34:05,5680,HPPrintScanDoctorService.exe,C:\Program Files\HPPrintScanDoctor\HPPrintScanDoctorService.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),73,6555918,1,306,2177,93892
+2025-03-24 11:34:06,5688,IntelAudioService.exe,C:\Windows\System32\DriverStore\FileRepository\intcoed.inf_amd64_625d5a9ea859462f\AS\IAS\IntelAudioService.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),159,414550,0,0,2392,45721
+2025-03-24 11:34:06,5704,nvWmi64.exe,C:\Windows\System32\DriverStore\FileRepository\nvmi.inf_amd64_ca70e03e74b1e469\NVWMI\nvWmi64.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),91,819225,75,596138,167,2540
+2025-03-24 11:34:06,5712,MpDefenderCoreService.exe,C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.25010.11-0\MpDefenderCoreService.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),567,7512075,21,27337,31666,501824
+2025-03-24 11:34:06,5780,WMIRegistrationService.exe,C:\Windows\System32\DriverStore\FileRepository\mewmiprov.inf_amd64_d51901c26227fb29\WMIRegistrationService.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),0,0,0,0,699,11858
+2025-03-24 11:34:06,5788,RtkAudUService64.exe,C:\Windows\System32\DriverStore\FileRepository\realtekservice.inf_amd64_3cf99e411755df38\RtkAudUService64.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),0,0,0,0,3323,93823
+2025-03-24 11:34:06,5812,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),911,60104,608,101692,2828,11386
+2025-03-24 11:34:06,5836,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:23:02,960 (services.exe),4,87363,2,8192,2413,155113
+2025-03-24 11:34:06,5880,MoUsoCoreWorker.exe,C:\Windows\System32\MoUsoCoreWorker.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:23:02,1084 (svchost.exe),5276,8589483,1647,3368302,16302,431861
+2025-03-24 11:34:06,5896,OfficeClickToRun.exe,C:\Program Files\Common Files\microsoft shared\ClickToRun\OfficeClickToRun.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),3255,8759537,26,667997,37835,1374043
+2025-03-24 11:34:06,5908,UserOOBEBroker.exe,C:\Windows\System32\oobe\UserOOBEBroker.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:23:02,1084 (svchost.exe),0,0,0,0,134,540
+2025-03-24 11:34:06,6080,LMS.exe,C:\Windows\System32\DriverStore\FileRepository\lms.inf_amd64_fddb643595e0b8d0\LMS.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),3,54,106,8301,105,319
+2025-03-24 11:34:06,6112,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:33,960 (services.exe),0,0,0,0,478,39006
+2025-03-24 11:34:06,6136,RuntimeBroker.exe,C:\Windows\System32\RuntimeBroker.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:30:49,1084 (svchost.exe),24,130475,2,248,3361,32838
+2025-03-24 11:34:06,6320,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),4,464,4,640,401,19236
+2025-03-24 11:34:06,6532,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:44:23,15596 (Code.exe),1504,2205729,3423,1330053,4151,108497
+2025-03-24 11:34:06,6736,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 11:00:17,4480 (Code.exe),5444,97595879,1391,388554,1971,31858
+2025-03-24 11:34:06,6892,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:44:22,15596 (Code.exe),50,8168,16,192,680,9248
+2025-03-24 11:34:06,6952,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:44:24,15596 (Code.exe),661,1748938,3278,13696922,2769,73614
+2025-03-24 11:34:06,7004,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:40:13,17100 (msedge.exe),35,6306,20,240,181,1192
+2025-03-24 11:34:06,7040,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:44:23,15596 (Code.exe),591546,792905976,603037,1613374984,230,15060
+2025-03-24 11:34:06,7140,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:35,16688 (chrome.exe),76200,21088168,78020,8861136,167,14340
+2025-03-24 11:34:06,7160,SearchIndexer.exe,C:\Windows\System32\SearchIndexer.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:34,960 (services.exe),3919,13140750,3000,4929244,43286,13354378
+2025-03-24 11:34:06,7192,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:44:25,4480 (Code.exe),3852,9955584,637,739870,2494,29444
+2025-03-24 11:34:06,7224,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:40:13,17100 (msedge.exe),1320,8775013,68,83192,585,33296
+2025-03-24 11:34:06,7408,msedgewebview2.exe,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\134.0.3124.83\msedgewebview2.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:40,13628 (msedgewebview2.exe),5010,12559582,2229,661413,1459,65254
+2025-03-24 11:34:06,7412,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:40:13,17100 (msedge.exe),1925,5958734,3745,2039436,2956,54227
+2025-03-24 11:34:06,7456,Video.UI.exe,C:\Program Files\WindowsApps\Microsoft.ZuneVideo_10.25011.10061.0_x64__8wekyb3d8bbwe\Video.UI.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:51:39,1084 (svchost.exe),349,14542191,59,257010,1812,28166
+2025-03-24 11:34:06,7528,SecurityHealthService.exe,C:\Windows\System32\SecurityHealthService.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:49,960 (services.exe),0,0,1,4096,667,4624
+2025-03-24 11:34:06,7532,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:44:23,15596 (Code.exe),320932,1577039314,281125,32333484,72390,2862026
+2025-03-24 11:34:06,7576,SystemSettings.exe,C:\Windows\ImmersiveControlPanel\SystemSettings.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:52:27,1084 (svchost.exe),46,49969,4,40,1700,18114
+2025-03-24 11:34:06,7752,taskhostw.exe,C:\Windows\System32\taskhostw.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:36,1904 (svchost.exe),36,1918916,924,21761500,9058,106036
+2025-03-24 11:34:06,8116,dllhost.exe,C:\Windows\System32\dllhost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:34,1084 (svchost.exe),25,1605632,44,905216,732,22828
+2025-03-24 11:34:06,8264,conhost.exe,C:\Windows\System32\conhost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:44:25,6952 (Code.exe),2,0,3,246,215,9735
+2025-03-24 11:34:06,8308,AggregatorHost.exe,C:\Windows\System32\AggregatorHost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:36,5360 (svchost.exe),4,183,0,0,345,9324
+2025-03-24 11:34:06,8608,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:40:13,17100 (msedge.exe),224,391597,125,93334,86,10896
+2025-03-24 11:34:06,8724,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:36,960 (services.exe),1,63942,0,0,12065,524148
+2025-03-24 11:34:06,8776,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:41:52,960 (services.exe),33,888832,29,147456,884,18382
+2025-03-24 11:34:06,8916,nvWmi64.exe,C:\Windows\System32\DriverStore\FileRepository\nvmi.inf_amd64_ca70e03e74b1e469\NVWMI\nvWmi64.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:36,5704 (nvWmi64.exe),1,1,0,0,491,118812
+2025-03-24 11:34:06,8944,sihost.exe,C:\Windows\System32\sihost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:36,2456 (svchost.exe),237,970752,0,0,12112,697970
+2025-03-24 11:34:06,9020,svchost.exe,C:\Windows\System32\svchost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:36,960 (services.exe),96061,393505271,4851,10613321,11860,443330
+2025-03-24 11:34:06,9028,svchost.exe,C:\Windows\System32\svchost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:36,960 (services.exe),0,0,0,0,288,220414
+2025-03-24 11:34:06,9068,PresentationFontCache.exe,C:\Windows\Microsoft.NET\Framework64\v3.0\WPF\PresentationFontCache.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:36,960 (services.exe),19,827314,0,0,310,3446
+2025-03-24 11:34:06,9084,svchost.exe,C:\Windows\System32\svchost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:36,960 (services.exe),285,1163364,5401,11400944,1219,46373
+2025-03-24 11:34:06,9128,explorer.exe,C:\Windows\explorer.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:37,N/A,86345,51528577,2880,4339803,104456,3473311
+2025-03-24 11:34:06,9144,taskhostw.exe,C:\Windows\System32\taskhostw.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:36,1904 (svchost.exe),10,17251,2,188,574,5656
+2025-03-24 11:34:06,9208,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:40:25,17100 (msedge.exe),95,88520,104,95288,116,11940
+2025-03-24 11:34:06,9224,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:37,960 (services.exe),58,28420,8,36116,11463,361118
+2025-03-24 11:34:06,9364,igfxEMN.exe,C:\Windows\System32\DriverStore\FileRepository\cui_dch.inf_amd64_8f68d4f94f46f7aa\igfxEMN.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:37,2308 (igfxCUIServiceN.exe),0,0,3,25308,28982,12333944
+2025-03-24 11:34:06,9512,StartMenuExperienceHost.exe,C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\StartMenuExperienceHost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:38,1084 (svchost.exe),128,311227,53,22628,1532,15164
+2025-03-24 11:34:06,9912,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 11:22:13,960 (services.exe),25,3062320,6,49428,1632,77816
+2025-03-24 11:34:06,9972,svchost.exe,C:\Windows\System32\svchost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:37,960 (services.exe),0,0,0,0,312,3396
+2025-03-24 11:34:06,10188,MSI.CentralServer.exe,C:\Program Files (x86)\MSI\One Dragon Center\MSI.CentralServer.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:38,5528 (MSI_Central_Service.exe),323,1048981,992,11673939,18114,520971
+2025-03-24 11:34:06,10228,conhost.exe,C:\Windows\System32\conhost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:38,10188 (MSI.CentralServer.exe),0,0,0,0,380,28418
+2025-03-24 11:34:06,10300,RuntimeBroker.exe,C:\Windows\System32\RuntimeBroker.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:38,1084 (svchost.exe),30,152687,2,248,11022,125530
+2025-03-24 11:34:06,10336,audiodg.exe,C:\Windows\System32\audiodg.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 11:33:45,4180 (svchost.exe),0,0,0,0,561,16158
+2025-03-24 11:34:06,10396,WhatsApp.exe,C:\Program Files\WindowsApps\5319275A.WhatsAppDesktop_2.2509.4.0_x64__cv1g1gvanyjgm\WhatsApp.exe,DESKTOP-AOEVUGH\arman,2025-03-24 11:05:55,1084 (svchost.exe),3606,12595377,148,299720,2838,72608
+2025-03-24 11:34:06,10488,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:38,960 (services.exe),3,36,0,0,11678,290172
+2025-03-24 11:34:06,10648,SearchApp.exe,C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\SearchApp.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:38,1084 (svchost.exe),5936,35675702,2735,20472570,15645,1489226
+2025-03-24 11:34:06,10692,powershell.exe,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:44:25,6952 (Code.exe),171,487783,4,143,3812,61096
+2025-03-24 11:34:06,10848,RuntimeBroker.exe,C:\Windows\System32\RuntimeBroker.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:39,1084 (svchost.exe),44525,5866579,3,408,8322,609706
+2025-03-24 11:34:06,11200,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:39,960 (services.exe),12,144024,1,16466,1330,113367
+2025-03-24 11:34:06,11816,RuntimeBroker.exe,C:\Windows\System32\RuntimeBroker.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:39,1084 (svchost.exe),93034,17590785,9,288,11604,833224
+2025-03-24 11:34:06,11996,NisSrv.exe,C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.25010.11-0\NisSrv.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:42,960 (services.exe),0,0,0,0,631,2818
+2025-03-24 11:34:06,12224,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:38,16688 (chrome.exe),695,258224,744,514540,168,14944
+2025-03-24 11:34:06,12364,SoundTune.exe,C:\Program Files (x86)\MSI\One Dragon Center\Sound Tune\SoundTune.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:53,1904 (svchost.exe),67,232514,17,883,1573,33994
+2025-03-24 11:34:06,12500,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:44:23,15596 (Code.exe),218,1209490,303,1225208,19968,423056
+2025-03-24 11:34:06,12676,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:44,960 (services.exe),5,1640,0,0,201,546
+2025-03-24 11:34:06,12712,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:40:25,17100 (msedge.exe),2087,2121272,2664,5685339,121,12032
+2025-03-24 11:34:06,12848,RtkAudUService64.exe,C:\Windows\System32\DriverStore\FileRepository\realtekservice.inf_amd64_3cf99e411755df38\RtkAudUService64.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:50,9128 (explorer.exe),0,0,0,0,2468,33033
+2025-03-24 11:34:06,12900,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:35,16688 (chrome.exe),41304,36440306,27226,33784593,593,15280
+2025-03-24 11:34:06,13028,PhoneExperienceHost.exe,C:\Program Files\WindowsApps\Microsoft.YourPhone_1.25021.67.0_x64__8wekyb3d8bbwe\PhoneExperienceHost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:49,1084 (svchost.exe),302,574053,1,8,4367,152068
+2025-03-24 11:34:06,13036,CompPkgSrv.exe,C:\Windows\System32\CompPkgSrv.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:21,1084 (svchost.exe),0,0,0,0,37,244
+2025-03-24 11:34:06,13184,SecurityHealthSystray.exe,C:\Windows\System32\SecurityHealthSystray.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:49,9128 (explorer.exe),0,0,0,0,80,798
+2025-03-24 11:34:06,13248,Rechner + UWP.exe,C:\Program Files\WindowsApps\14385JonasZoche.Rechner_4.1.9019.0_x64__7yjengah4ymn8\Rechner + UWP.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:37:26,1084 (svchost.exe),761,96462,23,11250,920,7140
+2025-03-24 11:34:06,13408,dllhost.exe,C:\Windows\System32\dllhost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:50,1084 (svchost.exe),142,8294400,301,9134080,2157,58516
+2025-03-24 11:34:06,13432,powershell.exe,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,DESKTOP-AOEVUGH\arman,2025-03-24 11:20:27,6952 (Code.exe),172,537675,382,20585,10954,145512
+2025-03-24 11:34:06,13628,msedgewebview2.exe,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\134.0.3124.83\msedgewebview2.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:39,17120 (SearchApp.exe),8627,17952697,6521,17169566,45253,3185565
+2025-03-24 11:34:06,13740,svchost.exe,C:\Windows\System32\svchost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:23:23,960 (services.exe),126,7208964,17,294916,867,9540
+2025-03-24 11:34:06,13772,Canva.exe,C:\Users\arman\AppData\Local\Programs\Canva\Canva.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:53,N/A,7,538329,0,0,366,5020
+2025-03-24 11:34:06,13812,msedgewebview2.exe,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\134.0.3124.83\msedgewebview2.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:40,13628 (msedgewebview2.exe),765,2858816,1200,497626,2268,53952
+2025-03-24 11:34:06,13908,msedgewebview2.exe,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\134.0.3124.83\msedgewebview2.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:40,13628 (msedgewebview2.exe),146,907215,105,562863,90,11190
+2025-03-24 11:34:06,14152,Canva.exe,C:\Users\arman\AppData\Local\Programs\Canva\Canva.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:52,N/A,4,144,4,48,307,1028
+2025-03-24 11:34:06,14352,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:55,960 (services.exe),10,40960,18,122880,6292,119984
+2025-03-24 11:34:06,14640,Start_HDR.exe,C:\Program Files (x86)\MSI\One Dragon Center\Base Module\Start_HDR.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:00,1904 (svchost.exe),38,134262,5,78134,501,8748
+2025-03-24 11:34:06,15172,IGCC.exe,C:\Program Files\WindowsApps\AppUp.IntelGraphicsExperience_1.100.5688.0_x64__8j3eq9eme6ctt\IGCC.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:58,1084 (svchost.exe),470,20987,25,11390,846,9556
+2025-03-24 11:34:06,15224,IGCCTray.exe,C:\Program Files\WindowsApps\AppUp.IntelGraphicsExperience_1.100.5688.0_x64__8j3eq9eme6ctt\GCP.ML.BackgroundSysTray\IGCCTray.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:57,9128 (explorer.exe),739,1025915,35,3998,3998,53848
+2025-03-24 11:34:06,15376,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:46,16688 (chrome.exe),464,14211518,414,72104,1116,22348
+2025-03-24 11:34:06,15408,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:46,16688 (chrome.exe),1939,65652,2067,89404,634,36640
+2025-03-24 11:34:06,15420,conhost.exe,C:\Windows\System32\conhost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 11:20:27,6952 (Code.exe),27,794,64,7775,7703,552603
+2025-03-24 11:34:06,15532,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:23:37,960 (services.exe),1,116,1,160,684,594
+2025-03-24 11:34:06,15596,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:44:22,9128 (explorer.exe),167015,101429455,83035,55352655,47290,1321568
+2025-03-24 11:34:06,15628,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:23:36,960 (services.exe),1,116,1,160,612,21346
+2025-03-24 11:34:06,15868,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:22:07,960 (services.exe),0,0,0,0,550,341270
+2025-03-24 11:34:06,15992,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:44:27,4480 (Code.exe),23323,132291054,3791,2622066,88243,3811666
+2025-03-24 11:34:06,16624,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:38,16688 (chrome.exe),1092,1007720,1495,852636,168,14754
+2025-03-24 11:34:06,16688,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:34,9128 (explorer.exe),937335,1108922148,668554,690776615,276547,12762630
+2025-03-24 11:34:06,16812,LockApp.exe,C:\Windows\SystemApps\Microsoft.LockApp_cw5n1h2txyewy\LockApp.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:30:49,1084 (svchost.exe),94,45525,36,19929,934,9002
+2025-03-24 11:34:06,17088,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:35,16688 (chrome.exe),94802,11288080,137616,139139140,168,14340
+2025-03-24 11:34:06,17100,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:40:13,N/A,8166,40377115,5440,18351007,46799,3037674
+2025-03-24 11:34:06,17120,SearchApp.exe,C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\SearchApp.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:39,1084 (svchost.exe),342,837158,292,880296,1797,25834
+2025-03-24 11:34:06,17176,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:44:23,15596 (Code.exe),5309,70586625,1631,7102692,47511,4116142
+2025-03-24 11:34:06,17256,TextInputHost.exe,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:38,1084 (svchost.exe),8,45443,1,8,769,4504
+2025-03-24 11:34:06,17356,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:35,16688 (chrome.exe),600286,1605510330,531973,62441977,97101,3822170
+2025-03-24 11:34:06,17380,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:38,16688 (chrome.exe),80983,15409722,89765,161524781,169,14784
+2025-03-24 11:34:06,17396,msedgewebview2.exe,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\134.0.3124.83\msedgewebview2.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:40,13628 (msedgewebview2.exe),2176,1842937,2470,3434180,125,12698
+2025-03-24 11:34:11,4,System,,NT AUTHORITY\SYSTEM,2025-03-24 09:21:19,0 (System Idle Process),317,66738492,3225,486526468,103224,3888758
+2025-03-24 11:34:11,172,Registry,Registry,NT AUTHORITY\SYSTEM,2025-03-24 09:21:13,N/A,4,16384,4061,157360128,318,3859
+2025-03-24 11:34:11,632,smss.exe,C:\Windows\System32\smss.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:19,4 (System),22,16804,15,66032,556,13540
+2025-03-24 11:34:11,680,csrss.exe,C:\Windows\System32\csrss.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:31,N/A,206765,5502464,0,0,18212,393330
+2025-03-24 11:34:11,696,wininit.exe,C:\Windows\System32\wininit.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:31,N/A,3,17924,0,0,354,2858
+2025-03-24 11:34:11,836,csrss.exe,C:\Windows\System32\csrss.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:29,N/A,537,424141,0,0,11051,270925
+2025-03-24 11:34:11,960,services.exe,C:\Windows\System32\services.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:31,696 (wininit.exe),3,8308,1,160,7558,161880
+2025-03-24 11:34:11,984,lsass.exe,C:\Windows\System32\lsass.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:31,696 (wininit.exe),1633,175456,907,242882,119484,9724349
+2025-03-24 11:34:11,1084,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:31,960 (services.exe),59,180294,1,65536,62640,3866012
+2025-03-24 11:34:11,1136,winlogon.exe,C:\Windows\System32\winlogon.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:31,N/A,4,18064,0,0,310,236966
+2025-03-24 11:34:11,1156,fontdrvhost.exe,C:\Windows\System32\fontdrvhost.exe,Font Driver Host\UMFD-0,2025-03-24 09:21:31,696 (wininit.exe),0,0,0,0,30,744
+2025-03-24 11:34:11,1220,fontdrvhost.exe,C:\Windows\System32\fontdrvhost.exe,Font Driver Host\UMFD-1,2025-03-24 09:21:31,1136 (winlogon.exe),0,0,0,0,129,3218
+2025-03-24 11:34:11,1280,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\Servicio de red,2025-03-24 09:21:31,960 (services.exe),31,126976,0,0,7209,520940
+2025-03-24 11:34:11,1332,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:31,960 (services.exe),0,0,0,0,103,396
+2025-03-24 11:34:11,1400,dwm.exe,C:\Windows\System32\dwm.exe,Window Manager\DWM-1,2025-03-24 09:21:32,1136 (winlogon.exe),27,109658,0,0,2863,139208
+2025-03-24 11:34:11,1612,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,28,110
+2025-03-24 11:34:11,1620,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,240,15447
+2025-03-24 11:34:11,1628,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,25,238
+2025-03-24 11:34:11,1636,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,251,13460
+2025-03-24 11:34:11,1644,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,543,46952
+2025-03-24 11:34:11,1700,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 10:51:17,960 (services.exe),3,42720,0,0,152,16686
+2025-03-24 11:34:11,1736,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,229,8600
+2025-03-24 11:34:11,1744,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,67,302
+2025-03-24 11:34:11,1852,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),31441,127187712,1102,36040872,5733,106286
+2025-03-24 11:34:11,1904,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),28,9396,548,17191370,8960,2461078
+2025-03-24 11:34:11,1932,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,103,4646
+2025-03-24 11:34:11,1944,IntelCpHDCPSvc.exe,C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_6b10ae7f2f9034c5\IntelCpHDCPSvc.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),1,20,1,16,23,244
+2025-03-24 11:34:11,1972,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),15,70,0,0,113,4262
+2025-03-24 11:34:11,1988,python.exe,C:\Users\arman\AppData\Local\Programs\Python\Python312\python.exe,DESKTOP-AOEVUGH\arman,2025-03-24 11:33:48,13432 (powershell.exe),102,1241892,20,155339,2278,210262
+2025-03-24 11:34:11,1992,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),34,714,0,0,41,582
+2025-03-24 11:34:11,2096,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),2,8192,0,0,51734,1649768
+2025-03-24 11:34:11,2192,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),180,3620,0,0,118,2622
+2025-03-24 11:34:11,2200,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,2569,98078
+2025-03-24 11:34:11,2208,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 11:26:12,16688 (chrome.exe),59,63904,83,38528,162,15056
+2025-03-24 11:34:11,2252,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,1310,109638
+2025-03-24 11:34:11,2308,igfxCUIServiceN.exe,C:\Windows\System32\DriverStore\FileRepository\cui_dch.inf_amd64_8f68d4f94f46f7aa\igfxCUIServiceN.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),72,1448,0,0,177,2478
+2025-03-24 11:34:11,2348,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,119,626
+2025-03-24 11:34:11,2456,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,125,1628
+2025-03-24 11:34:11,2468,WUDFHost.exe,C:\Windows\System32\WUDFHost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),1,1644,16,1646,372,4458
+2025-03-24 11:34:11,2628,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\Servicio de red,2025-03-24 09:21:32,960 (services.exe),2,232,2,320,33158,2250703
+2025-03-24 11:34:11,2636,ApplicationFrameHost.exe,C:\Windows\System32\ApplicationFrameHost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:23:01,1084 (svchost.exe),130,67272,1,8,620,9366
+2025-03-24 11:34:11,2644,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,216,412798
+2025-03-24 11:34:11,2668,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,2596,123294
+2025-03-24 11:34:11,2692,RuntimeBroker.exe,C:\Windows\System32\RuntimeBroker.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:51:40,1084 (svchost.exe),0,0,0,0,140,3082
+2025-03-24 11:34:11,2740,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,48,142
+2025-03-24 11:34:11,2748,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:22:05,960 (services.exe),374,833956,0,0,818,62762
+2025-03-24 11:34:11,2764,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),0,0,20,7200,5845,151158
+2025-03-24 11:34:11,2784,NVDisplay.Container.exe,C:\Windows\System32\DriverStore\FileRepository\nvmi.inf_amd64_ca70e03e74b1e469\Display.NvContainer\NVDisplay.Container.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),46,3677209,209,32165,2504,37390
+2025-03-24 11:34:11,2896,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,24587,1988870
+2025-03-24 11:34:11,2956,msedgewebview2.exe,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\134.0.3124.83\msedgewebview2.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:39,13628 (msedgewebview2.exe),13,1636,6,72,76,1056
+2025-03-24 11:34:11,2964,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,142,2054
+2025-03-24 11:34:11,3024,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),3,313138,584,7201752,10489,153642
+2025-03-24 11:34:11,3032,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,36,110
+2025-03-24 11:34:11,3124,MemCompression,MemCompression,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,4 (System),0,0,0,0,0,0
+2025-03-24 11:34:11,3164,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,186,2466
+2025-03-24 11:34:11,3208,dasHost.exe,C:\Windows\System32\dasHost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,2964 (svchost.exe),0,0,0,0,42,110
+2025-03-24 11:34:11,3308,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,17658,786170
+2025-03-24 11:34:11,3316,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),9481,38602408,80,201480,842,886
+2025-03-24 11:34:11,3384,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\Servicio de red,2025-03-24 09:21:32,960 (services.exe),9,4314,0,0,49092,3592826
+2025-03-24 11:34:11,3476,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 11:25:58,16688 (chrome.exe),4769,1224992,7072,5361823,164,15056
+2025-03-24 11:34:11,3488,WUDFHost.exe,C:\Windows\System32\WUDFHost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),1084,5759942,36,3408,137005,15551459
+2025-03-24 11:34:11,3552,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:33,960 (services.exe),0,0,0,0,284,12206
+2025-03-24 11:34:11,3596,NVDisplay.Container.exe,C:\Windows\System32\DriverStore\FileRepository\nvmi.inf_amd64_ca70e03e74b1e469\Display.NvContainer\NVDisplay.Container.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,2784 (NVDisplay.Container.exe),307,30105522,341,317897,5273,225805
+2025-03-24 11:34:11,3656,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,960 (services.exe),5115,41659100,143,1957912,411,44420
+2025-03-24 11:34:11,3780,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:32,960 (services.exe),0,0,0,0,988,40222
+2025-03-24 11:34:11,3820,WmiPrvSE.exe,C:\Windows\System32\wbem\WmiPrvSE.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:32,1084 (svchost.exe),16,5491020,3,356,26946,410958
+2025-03-24 11:34:11,4052,dasHost.exe,C:\Windows\System32\dasHost.exe,NT AUTHORITY\Servicio de red,2025-03-24 09:21:33,2964 (svchost.exe),0,0,0,0,24,110
+2025-03-24 11:34:11,4136,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 11:26:11,16688 (chrome.exe),404,152408,235,72874,164,15056
+2025-03-24 11:34:11,4180,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:33,960 (services.exe),0,0,0,0,2272,63810
+2025-03-24 11:34:11,4284,wlanext.exe,C:\Windows\System32\wlanext.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,4588 (svchost.exe),35,2248,0,0,120,6274
+2025-03-24 11:34:11,4296,conhost.exe,C:\Windows\System32\conhost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,4284 (wlanext.exe),0,0,0,0,51,1806
+2025-03-24 11:34:11,4348,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:33,960 (services.exe),0,0,0,0,901,72186
+2025-03-24 11:34:11,4352,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:33,960 (services.exe),0,0,0,0,1936,50942
+2025-03-24 11:34:11,4380,vpnagent.exe,C:\Program Files (x86)\Cisco\Cisco AnyConnect Secure Mobility Client\vpnagent.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),41,572873,0,0,2433,99481
+2025-03-24 11:34:11,4400,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),16,2599317,50,4998,1156,21985
+2025-03-24 11:34:11,4452,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:35,16688 (chrome.exe),266915,224779600,591983,457922959,116400,1145853
+2025-03-24 11:34:11,4480,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:44:23,15596 (Code.exe),199383,141343717,172548,819023815,69986,1317599
+2025-03-24 11:34:11,4564,WmiPrvSE.exe,C:\Windows\System32\wbem\WmiPrvSE.exe,NT AUTHORITY\Servicio de red,2025-03-24 09:21:33,1084 (svchost.exe),6157,33265399,1485,142344,54762,894124
+2025-03-24 11:34:11,4588,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),1226,282509,1,160,1725,278571
+2025-03-24 11:34:11,4596,RuntimeBroker.exe,C:\Windows\System32\RuntimeBroker.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:37:27,1084 (svchost.exe),0,0,0,0,50,864
+2025-03-24 11:34:11,4744,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:33,960 (services.exe),0,0,1,32768,34163,2679970
+2025-03-24 11:34:11,4936,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),0,0,0,0,4107,382572
+2025-03-24 11:34:11,4948,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:34,16688 (chrome.exe),252,9144,216,2592,1065,7686
+2025-03-24 11:34:11,5112,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),1,0,0,0,2975,895340
+2025-03-24 11:34:11,5140,spoolsv.exe,C:\Windows\System32\spoolsv.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),12,12847,2,320,1584,147509
+2025-03-24 11:34:11,5188,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\Servicio de red,2025-03-24 09:21:33,960 (services.exe),434,26632,309,38444,4718,279726
+2025-03-24 11:34:11,5252,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:36,960 (services.exe),264,5392,0,0,124,3262
+2025-03-24 11:34:11,5264,ctfmon.exe,C:\Windows\System32\ctfmon.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:37,5252 (svchost.exe),1147,4564487,0,0,9473,36738
+2025-03-24 11:34:11,5328,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:37,960 (services.exe),18,121505,0,0,50582,2015140
+2025-03-24 11:34:11,5360,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),249,18062041,763,1542177,16224,1091512
+2025-03-24 11:34:11,5368,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:33,960 (services.exe),674,209841124,22102,96993418,36761,3116248
+2025-03-24 11:34:11,5376,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\Servicio de red,2025-03-24 09:21:33,960 (services.exe),1713,1347492,97,152050,7697,431932
+2025-03-24 11:34:11,5384,DSAService.exe,C:\Program Files (x86)\Intel\Driver and Support Assistant\DSAService.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),678,4532039,6139,12526701,503671,173459103
+2025-03-24 11:34:11,5392,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:33,960 (services.exe),0,0,0,0,91,1112
+2025-03-24 11:34:11,5400,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),0,0,0,0,80454,4062486
+2025-03-24 11:34:11,5420,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),45,23040,0,0,153,2534
+2025-03-24 11:34:11,5436,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),700,2871096,89,181440,521,14886
+2025-03-24 11:34:11,5452,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:33,960 (services.exe),0,0,129,19937,132,9402
+2025-03-24 11:34:11,5520,MSIService.exe,C:\Windows\SysWOW64\MSIService.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),0,0,0,0,61,88
+2025-03-24 11:34:11,5528,MSI_Central_Service.exe,C:\Program Files (x86)\MSI\One Dragon Center\MSI_Central_Service.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),0,0,4,164,958,12204
+2025-03-24 11:34:11,5536,DSAUpdateService.exe,C:\Program Files (x86)\Intel\Driver and Support Assistant\DSAUpdateService.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),111,265310,14,2555,2764,63096
+2025-03-24 11:34:11,5544,Sendevsvc.exe,C:\Program Files (x86)\MSI\MSI NBFoundation Service\Sendevsvc.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),147,840096,42,50232,9427,330126
+2025-03-24 11:34:11,5552,ArcControlService.exe,C:\Program Files\Intel\Intel Arc Control\ArcControlService.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),285,2552401,292,40396,1546,9318
+2025-03-24 11:34:11,5564,Mystic_Light_Service.exe,C:\Program Files (x86)\MSI\One Dragon Center\Mystic_Light\Mystic_Light_Service.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),15,56090,0,0,419,6566
+2025-03-24 11:34:11,5576,MSIAPService.exe,C:\Program Files (x86)\MSI\MSI NBFoundation Service\MSIAPService.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),64,62473,105,12501,1530,13250
+2025-03-24 11:34:11,5592,OneApp.IGCC.WinService.exe,C:\Windows\System32\DriverStore\FileRepository\igcc_dch.inf_amd64_8b07a004bf9bbf23\OneApp.IGCC.WinService.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),145,303822,14,996,1824,31696
+2025-03-24 11:34:11,5616,esif_uf.exe,C:\Windows\System32\DriverStore\FileRepository\dptf_cpu.inf_amd64_4ce8bafd96682424\esif_uf.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),27,1640,43,2504,127,1616
+2025-03-24 11:34:11,5628,jhi_service.exe,C:\Windows\System32\DriverStore\FileRepository\dal.inf_amd64_af50fdb80983f7bc\jhi_service.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),0,0,0,0,47,522
+2025-03-24 11:34:11,5652,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\Servicio de red,2025-03-24 09:21:33,960 (services.exe),0,0,0,0,167,4362
+2025-03-24 11:34:11,5660,RuntimeBroker.exe,C:\Windows\System32\RuntimeBroker.exe,DESKTOP-AOEVUGH\arman,2025-03-24 11:05:56,1084 (svchost.exe),1,13506,0,0,824,14066
+2025-03-24 11:34:11,5672,MsMpEng.exe,C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.25010.11-0\MsMpEng.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),41338,2622406247,8436,637905733,985394,145363236
+2025-03-24 11:34:11,5680,HPPrintScanDoctorService.exe,C:\Program Files\HPPrintScanDoctor\HPPrintScanDoctorService.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),73,6555918,1,306,2177,93892
+2025-03-24 11:34:11,5688,IntelAudioService.exe,C:\Windows\System32\DriverStore\FileRepository\intcoed.inf_amd64_625d5a9ea859462f\AS\IAS\IntelAudioService.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),159,414550,0,0,2392,45721
+2025-03-24 11:34:11,5704,nvWmi64.exe,C:\Windows\System32\DriverStore\FileRepository\nvmi.inf_amd64_ca70e03e74b1e469\NVWMI\nvWmi64.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),91,819225,75,596138,167,2540
+2025-03-24 11:34:11,5712,MpDefenderCoreService.exe,C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.25010.11-0\MpDefenderCoreService.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),567,7512075,21,27337,31666,501824
+2025-03-24 11:34:11,5780,WMIRegistrationService.exe,C:\Windows\System32\DriverStore\FileRepository\mewmiprov.inf_amd64_d51901c26227fb29\WMIRegistrationService.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),0,0,0,0,699,11858
+2025-03-24 11:34:11,5788,RtkAudUService64.exe,C:\Windows\System32\DriverStore\FileRepository\realtekservice.inf_amd64_3cf99e411755df38\RtkAudUService64.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),0,0,0,0,3323,93823
+2025-03-24 11:34:11,5812,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),911,60104,608,101692,2828,11386
+2025-03-24 11:34:11,5836,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:23:02,960 (services.exe),4,87363,2,8192,2413,155113
+2025-03-24 11:34:11,5880,MoUsoCoreWorker.exe,C:\Windows\System32\MoUsoCoreWorker.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:23:02,1084 (svchost.exe),5276,8589483,1647,3368302,16302,431861
+2025-03-24 11:34:11,5896,OfficeClickToRun.exe,C:\Program Files\Common Files\microsoft shared\ClickToRun\OfficeClickToRun.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),3255,8759537,26,667997,37835,1374043
+2025-03-24 11:34:11,5908,UserOOBEBroker.exe,C:\Windows\System32\oobe\UserOOBEBroker.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:23:02,1084 (svchost.exe),0,0,0,0,134,540
+2025-03-24 11:34:11,6080,LMS.exe,C:\Windows\System32\DriverStore\FileRepository\lms.inf_amd64_fddb643595e0b8d0\LMS.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),3,54,106,8301,105,319
+2025-03-24 11:34:11,6112,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:33,960 (services.exe),0,0,0,0,478,39006
+2025-03-24 11:34:11,6136,RuntimeBroker.exe,C:\Windows\System32\RuntimeBroker.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:30:49,1084 (svchost.exe),24,130475,2,248,3361,32838
+2025-03-24 11:34:11,6320,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:33,960 (services.exe),4,464,4,640,401,19236
+2025-03-24 11:34:11,6532,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:44:23,15596 (Code.exe),1506,2206169,3433,1331285,4157,108525
+2025-03-24 11:34:11,6736,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 11:00:17,4480 (Code.exe),5444,97595879,1391,388554,1971,31858
+2025-03-24 11:34:11,6892,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:44:22,15596 (Code.exe),50,8168,16,192,680,9248
+2025-03-24 11:34:11,6952,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:44:24,15596 (Code.exe),661,1748938,3280,13705650,2769,73614
+2025-03-24 11:34:11,7004,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:40:13,17100 (msedge.exe),35,6306,20,240,181,1192
+2025-03-24 11:34:11,7040,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:44:23,15596 (Code.exe),594817,797389872,606303,1623071976,230,15060
+2025-03-24 11:34:11,7140,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:35,16688 (chrome.exe),76200,21088168,78020,8861136,167,14340
+2025-03-24 11:34:11,7160,SearchIndexer.exe,C:\Windows\System32\SearchIndexer.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:34,960 (services.exe),3919,13140750,3000,4929244,43296,13355282
+2025-03-24 11:34:11,7192,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:44:25,4480 (Code.exe),3858,9956088,639,739984,2496,29476
+2025-03-24 11:34:11,7224,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:40:13,17100 (msedge.exe),1320,8775013,68,83192,585,33296
+2025-03-24 11:34:11,7408,msedgewebview2.exe,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\134.0.3124.83\msedgewebview2.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:40,13628 (msedgewebview2.exe),5010,12559582,2229,661413,1459,65254
+2025-03-24 11:34:11,7412,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:40:13,17100 (msedge.exe),1925,5958734,3745,2039436,2956,54227
+2025-03-24 11:34:11,7456,Video.UI.exe,C:\Program Files\WindowsApps\Microsoft.ZuneVideo_10.25011.10061.0_x64__8wekyb3d8bbwe\Video.UI.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:51:39,1084 (svchost.exe),349,14542191,59,257010,1812,28166
+2025-03-24 11:34:11,7528,SecurityHealthService.exe,C:\Windows\System32\SecurityHealthService.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:49,960 (services.exe),0,0,1,4096,667,4624
+2025-03-24 11:34:11,7532,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:44:23,15596 (Code.exe),322455,1586441874,282479,32485132,72783,2877746
+2025-03-24 11:34:11,7576,SystemSettings.exe,C:\Windows\ImmersiveControlPanel\SystemSettings.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:52:27,1084 (svchost.exe),46,49969,4,40,1700,18114
+2025-03-24 11:34:11,7752,taskhostw.exe,C:\Windows\System32\taskhostw.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:36,1904 (svchost.exe),36,1918916,924,21761500,9058,106036
+2025-03-24 11:34:11,8116,dllhost.exe,C:\Windows\System32\dllhost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:34,1084 (svchost.exe),25,1605632,44,905216,732,22828
+2025-03-24 11:34:11,8264,conhost.exe,C:\Windows\System32\conhost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:44:25,6952 (Code.exe),2,0,3,246,215,9735
+2025-03-24 11:34:11,8308,AggregatorHost.exe,C:\Windows\System32\AggregatorHost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:36,5360 (svchost.exe),4,183,0,0,345,9324
+2025-03-24 11:34:11,8608,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:40:13,17100 (msedge.exe),224,391597,125,93334,86,10896
+2025-03-24 11:34:11,8724,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:36,960 (services.exe),1,63942,0,0,12353,536224
+2025-03-24 11:34:11,8776,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:41:52,960 (services.exe),33,888832,29,147456,884,18382
+2025-03-24 11:34:11,8916,nvWmi64.exe,C:\Windows\System32\DriverStore\FileRepository\nvmi.inf_amd64_ca70e03e74b1e469\NVWMI\nvWmi64.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:36,5704 (nvWmi64.exe),1,1,0,0,491,118812
+2025-03-24 11:34:11,8944,sihost.exe,C:\Windows\System32\sihost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:36,2456 (svchost.exe),237,970752,0,0,12112,697970
+2025-03-24 11:34:11,9020,svchost.exe,C:\Windows\System32\svchost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:36,960 (services.exe),96061,393505271,4851,10613321,11860,443330
+2025-03-24 11:34:11,9028,svchost.exe,C:\Windows\System32\svchost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:36,960 (services.exe),0,0,0,0,288,220414
+2025-03-24 11:34:11,9068,PresentationFontCache.exe,C:\Windows\Microsoft.NET\Framework64\v3.0\WPF\PresentationFontCache.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:36,960 (services.exe),19,827314,0,0,310,3446
+2025-03-24 11:34:11,9084,svchost.exe,C:\Windows\System32\svchost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:36,960 (services.exe),285,1163364,5401,11400944,1219,46373
+2025-03-24 11:34:11,9128,explorer.exe,C:\Windows\explorer.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:37,N/A,86345,51528577,2880,4339803,104464,3473311
+2025-03-24 11:34:11,9144,taskhostw.exe,C:\Windows\System32\taskhostw.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:36,1904 (svchost.exe),10,17251,2,188,574,5656
+2025-03-24 11:34:11,9208,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:40:25,17100 (msedge.exe),95,88520,104,95288,116,11940
+2025-03-24 11:34:11,9224,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:37,960 (services.exe),58,28420,8,36116,11463,361118
+2025-03-24 11:34:11,9364,igfxEMN.exe,C:\Windows\System32\DriverStore\FileRepository\cui_dch.inf_amd64_8f68d4f94f46f7aa\igfxEMN.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:37,2308 (igfxCUIServiceN.exe),0,0,3,25308,28982,12333944
+2025-03-24 11:34:11,9512,StartMenuExperienceHost.exe,C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\StartMenuExperienceHost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:38,1084 (svchost.exe),128,311227,53,22628,1532,15164
+2025-03-24 11:34:11,9912,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 11:22:13,960 (services.exe),25,3062320,6,49428,1632,77816
+2025-03-24 11:34:11,9972,svchost.exe,C:\Windows\System32\svchost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:37,960 (services.exe),0,0,0,0,312,3396
+2025-03-24 11:34:11,10188,MSI.CentralServer.exe,C:\Program Files (x86)\MSI\One Dragon Center\MSI.CentralServer.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:38,5528 (MSI_Central_Service.exe),323,1048981,992,11673939,18114,520971
+2025-03-24 11:34:11,10228,conhost.exe,C:\Windows\System32\conhost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:38,10188 (MSI.CentralServer.exe),0,0,0,0,380,28418
+2025-03-24 11:34:11,10300,RuntimeBroker.exe,C:\Windows\System32\RuntimeBroker.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:38,1084 (svchost.exe),30,152687,2,248,11022,125530
+2025-03-24 11:34:11,10336,audiodg.exe,C:\Windows\System32\audiodg.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 11:33:45,4180 (svchost.exe),0,0,0,0,561,16158
+2025-03-24 11:34:11,10396,WhatsApp.exe,C:\Program Files\WindowsApps\5319275A.WhatsAppDesktop_2.2509.4.0_x64__cv1g1gvanyjgm\WhatsApp.exe,DESKTOP-AOEVUGH\arman,2025-03-24 11:05:55,1084 (svchost.exe),3606,12595377,148,299720,2838,72608
+2025-03-24 11:34:11,10488,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:38,960 (services.exe),3,36,0,0,11678,290172
+2025-03-24 11:34:11,10648,SearchApp.exe,C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\SearchApp.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:38,1084 (svchost.exe),5936,35675702,2735,20472570,15645,1489226
+2025-03-24 11:34:11,10692,powershell.exe,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:44:25,6952 (Code.exe),171,487783,4,143,3812,61096
+2025-03-24 11:34:11,10848,RuntimeBroker.exe,C:\Windows\System32\RuntimeBroker.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:39,1084 (svchost.exe),44525,5866579,3,408,8322,609706
+2025-03-24 11:34:11,11200,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:39,960 (services.exe),12,144024,1,16466,1330,113367
+2025-03-24 11:34:11,11816,RuntimeBroker.exe,C:\Windows\System32\RuntimeBroker.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:39,1084 (svchost.exe),93034,17590785,9,288,11604,833224
+2025-03-24 11:34:11,11996,NisSrv.exe,C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.25010.11-0\NisSrv.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:21:42,960 (services.exe),0,0,0,0,631,2818
+2025-03-24 11:34:11,12224,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:38,16688 (chrome.exe),695,258224,744,514540,168,14944
+2025-03-24 11:34:11,12364,SoundTune.exe,C:\Program Files (x86)\MSI\One Dragon Center\Sound Tune\SoundTune.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:53,1904 (svchost.exe),67,232514,17,883,1573,33994
+2025-03-24 11:34:11,12500,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:44:23,15596 (Code.exe),221,1213858,309,1251392,20094,426780
+2025-03-24 11:34:11,12676,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:44,960 (services.exe),5,1640,0,0,201,546
+2025-03-24 11:34:11,12712,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:40:25,17100 (msedge.exe),2087,2121272,2664,5685339,121,12032
+2025-03-24 11:34:11,12848,RtkAudUService64.exe,C:\Windows\System32\DriverStore\FileRepository\realtekservice.inf_amd64_3cf99e411755df38\RtkAudUService64.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:50,9128 (explorer.exe),0,0,0,0,2468,33033
+2025-03-24 11:34:11,12900,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:35,16688 (chrome.exe),41306,36440530,27228,33784817,593,15280
+2025-03-24 11:34:11,13028,PhoneExperienceHost.exe,C:\Program Files\WindowsApps\Microsoft.YourPhone_1.25021.67.0_x64__8wekyb3d8bbwe\PhoneExperienceHost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:49,1084 (svchost.exe),302,574053,1,8,4367,152068
+2025-03-24 11:34:11,13036,CompPkgSrv.exe,C:\Windows\System32\CompPkgSrv.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:21,1084 (svchost.exe),0,0,0,0,37,244
+2025-03-24 11:34:11,13184,SecurityHealthSystray.exe,C:\Windows\System32\SecurityHealthSystray.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:49,9128 (explorer.exe),0,0,0,0,80,798
+2025-03-24 11:34:11,13248,Rechner + UWP.exe,C:\Program Files\WindowsApps\14385JonasZoche.Rechner_4.1.9019.0_x64__7yjengah4ymn8\Rechner + UWP.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:37:26,1084 (svchost.exe),761,96462,23,11250,920,7140
+2025-03-24 11:34:11,13408,dllhost.exe,C:\Windows\System32\dllhost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:50,1084 (svchost.exe),142,8294400,301,9134080,2157,58516
+2025-03-24 11:34:11,13432,powershell.exe,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,DESKTOP-AOEVUGH\arman,2025-03-24 11:20:27,6952 (Code.exe),172,537675,382,20585,10954,145512
+2025-03-24 11:34:11,13628,msedgewebview2.exe,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\134.0.3124.83\msedgewebview2.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:39,17120 (SearchApp.exe),8627,17952697,6521,17169566,45253,3185565
+2025-03-24 11:34:11,13740,svchost.exe,C:\Windows\System32\svchost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:23:23,960 (services.exe),126,7208964,17,294916,867,9540
+2025-03-24 11:34:11,13772,Canva.exe,C:\Users\arman\AppData\Local\Programs\Canva\Canva.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:53,N/A,7,538329,0,0,366,5020
+2025-03-24 11:34:11,13812,msedgewebview2.exe,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\134.0.3124.83\msedgewebview2.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:40,13628 (msedgewebview2.exe),765,2858816,1200,497626,2268,53952
+2025-03-24 11:34:11,13908,msedgewebview2.exe,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\134.0.3124.83\msedgewebview2.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:40,13628 (msedgewebview2.exe),146,907215,105,562863,90,11190
+2025-03-24 11:34:11,14152,Canva.exe,C:\Users\arman\AppData\Local\Programs\Canva\Canva.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:52,N/A,4,144,4,48,307,1028
+2025-03-24 11:34:11,14352,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:21:55,960 (services.exe),10,40960,18,122880,6292,119984
+2025-03-24 11:34:11,14640,Start_HDR.exe,C:\Program Files (x86)\MSI\One Dragon Center\Base Module\Start_HDR.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:00,1904 (svchost.exe),38,134262,5,78134,501,8748
+2025-03-24 11:34:11,15172,IGCC.exe,C:\Program Files\WindowsApps\AppUp.IntelGraphicsExperience_1.100.5688.0_x64__8j3eq9eme6ctt\IGCC.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:58,1084 (svchost.exe),470,20987,25,11390,846,9556
+2025-03-24 11:34:11,15224,IGCCTray.exe,C:\Program Files\WindowsApps\AppUp.IntelGraphicsExperience_1.100.5688.0_x64__8j3eq9eme6ctt\GCP.ML.BackgroundSysTray\IGCCTray.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:57,9128 (explorer.exe),739,1025915,35,3998,3998,53848
+2025-03-24 11:34:11,15376,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:46,16688 (chrome.exe),464,14211518,414,72104,1116,22348
+2025-03-24 11:34:11,15408,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:46,16688 (chrome.exe),1939,65652,2067,89404,634,36640
+2025-03-24 11:34:11,15420,conhost.exe,C:\Windows\System32\conhost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 11:20:27,6952 (Code.exe),27,794,64,7775,7703,552603
+2025-03-24 11:34:11,15532,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:23:37,960 (services.exe),1,116,1,160,684,594
+2025-03-24 11:34:11,15596,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:44:22,9128 (explorer.exe),167956,101700426,83554,55618951,47570,1329124
+2025-03-24 11:34:11,15628,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SERVICIO LOCAL,2025-03-24 09:23:36,960 (services.exe),1,116,1,160,612,21346
+2025-03-24 11:34:11,15868,svchost.exe,C:\Windows\System32\svchost.exe,NT AUTHORITY\SYSTEM,2025-03-24 09:22:07,960 (services.exe),0,0,0,0,550,341270
+2025-03-24 11:34:11,15992,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:44:27,4480 (Code.exe),23347,132293066,3799,2626812,88342,3814346
+2025-03-24 11:34:11,16624,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:38,16688 (chrome.exe),1092,1007720,1495,852636,168,14754
+2025-03-24 11:34:11,16688,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:34,9128 (explorer.exe),937335,1108922148,668554,690776615,276547,12762630
+2025-03-24 11:34:11,16812,LockApp.exe,C:\Windows\SystemApps\Microsoft.LockApp_cw5n1h2txyewy\LockApp.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:30:49,1084 (svchost.exe),94,45525,36,19929,934,9002
+2025-03-24 11:34:11,17088,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:35,16688 (chrome.exe),94802,11288080,137616,139139140,168,14340
+2025-03-24 11:34:11,17100,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:40:13,N/A,8166,40377115,5440,18351007,46799,3037674
+2025-03-24 11:34:11,17120,SearchApp.exe,C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\SearchApp.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:39,1084 (svchost.exe),342,837158,292,880296,1797,25834
+2025-03-24 11:34:11,17176,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:44:23,15596 (Code.exe),5327,70605681,1637,7120588,47511,4116142
+2025-03-24 11:34:11,17256,TextInputHost.exe,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:38,1084 (svchost.exe),8,45443,1,8,769,4504
+2025-03-24 11:34:11,17356,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:35,16688 (chrome.exe),600286,1605510330,531973,62441977,97101,3822170
+2025-03-24 11:34:11,17380,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:38,16688 (chrome.exe),80988,15410282,89770,161525341,169,14784
+2025-03-24 11:34:11,17396,msedgewebview2.exe,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\134.0.3124.83\msedgewebview2.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:40,13628 (msedgewebview2.exe),2176,1842937,2470,3434180,125,12698

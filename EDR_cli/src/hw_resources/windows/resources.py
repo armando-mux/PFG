@@ -62,11 +62,11 @@ def main():
             disk_info.read_count, disk_info.write_count
         ]
     
-        # Verifica el tamaño del archivo antes de escribir
-        if os.path.exists(current_file_name) and os.path.getsize(current_file_name) > max_file_size:
-            print(f"El archivo {current_file_name} ha alcanzado el tamaño máximo permitido.")
-            file_counter += 1
-            create_new_file()
+        # Verifica el tamaño del archivo antes de escribir (FUNCIONALIDAD DESHABILITADA TEMPORALMENTE)
+        # if os.path.exists(current_file_name) and os.path.getsize(current_file_name) > max_file_size:
+        #    print(f"El archivo {current_file_name} ha alcanzado el tamaño máximo permitido.")
+        #    file_counter += 1
+        #    create_new_file()
     
         # Escribe los datos en el archivo actual
         with open(current_file_name, mode='a', newline='') as csvfile:
@@ -74,7 +74,7 @@ def main():
             writer.writerow(data_row)
 
         # Espera un segundo antes de la próxima iteración
-        time.sleep(0.5)
+        time.sleep(1)
         
         
 if __name__ == "__main__":

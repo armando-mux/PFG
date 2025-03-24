@@ -68,7 +68,7 @@ En el caso del script para Linux, varían algunos de los campos por diferencias 
 | **Disco - Lecturas Completadas** | Número de lecturas completadas en el disco. |
 | **Disco - Escrituras Completadas** | Número de escrituras completadas en el disco. |
 
-El script toma una muestra de estos valores cada 0.5 segundos y lo registra en el archivo HW_resources_0.csv de la carpeta logs. La muestra que se encuentra ahora mismo corresponde a una ejecucion en  Windows.
+El script toma una muestra de estos valores cada 1 segundos y lo registra en el archivo HW_resources_0.csv de la carpeta logs. La muestra que se encuentra ahora mismo corresponde a una ejecucion en  Windows.
 
 ### NETWORK
 
@@ -101,3 +101,36 @@ En este caso, en ambos scripts (para Linux y Windows) uso la libreria **watchdog
 |             | `C:\Windows\SysWOW64\`                               |
 
 La información mostrada de cada evento es la siguiente: 
+
+| Campo        | Descripción                                                                 |
+|--------------|-----------------------------------------------------------------------------|
+| **Date**     | Fecha en la que ocurrió el evento.                    |
+| **Time**     | Hora en la que ocurrió el evento.                       |
+| **Event**    | Tipo de evento registrado (creación, modificación, eliminación).             |
+| **Path src** | Ruta de origen del archivo o directorio involucrado en el evento.            |
+| **Path Dst** | Ruta de destino del archivo o directorio                                    |
+| **Archive**  | Nombre del archivo involucrado en el evento                                    |
+| **isDirectory** | Indica si es un directorio. En caso contrario es un archivo              |
+
+En ambos casos he tenido que incorporar listas de exclusión de directorios porque a veces se crean bucles infinitos. 
+
+### TEST_RECURSOS
+
+Esta carpeta no tiene demasiado interés. Estaba preocupado por el consumo de recursos de los scripts siendo ejecutados simultaneamente, y esto es para medir el uso de recursos del sistema sin ejecutarlos y ejecutándolos, y luego compararlos. No indica un aumento de uso de recursos significativo (ni en los numeros ni en las gráficas), pero ni es un script muy fino ni estan finalizadas todas las funcionalidades. 
+
+### MAIN
+
+En el main esta el script que lanza las funcionalidades ya mencionadas (menos la de test de recursos). Antes comprueba que esten las librerias usadas ya instaladas y, en caso de no estarlo, las instala (o lo intenta, he tenido algunos problemas con Ubuntu). De todas formas esto es provisional, mi idea final la comento en la siguiente sección. 
+
+-------------------------------------------------------
+
+to-do antes de enviar: 
+
+- refinar deteccion procesos de windwos
+- procesos y daemons de Linux.
+- Eventos clave de windows 
+- Script de iaudit en linux
+- Syscalls en ambos equipos
+
+- Revisar datos de hw y ver GPU.
+- Implementar logica de los csv: como minimo no eliminarlos y si creamos sistema de rotacion de archivos mejor que mejor.
