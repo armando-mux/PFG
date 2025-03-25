@@ -6,9 +6,11 @@ from pathlib import Path
 
 # Configuración del archivo CSV
 ruta_log = Path(__file__).resolve().parent.parent.parent.parent / "logs" 
+
 header = ["Timestamp", "PID", "Nombre", "Ruta", "Usuario", "Tiempo de creación", "Proceso padre",
           "Numero lecturas", "Bytes leidos", "Numero escrituras", "Bytes escritos", 
           "Numero otras operaciones", "Bytes otras operaciones"]
+
 csv_file = f"{ruta_log}\\process_monitor.csv"
 
 # Obtiene la información de un proceso y del proceso padre (si lo hay).

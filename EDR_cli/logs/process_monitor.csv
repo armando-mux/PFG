@@ -1084,3 +1084,255 @@ Timestamp,PID,Nombre,Ruta,Usuario,Tiempo de creación,Proceso padre,Numero lectu
 2025-03-24 11:34:11,17356,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:35,16688 (chrome.exe),600286,1605510330,531973,62441977,97101,3822170
 2025-03-24 11:34:11,17380,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:38,16688 (chrome.exe),80988,15410282,89770,161525341,169,14784
 2025-03-24 11:34:11,17396,msedgewebview2.exe,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\134.0.3124.83\msedgewebview2.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:40,13628 (msedgewebview2.exe),2176,1842937,2470,3434180,125,12698
+2025-03-24 15:29:01,4,System,,NT AUTHORITY\SYSTEM,1970-01-01 01:00:00,0 (System Idle Process),609,66774796,4819,584347617,172598,6600991
+2025-03-24 15:29:01,2636,ApplicationFrameHost.exe,C:\Windows\System32\ApplicationFrameHost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:23:01,1084 (svchost.exe),163,75033,1,8,751,12228
+2025-03-24 15:29:01,2688,taskhostw.exe,C:\Windows\System32\taskhostw.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:11:27,1904 (svchost.exe),0,0,0,0,53,212
+2025-03-24 15:29:01,2692,RuntimeBroker.exe,C:\Windows\System32\RuntimeBroker.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:51:40,1084 (svchost.exe),0,0,0,0,140,3082
+2025-03-24 15:29:01,2804,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:11:44,13300 (chrome.exe),15052,13367668,8240,5883516,276,15154
+2025-03-24 15:29:01,2912,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:11:44,13300 (chrome.exe),1142,655320,1243,215056,163,14430
+2025-03-24 15:29:01,2956,msedgewebview2.exe,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\134.0.3124.83\msedgewebview2.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:39,13628 (msedgewebview2.exe),13,1636,6,72,76,1056
+2025-03-24 15:29:01,3608,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:11:46,13300 (chrome.exe),343,184352,499,530475,165,14816
+2025-03-24 15:29:01,4596,RuntimeBroker.exe,C:\Windows\System32\RuntimeBroker.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:37:27,1084 (svchost.exe),0,0,0,0,50,864
+2025-03-24 15:29:01,4696,conhost.exe,C:\Windows\System32\conhost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:20:14,17176 (Code.exe),5,12,5,367,105,6305
+2025-03-24 15:29:01,5264,ctfmon.exe,C:\Windows\System32\ctfmon.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:37,5252 (svchost.exe),1147,4564487,0,0,16796,68822
+2025-03-24 15:29:01,5908,UserOOBEBroker.exe,C:\Windows\System32\oobe\UserOOBEBroker.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:23:02,1084 (svchost.exe),0,0,0,0,136,604
+2025-03-24 15:29:01,6136,RuntimeBroker.exe,C:\Windows\System32\RuntimeBroker.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:30:49,1084 (svchost.exe),26,150135,2,248,5755,54238
+2025-03-24 15:29:01,6584,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:20:13,17300 (Code.exe),143,1123922,113,404552,4755,190964
+2025-03-24 15:29:01,7004,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:40:13,17100 (msedge.exe),44,6470,21,252,263,1580
+2025-03-24 15:29:01,7224,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:40:13,17100 (msedge.exe),1346,8777925,90,189728,587,33360
+2025-03-24 15:29:01,7260,powershell.exe,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:20:14,17176 (Code.exe),173,539001,4,143,3707,58530
+2025-03-24 15:29:01,7408,msedgewebview2.exe,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\134.0.3124.83\msedgewebview2.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:40,13628 (msedgewebview2.exe),17179,61150398,14101,2787764,4754,190110
+2025-03-24 15:29:01,7412,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:40:13,17100 (msedge.exe),2051,6020358,3954,2229344,5827,200848
+2025-03-24 15:29:01,7456,Video.UI.exe,C:\Program Files\WindowsApps\Microsoft.ZuneVideo_10.25011.10061.0_x64__8wekyb3d8bbwe\Video.UI.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:51:39,1084 (svchost.exe),349,14542191,59,257010,1812,28166
+2025-03-24 15:29:01,7500,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:20:12,17300 (Code.exe),890,1462124,2029,1028320,1478,181093
+2025-03-24 15:29:01,7576,SystemSettings.exe,C:\Windows\ImmersiveControlPanel\SystemSettings.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:52:27,1084 (svchost.exe),46,49969,4,40,1700,18114
+2025-03-24 15:29:01,7680,python.exe,C:\Users\arman\AppData\Local\Programs\Python\Python312\python.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:29:00,8052 (powershell.exe),102,1241904,0,0,2246,209240
+2025-03-24 15:29:01,7748,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:16:15,13300 (chrome.exe),64,65128,91,40128,163,14954
+2025-03-24 15:29:01,7752,taskhostw.exe,C:\Windows\System32\taskhostw.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:36,1904 (svchost.exe),42,1941300,1556,34667996,12994,164724
+2025-03-24 15:29:01,8024,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:11:44,13300 (chrome.exe),110056,238856958,108318,14725574,23686,900578
+2025-03-24 15:29:01,8052,powershell.exe,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:24:27,17176 (Code.exe),171,488205,110,6239,6333,92446
+2025-03-24 15:29:01,8608,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:40:13,17100 (msedge.exe),251,394621,148,181366,86,10896
+2025-03-24 15:29:01,8944,sihost.exe,C:\Windows\System32\sihost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:36,2456 (svchost.exe),303,1241088,0,0,14820,838862
+2025-03-24 15:29:01,9020,svchost.exe,C:\Windows\System32\svchost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:36,960 (services.exe),118243,484657619,8388,18193845,21211,904536
+2025-03-24 15:29:01,9028,svchost.exe,C:\Windows\System32\svchost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:36,960 (services.exe),0,0,0,0,303,226878
+2025-03-24 15:29:01,9084,svchost.exe,C:\Windows\System32\svchost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:36,960 (services.exe),437,1785956,10920,23073472,1366,54297
+2025-03-24 15:29:01,9128,explorer.exe,C:\Windows\explorer.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:37,N/A,139567,80538604,3099,8552980,163272,4707180
+2025-03-24 15:29:01,9208,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:40:25,17100 (msedge.exe),128,92776,125,287256,116,11940
+2025-03-24 15:29:01,9364,igfxEMN.exe,C:\Windows\System32\DriverStore\FileRepository\cui_dch.inf_amd64_8f68d4f94f46f7aa\igfxEMN.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:37,2308 (igfxCUIServiceN.exe),0,0,3,25308,29094,12333944
+2025-03-24 15:29:01,9512,StartMenuExperienceHost.exe,C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\StartMenuExperienceHost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:38,1084 (svchost.exe),185,313024,108,45360,2220,21694
+2025-03-24 15:29:01,9972,svchost.exe,C:\Windows\System32\svchost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:37,960 (services.exe),5,6960,0,0,668,7982
+2025-03-24 15:29:01,10300,RuntimeBroker.exe,C:\Windows\System32\RuntimeBroker.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:38,1084 (svchost.exe),32,157359,2,248,13554,155614
+2025-03-24 15:29:01,10628,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:11:44,13300 (chrome.exe),1574,1414542,1906,2621921,164,14214
+2025-03-24 15:29:01,10648,SearchApp.exe,C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\SearchApp.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:38,1084 (svchost.exe),7663,44486170,4185,26636915,20913,2635044
+2025-03-24 15:29:01,10848,RuntimeBroker.exe,C:\Windows\System32\RuntimeBroker.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:39,1084 (svchost.exe),66094,8375771,3,408,15945,983390
+2025-03-24 15:29:01,11112,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:20:12,17300 (Code.exe),141618,173626797,154921,367305080,221,15076
+2025-03-24 15:29:01,11340,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:20:12,17300 (Code.exe),80129,354416655,66705,8239128,15739,603034
+2025-03-24 15:29:01,11652,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:20:15,14736 (Code.exe),15597,120785182,1221,974352,67189,3581910
+2025-03-24 15:29:01,11772,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:11:44,13300 (chrome.exe),85187,68068168,181434,120839346,60378,430690
+2025-03-24 15:29:01,11816,RuntimeBroker.exe,C:\Windows\System32\RuntimeBroker.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:39,1084 (svchost.exe),112218,21491940,9,288,14865,1010112
+2025-03-24 15:29:01,11852,powershell.exe,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:20:14,17176 (Code.exe),171,488205,4,143,3701,58132
+2025-03-24 15:29:01,12156,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:20:12,17300 (Code.exe),16,7366,12,144,237,728
+2025-03-24 15:29:01,12364,SoundTune.exe,C:\Program Files (x86)\MSI\One Dragon Center\Sound Tune\SoundTune.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:53,1904 (svchost.exe),67,232514,17,883,1575,34058
+2025-03-24 15:29:01,12712,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:40:25,17100 (msedge.exe),2125,2126088,2690,5951003,121,12032
+2025-03-24 15:29:01,12848,RtkAudUService64.exe,C:\Windows\System32\DriverStore\FileRepository\realtekservice.inf_amd64_3cf99e411755df38\RtkAudUService64.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:50,9128 (explorer.exe),0,0,0,0,2600,37449
+2025-03-24 15:29:01,13028,PhoneExperienceHost.exe,C:\Program Files\WindowsApps\Microsoft.YourPhone_1.25021.67.0_x64__8wekyb3d8bbwe\PhoneExperienceHost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:49,1084 (svchost.exe),302,574053,1,8,4385,153412
+2025-03-24 15:29:01,13036,CompPkgSrv.exe,C:\Windows\System32\CompPkgSrv.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:21,1084 (svchost.exe),0,0,0,0,40,340
+2025-03-24 15:29:01,13096,WhatsApp.exe,C:\Program Files\WindowsApps\5319275A.WhatsAppDesktop_2.2509.4.0_x64__cv1g1gvanyjgm\WhatsApp.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:23:45,1084 (svchost.exe),4553,16501524,243,560659,2840,75191
+2025-03-24 15:29:01,13184,SecurityHealthSystray.exe,C:\Windows\System32\SecurityHealthSystray.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:49,9128 (explorer.exe),0,0,0,0,82,862
+2025-03-24 15:29:01,13248,Rechner + UWP.exe,C:\Program Files\WindowsApps\14385JonasZoche.Rechner_4.1.9019.0_x64__7yjengah4ymn8\Rechner + UWP.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:37:26,1084 (svchost.exe),761,96462,23,11250,920,7140
+2025-03-24 15:29:01,13300,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:11:44,9128 (explorer.exe),196854,137285272,223625,140610297,97270,4782862
+2025-03-24 15:29:01,13408,dllhost.exe,C:\Windows\System32\dllhost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:50,1084 (svchost.exe),144,8359936,330,9465856,2626,73286
+2025-03-24 15:29:01,13588,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:11:48,13300 (chrome.exe),308,213528,401,474276,165,15112
+2025-03-24 15:29:01,13628,msedgewebview2.exe,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\134.0.3124.83\msedgewebview2.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:39,17120 (SearchApp.exe),12707,22354557,9467,20019155,48428,3290923
+2025-03-24 15:29:01,13740,svchost.exe,C:\Windows\System32\svchost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:23:23,960 (services.exe),126,7208964,17,294916,869,9604
+2025-03-24 15:29:01,13768,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:11:47,13300 (chrome.exe),623,665256,765,1095343,164,15108
+2025-03-24 15:29:01,13772,Canva.exe,C:\Users\arman\AppData\Local\Programs\Canva\Canva.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:53,N/A,7,538329,0,0,366,5020
+2025-03-24 15:29:01,13812,msedgewebview2.exe,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\134.0.3124.83\msedgewebview2.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:40,13628 (msedgewebview2.exe),3220,5078129,6300,3204339,5724,133986
+2025-03-24 15:29:01,13908,msedgewebview2.exe,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\134.0.3124.83\msedgewebview2.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:40,13628 (msedgewebview2.exe),240,1982628,198,2280866,95,11222
+2025-03-24 15:29:01,14152,Canva.exe,C:\Users\arman\AppData\Local\Programs\Canva\Canva.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:52,N/A,4,144,4,48,409,1316
+2025-03-24 15:29:01,14640,Start_HDR.exe,C:\Program Files (x86)\MSI\One Dragon Center\Base Module\Start_HDR.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:00,1904 (svchost.exe),38,134262,5,78134,501,8748
+2025-03-24 15:29:01,14736,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:20:13,17300 (Code.exe),48287,109022130,34050,144193680,41912,949985
+2025-03-24 15:29:01,15172,IGCC.exe,C:\Program Files\WindowsApps\AppUp.IntelGraphicsExperience_1.100.5688.0_x64__8j3eq9eme6ctt\IGCC.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:58,1084 (svchost.exe),470,20987,30,11903,965,14488
+2025-03-24 15:29:01,15176,conhost.exe,C:\Windows\System32\conhost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:24:27,17176 (Code.exe),24,337,41,4417,2805,191520
+2025-03-24 15:29:01,15796,conhost.exe,C:\Windows\System32\conhost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:20:14,17176 (Code.exe),2,0,2,234,100,6043
+2025-03-24 15:29:01,16112,RuntimeBroker.exe,C:\Windows\System32\RuntimeBroker.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:23:45,1084 (svchost.exe),1,14090,0,0,823,14736
+2025-03-24 15:29:01,16812,LockApp.exe,C:\Windows\SystemApps\Microsoft.LockApp_cw5n1h2txyewy\LockApp.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:30:49,1084 (svchost.exe),94,45525,36,19929,993,12072
+2025-03-24 15:29:02,16952,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:20:14,14736 (Code.exe),1568,9720618,260,863063,1860,11364
+2025-03-24 15:29:02,17100,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:40:13,N/A,8515,41500242,5855,22580969,53498,3290136
+2025-03-24 15:29:02,17120,SearchApp.exe,C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\SearchApp.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:39,1084 (svchost.exe),708,2153330,601,2526686,3151,77794
+2025-03-24 15:29:02,17140,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:11:44,13300 (chrome.exe),76,9128,60,720,490,5604
+2025-03-24 15:29:02,17160,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:11:52,13300 (chrome.exe),611,23984,663,40864,623,39136
+2025-03-24 15:29:02,17176,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:20:13,17300 (Code.exe),470,1713618,596,2219931,1989,56208
+2025-03-24 15:29:02,17216,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:20:13,17300 (Code.exe),3516,41619397,1743,7465052,30043,2605532
+2025-03-24 15:29:02,17256,TextInputHost.exe,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:38,1084 (svchost.exe),8,45443,1,8,819,4568
+2025-03-24 15:29:02,17272,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:27:26,14736 (Code.exe),293,4410202,61,20269,299,3202
+2025-03-24 15:29:02,17300,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:20:12,9128 (explorer.exe),53217,62293043,27974,26785774,22831,649264
+2025-03-24 15:29:02,17396,msedgewebview2.exe,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\134.0.3124.83\msedgewebview2.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:40,13628 (msedgewebview2.exe),15071,10233564,13767,54640829,127,12762
+2025-03-24 15:29:07,4,System,,NT AUTHORITY\SYSTEM,1970-01-01 01:00:00,0 (System Idle Process),609,66774796,4821,584609761,172614,6605319
+2025-03-24 15:29:07,2636,ApplicationFrameHost.exe,C:\Windows\System32\ApplicationFrameHost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:23:01,1084 (svchost.exe),163,75033,1,8,751,12228
+2025-03-24 15:29:07,2688,taskhostw.exe,C:\Windows\System32\taskhostw.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:11:27,1904 (svchost.exe),0,0,0,0,53,212
+2025-03-24 15:29:07,2692,RuntimeBroker.exe,C:\Windows\System32\RuntimeBroker.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:51:40,1084 (svchost.exe),0,0,0,0,140,3082
+2025-03-24 15:29:07,2804,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:11:44,13300 (chrome.exe),15054,13367892,8242,5883740,276,15154
+2025-03-24 15:29:07,2912,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:11:44,13300 (chrome.exe),1142,655320,1243,215056,163,14430
+2025-03-24 15:29:07,2956,msedgewebview2.exe,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\134.0.3124.83\msedgewebview2.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:39,13628 (msedgewebview2.exe),13,1636,6,72,76,1056
+2025-03-24 15:29:07,3608,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:11:46,13300 (chrome.exe),343,184352,499,530475,165,14816
+2025-03-24 15:29:07,4596,RuntimeBroker.exe,C:\Windows\System32\RuntimeBroker.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:37:27,1084 (svchost.exe),0,0,0,0,50,864
+2025-03-24 15:29:07,4696,conhost.exe,C:\Windows\System32\conhost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:20:14,17176 (Code.exe),5,12,5,367,105,6305
+2025-03-24 15:29:07,5264,ctfmon.exe,C:\Windows\System32\ctfmon.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:37,5252 (svchost.exe),1147,4564487,0,0,16796,68822
+2025-03-24 15:29:07,5908,UserOOBEBroker.exe,C:\Windows\System32\oobe\UserOOBEBroker.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:23:02,1084 (svchost.exe),0,0,0,0,136,604
+2025-03-24 15:29:07,6136,RuntimeBroker.exe,C:\Windows\System32\RuntimeBroker.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:30:49,1084 (svchost.exe),26,150135,2,248,5755,54238
+2025-03-24 15:29:07,6584,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:20:13,17300 (Code.exe),145,1124162,119,430736,4877,194566
+2025-03-24 15:29:07,7004,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:40:13,17100 (msedge.exe),44,6470,21,252,263,1580
+2025-03-24 15:29:07,7224,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:40:13,17100 (msedge.exe),1346,8777925,90,189728,587,33360
+2025-03-24 15:29:07,7260,powershell.exe,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:20:14,17176 (Code.exe),173,539001,4,143,3707,58530
+2025-03-24 15:29:07,7408,msedgewebview2.exe,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\134.0.3124.83\msedgewebview2.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:40,13628 (msedgewebview2.exe),17179,61150398,14101,2787764,4754,190110
+2025-03-24 15:29:07,7412,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:40:13,17100 (msedge.exe),2051,6020358,3954,2229344,5827,200848
+2025-03-24 15:29:07,7456,Video.UI.exe,C:\Program Files\WindowsApps\Microsoft.ZuneVideo_10.25011.10061.0_x64__8wekyb3d8bbwe\Video.UI.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:51:39,1084 (svchost.exe),349,14542191,59,257010,1812,28166
+2025-03-24 15:29:07,7500,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:20:12,17300 (Code.exe),892,1462564,2039,1029552,1484,181121
+2025-03-24 15:29:07,7576,SystemSettings.exe,C:\Windows\ImmersiveControlPanel\SystemSettings.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:52:27,1084 (svchost.exe),46,49969,4,40,1700,18114
+2025-03-24 15:29:07,7680,python.exe,C:\Users\arman\AppData\Local\Programs\Python\Python312\python.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:29:00,8052 (powershell.exe),102,1241904,2,16007,2256,209484
+2025-03-24 15:29:07,7748,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:16:15,13300 (chrome.exe),64,65128,91,40128,163,14954
+2025-03-24 15:29:07,7752,taskhostw.exe,C:\Windows\System32\taskhostw.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:36,1904 (svchost.exe),42,1941300,1556,34667996,12994,164724
+2025-03-24 15:29:07,8024,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:11:44,13300 (chrome.exe),110056,238856958,108318,14725574,23686,900578
+2025-03-24 15:29:07,8052,powershell.exe,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:24:27,17176 (Code.exe),171,488205,110,6239,6333,92446
+2025-03-24 15:29:07,8608,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:40:13,17100 (msedge.exe),251,394621,148,181366,86,10896
+2025-03-24 15:29:07,8944,sihost.exe,C:\Windows\System32\sihost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:36,2456 (svchost.exe),303,1241088,0,0,14820,838862
+2025-03-24 15:29:07,9020,svchost.exe,C:\Windows\System32\svchost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:36,960 (services.exe),118243,484657619,8388,18193845,21231,905144
+2025-03-24 15:29:07,9028,svchost.exe,C:\Windows\System32\svchost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:36,960 (services.exe),0,0,0,0,303,226878
+2025-03-24 15:29:07,9084,svchost.exe,C:\Windows\System32\svchost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:36,960 (services.exe),437,1785956,10920,23073472,1366,54297
+2025-03-24 15:29:07,9128,explorer.exe,C:\Windows\explorer.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:37,N/A,139724,80575555,3099,8552980,163312,4709244
+2025-03-24 15:29:07,9208,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:40:25,17100 (msedge.exe),128,92776,125,287256,116,11940
+2025-03-24 15:29:07,9364,igfxEMN.exe,C:\Windows\System32\DriverStore\FileRepository\cui_dch.inf_amd64_8f68d4f94f46f7aa\igfxEMN.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:37,2308 (igfxCUIServiceN.exe),0,0,3,25308,29094,12333944
+2025-03-24 15:29:07,9512,StartMenuExperienceHost.exe,C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\StartMenuExperienceHost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:38,1084 (svchost.exe),185,313024,108,45360,2220,21694
+2025-03-24 15:29:07,9972,svchost.exe,C:\Windows\System32\svchost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:37,960 (services.exe),5,6960,0,0,668,7982
+2025-03-24 15:29:07,10300,RuntimeBroker.exe,C:\Windows\System32\RuntimeBroker.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:38,1084 (svchost.exe),32,157359,2,248,13554,155614
+2025-03-24 15:29:07,10628,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:11:44,13300 (chrome.exe),1579,1415102,1911,2622481,164,14214
+2025-03-24 15:29:07,10648,SearchApp.exe,C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\SearchApp.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:38,1084 (svchost.exe),7663,44486170,4185,26636915,20913,2635044
+2025-03-24 15:29:07,10848,RuntimeBroker.exe,C:\Windows\System32\RuntimeBroker.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:39,1084 (svchost.exe),66094,8375771,3,408,15945,983390
+2025-03-24 15:29:07,11112,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:20:12,17300 (Code.exe),144047,177306061,157292,375264880,221,15076
+2025-03-24 15:29:07,11340,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:20:12,17300 (Code.exe),81255,362174495,67688,8349224,16055,615674
+2025-03-24 15:29:07,11652,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:20:15,14736 (Code.exe),15607,120790144,1222,974562,67272,3584738
+2025-03-24 15:29:07,11772,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:11:44,13300 (chrome.exe),85190,68068504,181437,120839682,60378,430690
+2025-03-24 15:29:07,11816,RuntimeBroker.exe,C:\Windows\System32\RuntimeBroker.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:39,1084 (svchost.exe),112218,21491940,9,288,14865,1010112
+2025-03-24 15:29:08,11852,powershell.exe,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:20:14,17176 (Code.exe),171,488205,4,143,3701,58132
+2025-03-24 15:29:08,12156,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:20:12,17300 (Code.exe),16,7366,12,144,237,728
+2025-03-24 15:29:08,12364,SoundTune.exe,C:\Program Files (x86)\MSI\One Dragon Center\Sound Tune\SoundTune.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:53,1904 (svchost.exe),67,232514,17,883,1575,34058
+2025-03-24 15:29:08,12712,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:40:25,17100 (msedge.exe),2125,2126088,2690,5951003,121,12032
+2025-03-24 15:29:08,12848,RtkAudUService64.exe,C:\Windows\System32\DriverStore\FileRepository\realtekservice.inf_amd64_3cf99e411755df38\RtkAudUService64.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:50,9128 (explorer.exe),0,0,0,0,2600,37449
+2025-03-24 15:29:08,13028,PhoneExperienceHost.exe,C:\Program Files\WindowsApps\Microsoft.YourPhone_1.25021.67.0_x64__8wekyb3d8bbwe\PhoneExperienceHost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:49,1084 (svchost.exe),302,574053,1,8,4385,153412
+2025-03-24 15:29:08,13036,CompPkgSrv.exe,C:\Windows\System32\CompPkgSrv.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:21,1084 (svchost.exe),0,0,0,0,40,340
+2025-03-24 15:29:08,13096,WhatsApp.exe,C:\Program Files\WindowsApps\5319275A.WhatsAppDesktop_2.2509.4.0_x64__cv1g1gvanyjgm\WhatsApp.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:23:45,1084 (svchost.exe),4553,16501524,243,560659,2840,75191
+2025-03-24 15:29:08,13184,SecurityHealthSystray.exe,C:\Windows\System32\SecurityHealthSystray.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:49,9128 (explorer.exe),0,0,0,0,82,862
+2025-03-24 15:29:08,13248,Rechner + UWP.exe,C:\Program Files\WindowsApps\14385JonasZoche.Rechner_4.1.9019.0_x64__7yjengah4ymn8\Rechner + UWP.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:37:26,1084 (svchost.exe),761,96462,23,11250,920,7140
+2025-03-24 15:29:08,13300,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:11:44,9128 (explorer.exe),196854,137285272,223625,140610297,97270,4782862
+2025-03-24 15:29:08,13408,dllhost.exe,C:\Windows\System32\dllhost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:50,1084 (svchost.exe),144,8359936,330,9465856,2626,73286
+2025-03-24 15:29:08,13588,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:11:48,13300 (chrome.exe),308,213528,401,474276,165,15112
+2025-03-24 15:29:08,13628,msedgewebview2.exe,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\134.0.3124.83\msedgewebview2.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:39,17120 (SearchApp.exe),12707,22354557,9467,20019155,48428,3290923
+2025-03-24 15:29:08,13740,svchost.exe,C:\Windows\System32\svchost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:23:23,960 (services.exe),126,7208964,17,294916,869,9604
+2025-03-24 15:29:08,13768,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:11:47,13300 (chrome.exe),623,665256,765,1095343,164,15108
+2025-03-24 15:29:08,13772,Canva.exe,C:\Users\arman\AppData\Local\Programs\Canva\Canva.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:53,N/A,7,538329,0,0,366,5020
+2025-03-24 15:29:08,13812,msedgewebview2.exe,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\134.0.3124.83\msedgewebview2.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:40,13628 (msedgewebview2.exe),3220,5078129,6300,3204339,5724,133986
+2025-03-24 15:29:08,13908,msedgewebview2.exe,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\134.0.3124.83\msedgewebview2.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:40,13628 (msedgewebview2.exe),240,1982628,198,2280866,95,11222
+2025-03-24 15:29:08,14152,Canva.exe,C:\Users\arman\AppData\Local\Programs\Canva\Canva.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:52,N/A,4,144,4,48,409,1316
+2025-03-24 15:29:08,14640,Start_HDR.exe,C:\Program Files (x86)\MSI\One Dragon Center\Base Module\Start_HDR.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:00,1904 (svchost.exe),38,134262,5,78134,501,8748
+2025-03-24 15:29:08,14736,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:20:13,17300 (Code.exe),49344,109395694,34916,147896813,42579,957440
+2025-03-24 15:29:08,15172,IGCC.exe,C:\Program Files\WindowsApps\AppUp.IntelGraphicsExperience_1.100.5688.0_x64__8j3eq9eme6ctt\IGCC.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:58,1084 (svchost.exe),470,20987,30,11903,965,14488
+2025-03-24 15:29:08,15176,conhost.exe,C:\Windows\System32\conhost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:24:27,17176 (Code.exe),24,337,41,4417,2805,191520
+2025-03-24 15:29:08,15796,conhost.exe,C:\Windows\System32\conhost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:20:14,17176 (Code.exe),2,0,2,234,100,6043
+2025-03-24 15:29:08,16112,RuntimeBroker.exe,C:\Windows\System32\RuntimeBroker.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:23:45,1084 (svchost.exe),1,14090,0,0,823,14736
+2025-03-24 15:29:08,16812,LockApp.exe,C:\Windows\SystemApps\Microsoft.LockApp_cw5n1h2txyewy\LockApp.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:30:49,1084 (svchost.exe),94,45525,36,19929,993,12072
+2025-03-24 15:29:08,16952,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:20:14,14736 (Code.exe),1571,9720818,260,863063,1861,11380
+2025-03-24 15:29:08,17100,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:40:13,N/A,8515,41500242,5855,22580969,53498,3290136
+2025-03-24 15:29:08,17120,SearchApp.exe,C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\SearchApp.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:39,1084 (svchost.exe),708,2153330,601,2526686,3151,77794
+2025-03-24 15:29:08,17140,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:11:44,13300 (chrome.exe),76,9128,60,720,490,5604
+2025-03-24 15:29:08,17160,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:11:52,13300 (chrome.exe),611,23984,663,40864,623,39136
+2025-03-24 15:29:08,17176,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:20:13,17300 (Code.exe),472,1713858,604,2254843,2006,56574
+2025-03-24 15:29:08,17216,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:20:13,17300 (Code.exe),3540,41639653,1759,7526588,30043,2605532
+2025-03-24 15:29:08,17256,TextInputHost.exe,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:38,1084 (svchost.exe),8,45443,1,8,819,4568
+2025-03-24 15:29:08,17272,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:27:26,14736 (Code.exe),293,4410202,61,20269,299,3202
+2025-03-24 15:29:08,17300,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:20:12,9128 (explorer.exe),53769,62583077,28298,26962806,23053,654974
+2025-03-24 15:29:08,17396,msedgewebview2.exe,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\134.0.3124.83\msedgewebview2.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:40,13628 (msedgewebview2.exe),15071,10233564,13767,54640829,127,12762
+2025-03-24 15:29:13,4,System,,NT AUTHORITY\SYSTEM,1970-01-01 01:00:00,0 (System Idle Process),609,66774796,4821,584609761,172614,6605319
+2025-03-24 15:29:13,2636,ApplicationFrameHost.exe,C:\Windows\System32\ApplicationFrameHost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:23:01,1084 (svchost.exe),163,75033,1,8,751,12228
+2025-03-24 15:29:13,2688,taskhostw.exe,C:\Windows\System32\taskhostw.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:11:27,1904 (svchost.exe),0,0,0,0,53,212
+2025-03-24 15:29:13,2692,RuntimeBroker.exe,C:\Windows\System32\RuntimeBroker.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:51:40,1084 (svchost.exe),0,0,0,0,140,3082
+2025-03-24 15:29:13,2804,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:11:44,13300 (chrome.exe),15054,13367892,8242,5883740,276,15154
+2025-03-24 15:29:13,2912,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:11:44,13300 (chrome.exe),1142,655320,1243,215056,163,14430
+2025-03-24 15:29:13,2956,msedgewebview2.exe,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\134.0.3124.83\msedgewebview2.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:39,13628 (msedgewebview2.exe),13,1636,6,72,76,1056
+2025-03-24 15:29:13,3608,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:11:46,13300 (chrome.exe),343,184352,499,530475,165,14816
+2025-03-24 15:29:13,4596,RuntimeBroker.exe,C:\Windows\System32\RuntimeBroker.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:37:27,1084 (svchost.exe),0,0,0,0,50,864
+2025-03-24 15:29:13,4696,conhost.exe,C:\Windows\System32\conhost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:20:14,17176 (Code.exe),5,12,5,367,105,6305
+2025-03-24 15:29:13,5264,ctfmon.exe,C:\Windows\System32\ctfmon.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:37,5252 (svchost.exe),1147,4564487,0,0,16796,68822
+2025-03-24 15:29:13,5908,UserOOBEBroker.exe,C:\Windows\System32\oobe\UserOOBEBroker.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:23:02,1084 (svchost.exe),0,0,0,0,136,604
+2025-03-24 15:29:13,6136,RuntimeBroker.exe,C:\Windows\System32\RuntimeBroker.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:30:49,1084 (svchost.exe),26,150135,2,248,5755,54238
+2025-03-24 15:29:13,6584,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:20:13,17300 (Code.exe),147,1124402,123,448192,4915,195504
+2025-03-24 15:29:13,7004,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:40:13,17100 (msedge.exe),44,6470,21,252,263,1580
+2025-03-24 15:29:13,7224,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:40:13,17100 (msedge.exe),1346,8777925,90,189728,587,33360
+2025-03-24 15:29:13,7260,powershell.exe,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:20:14,17176 (Code.exe),173,539001,4,143,3707,58530
+2025-03-24 15:29:13,7408,msedgewebview2.exe,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\134.0.3124.83\msedgewebview2.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:40,13628 (msedgewebview2.exe),17179,61150398,14101,2787764,4754,190110
+2025-03-24 15:29:13,7412,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:40:13,17100 (msedge.exe),2051,6020358,3954,2229344,5827,200848
+2025-03-24 15:29:13,7456,Video.UI.exe,C:\Program Files\WindowsApps\Microsoft.ZuneVideo_10.25011.10061.0_x64__8wekyb3d8bbwe\Video.UI.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:51:39,1084 (svchost.exe),349,14542191,59,257010,1812,28166
+2025-03-24 15:29:13,7500,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:20:12,17300 (Code.exe),895,1482188,2049,1030784,1490,181149
+2025-03-24 15:29:13,7576,SystemSettings.exe,C:\Windows\ImmersiveControlPanel\SystemSettings.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:52:27,1084 (svchost.exe),46,49969,4,40,1700,18114
+2025-03-24 15:29:13,7680,python.exe,C:\Users\arman\AppData\Local\Programs\Python\Python312\python.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:29:00,8052 (powershell.exe),102,1241904,4,32018,2266,209728
+2025-03-24 15:29:13,7748,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:16:15,13300 (chrome.exe),64,65128,91,40128,163,14954
+2025-03-24 15:29:13,7752,taskhostw.exe,C:\Windows\System32\taskhostw.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:36,1904 (svchost.exe),42,1941300,1556,34667996,12994,164724
+2025-03-24 15:29:13,8024,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:11:44,13300 (chrome.exe),110056,238856958,108318,14725574,23686,900578
+2025-03-24 15:29:13,8052,powershell.exe,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:24:27,17176 (Code.exe),171,488205,110,6239,6333,92446
+2025-03-24 15:29:13,8608,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:40:13,17100 (msedge.exe),251,394621,148,181366,86,10896
+2025-03-24 15:29:13,8944,sihost.exe,C:\Windows\System32\sihost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:36,2456 (svchost.exe),303,1241088,0,0,14820,838862
+2025-03-24 15:29:13,9020,svchost.exe,C:\Windows\System32\svchost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:36,960 (services.exe),118243,484657619,8388,18193845,21231,905144
+2025-03-24 15:29:13,9028,svchost.exe,C:\Windows\System32\svchost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:36,960 (services.exe),0,0,0,0,303,226878
+2025-03-24 15:29:13,9084,svchost.exe,C:\Windows\System32\svchost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:36,960 (services.exe),437,1785956,10920,23073472,1366,54297
+2025-03-24 15:29:13,9128,explorer.exe,C:\Windows\explorer.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:37,N/A,139724,80575555,3099,8552980,163324,4709244
+2025-03-24 15:29:13,9208,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:40:25,17100 (msedge.exe),128,92776,125,287256,116,11940
+2025-03-24 15:29:14,9364,igfxEMN.exe,C:\Windows\System32\DriverStore\FileRepository\cui_dch.inf_amd64_8f68d4f94f46f7aa\igfxEMN.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:37,2308 (igfxCUIServiceN.exe),0,0,3,25308,29094,12333944
+2025-03-24 15:29:14,9512,StartMenuExperienceHost.exe,C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\StartMenuExperienceHost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:38,1084 (svchost.exe),185,313024,108,45360,2220,21694
+2025-03-24 15:29:14,9972,svchost.exe,C:\Windows\System32\svchost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:37,960 (services.exe),5,6960,0,0,668,7982
+2025-03-24 15:29:14,10300,RuntimeBroker.exe,C:\Windows\System32\RuntimeBroker.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:38,1084 (svchost.exe),32,157359,2,248,13554,155614
+2025-03-24 15:29:14,10628,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:11:44,13300 (chrome.exe),1579,1415102,1911,2622481,164,14214
+2025-03-24 15:29:14,10648,SearchApp.exe,C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\SearchApp.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:38,1084 (svchost.exe),7663,44486170,4185,26636915,20913,2635044
+2025-03-24 15:29:14,10848,RuntimeBroker.exe,C:\Windows\System32\RuntimeBroker.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:39,1084 (svchost.exe),66094,8375771,3,408,15945,983390
+2025-03-24 15:29:14,11112,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:20:12,17300 (Code.exe),147919,183329597,160611,384574776,221,15076
+2025-03-24 15:29:14,11340,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:20:12,17300 (Code.exe),83079,371201407,69114,8508936,16390,629074
+2025-03-24 15:29:14,11652,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:20:15,14736 (Code.exe),15610,120790350,1222,974562,67327,3587306
+2025-03-24 15:29:14,11772,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:11:44,13300 (chrome.exe),85190,68068504,181437,120839682,60378,430690
+2025-03-24 15:29:14,11816,RuntimeBroker.exe,C:\Windows\System32\RuntimeBroker.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:39,1084 (svchost.exe),112218,21491940,9,288,14865,1010112
+2025-03-24 15:29:14,11852,powershell.exe,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:20:14,17176 (Code.exe),171,488205,4,143,3701,58132
+2025-03-24 15:29:14,12156,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:20:12,17300 (Code.exe),16,7366,12,144,237,728
+2025-03-24 15:29:14,12364,SoundTune.exe,C:\Program Files (x86)\MSI\One Dragon Center\Sound Tune\SoundTune.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:53,1904 (svchost.exe),67,232514,17,883,1575,34058
+2025-03-24 15:29:14,12712,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:40:25,17100 (msedge.exe),2125,2126088,2690,5951003,121,12032
+2025-03-24 15:29:14,12848,RtkAudUService64.exe,C:\Windows\System32\DriverStore\FileRepository\realtekservice.inf_amd64_3cf99e411755df38\RtkAudUService64.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:50,9128 (explorer.exe),0,0,0,0,2600,37449
+2025-03-24 15:29:14,13028,PhoneExperienceHost.exe,C:\Program Files\WindowsApps\Microsoft.YourPhone_1.25021.67.0_x64__8wekyb3d8bbwe\PhoneExperienceHost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:49,1084 (svchost.exe),302,574053,1,8,4385,153412
+2025-03-24 15:29:14,13036,CompPkgSrv.exe,C:\Windows\System32\CompPkgSrv.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:21,1084 (svchost.exe),0,0,0,0,40,340
+2025-03-24 15:29:14,13096,WhatsApp.exe,C:\Program Files\WindowsApps\5319275A.WhatsAppDesktop_2.2509.4.0_x64__cv1g1gvanyjgm\WhatsApp.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:23:45,1084 (svchost.exe),4553,16501524,243,560659,2840,75191
+2025-03-24 15:29:14,13184,SecurityHealthSystray.exe,C:\Windows\System32\SecurityHealthSystray.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:49,9128 (explorer.exe),0,0,0,0,82,862
+2025-03-24 15:29:14,13248,Rechner + UWP.exe,C:\Program Files\WindowsApps\14385JonasZoche.Rechner_4.1.9019.0_x64__7yjengah4ymn8\Rechner + UWP.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:37:26,1084 (svchost.exe),761,96462,23,11250,920,7140
+2025-03-24 15:29:14,13300,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:11:44,9128 (explorer.exe),196854,137285272,223625,140610297,97270,4782862
+2025-03-24 15:29:14,13408,dllhost.exe,C:\Windows\System32\dllhost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:50,1084 (svchost.exe),144,8359936,330,9465856,2626,73286
+2025-03-24 15:29:14,13588,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:11:48,13300 (chrome.exe),308,213528,401,474276,165,15112
+2025-03-24 15:29:14,13628,msedgewebview2.exe,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\134.0.3124.83\msedgewebview2.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:39,17120 (SearchApp.exe),12707,22354557,9467,20019155,48428,3290923
+2025-03-24 15:29:14,13740,svchost.exe,C:\Windows\System32\svchost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:23:23,960 (services.exe),126,7208964,17,294916,869,9604
+2025-03-24 15:29:14,13768,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:11:47,13300 (chrome.exe),623,665256,765,1095343,164,15108
+2025-03-24 15:29:14,13772,Canva.exe,C:\Users\arman\AppData\Local\Programs\Canva\Canva.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:53,N/A,7,538329,0,0,366,5020
+2025-03-24 15:29:14,13812,msedgewebview2.exe,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\134.0.3124.83\msedgewebview2.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:40,13628 (msedgewebview2.exe),3220,5078129,6300,3204339,5724,133986
+2025-03-24 15:29:14,13908,msedgewebview2.exe,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\134.0.3124.83\msedgewebview2.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:40,13628 (msedgewebview2.exe),240,1982628,198,2280866,95,11222
+2025-03-24 15:29:14,14152,Canva.exe,C:\Users\arman\AppData\Local\Programs\Canva\Canva.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:52,N/A,4,144,4,48,409,1316
+2025-03-24 15:29:14,14640,Start_HDR.exe,C:\Program Files (x86)\MSI\One Dragon Center\Base Module\Start_HDR.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:00,1904 (svchost.exe),38,134262,5,78134,501,8748
+2025-03-24 15:29:14,14736,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:20:13,17300 (Code.exe),50249,109526777,36170,153326919,43005,961106
+2025-03-24 15:29:14,15172,IGCC.exe,C:\Program Files\WindowsApps\AppUp.IntelGraphicsExperience_1.100.5688.0_x64__8j3eq9eme6ctt\IGCC.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:21:58,1084 (svchost.exe),470,20987,30,11903,965,14488
+2025-03-24 15:29:14,15176,conhost.exe,C:\Windows\System32\conhost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:24:27,17176 (Code.exe),24,337,41,4417,2805,191520
+2025-03-24 15:29:14,15796,conhost.exe,C:\Windows\System32\conhost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:20:14,17176 (Code.exe),2,0,2,234,100,6043
+2025-03-24 15:29:14,16112,RuntimeBroker.exe,C:\Windows\System32\RuntimeBroker.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:23:45,1084 (svchost.exe),1,14090,0,0,823,14736
+2025-03-24 15:29:14,16812,LockApp.exe,C:\Windows\SystemApps\Microsoft.LockApp_cw5n1h2txyewy\LockApp.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:30:49,1084 (svchost.exe),94,45525,36,19929,993,12072
+2025-03-24 15:29:14,16952,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:20:14,14736 (Code.exe),1571,9720818,260,863063,1861,11380
+2025-03-24 15:29:14,17100,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-AOEVUGH\arman,2025-03-24 10:40:13,N/A,8515,41500242,5855,22580969,53498,3290136
+2025-03-24 15:29:14,17120,SearchApp.exe,C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\SearchApp.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:39,1084 (svchost.exe),708,2153330,601,2526686,3151,77794
+2025-03-24 15:29:14,17140,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:11:44,13300 (chrome.exe),76,9128,60,720,490,5604
+2025-03-24 15:29:14,17160,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:11:52,13300 (chrome.exe),611,23984,663,40864,623,39136
+2025-03-24 15:29:14,17176,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:20:13,17300 (Code.exe),472,1713858,606,2263571,2006,56574
+2025-03-24 15:29:14,17216,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:20:13,17300 (Code.exe),3548,41641013,1763,7554940,30043,2605532
+2025-03-24 15:29:14,17256,TextInputHost.exe,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:38,1084 (svchost.exe),8,45443,1,8,819,4568
+2025-03-24 15:29:14,17272,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:27:26,14736 (Code.exe),293,4410202,61,20269,299,3202
+2025-03-24 15:29:14,17300,Code.exe,C:\Users\arman\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-AOEVUGH\arman,2025-03-24 15:20:12,9128 (explorer.exe),54569,62932490,28773,27123690,23078,655104
+2025-03-24 15:29:14,17396,msedgewebview2.exe,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\134.0.3124.83\msedgewebview2.exe,DESKTOP-AOEVUGH\arman,2025-03-24 09:22:40,13628 (msedgewebview2.exe),15071,10233564,13767,54640829,127,12762

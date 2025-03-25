@@ -30,7 +30,7 @@ class CustomEventHandler(FileSystemEventHandler):
             writer.writerow([date_time[0], date_time[1], event_type, src_path, dest_path, file_name, isdirectory])
         
     def on_modified(self, event):
-        if not(event.src_path.startswith(self.excluded_path)):
+        if not any(event.src_path.startswith(excluded) for excluded in self.excluded_path):
             self.log_event(event.is_directory, "MODIFIED", event.src_path)
 
     def on_created(self, event):
@@ -54,7 +54,7 @@ def main():
     csv_file = f"{ruta_log}/filesystem_event.csv"
     
     # Paths exluidos del monitoreo (bucle infinito)
-    excluded = str(ruta_log.parent.parent.parent)
+    excluded = [str(ruta_log.parent.parent.parent)]
     
     
     initialize_csv_file(csv_file)

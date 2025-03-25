@@ -10,7 +10,7 @@ ruta_log = Path(__file__).resolve().parent.parent.parent.parent / "logs"
 header = ["Timestamp", "PID", "Nombre", "Ruta", "Usuario", "Tiempo de creación", "Proceso padre",
           "Numero lecturas", "Bytes leidos", "Numero escrituras", "Bytes escritos"]
 
-csv_file = f"{ruta_log}\\process_monitor.csv"
+csv_file = f"{ruta_log}/process_monitor.csv"
 
 # Obtiene la información de un proceso y del proceso padre (si lo hay).
 def get_process_info(pid):

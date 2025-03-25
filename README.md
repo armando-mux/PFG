@@ -126,7 +126,6 @@ En el main esta el script que lanza las funcionalidades ya mencionadas (menos la
 
 to-do antes de enviar: 
 
-- refinar deteccion procesos de windwos
 - procesos y daemons de Linux.
 - Eventos clave de windows 
 - Script de iaudit en linux
