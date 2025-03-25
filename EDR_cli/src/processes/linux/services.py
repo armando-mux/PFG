@@ -17,7 +17,7 @@ headers = [
     "description",
     "pid",
     "memory_usage",
-    "cpu_percent"
+    "cpu_percent",
     "file_path",
     "time_start",
     "time_end"
@@ -65,27 +65,28 @@ def get_systemctl_services():
 
 # Escribe la información de los servicios en el archivo CSV.
 def write_to_csv(data):
-    
-    with open(csv_file, "a", newline="", encoding="utf-8") as f:
-        if f.tell() == 0:
-            writer = csv.DictWriter(f, fieldnames=headers)
-        
-        for service in data:
-            row = {
-                "timestamp": datetime.now().isoformat(),
-                "service_name": service.get("service_name", "N/A"),
-                "load_state": service.get("loadstate", "not-found"),
-                "active_state": service.get("activestate", "not-found"),
-                "sub_state": service.get("substate", "not-found"),
-                "description": service.get("description", "N/A"),
-                "pid": service.get("mainpid", "not-found"),
-                "memory_usage": int(service.get('memorycurrent', 0)) if service.get("memorycurrent") not in ["", "not-found", "[not set]"] else "not set",
-                "cpu_percent": float(service.get('cpuusage', 0)) if service.get("cpuusage") not in ["", "[not set]"] else "not set"
-                "file_path": service.get("fragmentpath", "not-found"),
-                "time_start": service.get("execmainstarttimestamp", "not-found"),
-                "time_end": service.get("execmainexittimestamp", "not-found")
-            }
-            writer.writerow(row)
+	
+	with open(csv_file, "a", newline="", encoding="utf-8") as f:
+		writer = csv.DictWriter(f, fieldnames=headers)
+		if f.tell() == 0:
+			writer.writeheader()
+	
+		for service in data:
+			row = {
+				"timestamp": datetime.now().isoformat(),
+				"service_name": service.get("service_name", "N/A"),
+				"load_state": service.get("loadstate", "not-found"),
+				"active_state": service.get("activestate", "not-found"),
+				"sub_state": service.get("substate", "not-found"),
+				"description": service.get("description", "N/A"),
+				"pid": service.get("mainpid", "not-found"),
+				"memory_usage": int(service.get('memorycurrent', 0)) if service.get("memorycurrent") not in ["", "not-found", "[not set]"] else "not set",
+				"cpu_percent": float(service.get('cpuusage', 0)) if service.get("cpuusage") not in ["", "[not set]"] else "not set",
+				"file_path": service.get("fragmentpath", "not-found"),
+				"time_start": service.get("execmainstarttimestamp", "not-found"),
+				"time_end": service.get("execmainexittimestamp", "not-found")
+			}
+			writer.writerow(row)
 
 def main():
     print(f"Monitorizando servicios con systemctl. Guardando en {csv_file}")
