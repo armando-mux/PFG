@@ -40,7 +40,7 @@ def get_systemctl_services():
                 service_name = parts[0]
                 
                 # Obtiene detalles adicionales con systemctl show
-                show_cmd = ["systemctl", "show", "--property=LoadState,ActiveState,SubState,Description,MainPID,MemoryCurrent,CPUUsage", "service_name"]
+                show_cmd = ["systemctl", "show", "*.service", "--property=LoadState,ActiveState,SubState,Description,MainPID,MemoryCurrent,CPUUsage,Names"]
                 show_output = subprocess.check_output(show_cmd, text=True)
                 
                 # Parsea la salida
@@ -81,8 +81,8 @@ def write_to_csv(data):
                 "sub_state": service.get("substate", "not-found"),
                 "description": service.get("description", "N/A"),
                 "pid": service.get("mainpid", "not-found"),
-                "memory_usage": f"{int(service.get('memorycurrent', 0)) / 1024:.2f} MB" if service.get("memorycurrent") not in ["", "not-found"] else "not-found",
-                "cpu_percent": f"{float(service.get('cpuusage', 0)) * 100:.2f}%" if service.get("cpuusage") not in ["", "not-found"] else "not-found"
+                "memory_usage": int(service.get('memorycurrent', 0)) if service.get("memorycurrent") not in ["", "not-found", "[not set]"] else "not set",
+                "cpu_percent": float(service.get('cpuusage', 0)) if service.get("cpuusage") not in ["", "[not set]"] else "not set"
             }
             writer.writerow(row)
 
