@@ -10,7 +10,7 @@ import csv
 # Función para inicializar el archivo de registro CSV
 def initialize_csv_file(csv_file):
     if not os.path.exists(csv_file):
-        with open(csv_file, mode="w", newline="", encoding="utf-8") as file:
+        with open(csv_file, mode="a", newline="", encoding="utf-8") as file:
             writer = csv.writer(file)
             writer.writerow(["Date", "Time", "Event", "Path src", "Path Dst", "Archive", "isDirectory"])
 
@@ -50,7 +50,7 @@ def main():
     
     # Paths a monitorear
     paths = ["C:\\Users", "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\", 
-                "C:\\Windows\\System32\\", "C:\\Windows\\SysWOW64\\", "C:\\Windows\\Temp\\", "C:\\Windows\\Tasks\\"]
+                "C:\\Windows\\System32\\", "C:\\Windows\\SysWOW64\\", "C:\\Windows\\Temp\\", "C:\\Windows\\Tasks\\", "C:\\Windows\\WinSxS\\"]
 
     
     # Directorio a excluir, el de este mismo programa (sino se crea bucle infinito)

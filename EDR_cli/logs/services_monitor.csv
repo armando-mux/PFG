@@ -1,363 +1,300 @@
-timestamp,service_name,load_state,active_state,sub_state,description,pid,memory_usage,cpu_percent,file_path,time_start,time_end
-2025-03-25T16:43:18.903779,accounts-daemon.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.903841,alsa-restore.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.903871,alsa-state.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.903896,anacron.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.903902,apparmor.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.903909,apport-autoreport.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.903914,apport.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.903920,apt-daily-upgrade.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.903935,apt-daily.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.903941,auditd.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.903946,auto-cpufreq.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.903951,avahi-daemon.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.903957,cloud-config.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.903979,cloud-init-local.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.903985,cloud-init.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.903991,colord.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904003,connman.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904008,console-screen.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904014,console-setup.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904019,cron.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904025,cups-browsed.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904030,cups.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904036,dbus.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904043,dmesg.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904049,dpkg-db-backup.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904054,e2scrub_all.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904059,e2scrub_reap.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904065,emergency.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904070,fstrim.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904075,fwupd-refresh.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904080,fwupd.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904086,gdm.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904091,getty-static.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904096,getty@tty1.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904102,gnome-remote-desktop.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904108,gpu-manager.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904113,grub-common.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904118,grub-initrd-fallback.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904124,hv_kvp_daemon.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904211,initrd-cleanup.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904220,initrd-parse-etc.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904226,initrd-switch-root.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904232,initrd-udevadm-cleanup-db.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904237,kbd.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904244,kerneloops.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904249,keyboard-setup.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904269,kmod-static-nodes.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904274,ldconfig.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904280,logrotate.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904285,man-db.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904290,ModemManager.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904295,modprobe@configfs.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904301,modprobe@dm_mod.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904306,modprobe@drm.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904312,modprobe@efi_pstore.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904317,modprobe@fuse.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904323,modprobe@loop.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904328,motd-news.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904334,netplan-ovs-cleanup.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904339,networkd-dispatcher.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904345,networking.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904350,NetworkManager-wait-online.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904356,NetworkManager.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904361,nslcd.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904366,oem-config.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904372,open-vm-tools.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904377,openvpn.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904383,ovsdb-server.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904389,plymouth-quit-wait.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904394,plymouth-quit.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904399,plymouth-read-write.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904405,plymouth-start.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904410,plymouth-switch-root.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904420,polkit.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904425,power-profiles-daemon.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904430,rc-local.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904435,rescue.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904462,rsyslog.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904468,rtkit-daemon.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904474,secureboot-db.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904480,setvtrgb.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904485,snapd.apparmor.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904491,snapd.autoimport.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904496,snapd.core-fixup.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904501,snapd.failure.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904506,snapd.recovery-chooser-trigger.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904512,snapd.seeded.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904517,snapd.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904522,snapd.snap-repair.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904527,snapd.system-shutdown.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904533,sshd-keygen.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904539,sshd.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904560,ssl-cert.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904566,sssd-autofs.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904571,sssd-nss.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904576,sssd-pac.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904589,sssd-pam.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904594,sssd-ssh.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904600,sssd-sudo.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904605,sssd.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904610,switcheroo-control.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904615,sysstat-collect.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904621,sysstat-summary.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904627,sysstat.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904632,system76-power.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904637,systemd-ask-password-console.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904643,systemd-ask-password-plymouth.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904648,systemd-ask-password-wall.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904653,systemd-battery-check.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904659,systemd-binfmt.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904664,systemd-bsod.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904669,systemd-firstboot.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904674,systemd-fsck-root.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904680,systemd-fsckd.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904685,systemd-hibernate-resume.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904707,systemd-hibernate.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904714,systemd-hwdb-update.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904720,systemd-hybrid-sleep.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904737,systemd-initctl.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904767,systemd-journal-catalog-update.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904786,systemd-journal-flush.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904792,systemd-journald.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904797,systemd-logind.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904803,systemd-machine-id-commit.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904808,systemd-modules-load.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904813,systemd-networkd-wait-online.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904819,systemd-networkd.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904825,systemd-oomd.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904830,systemd-pcrmachine.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904835,systemd-pcrphase-initrd.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904841,systemd-pcrphase-sysinit.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904846,systemd-pcrphase.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904851,systemd-pstore.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904856,systemd-random-seed.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904862,systemd-remount-fs.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904867,systemd-repart.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904872,systemd-resolved.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904878,systemd-rfkill.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904883,systemd-soft-reboot.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904888,systemd-suspend-then-hibernate.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904894,systemd-suspend.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904899,systemd-sysctl.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904905,systemd-sysext.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904910,systemd-sysusers.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904916,systemd-timesyncd.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904921,systemd-tmpfiles-clean.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904926,systemd-tmpfiles-setup-dev-early.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904932,systemd-tmpfiles-setup-dev.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904937,systemd-tmpfiles-setup.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904942,systemd-tpm2-setup-early.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904948,systemd-tpm2-setup.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904953,systemd-udev-settle.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904971,systemd-udev-trigger.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904977,systemd-udevd.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904983,systemd-update-done.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904989,systemd-update-utmp-runlevel.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.904995,systemd-update-utmp.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.905000,systemd-user-sessions.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.905006,systemd-vconsole-setup.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.905012,thermald.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.905017,tlp.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.905022,tpm-udev.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.905028,tuned.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.905033,ua-auto-attach.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.905038,ua-reboot-cmds.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.905044,ua-timer.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.905050,ubuntu-advantage-cloud-id-shim.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.905055,ubuntu-advantage.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.905061,udisks2.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.905066,ufw.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.905071,unattended-upgrades.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.905076,update-notifier-download.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.905082,update-notifier-motd.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.905087,upower.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.905092,user-runtime-dir@1000.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.905098,user@1000.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.905103,uuidd.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.905114,vgauth.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.905120,whoopsie.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.905125,wpa_supplicant.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:43:18.905130,zfs-mount.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.151768,accounts-daemon.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.151809,alsa-restore.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.151820,alsa-state.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.151828,anacron.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.151834,apparmor.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.151842,apport-autoreport.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.151848,apport.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.151855,apt-daily-upgrade.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.151861,apt-daily.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.151867,auditd.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.151875,auto-cpufreq.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.151881,avahi-daemon.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.151887,cloud-config.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.151892,cloud-init-local.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.151910,cloud-init.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.151917,colord.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.151954,connman.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.151962,console-screen.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.151968,console-setup.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.151974,cron.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.151980,cups-browsed.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.151986,cups.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.151992,dbus.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152000,dmesg.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152006,dpkg-db-backup.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152012,e2scrub_all.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152018,e2scrub_reap.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152024,emergency.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152030,fstrim.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152036,fwupd-refresh.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152041,fwupd.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152048,gdm.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152054,getty-static.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152060,getty@tty1.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152066,gnome-remote-desktop.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152072,gpu-manager.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152078,grub-common.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152084,grub-initrd-fallback.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152089,hv_kvp_daemon.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152134,initrd-cleanup.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152141,initrd-parse-etc.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152148,initrd-switch-root.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152154,initrd-udevadm-cleanup-db.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152161,kbd.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152167,kerneloops.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152173,keyboard-setup.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152179,kmod-static-nodes.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152185,ldconfig.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152191,logrotate.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152197,man-db.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152203,ModemManager.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152208,modprobe@configfs.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152214,modprobe@dm_mod.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152220,modprobe@drm.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152226,modprobe@efi_pstore.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152232,modprobe@fuse.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152238,modprobe@loop.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152244,motd-news.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152250,netplan-ovs-cleanup.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152256,networkd-dispatcher.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152262,networking.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152268,NetworkManager-wait-online.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152274,NetworkManager.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152280,nslcd.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152285,oem-config.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152291,open-vm-tools.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152297,openvpn.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152302,ovsdb-server.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152308,plymouth-quit-wait.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152314,plymouth-quit.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152320,plymouth-read-write.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152325,plymouth-start.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152331,plymouth-switch-root.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152338,polkit.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152344,power-profiles-daemon.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152349,rc-local.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152355,rescue.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152366,rsyslog.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152372,rtkit-daemon.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152378,secureboot-db.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152383,setvtrgb.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152389,snapd.apparmor.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152395,snapd.autoimport.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152401,snapd.core-fixup.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152413,snapd.failure.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152420,snapd.recovery-chooser-trigger.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152426,snapd.seeded.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152432,snapd.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152443,snapd.snap-repair.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152450,snapd.system-shutdown.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152457,sshd-keygen.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152464,sshd.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152469,ssl-cert.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152475,sssd-autofs.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152481,sssd-nss.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152487,sssd-pac.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152492,sssd-pam.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152498,sssd-ssh.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152503,sssd-sudo.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152509,sssd.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152515,switcheroo-control.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152521,sysstat-collect.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152527,sysstat-summary.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152533,sysstat.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152539,system76-power.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152545,systemd-ask-password-console.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152551,systemd-ask-password-plymouth.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152557,systemd-ask-password-wall.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152562,systemd-battery-check.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152568,systemd-binfmt.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152574,systemd-bsod.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152580,systemd-firstboot.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152586,systemd-fsck-root.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152592,systemd-fsckd.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152598,systemd-hibernate-resume.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152609,systemd-hibernate.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152616,systemd-hwdb-update.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152622,systemd-hybrid-sleep.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152628,systemd-initctl.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152633,systemd-journal-catalog-update.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152639,systemd-journal-flush.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152644,systemd-journald.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152650,systemd-logind.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152656,systemd-machine-id-commit.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152662,systemd-modules-load.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152668,systemd-networkd-wait-online.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152674,systemd-networkd.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152680,systemd-oomd.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152686,systemd-pcrmachine.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152691,systemd-pcrphase-initrd.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152697,systemd-pcrphase-sysinit.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152702,systemd-pcrphase.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152708,systemd-pstore.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152714,systemd-random-seed.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152720,systemd-remount-fs.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152726,systemd-repart.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152732,systemd-resolved.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152737,systemd-rfkill.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152744,systemd-soft-reboot.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152750,systemd-suspend-then-hibernate.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152756,systemd-suspend.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152761,systemd-sysctl.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152767,systemd-sysext.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152773,systemd-sysusers.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152780,systemd-timesyncd.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152786,systemd-tmpfiles-clean.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152792,systemd-tmpfiles-setup-dev-early.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152799,systemd-tmpfiles-setup-dev.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152805,systemd-tmpfiles-setup.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152811,systemd-tpm2-setup-early.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152817,systemd-tpm2-setup.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152823,systemd-udev-settle.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152833,systemd-udev-trigger.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152841,systemd-udevd.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152847,systemd-update-done.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152854,systemd-update-utmp-runlevel.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152860,systemd-update-utmp.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152866,systemd-user-sessions.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152873,systemd-vconsole-setup.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152879,thermald.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152885,tlp.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152890,tpm-udev.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152896,tuned.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152903,ua-auto-attach.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152909,ua-reboot-cmds.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152915,ua-timer.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152921,ubuntu-advantage-cloud-id-shim.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152926,ubuntu-advantage.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152933,udisks2.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152939,ufw.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152945,unattended-upgrades.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152950,update-notifier-download.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152956,update-notifier-motd.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152962,upower.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152968,user-runtime-dir@1000.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152974,user@1000.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152980,uuidd.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152985,vgauth.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152992,whoopsie.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.152998,wpa_supplicant.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
-2025-03-25T16:44:11.153003,zfs-mount.service,loaded,active,exited,automatic crash report generation,0,not set,0.0,/usr/lib/systemd/system/apport.service,Tue 2025-03-25 15:52:42 CET,Tue 2025-03-25 15:52:42 CET
+Timestamp,Nombre,Estado,Auto-Start,PID,Ruta del ejecutable,Usuario
+2025-03-25 20:34:17,AJRouter,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT AUTHORITY\LocalService
+2025-03-25 20:34:17,ALG,stopped,manual,,C:\Windows\System32\alg.exe,NT AUTHORITY\LocalService
+2025-03-25 20:34:17,AppIDSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT Authority\LocalService
+2025-03-25 20:34:17,Appinfo,running,manual,13908,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-03-25 20:34:17,AppMgmt,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-03-25 20:34:17,AppReadiness,stopped,manual,,C:\Windows\System32\svchost.exe -k AppReadiness -p,LocalSystem
+2025-03-25 20:34:17,AppVClient,stopped,disabled,,C:\Windows\system32\AppVClient.exe,LocalSystem
+2025-03-25 20:34:17,AppXSvc,running,manual,3312,C:\Windows\system32\svchost.exe -k wsappx -p,LocalSystem
+2025-03-25 20:34:17,AssignedAccessManagerSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k AssignedAccessManagerSvc,LocalSystem
+2025-03-25 20:34:17,AudioEndpointBuilder,running,automatic,2668,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-03-25 20:34:17,Audiosrv,running,automatic,4452,C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted -p,NT AUTHORITY\LocalService
+2025-03-25 20:34:17,autotimesvc,stopped,manual,,C:\Windows\system32\svchost.exe -k autoTimeSvc,NT AUTHORITY\LocalService
+2025-03-25 20:34:17,AxInstSV,stopped,manual,,C:\Windows\system32\svchost.exe -k AxInstSVGroup,LocalSystem
+2025-03-25 20:34:17,BDESVC,stopped,manual,,C:\Windows\System32\svchost.exe -k netsvcs -p,localSystem
+2025-03-25 20:34:17,BEService,stopped,manual,,"""C:\Program Files (x86)\Common Files\BattlEye\BEService.exe""",LocalSystem
+2025-03-25 20:34:17,BFE,running,automatic,4828,C:\Windows\system32\svchost.exe -k LocalServiceNoNetworkFirewall -p,NT AUTHORITY\LocalService
+2025-03-25 20:34:17,BITS,stopped,manual,,C:\Windows\System32\svchost.exe -k netsvcs -p,LocalSystem
+2025-03-25 20:34:17,brlapi,stopped,manual,,C:\Windows\brltty\bin\brltty.exe,NT AUTHORITY\LocalService
+2025-03-25 20:34:17,BrokerInfrastructure,running,automatic,1032,C:\Windows\system32\svchost.exe -k DcomLaunch -p,LocalSystem
+2025-03-25 20:34:17,BTAGService,running,manual,1596,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted,NT AUTHORITY\LocalService
+2025-03-25 20:34:17,BthAvctpSvc,running,manual,1604,C:\Windows\system32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
+2025-03-25 20:34:17,bthserv,running,manual,1612,C:\Windows\system32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
+2025-03-25 20:34:17,camsvc,running,manual,3024,C:\Windows\system32\svchost.exe -k appmodel -p,LocalSystem
+2025-03-25 20:34:17,CCleanerPerformanceOptimizerService,stopped,manual,,"""C:\Program Files\CCleaner\CCleanerPerformanceOptimizerService.exe""",LocalSystem
+2025-03-25 20:34:17,CDPSvc,running,automatic,3440,C:\Windows\system32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
+2025-03-25 20:34:17,CertPropSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs,LocalSystem
+2025-03-25 20:34:17,ClickToRunSvc,running,automatic,5864,"""C:\Program Files\Common Files\Microsoft Shared\ClickToRun\OfficeClickToRun.exe"" /service",LocalSystem
+2025-03-25 20:34:17,ClipSVC,stopped,manual,,C:\Windows\System32\svchost.exe -k wsappx -p,LocalSystem
+2025-03-25 20:34:17,cloudidsvc,stopped,manual,,C:\Windows\system32\svchost.exe -k CloudIdServiceGroup -p,NT AUTHORITY\NetworkService
+2025-03-25 20:34:17,COMSysApp,stopped,manual,,C:\Windows\system32\dllhost.exe /Processid:{02D4B3F1-FD88-11D1-960D-00805FC79235},LocalSystem
+2025-03-25 20:34:17,CoreMessagingRegistrar,running,automatic,1564,C:\Windows\system32\svchost.exe -k LocalServiceNoNetwork -p,NT AUTHORITY\LocalService
+2025-03-25 20:34:17,cplspcon,running,automatic,2020,C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_6b10ae7f2f9034c5\IntelCpHDCPSvc.exe,LocalSystem
+2025-03-25 20:34:17,CryptSvc,running,automatic,5440,C:\Windows\system32\svchost.exe -k NetworkService -p,NT Authority\NetworkService
+2025-03-25 20:34:17,CscService,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-03-25 20:34:17,DcomLaunch,running,automatic,1032,C:\Windows\system32\svchost.exe -k DcomLaunch -p,LocalSystem
+2025-03-25 20:34:17,dcsvc,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-03-25 20:34:17,defragsvc,stopped,manual,,C:\Windows\system32\svchost.exe -k defragsvc,localSystem
+2025-03-25 20:34:17,DeviceAssociationService,running,automatic,2840,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-03-25 20:34:17,DeviceInstall,stopped,manual,,C:\Windows\system32\svchost.exe -k DcomLaunch -p,LocalSystem
+2025-03-25 20:34:17,DevQueryBroker,running,manual,2636,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-03-25 20:34:17,Dhcp,running,automatic,2300,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT Authority\LocalService
+2025-03-25 20:34:17,diagnosticshub.standardcollector.service,stopped,manual,,C:\Windows\system32\DiagSvcs\DiagnosticsHub.StandardCollector.Service.exe,LocalSystem
+2025-03-25 20:34:17,diagsvc,stopped,manual,,C:\Windows\System32\svchost.exe -k diagnostics,LocalSystem
+2025-03-25 20:34:17,DiagTrack,running,automatic,5416,C:\Windows\System32\svchost.exe -k utcsvc -p,LocalSystem
+2025-03-25 20:34:17,DialogBlockingService,stopped,disabled,,C:\Windows\system32\svchost.exe -k DialogBlockingService,LocalSystem
+2025-03-25 20:34:17,DispBrokerDesktopSvc,running,automatic,2492,C:\Windows\system32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
+2025-03-25 20:34:17,DisplayEnhancementService,running,manual,2004,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-03-25 20:34:17,DmEnrollmentSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-03-25 20:34:17,dmwappushservice,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-03-25 20:34:17,Dnscache,running,automatic,3376,C:\Windows\system32\svchost.exe -k NetworkService -p,NT AUTHORITY\NetworkService
+2025-03-25 20:34:17,DoSvc,running,automatic,4836,C:\Windows\System32\svchost.exe -k NetworkService -p,NT Authority\NetworkService
+2025-03-25 20:34:17,dot3svc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,localSystem
+2025-03-25 20:34:17,DPS,running,automatic,5424,C:\Windows\System32\svchost.exe -k LocalServiceNoNetwork -p,NT AUTHORITY\LocalService
+2025-03-25 20:34:17,DSAService,running,automatic,5432,"""C:\Program Files (x86)\Intel\Driver and Support Assistant\DSAService.exe""",LocalSystem
+2025-03-25 20:34:17,DSAUpdateService,running,automatic,5448,"""C:\Program Files (x86)\Intel\Driver and Support Assistant\DSAUpdateService.exe""",LocalSystem
+2025-03-25 20:34:17,DsmSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-03-25 20:34:17,DsSvc,running,manual,4152,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-03-25 20:34:17,DusmSvc,running,automatic,4588,C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted -p,NT Authority\LocalService
+2025-03-25 20:34:17,Eaphost,stopped,manual,,C:\Windows\System32\svchost.exe -k netsvcs -p,localSystem
+2025-03-25 20:34:17,edgeupdate,stopped,automatic,,"""C:\Program Files (x86)\Microsoft\EdgeUpdate\MicrosoftEdgeUpdate.exe"" /svc",LocalSystem
+2025-03-25 20:34:17,edgeupdatem,stopped,manual,,"""C:\Program Files (x86)\Microsoft\EdgeUpdate\MicrosoftEdgeUpdate.exe"" /medsvc",LocalSystem
+2025-03-25 20:34:17,EFS,stopped,manual,,C:\Windows\System32\lsass.exe,LocalSystem
+2025-03-25 20:34:17,embeddedmode,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-03-25 20:34:17,EntAppSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k appmodel -p,LocalSystem
+2025-03-25 20:34:17,esifsvc,running,automatic,5752,"""C:\Windows\System32\DriverStore\FileRepository\dptf_cpu.inf_amd64_4ce8bafd96682424\esif_uf.exe""",LocalSystem
+2025-03-25 20:34:17,EventLog,running,automatic,1808,C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted -p,NT AUTHORITY\LocalService
+2025-03-25 20:34:17,EventSystem,running,automatic,1212,C:\Windows\system32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
+2025-03-25 20:34:17,Fax,stopped,manual,,C:\Windows\system32\fxssvc.exe,NT AUTHORITY\NetworkService
+2025-03-25 20:34:17,fdPHost,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
+2025-03-25 20:34:17,FDResPub,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation -p,NT AUTHORITY\LocalService
+2025-03-25 20:34:17,fhsvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-03-25 20:34:17,FileSyncHelper,stopped,manual,,"""C:\Program Files\Microsoft OneDrive\23.209.1008.0002\FileSyncHelper.exe""",LocalSystem
+2025-03-25 20:34:17,FontCache,running,automatic,2744,C:\Windows\system32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
+2025-03-25 20:34:17,FontCache3.0.0.0,running,manual,8596,C:\Windows\Microsoft.Net\Framework64\v3.0\WPF\PresentationFontCache.exe,NT Authority\LocalService
+2025-03-25 20:34:17,FrameServer,running,manual,15208,C:\Windows\System32\svchost.exe -k Camera,LocalSystem
+2025-03-25 20:34:17,GameInputSvc,stopped,manual,,C:\Windows\System32\GameInputSvc.exe,LocalSystem
+2025-03-25 20:34:17,GoogleChromeElevationService,stopped,manual,,"""C:\Program Files\Google\Chrome\Application\134.0.6998.165\elevation_service.exe""",LocalSystem
+2025-03-25 20:34:17,GoogleUpdaterInternalService136.0.7058.0,stopped,automatic,,"""C:\Program Files (x86)\Google\GoogleUpdater\136.0.7058.0\updater.exe"" --system --windows-service --service=update-internal",LocalSystem
+2025-03-25 20:34:17,GoogleUpdaterService136.0.7058.0,stopped,automatic,,"""C:\Program Files (x86)\Google\GoogleUpdater\136.0.7058.0\updater.exe"" --system --windows-service --service=update",LocalSystem
+2025-03-25 20:34:17,gpsvc,running,automatic,2248,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-03-25 20:34:17,GraphicsPerfSvc,stopped,manual,,C:\Windows\System32\svchost.exe -k GraphicsPerfSvcGroup,LocalSystem
+2025-03-25 20:34:17,gupdate,stopped,automatic,,"""C:\Program Files (x86)\Google\Update\GoogleUpdate.exe"" /svc",LocalSystem
+2025-03-25 20:34:17,gupdatem,stopped,manual,,"""C:\Program Files (x86)\Google\Update\GoogleUpdate.exe"" /medsvc",LocalSystem
+2025-03-25 20:34:17,hidserv,running,manual,1020,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-03-25 20:34:17,HPPrintScanDoctorService,running,automatic,5552,"""C:\Program Files\HPPrintScanDoctor\HPPrintScanDoctorService.exe""",LocalSystem
+2025-03-25 20:34:17,HvHost,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-03-25 20:34:17,icssvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT Authority\LocalService
+2025-03-25 20:34:17,igccservice,running,automatic,5468,C:\Windows\System32\DriverStore\FileRepository\igcc_dch.inf_amd64_8b07a004bf9bbf23\OneApp.IGCC.WinService.exe,LocalSystem
+2025-03-25 20:34:17,igfxCUIService2.0.0.0,running,automatic,2480,C:\Windows\System32\DriverStore\FileRepository\cui_dch.inf_amd64_8f68d4f94f46f7aa\igfxCUIServiceN.exe,LocalSystem
+2025-03-25 20:34:17,IKEEXT,running,automatic,5456,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-03-25 20:34:17,InstallService,running,manual,16924,C:\Windows\System32\svchost.exe -k netsvcs -p,LocalSystem
+2025-03-25 20:34:17,Intel(R) Capability Licensing Service TCP IP Interface,stopped,manual,,C:\Windows\System32\DriverStore\FileRepository\iclsclient.inf_amd64_76523213b78d9046\lib\SocketHeciServer.exe,LocalSystem
+2025-03-25 20:34:17,Intel(R) SUR QC SAM,stopped,manual,,"""C:\Program Files\Intel\SUR\QUEENCREEK\Updater\bin\IntelSoftwareAssetManagerService.exe""",LocalSystem
+2025-03-25 20:34:17,Intel(R) TPM Provisioning Service,stopped,automatic,,C:\Windows\System32\DriverStore\FileRepository\iclsclient.inf_amd64_fc84dfa25a6a7727\lib\TPMProvisioningService.exe,LocalSystem
+2025-03-25 20:34:17,IntelArcControlService,running,automatic,5564,"""C:\Program Files\Intel\Intel Arc Control\ArcControlService.exe""",LocalSystem
+2025-03-25 20:34:17,IntelAudioService,running,automatic,5624,C:\Windows\System32\DriverStore\FileRepository\intcoed.inf_amd64_625d5a9ea859462f\\AS\\IAS\\IntelAudioService.exe,LocalSystem
+2025-03-25 20:34:17,iphlpsvc,running,automatic,5008,C:\Windows\System32\svchost.exe -k NetSvcs -p,LocalSystem
+2025-03-25 20:34:17,IpxlatCfgSvc,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-03-25 20:34:17,jhi_service,running,automatic,5792,C:\Windows\System32\DriverStore\FileRepository\dal.inf_amd64_af50fdb80983f7bc\jhi_service.exe,LocalSystem
+2025-03-25 20:34:17,KeyIso,running,manual,928,C:\Windows\system32\lsass.exe,LocalSystem
+2025-03-25 20:34:17,KtmRm,stopped,manual,,C:\Windows\System32\svchost.exe -k NetworkServiceAndNoImpersonation -p,NT AUTHORITY\NetworkService
+2025-03-25 20:34:17,LanmanServer,running,automatic,6148,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-03-25 20:34:17,LanmanWorkstation,running,automatic,5256,C:\Windows\System32\svchost.exe -k NetworkService -p,NT AUTHORITY\NetworkService
+2025-03-25 20:34:17,lfsvc,running,manual,11892,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-03-25 20:34:17,LicenseManager,running,manual,7600,C:\Windows\System32\svchost.exe -k LocalService -p,NT Authority\LocalService
+2025-03-25 20:34:17,lltdsvc,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
+2025-03-25 20:34:17,lmhosts,running,manual,6024,C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted -p,NT AUTHORITY\LocalService
+2025-03-25 20:34:17,LMS,running,automatic,6004,C:\Windows\System32\DriverStore\FileRepository\lms.inf_amd64_fddb643595e0b8d0\LMS.exe,LocalSystem
+2025-03-25 20:34:17,LSM,running,automatic,1328,C:\Windows\system32\svchost.exe -k DcomLaunch -p,LocalSystem
+2025-03-25 20:34:17,LxpSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs,LocalSystem
+2025-03-25 20:34:17,MapsBroker,stopped,automatic,,C:\Windows\System32\svchost.exe -k NetworkService -p,NT AUTHORITY\NetworkService
+2025-03-25 20:34:17,McpManagementService,stopped,manual,,C:\Windows\system32\svchost.exe -k McpManagementServiceGroup,LocalSystem
+2025-03-25 20:34:17,MDCoreSvc,running,automatic,5728,"""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.25010.11-0\MpDefenderCoreService.exe""",LocalSystem
+2025-03-25 20:34:17,Micro Star SCM,running,automatic,5516,"""C:\Windows\SysWOW64\MSIService.exe""",LocalSystem
+2025-03-25 20:34:17,MicrosoftEdgeElevationService,stopped,manual,,"""C:\Program Files (x86)\Microsoft\Edge\Application\134.0.3124.83\elevation_service.exe""",LocalSystem
+2025-03-25 20:34:17,MixedRealityOpenXRSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-03-25 20:34:17,mpssvc,running,automatic,4828,C:\Windows\system32\svchost.exe -k LocalServiceNoNetworkFirewall -p,NT Authority\LocalService
+2025-03-25 20:34:17,MSDTC,stopped,manual,,C:\Windows\System32\msdtc.exe,NT AUTHORITY\NetworkService
+2025-03-25 20:34:17,MSI Foundation Service,running,automatic,5572,"""C:\Program Files (x86)\MSI\MSI NBFoundation Service\MSIAPService.exe""",LocalSystem
+2025-03-25 20:34:17,MSI Sendevsvc,running,automatic,5680,"""C:\Program Files (x86)\MSI\MSI NBFoundation Service\Sendevsvc.exe""",LocalSystem
+2025-03-25 20:34:17,MSiSCSI,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-03-25 20:34:17,msiserver,stopped,manual,,C:\Windows\system32\msiexec.exe /V,LocalSystem
+2025-03-25 20:34:17,MSI_Central_Service,running,automatic,5640,"""C:\Program Files (x86)\MSI\One Dragon Center\MSI_Central_Service.exe""",LocalSystem
+2025-03-25 20:34:17,MsKeyboardFilter,stopped,disabled,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-03-25 20:34:17,Mystic_Light_Service,running,automatic,5476,"""C:\Program Files (x86)\MSI\One Dragon Center\Mystic_Light\Mystic_Light_Service.exe""",LocalSystem
+2025-03-25 20:34:17,NaturalAuthentication,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-03-25 20:34:17,NcaSvc,stopped,manual,,C:\Windows\System32\svchost.exe -k NetSvcs -p,LocalSystem
+2025-03-25 20:34:17,NcbService,running,manual,1852,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-03-25 20:34:17,NcdAutoSetup,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalServiceNoNetwork -p,NT AUTHORITY\LocalService
+2025-03-25 20:34:17,Netlogon,stopped,manual,,C:\Windows\system32\lsass.exe,LocalSystem
+2025-03-25 20:34:17,Netman,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-03-25 20:34:17,netprofm,running,manual,2948,C:\Windows\System32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
+2025-03-25 20:34:17,NetSetupSvc,stopped,manual,,C:\Windows\System32\svchost.exe -k netsvcs -p,LocalSystem
+2025-03-25 20:34:17,NetTcpPortSharing,stopped,disabled,,C:\Windows\Microsoft.NET\Framework64\v4.0.30319\SMSvcHost.exe,NT AUTHORITY\LocalService
+2025-03-25 20:34:17,NgcCtnrSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT AUTHORITY\LocalService
+2025-03-25 20:34:17,NgcSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-03-25 20:34:17,NlaSvc,running,automatic,2748,C:\Windows\System32\svchost.exe -k NetworkService -p,NT AUTHORITY\NetworkService
+2025-03-25 20:34:17,nsi,running,automatic,2180,C:\Windows\system32\svchost.exe -k LocalService -p,NT Authority\LocalService
+2025-03-25 20:34:17,NVDisplay.ContainerLocalSystem,running,automatic,2876,C:\Windows\System32\DriverStore\FileRepository\nvmi.inf_amd64_ca70e03e74b1e469\Display.NvContainer\NVDisplay.Container.exe -s NVDisplay.ContainerLocalSystem -f C:\ProgramData\NVIDIA\NVDisplay.ContainerLocalSystem.log -l 3 -d C:\Windows\System32\DriverStore\FileRepository\nvmi.inf_amd64_ca70e03e74b1e469\Display.NvContainer\plugins\LocalSystem -r -p 30000 -cfg NVDisplay.ContainerLocalSystem\LocalSystem,LocalSystem
+2025-03-25 20:34:17,NVWMI,running,automatic,5740,C:\Windows\System32\DriverStore\FileRepository\nvmi.inf_amd64_ca70e03e74b1e469\NVWMI\nvWmi64.exe,LocalSystem
+2025-03-25 20:34:17,OneDrive Updater Service,stopped,manual,,"""C:\Program Files\Microsoft OneDrive\23.209.1008.0002\OneDriveUpdaterService.exe""",LocalSystem
+2025-03-25 20:34:17,p2pimsvc,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalServicePeerNet,NT AUTHORITY\LocalService
+2025-03-25 20:34:17,p2psvc,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalServicePeerNet,NT AUTHORITY\LocalService
+2025-03-25 20:34:17,PcaSvc,running,manual,5340,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-03-25 20:34:17,PeerDistSvc,stopped,manual,,C:\Windows\System32\svchost.exe -k PeerDist,NT AUTHORITY\NetworkService
+2025-03-25 20:34:17,perceptionsimulation,stopped,manual,,C:\Windows\system32\PerceptionSimulation\PerceptionSimulationService.exe,LocalSystem
+2025-03-25 20:34:17,PerfHost,stopped,manual,,C:\Windows\SysWow64\perfhost.exe,NT AUTHORITY\LocalService
+2025-03-25 20:34:17,PhoneSvc,running,manual,2156,C:\Windows\system32\svchost.exe -k LocalService -p,NT Authority\LocalService
+2025-03-25 20:34:17,pla,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalServiceNoNetwork -p,NT AUTHORITY\LocalService
+2025-03-25 20:34:17,PlugPlay,running,manual,1032,C:\Windows\system32\svchost.exe -k DcomLaunch -p,LocalSystem
+2025-03-25 20:34:17,PNRPAutoReg,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalServicePeerNet,NT AUTHORITY\LocalService
+2025-03-25 20:34:17,PNRPsvc,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalServicePeerNet,NT AUTHORITY\LocalService
+2025-03-25 20:34:17,PolicyAgent,stopped,manual,,C:\Windows\system32\svchost.exe -k NetworkServiceNetworkRestricted -p,NT Authority\NetworkService
+2025-03-25 20:34:17,Power,running,automatic,1032,C:\Windows\system32\svchost.exe -k DcomLaunch -p,LocalSystem
+2025-03-25 20:34:17,PrintNotify,stopped,manual,,C:\Windows\system32\svchost.exe -k print,LocalSystem
+2025-03-25 20:34:17,ProfSvc,running,automatic,1860,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-03-25 20:34:17,PushToInstall,stopped,manual,,C:\Windows\System32\svchost.exe -k netsvcs -p,LocalSystem
+2025-03-25 20:34:17,QWAVE,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation -p,NT AUTHORITY\LocalService
+2025-03-25 20:34:17,RasAuto,stopped,manual,,C:\Windows\System32\svchost.exe -k netsvcs -p,localSystem
+2025-03-25 20:34:17,RasMan,running,automatic,6352,C:\Windows\System32\svchost.exe -k netsvcs,localSystem
+2025-03-25 20:34:17,RemoteAccess,stopped,disabled,,C:\Windows\System32\svchost.exe -k netsvcs,localSystem
+2025-03-25 20:34:17,RemoteRegistry,stopped,disabled,,C:\Windows\system32\svchost.exe -k localService -p,NT AUTHORITY\LocalService
+2025-03-25 20:34:17,RetailDemo,stopped,manual,,C:\Windows\System32\svchost.exe -k rdxgroup,LocalSystem
+2025-03-25 20:34:17,RmSvc,running,manual,4020,C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted,NT AUTHORITY\LocalService
+2025-03-25 20:34:17,RpcEptMapper,running,automatic,1276,C:\Windows\system32\svchost.exe -k RPCSS -p,NT AUTHORITY\NetworkService
+2025-03-25 20:34:17,RpcLocator,stopped,manual,,C:\Windows\system32\locator.exe,NT AUTHORITY\NetworkService
+2025-03-25 20:34:17,RpcSs,running,automatic,1276,C:\Windows\system32\svchost.exe -k rpcss -p,NT AUTHORITY\NetworkService
+2025-03-25 20:34:17,RtkAudioUniversalService,running,automatic,5768,"""C:\Windows\System32\DriverStore\FileRepository\realtekservice.inf_amd64_3cf99e411755df38\RtkAudUService64.exe""",LocalSystem
+2025-03-25 20:34:17,SamSs,running,automatic,928,C:\Windows\system32\lsass.exe,LocalSystem
+2025-03-25 20:34:17,SCardSvr,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation,NT AUTHORITY\LocalService
+2025-03-25 20:34:17,ScDeviceEnum,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted,LocalSystem
+2025-03-25 20:34:17,Schedule,running,automatic,1876,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-03-25 20:34:17,SCPolicySvc,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs,LocalSystem
+2025-03-25 20:34:17,SDRSVC,stopped,manual,,C:\Windows\system32\svchost.exe -k SDRSVC,localSystem
+2025-03-25 20:34:17,seclogon,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-03-25 20:34:17,SecurityHealthService,running,manual,13152,C:\Windows\system32\SecurityHealthService.exe,LocalSystem
+2025-03-25 20:34:17,SEMgrSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
+2025-03-25 20:34:17,SENS,running,automatic,2292,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-03-25 20:34:17,Sense,stopped,manual,,"""C:\Program Files\Windows Defender Advanced Threat Protection\MsSense.exe""",LocalSystem
+2025-03-25 20:34:17,SensorDataService,stopped,manual,,C:\Windows\System32\SensorDataService.exe,LocalSystem
+2025-03-25 20:34:17,SensorService,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-03-25 20:34:17,SensrSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation -p,NT AUTHORITY\LocalService
+2025-03-25 20:34:17,SessionEnv,stopped,manual,,C:\Windows\System32\svchost.exe -k netsvcs -p,localSystem
+2025-03-25 20:34:17,SgrmBroker,stopped,automatic,,C:\Windows\system32\SgrmBroker.exe,LocalSystem
+2025-03-25 20:34:17,SharedAccess,stopped,manual,,C:\Windows\System32\svchost.exe -k netsvcs -p,LocalSystem
+2025-03-25 20:34:17,SharedRealitySvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
+2025-03-25 20:34:17,ShellHWDetection,running,automatic,5148,C:\Windows\System32\svchost.exe -k netsvcs -p,LocalSystem
+2025-03-25 20:34:17,shpamsvc,stopped,disabled,,C:\Windows\System32\svchost.exe -k netsvcs -p,LocalSystem
+2025-03-25 20:34:17,smphost,stopped,manual,,C:\Windows\System32\svchost.exe -k smphost,NT AUTHORITY\NetworkService
+2025-03-25 20:34:17,SmsRouter,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT Authority\LocalService
+2025-03-25 20:34:17,SNMPTRAP,stopped,manual,,C:\Windows\System32\snmptrap.exe,NT AUTHORITY\LocalService
+2025-03-25 20:34:17,spectrum,stopped,manual,,C:\Windows\system32\spectrum.exe,NT AUTHORITY\LocalService
+2025-03-25 20:34:17,Spooler,running,automatic,5192,C:\Windows\System32\spoolsv.exe,LocalSystem
+2025-03-25 20:34:17,sppsvc,stopped,automatic,,C:\Windows\system32\sppsvc.exe,NT AUTHORITY\NetworkService
+2025-03-25 20:34:17,SSDPSRV,running,manual,3924,C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation -p,NT AUTHORITY\LocalService
+2025-03-25 20:34:17,ssh-agent,stopped,disabled,,C:\Windows\System32\OpenSSH\ssh-agent.exe,LocalSystem
+2025-03-25 20:34:17,SstpSvc,running,manual,5496,C:\Windows\system32\svchost.exe -k LocalService -p,NT Authority\LocalService
+2025-03-25 20:34:17,StateRepository,running,manual,3316,C:\Windows\system32\svchost.exe -k appmodel -p,LocalSystem
+2025-03-25 20:34:17,Steam Client Service,running,manual,13732,"""C:\Program Files (x86)\Common Files\Steam\steamservice.exe"" /RunAsService",LocalSystem
+2025-03-25 20:34:17,stisvc,running,automatic,5540,C:\Windows\system32\svchost.exe -k imgsvc,NT Authority\LocalService
+2025-03-25 20:34:17,StorSvc,running,automatic,6188,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-03-25 20:34:17,svsvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-03-25 20:34:17,swprv,stopped,manual,,C:\Windows\System32\svchost.exe -k swprv,LocalSystem
+2025-03-25 20:34:17,SysMain,running,automatic,3004,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-03-25 20:34:17,SystemEventsBroker,running,automatic,1032,C:\Windows\system32\svchost.exe -k DcomLaunch -p,LocalSystem
+2025-03-25 20:34:17,TabletInputService,running,manual,8896,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-03-25 20:34:17,TapiSrv,running,manual,5916,C:\Windows\System32\svchost.exe -k NetworkService -p,NT AUTHORITY\NetworkService
+2025-03-25 20:34:17,TermService,stopped,manual,,C:\Windows\System32\svchost.exe -k NetworkService,NT Authority\NetworkService
+2025-03-25 20:34:17,Themes,running,automatic,3012,C:\Windows\System32\svchost.exe -k netsvcs -p,LocalSystem
+2025-03-25 20:34:17,TieringEngineService,stopped,manual,,C:\Windows\system32\TieringEngineService.exe,localSystem
+2025-03-25 20:34:17,TimeBrokerSvc,running,manual,1868,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT AUTHORITY\LocalService
+2025-03-25 20:34:17,TokenBroker,running,manual,8948,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-03-25 20:34:17,TrkWks,running,automatic,5528,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-03-25 20:34:17,TroubleshootingSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-03-25 20:34:17,TrustedInstaller,stopped,manual,,C:\Windows\servicing\TrustedInstaller.exe,localSystem
+2025-03-25 20:34:17,tzautoupdate,stopped,disabled,,C:\Windows\system32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
+2025-03-25 20:34:17,ucldr_battlegrounds_gl,stopped,manual,,"""C:\Program Files\Common Files\Wellbia.com\ucldr_battlegrounds_gl.exe""",LocalSystem
+2025-03-25 20:34:17,UevAgentService,stopped,disabled,,C:\Windows\system32\AgentService.exe,LocalSystem
+2025-03-25 20:34:17,uhssvc,stopped,disabled,,"""C:\Program Files\Microsoft Update Health Tools\uhssvc.exe""",LocalSystem
+2025-03-25 20:34:17,UmRdpService,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,localSystem
+2025-03-25 20:34:17,upnphost,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation -p,NT AUTHORITY\LocalService
+2025-03-25 20:34:17,UserManager,running,automatic,912,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-03-25 20:34:17,UsoSvc,running,automatic,9080,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-03-25 20:34:17,VacSvc,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted -p,NT AUTHORITY\LocalService
+2025-03-25 20:34:17,VaultSvc,running,manual,928,C:\Windows\system32\lsass.exe,LocalSystem
+2025-03-25 20:34:17,VBoxSDS,stopped,manual,,"""C:\Program Files\Oracle\VirtualBox\VBoxSDS.exe""",LocalSystem
+2025-03-25 20:34:17,vds,stopped,manual,,C:\Windows\System32\vds.exe,LocalSystem
+2025-03-25 20:34:17,vmicguestinterface,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-03-25 20:34:17,vmicheartbeat,stopped,manual,,C:\Windows\system32\svchost.exe -k ICService -p,LocalSystem
+2025-03-25 20:34:17,vmickvpexchange,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-03-25 20:34:17,vmicrdv,stopped,manual,,C:\Windows\system32\svchost.exe -k ICService -p,LocalSystem
+2025-03-25 20:34:17,vmicshutdown,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-03-25 20:34:17,vmictimesync,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT AUTHORITY\LocalService
+2025-03-25 20:34:17,vmicvmsession,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-03-25 20:34:17,vmicvss,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-03-25 20:34:17,vpnagent,running,automatic,4624,"""C:\Program Files (x86)\Cisco\Cisco AnyConnect Secure Mobility Client\vpnagent.exe""",LocalSystem
+2025-03-25 20:34:17,VSS,stopped,manual,,C:\Windows\system32\vssvc.exe,LocalSystem
+2025-03-25 20:34:17,W32Time,running,automatic,5020,C:\Windows\system32\svchost.exe -k LocalService,NT AUTHORITY\LocalService
+2025-03-25 20:34:17,WaaSMedicSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k wusvcs -p,LocalSystem
+2025-03-25 20:34:17,WalletService,stopped,manual,,C:\Windows\System32\svchost.exe -k appmodel -p,LocalSystem
+2025-03-25 20:34:17,WarpJITSvc,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted,NT Authority\LocalService
+2025-03-25 20:34:17,wbengine,stopped,manual,,"""C:\Windows\system32\wbengine.exe""",localSystem
+2025-03-25 20:34:17,WbioSrvc,running,automatic,4264,C:\Windows\system32\svchost.exe -k WbioSvcGroup,LocalSystem
+2025-03-25 20:34:17,Wcmsvc,running,automatic,4596,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT Authority\LocalService
+2025-03-25 20:34:17,wcncsvc,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalServiceAndNoImpersonation -p,NT AUTHORITY\LocalService
+2025-03-25 20:34:17,WdiServiceHost,running,manual,6200,C:\Windows\System32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
+2025-03-25 20:34:17,WdiSystemHost,running,manual,7080,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-03-25 20:34:17,WdNisSvc,running,manual,12120,"""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.25010.11-0\NisSrv.exe""",NT AUTHORITY\LocalService
+2025-03-25 20:34:17,WebClient,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
+2025-03-25 20:34:17,Wecsvc,stopped,manual,,C:\Windows\system32\svchost.exe -k NetworkService -p,NT AUTHORITY\NetworkService
+2025-03-25 20:34:17,WEPHOSTSVC,stopped,manual,,C:\Windows\system32\svchost.exe -k WepHostSvcGroup,NT AUTHORITY\LocalService
+2025-03-25 20:34:17,wercplsupport,stopped,manual,,C:\Windows\System32\svchost.exe -k netsvcs -p,localSystem
+2025-03-25 20:34:17,WerSvc,running,manual,18120,C:\Windows\System32\svchost.exe -k WerSvcGroup,localSystem
+2025-03-25 20:34:17,WFDSConMgrSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT AUTHORITY\LocalService
+2025-03-25 20:34:17,WiaRpc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-03-25 20:34:17,WinDefend,running,automatic,5756,"""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.25010.11-0\MsMpEng.exe""",LocalSystem
+2025-03-25 20:34:17,WinHttpAutoProxySvc,running,manual,3292,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT AUTHORITY\LocalService
+2025-03-25 20:34:17,Winmgmt,running,automatic,3532,C:\Windows\system32\svchost.exe -k netsvcs -p,localSystem
+2025-03-25 20:34:17,WinRM,stopped,manual,,C:\Windows\System32\svchost.exe -k NetworkService -p,NT AUTHORITY\NetworkService
+2025-03-25 20:34:17,wisvc,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-03-25 20:34:17,WlanSvc,running,automatic,4744,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-03-25 20:34:17,wlidsvc,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-03-25 20:34:17,wlpasvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT Authority\LocalService
+2025-03-25 20:34:17,WManSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-03-25 20:34:17,wmiApSrv,stopped,manual,,C:\Windows\system32\wbem\WmiApSrv.exe,localSystem
+2025-03-25 20:34:17,WMIRegistrationService,running,automatic,5852,C:\Windows\System32\DriverStore\FileRepository\mewmiprov.inf_amd64_d51901c26227fb29\WMIRegistrationService.exe,LocalSystem
+2025-03-25 20:34:17,WMPNetworkSvc,stopped,manual,,"""C:\Program Files\Windows Media Player\wmpnetwk.exe""",NT AUTHORITY\NetworkService
+2025-03-25 20:34:17,workfolderssvc,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
+2025-03-25 20:34:17,WpcMonSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalService,LocalSystem
+2025-03-25 20:34:17,WPDBusEnum,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted,LocalSystem
+2025-03-25 20:34:17,WpnService,running,automatic,5508,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-03-25 20:34:17,wscsvc,running,automatic,13300,C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted -p,NT AUTHORITY\LocalService
+2025-03-25 20:34:17,WSearch,running,automatic,6888,C:\Windows\system32\SearchIndexer.exe /Embedding,LocalSystem
+2025-03-25 20:34:17,wuauserv,running,manual,17660,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-03-25 20:34:17,WwanSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,localSystem
+2025-03-25 20:34:17,XblAuthManager,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-03-25 20:34:17,XblGameSave,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-03-25 20:34:17,XboxGipSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-03-25 20:34:17,XboxNetApiSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-03-25 20:34:17,zksvc,stopped,manual,,"""C:\Program Files\Common Files\PUBG\zksvc.exe""",LocalSystem
+2025-03-25 20:34:17,AarSvc_a7c34,stopped,manual,,C:\Windows\system32\svchost.exe -k AarSvcGroup -p,
+2025-03-25 20:34:17,BcastDVRUserService_a7c34,stopped,manual,,C:\Windows\system32\svchost.exe -k BcastDVRUserService,
+2025-03-25 20:34:17,BluetoothUserService_a7c34,running,manual,8556,C:\Windows\system32\svchost.exe -k BthAppGroup -p,
+2025-03-25 20:34:17,CaptureService_a7c34,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalService -p,
+2025-03-25 20:34:17,cbdhsvc_a7c34,running,manual,9548,C:\Windows\system32\svchost.exe -k ClipboardSvcGroup -p,
+2025-03-25 20:34:17,CDPUserSvc_a7c34,running,automatic,8544,C:\Windows\system32\svchost.exe -k UnistackSvcGroup,
+2025-03-25 20:34:17,ConsentUxUserSvc_a7c34,stopped,manual,,C:\Windows\system32\svchost.exe -k DevicesFlow,
+2025-03-25 20:34:17,CredentialEnrollmentManagerUserSvc_a7c34,stopped,manual,,C:\Windows\system32\CredentialEnrollmentManager.exe,
+2025-03-25 20:34:17,DeviceAssociationBrokerSvc_a7c34,stopped,manual,,C:\Windows\system32\svchost.exe -k DevicesFlow -p,
+2025-03-25 20:34:17,DevicePickerUserSvc_a7c34,stopped,manual,,C:\Windows\system32\svchost.exe -k DevicesFlow,
+2025-03-25 20:34:17,DevicesFlowUserSvc_a7c34,stopped,manual,,C:\Windows\system32\svchost.exe -k DevicesFlow,
+2025-03-25 20:34:17,MessagingService_a7c34,stopped,manual,,C:\Windows\system32\svchost.exe -k UnistackSvcGroup,
+2025-03-25 20:34:17,OneSyncSvc_a7c34,running,automatic,872,C:\Windows\system32\svchost.exe -k UnistackSvcGroup,
+2025-03-25 20:34:17,PimIndexMaintenanceSvc_a7c34,running,manual,872,C:\Windows\system32\svchost.exe -k UnistackSvcGroup,
+2025-03-25 20:34:17,PrintWorkflowUserSvc_a7c34,stopped,manual,,C:\Windows\system32\svchost.exe -k PrintWorkflow,
+2025-03-25 20:34:17,UdkUserSvc_a7c34,stopped,manual,,C:\Windows\system32\svchost.exe -k UdkSvcGroup,
+2025-03-25 20:34:17,UnistoreSvc_a7c34,running,manual,872,C:\Windows\System32\svchost.exe -k UnistackSvcGroup,
+2025-03-25 20:34:17,UserDataSvc_a7c34,running,manual,872,C:\Windows\system32\svchost.exe -k UnistackSvcGroup,
+2025-03-25 20:34:17,WpnUserService_a7c34,running,automatic,8616,C:\Windows\system32\svchost.exe -k UnistackSvcGroup,

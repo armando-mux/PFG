@@ -70,6 +70,32 @@ En el caso del script para Linux, varían algunos de los campos por diferencias 
 
 El script toma una muestra de estos valores cada 1 segundos y lo registra en el archivo HW_resources_0.csv de la carpeta logs. La muestra que se encuentra ahora mismo corresponde a una ejecucion en  Windows.
 
+### processes
+
+En esta carpeta hay dos scripts para cada sistema operativo: en uno se registran los procesos y en otro los servicios.
+
+#### Procesos 
+
+En el caso de los procesos en ambos sistema operativos se usa la libreria **psutil**. En el caso de Windows los datos registrados son los siguientes:
+
+| Campo                      | Descripción                                                                 |
+|----------------------------|-----------------------------------------------------------------------------|
+| **Timestamp**              | Fecha y hora exacta de la captura de datos.              |
+| **PID**                    | Identificador numérico único del proceso en el sistema.                     |
+| **Nombre**                 | Nombre del archivo ejecutable del proceso.                |
+| **Ruta**                   | Ubicación completa en disco del ejecutable del proceso.                     |
+| **Usuario**                | Usuario que ejecuta el proceso.       |
+| **Tiempo de creación**     | Fecha y hora cuando se inició el proceso.                                   |
+| **Proceso padre**          | PID del proceso que creó este proceso.                                      |
+| **Número lecturas**        | Cantidad total de operaciones de lectura realizadas por el proceso.         |
+| **Bytes leídos**           | Volumen total de datos leídos (en bytes).                                   |
+| **Número escrituras**      | Cantidad total de operaciones de escritura realizadas.                      |
+| **Bytes escritos**         | Volumen total de datos escritos (en bytes).                                 |
+| **Número otras operaciones** | Operaciones de E/S que no son lectura/escritura (ej: control/llamadas).   |
+| **Bytes otras operaciones** | Datos transferidos en operaciones no estándar (bytes).                     |
+
+
+
 ### NETWORK
 
 En la carpeta network, encontramos los scripts network.py en las carpetas Linux y Windows. En este caso, la información que se recopila es identica pero la forma de listar las interfaces de red a monitorizar es distinta. Se usa el paquete **pyshark** en este caso. La información que se recoge en el csv es la siguiente:
@@ -126,10 +152,10 @@ En el main esta el script que lanza las funcionalidades ya mencionadas (menos la
 
 to-do antes de enviar: 
 
-- procesos y daemons de Linux.
 - Eventos clave de windows 
 - Script de iaudit en linux
 - Syscalls en ambos equipos
-
+- Ajustar numero de escrituras en directories windows para bajar cpu¿?
 - Revisar datos de hw y ver GPU.
 - Implementar logica de los csv: como minimo no eliminarlos y si creamos sistema de rotacion de archivos mejor que mejor.
+- process monitor cada 5 segundos genera lista completa y es el archivo más pesado. Hacer por eventos?

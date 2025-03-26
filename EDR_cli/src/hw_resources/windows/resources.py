@@ -21,7 +21,7 @@ current_file_name = f"{ruta_log}\\{name_base}_{file_counter}.csv"
 def create_new_file():
     global current_file_name, file_counter
     current_file_name = f"{ruta_log}\\{name_base}_{file_counter}.csv"
-    with open(current_file_name, mode='w', newline='') as csvfile:
+    with open(current_file_name, mode='a', newline='') as csvfile:
         writer = csv.writer(csvfile)
         # Escribir la cabecera
         writer.writerow([

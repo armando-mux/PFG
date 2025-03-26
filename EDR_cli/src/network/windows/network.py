@@ -74,7 +74,7 @@ def start_capture(output_dir, max_file_size_mb=10):
     outputabsdir = output_dir.resolve()
     current_file_path = outputabsdir / f"packets_{file_index}.csv"
     print(f"Ruta {current_file_path} creada")
-    file_handle = open(current_file_path, mode='w', newline='')
+    file_handle = open(current_file_path, mode='a', newline='')
     csv_writer = csv.writer(file_handle)
     csv_writer.writerow([
         "timestamp", "ip_src", "ip_dst", 
