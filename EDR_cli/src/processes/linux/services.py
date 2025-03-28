@@ -17,7 +17,7 @@ headers = [
     "description",
     "pid",
     "memory_usage",
-    "cpu_percent",
+    "cpu_usage",
     "file_path",
     "time_start",
     "time_end"

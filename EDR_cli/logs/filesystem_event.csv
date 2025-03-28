@@ -4316,3 +4316,82 @@ Date,Time,Event,Path src,Path Dst,Archive,isDirectory
 2025-03-25,21:05:58,MOVED,C:\Users\arman\AppData\Local\Packages\microsoft.windowscommunicationsapps_8wekyb3d8bbwe\LocalState\HxCommAlwaysOnLog.etl,C:\Users\arman\AppData\Local\Packages\microsoft.windowscommunicationsapps_8wekyb3d8bbwe\LocalState\HxCommAlwaysOnLog_Old.etl,HxCommAlwaysOnLog.etl,False
 2025-03-25,21:05:58,MODIFIED,C:\Users\arman\AppData\Local\Packages\microsoft.windowscommunicationsapps_8wekyb3d8bbwe\LocalState,,LocalState,True
 2025-03-25,21:05:58,MODIFIED,C:\Users\arman\AppData\Local\Packages\microsoft.windowscommunicationsapps_8wekyb3d8bbwe\LocalState\HxCommAlwaysOnLog_Old.etl,,HxCommAlwaysOnLog_Old.etl,False
+2025-03-26,11:30:35,MODIFIED,C:\Users\arman\AppData\Local\Temp,,Temp,True
+2025-03-26,11:30:35,MODIFIED,C:\Users\arman\AppData\Roaming\Code\User\workspaceStorage\2df9069d7cb23d9d41b404ae7a71bd82,,2df9069d7cb23d9d41b404ae7a71bd82,True
+2025-03-26,11:30:35,CREATED,C:\Users\arman\AppData\Roaming\Code\User\workspaceStorage\2df9069d7cb23d9d41b404ae7a71bd82\state.vscdb-journal,,state.vscdb-journal,False
+2025-03-26,11:30:36,MODIFIED,C:\Users\arman\AppData\Roaming\Code\User\workspaceStorage\2df9069d7cb23d9d41b404ae7a71bd82\state.vscdb-journal,,state.vscdb-journal,False
+2025-03-26,11:30:36,MODIFIED,C:\Users\arman\AppData\Roaming\Code\User\workspaceStorage\2df9069d7cb23d9d41b404ae7a71bd82\state.vscdb,,state.vscdb,False
+2025-03-26,11:30:36,DELETED,C:\Users\arman\AppData\Roaming\Code\User\workspaceStorage\2df9069d7cb23d9d41b404ae7a71bd82\state.vscdb-journal,,state.vscdb-journal,False
+2025-03-26,11:30:36,MODIFIED,C:\Users\arman\AppData\Roaming\Code\User\workspaceStorage\2df9069d7cb23d9d41b404ae7a71bd82,,2df9069d7cb23d9d41b404ae7a71bd82,True
+2025-03-26,11:30:36,MODIFIED,C:\Windows\System32\Npcap\wpcap.dll,,wpcap.dll,False
+2025-03-26,11:30:36,MODIFIED,C:\Windows\System32\Npcap\Packet.dll,,Packet.dll,False
+2025-03-26,11:30:36,MODIFIED,C:\Users\arman\AppData\Roaming\Wireshark\preferences,,preferences,False
+2025-03-26,11:30:37,MODIFIED,C:\Users\arman\AppData\Local\Programs\Python\Python312\Lib\site-packages\pyshark\config.ini,,config.ini,False
+2025-03-26,11:30:37,CREATED,C:\Users\arman\AppData\Local\Temp\pgbygrjn,,pgbygrjn,False
+2025-03-26,11:30:37,MODIFIED,C:\Users\arman\AppData\Local\Temp\pgbygrjn,,pgbygrjn,False
+2025-03-26,11:30:37,DELETED,C:\Users\arman\AppData\Local\Temp\pgbygrjn,,pgbygrjn,False
+2025-03-26,11:30:38,MODIFIED,C:\Users\arman\AppData\Local\Temp,,Temp,True
+2025-03-26,11:30:38,CREATED,C:\Users\arman\AppData\Local\Temp\wireshark_-ZQFY32.pcapng,,wireshark_-ZQFY32.pcapng,False
+2025-03-26,11:30:38,MODIFIED,C:\Users\arman\AppData\Local\Temp,,Temp,True
+2025-03-26,11:30:38,MODIFIED,C:\Users\arman\AppData\Local\Temp\wireshark_-ZQFY32.pcapng,,wireshark_-ZQFY32.pcapng,False
+2025-03-26,11:30:39,MODIFIED,C:\Users\arman\AppData\Local\Google\Chrome\User Data\Default\Network\Cookies-journal,,Cookies-journal,False
+2025-03-26,11:30:39,MODIFIED,C:\Users\arman\AppData\Local\Google\Chrome\User Data\Default\Network\Cookies-journal,,Cookies-journal,False
+2025-03-26,11:30:39,MODIFIED,C:\Users\arman\AppData\Local\Google\Chrome\User Data\Default\Network\Cookies,,Cookies,False
+2025-03-26,11:30:39,MODIFIED,C:\Users\arman\AppData\Local\Google\Chrome\User Data\Default\Network\Cookies-journal,,Cookies-journal,False
+2025-03-26,11:30:58,MODIFIED,C:\Users\arman\AppData\Local\Packages\Microsoft.Windows.Search_cw5n1h2txyewy\Settings\settings.dat.LOG2,,settings.dat.LOG2,False
+2025-03-26,11:30:58,MODIFIED,C:\Users\arman\AppData\Local\Google\Chrome\User Data\Default\Network\Reporting and NEL-journal,,Reporting and NEL-journal,False
+2025-03-26,11:30:58,MODIFIED,C:\Users\arman\AppData\Local\Google\Chrome\User Data\Default\Network\Reporting and NEL,,Reporting and NEL,False
+2025-03-26,11:30:58,MODIFIED,C:\Users\arman\AppData\Local\Google\Chrome\User Data\Default\Network\Reporting and NEL-journal,,Reporting and NEL-journal,False
+2025-03-26,11:31:11,MODIFIED,C:\Users\arman\AppData\Local\ConnectedDevicesPlatform\285f1dec3d57837f\ActivitiesCache.db-wal,,ActivitiesCache.db-wal,False
+2025-03-26,11:31:11,MODIFIED,C:\Users\arman\AppData\Local\ConnectedDevicesPlatform\285f1dec3d57837f\ActivitiesCache.db-wal,,ActivitiesCache.db-wal,False
+2025-03-26,11:31:14,MODIFIED,C:\Users\arman\AppData\Local\Google\Chrome\User Data\Default\Network,,Network,True
+2025-03-26,11:31:14,CREATED,C:\Users\arman\AppData\Local\Google\Chrome\User Data\Default\Network\ba12b32c-3216-42f1-99b8-7415a11d4c21.tmp,,ba12b32c-3216-42f1-99b8-7415a11d4c21.tmp,False
+2025-03-26,11:31:14,MODIFIED,C:\Users\arman\AppData\Local\Google\Chrome\User Data\Default,,Default,True
+2025-03-26,11:31:14,MODIFIED,C:\Users\arman\AppData\Local\Google\Chrome\User Data\Default\Network\ba12b32c-3216-42f1-99b8-7415a11d4c21.tmp,,ba12b32c-3216-42f1-99b8-7415a11d4c21.tmp,False
+2025-03-26,11:31:14,MODIFIED,C:\Users\arman\AppData\Local\Google\Chrome\User Data\Default\Network,,Network,True
+2025-03-26,11:31:14,CREATED,C:\Users\arman\AppData\Local\Google\Chrome\User Data\Default\Network\Network Persistent State~RF56300a8.TMP,,Network Persistent State~RF56300a8.TMP,False
+2025-03-26,11:31:14,MODIFIED,C:\Users\arman\AppData\Local\Google\Chrome\User Data\Default\Network,,Network,True
+2025-03-26,11:31:14,DELETED,C:\Users\arman\AppData\Local\Google\Chrome\User Data\Default\Network\Network Persistent State~RF56300a8.TMP,,Network Persistent State~RF56300a8.TMP,False
+2025-03-26,11:31:14,MOVED,C:\Users\arman\AppData\Local\Google\Chrome\User Data\Default\Network\Network Persistent State,C:\Users\arman\AppData\Local\Google\Chrome\User Data\Default\Network\Network Persistent State~RF56300a8.TMP,Network Persistent State,False
+2025-03-26,11:31:15,MODIFIED,C:\Users\arman\AppData\Local\Google\Chrome\User Data\Default\Network,,Network,True
+2025-03-26,11:31:15,MOVED,C:\Users\arman\AppData\Local\Google\Chrome\User Data\Default\Network\ba12b32c-3216-42f1-99b8-7415a11d4c21.tmp,C:\Users\arman\AppData\Local\Google\Chrome\User Data\Default\Network\Network Persistent State,ba12b32c-3216-42f1-99b8-7415a11d4c21.tmp,False
+2025-03-26,11:31:15,MODIFIED,C:\Users\arman\AppData\Local\Google\Chrome\User Data\Default\Network,,Network,True
+2025-03-26,11:31:15,MODIFIED,C:\Users\arman\AppData\Local\Google\Chrome\User Data\Default\Network\Network Persistent State,,Network Persistent State,False
+2025-03-26,11:31:15,DELETED,C:\Users\arman\AppData\Local\Google\Chrome\User Data\Default\Network\Network Persistent State~RF56300a8.TMP,,Network Persistent State~RF56300a8.TMP,False
+2025-03-26,11:31:15,MODIFIED,C:\Users\arman\AppData\Local\Google\Chrome\User Data\Default\Network,,Network,True
+2025-03-26,11:32:48,MODIFIED,C:\Users\arman\AppData\Local\Temp,,Temp,True
+2025-03-26,11:32:48,CREATED,C:\Users\arman\AppData\Local\Temp\l108kd89,,l108kd89,False
+2025-03-26,11:32:49,MODIFIED,C:\Users\arman\AppData\Local\Temp\l108kd89,,l108kd89,False
+2025-03-26,11:32:49,DELETED,C:\Users\arman\AppData\Local\Temp\l108kd89,,l108kd89,False
+2025-03-26,11:32:49,MODIFIED,C:\Users\arman\AppData\Local\Temp,,Temp,True
+2025-03-26,11:32:49,CREATED,C:\Users\arman\AppData\Local\Temp\wireshark_-T27W32.pcapng,,wireshark_-T27W32.pcapng,False
+2025-03-26,11:32:49,MODIFIED,C:\Users\arman\AppData\Local\Temp\wireshark_-T27W32.pcapng,,wireshark_-T27W32.pcapng,False
+2025-03-26,11:32:53,MODIFIED,C:\Users\arman\AppData\Local\Google\Chrome\User Data\Default\Network\Cookies-journal,,Cookies-journal,False
+2025-03-26,11:32:53,MODIFIED,C:\Users\arman\AppData\Local\Google\Chrome\User Data\Default\Network\Cookies-journal,,Cookies-journal,False
+2025-03-26,11:32:53,MODIFIED,C:\Users\arman\AppData\Local\Google\Chrome\User Data\Default\Network\Cookies,,Cookies,False
+2025-03-26,11:32:54,MODIFIED,C:\Users\arman\AppData\Local\Google\Chrome\User Data\Default\Network\Cookies-journal,,Cookies-journal,False
+2025-03-26,11:32:58,MODIFIED,C:\Users\arman\AppData\Local\Google\Chrome\User Data\Default\Network\Reporting and NEL-journal,,Reporting and NEL-journal,False
+2025-03-26,11:32:58,MODIFIED,C:\Users\arman\AppData\Local\Google\Chrome\User Data\Default\Network\Reporting and NEL-journal,,Reporting and NEL-journal,False
+2025-03-26,11:32:58,MODIFIED,C:\Users\arman\AppData\Local\Google\Chrome\User Data\Default\Network\Reporting and NEL,,Reporting and NEL,False
+2025-03-26,11:32:59,MODIFIED,C:\Users\arman\AppData\Local\Google\Chrome\User Data\Default\Network\Reporting and NEL-journal,,Reporting and NEL-journal,False
+2025-03-26,11:32:59,DELETED,C:\Users\arman\AppData\Local\Temp\864c14eb-9a99-4dea-975f-ff99b6cc5689.tmp,,864c14eb-9a99-4dea-975f-ff99b6cc5689.tmp,False
+2025-03-26,11:33:08,MODIFIED,C:\Windows\System32\sru,,sru,True
+2025-03-26,11:33:08,MODIFIED,C:\Windows\System32\sru\SRUDB.dat,,SRUDB.dat,False
+2025-03-26,11:33:08,MODIFIED,C:\Users\arman\AppData\Local\Google\Chrome\User Data\Default\WebStorage\QuotaManager-journal,,QuotaManager-journal,False
+2025-03-26,11:33:08,MODIFIED,C:\Users\arman\AppData\Local\Google\Chrome\User Data\Default\WebStorage\QuotaManager,,QuotaManager,False
+2025-03-26,11:33:08,MODIFIED,C:\Users\arman\AppData\Local\Google\Chrome\User Data\Default\WebStorage\QuotaManager-journal,,QuotaManager-journal,False
+2025-03-26,11:33:08,DELETED,C:\Users\arman\AppData\Local\Temp\756de079-f7de-49f5-bff2-c39f8be0d162.tmp,,756de079-f7de-49f5-bff2-c39f8be0d162.tmp,False
+2025-03-26,11:33:14,MODIFIED,C:\Users\arman\AppData\Local\Google\Chrome\User Data\Default\Network,,Network,True
+2025-03-26,11:33:14,CREATED,C:\Users\arman\AppData\Local\Google\Chrome\User Data\Default\Network\9250060b-ef99-4ecf-bcd2-c3ea686738a2.tmp,,9250060b-ef99-4ecf-bcd2-c3ea686738a2.tmp,False
+2025-03-26,11:33:14,MODIFIED,C:\Users\arman\AppData\Local\Google\Chrome\User Data\Default\Network\9250060b-ef99-4ecf-bcd2-c3ea686738a2.tmp,,9250060b-ef99-4ecf-bcd2-c3ea686738a2.tmp,False
+2025-03-26,11:33:14,MODIFIED,C:\Users\arman\AppData\Local\Google\Chrome\User Data\Default\Network,,Network,True
+2025-03-26,11:33:14,CREATED,C:\Users\arman\AppData\Local\Google\Chrome\User Data\Default\Network\Network Persistent State~RF564d5d5.TMP,,Network Persistent State~RF564d5d5.TMP,False
+2025-03-26,11:33:14,MODIFIED,C:\Users\arman\AppData\Local\Google\Chrome\User Data\Default\Network,,Network,True
+2025-03-26,11:33:14,DELETED,C:\Users\arman\AppData\Local\Google\Chrome\User Data\Default\Network\Network Persistent State~RF564d5d5.TMP,,Network Persistent State~RF564d5d5.TMP,False
+2025-03-26,11:33:14,MOVED,C:\Users\arman\AppData\Local\Google\Chrome\User Data\Default\Network\Network Persistent State,C:\Users\arman\AppData\Local\Google\Chrome\User Data\Default\Network\Network Persistent State~RF564d5d5.TMP,Network Persistent State,False
+2025-03-26,11:33:14,MODIFIED,C:\Users\arman\AppData\Local\Google\Chrome\User Data\Default\Network,,Network,True
+2025-03-26,11:33:15,MOVED,C:\Users\arman\AppData\Local\Google\Chrome\User Data\Default\Network\9250060b-ef99-4ecf-bcd2-c3ea686738a2.tmp,C:\Users\arman\AppData\Local\Google\Chrome\User Data\Default\Network\Network Persistent State,9250060b-ef99-4ecf-bcd2-c3ea686738a2.tmp,False
+2025-03-26,11:33:15,MODIFIED,C:\Users\arman\AppData\Local\Google\Chrome\User Data\Default\Network,,Network,True
+2025-03-26,11:33:15,MODIFIED,C:\Users\arman\AppData\Local\Google\Chrome\User Data\Default\Network\Network Persistent State,,Network Persistent State,False
+2025-03-26,11:33:15,DELETED,C:\Users\arman\AppData\Local\Google\Chrome\User Data\Default\Network\Network Persistent State~RF564d5d5.TMP,,Network Persistent State~RF564d5d5.TMP,False
+2025-03-26,11:33:15,MODIFIED,C:\Users\arman\AppData\Local\Google\Chrome\User Data\Default\Network,,Network,True
