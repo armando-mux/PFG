@@ -12,6 +12,8 @@ Dentro de /EDR_cli/src se encuentran los scripts que aportan las principales fun
 - Registro de eventos clave como logueos, nuevos servicios o eventos de seguridad.
 - Registro de syscall concretas (relacionadas con manipulacion de archivos o cifrado).
 
+De estas funciones, las ya implementadas recogen los siguientes datos: 
+
 ### HW_RESOURCES
 
 En esta carpeta se encuenta el script que se encarga de registrar las estadísticas de uso de los recursos hardware principales. Para ello uso la libreria **psutil**, que salvo algunas diferencias usa funciones comunes para sistemas windows y basados en Unix. La información que recopila es la siguiente en caso de Windows:
