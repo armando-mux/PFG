@@ -37,11 +37,7 @@ def get_process_info(pid):
 
 
 # Registra en el archivo CSV todos los procesos activos.
-def log_all_processes():
-    with open(csv_file, mode="a", newline="", encoding="utf-8") as file:
-        writer = csv.writer(file)
-        if file.tell() == 0:
-            writer.writerow(header)
+def log_all_processes(writer):
         for proc in psutil.process_iter():
             process_info = get_process_info(proc.pid)
             if process_info:
@@ -51,9 +47,13 @@ def log_all_processes():
 # Monitorea y registra todos los procesos activos en intervalos de tiempo.
 def monitor_processes():
     print("Iniciando monitoreo de procesos...")
-    while True:
-        log_all_processes()
-        time.sleep(5)
+    with open(csv_file, mode="a", newline="", encoding="utf-8") as file:
+        writer = csv.writer(file)
+        if file.tell() == 0:
+            writer.writerow(header)
+        while True:
+            log_all_processes(writer)
+            time.sleep(5)
 
 if __name__ == "__main__":
     try:

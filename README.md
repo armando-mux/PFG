@@ -12,7 +12,7 @@ Dentro de /EDR_cli/src se encuentran los scripts que aportan las principales fun
 - Registro de eventos clave como logueos, nuevos servicios o eventos de seguridad.
 - Registro de syscall concretas (relacionadas con manipulacion de archivos o cifrado).
 
-De estas funciones, las ya implementadas recogen los siguientes datos: 
+De estas funciones, las YA implementadas recogen los siguientes datos: 
 
 ### HW_RESOURCES
 
@@ -180,6 +180,9 @@ En este caso, en ambos scripts (para Linux y Windows) uso la libreria **watchdog
 |             | `C:\Windows\SysWOW64\`                               |
 |              | `C:\Windows\WinSxS\`                               |
 
+nota: en el he aunado todos los c:/windows/... en monitorizar todo c:\Windows. Si veo que se genera mucho ruido, volveré a sustituirlo por un subconjunto interesante de sus subdirectorios.
+
+
 La información mostrada de cada evento es la siguiente: 
 
 | Campo        | Descripción                                                                 |
@@ -204,12 +207,10 @@ En el main esta el script que lanza las funcionalidades ya mencionadas (menos la
 
 ## COSAS QUE HACER 
 
-- Eventos clave de windows + iaudit en Linux para monitorizar los mismos tipos de eventos.
+- YA tengo lista de eventos de windows. Terminar de estructurar script de windows y diseñar el de linux
 - Syscalls en ambos equipos (al menos un conjunto relevante de syscalls)
-- El script de directories es el que más CPU consume con diferencia: implementar buffer para hacer menos escrituras y, si no es suficiente, hacer filtros extra de qué eventos ignorar.
-- Implementar lógica de los csv: ahora mismo crean archivos en /log y si ya estan creados, los continua. Implementar compresion automatica (zstd funciona bien) de los archivos para su envio a Azure cuando este hecha la parte de la nube.
-- Process Monitor genera una imagen de todos los procesos activos cada 5 segundos y es el archivo de log más extenso con diferencia. En vez de una imagen de todos los procesos cada 5 segundos, puedo implementar una imagen completa inicial + registro de cada cambio significativo: destruccion de procesos, creacion de nuevos, cambios relevantes en campos de procesos preexistentes etc. Se puede hacer lo mismo con los servicios. 
-- 
+- Implementar lógica de los csv: ahora mismo crean archivos en /log y si ya estan creados, los continua. Implementar compresion automatica (zstd funciona bien) de los archivos para su envio a Azure cuando este hecha la parte de la nube (no urgente de cara a recolecta de datos)
+- Revisado script directories de windows, actualizar el de linux
 
 --------------------------------------------------------
 
