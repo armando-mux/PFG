@@ -221,8 +221,3 @@ En el main esta el script que lanza las funcionalidades ya mencionadas (menos la
 - Usar alguna herramienta como [BeeWare](https://beeware.org/) para empaquetar el programa como .msi, .deb y .rpm
 - He buscado repositorios de datos de comportamiento de equipos sin infectar o infectados, pero no he encontrado ninguno que contenga datos del equipo como tal. Es frecunte encontrar solamente escaneres de los procesos ejecutándose en el equipo o información solamente de la actividad de red. Por eso he pensado en generar datos de equipos sin infectar (reales y simulados con VM) y de equipos infectados con sandboxes (puede ser en local o usando herramientas de Azure).
 
-## PREOCUPACIONES
-
-- Algunos de los datos detectados redundan entre ellos: con eventos de windows puedes saber modificaciones a archivos clave que, en último término, es lo que esta haciendo el monitoreo de directorios por ejemplo. También puedes saber sobre creacion de nuevos procesos y sus característica, que es lo que hace el monitor de procesos. O con el analisis de llamadas al sistema puedes tener inforación también de lecturas y escrituras de archivos, que se solapa con el monitor de directorios.
-
-- Me preocupa, de cada aspecto a monitorizar, estar cogiendo demasiados campos de información. Por una parte hace el programa de monitoreo más pesado. Por otra, genera más datos de cada sistema, lo que creo que hace que para poder establecer patrones válidos con los algoritmos de ML pertinentes se necesiten más equipos monitorizados. Dado que mi idea es generar yo esos datos, puede suponer un problema aún usando tecnicas de "data augmentation" o similar.
