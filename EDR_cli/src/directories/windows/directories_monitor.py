@@ -70,8 +70,7 @@ def main():
     # Paths a monitorear
     paths = ["C:\\Users", 
              "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\", 
-             "C:\\Windows",
-             ]
+             "C:\\Windows" ]
 
     
     # Directorio a excluir, el de este mismo programa (sino se crea bucle infinito)
