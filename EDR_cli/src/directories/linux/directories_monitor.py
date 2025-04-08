@@ -10,7 +10,7 @@ import re
 # Función para inicializar el archivo de registro CSV
 def initialize_csv_file(csv_file):
     if not os.path.exists(csv_file):
-        with open(csv_file, mode="w", newline="", encoding="utf-8") as file:
+        with open(csv_file, mode="a", newline="", encoding="utf-8") as file:
             writer = csv.writer(file)
             writer.writerow(["Date", "Time", "Event", "Path src", "Path Dst", "Archive", "isDirectory"])
 
@@ -40,14 +40,13 @@ class CustomEventHandler(FileSystemEventHandler):
         date_time = datetime.datetime.now().strftime("%Y-%m-%d,%H:%M:%S").split(",")  # Obtener fecha y hora
         if (len(self.buffer) < self.buffer_size):
             self.buffer.append([date_time[0], date_time[1], event_type, src_path, dest_path, file_name, isdirectory])
-            print(len(self.buffer))
+            
         if (len(self.buffer) == self.buffer_size):
             self.write_buffer(self.buffer)  
-            print("Buffer written to CSV")
+            
 
     def on_modified(self, event):
-        if not any(event.src_path.startswith(excluded) for excluded in self.excluded_path):
-            self.log_event(event.is_directory, "MODIFIED", event.src_path)
+        self.log_event(event.is_directory, "MODIFIED", event.src_path)
 
     def on_created(self, event):
         self.log_event(event.is_directory, "CREATED", event.src_path)
@@ -77,7 +76,7 @@ def main():
     
     event_handler = CustomEventHandler(csv_file, excluded)
     observer = Observer()
-
+	print("Comenzando monitoreo de directorios")
     # Bucle para monitorear los paths
     for path in paths:
         observer.schedule(event_handler, path, recursive=True)
