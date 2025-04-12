@@ -40,10 +40,10 @@ class CustomEventHandler(FileSystemEventHandler):
         date_time = datetime.datetime.now().strftime("%Y-%m-%d,%H:%M:%S").split(",")  # Obtener fecha y hora
         if (len(self.buffer) < self.buffer_size):
             self.buffer.append([date_time[0], date_time[1], event_type, src_path, dest_path, file_name, isdirectory])
-            print(len(self.buffer))
+            
         if (len(self.buffer) == self.buffer_size):
             self.write_buffer(self.buffer)  
-            print("Buffer written to CSV")
+            
 
     def on_modified(self, event):
         if not self.is_excluded(event.src_path):

@@ -1,0 +1,65 @@
+EventID,Channel,Description
+4663,Security,Intento de acceso a un objeto (por ejemplo, archivo o clave de registro)
+4656,Security,Se solicitó acceso a un objeto
+4719,Security,Política de auditoría del sistema fue cambiada
+4688,Security,Se creó un nuevo proceso
+7036,System,El servicio cambió de estado (por ejemplo, iniciado o detenido)
+4624,Security,Inicio de sesión exitoso
+4625,Security,Intento de inicio de sesión fallido
+4673,Security,Se solicitó un privilegio sensible
+4672,Security,Inicio de sesión con privilegios especiales asignados
+1102,Security,El registro de seguridad fue borrado
+104,System/GroupPolicy,Actualización de políticas de grupo o tarea relacionada
+5058,Security,Protección de claves en el proveedor de cifrado
+5061,Security,Acceso a un contenedor de claves
+5157,Security,El firewall bloqueó una conexión
+4698,Security,Se creó una tarea programada
+4702,Security,Se actualizó una tarea programada
+7034,System,Servicio terminó inesperadamente
+7045,System,Servicio fue instalado
+1016,Application,Error de acceso al almacén COM (DCOM)
+1017,Application,Error al registrar aplicación con DCOM
+1000,Application,Error de aplicación (crash)
+1009,Application,Error de inicialización de una aplicación
+1116,Application,Detección de malware por Windows Defender
+10000,WMI,Error en ejecución de consumidor persistente
+10001,WMI,Error en ejecución de filtro persistente
+612,Security (legacy),Política de auditoría fue cambiada
+524,Security,Fallo en la asignación de privilegio (dependiendo del contexto)
+753,Security/System,Cambio de configuración o privilegio
+7040,System,Configuración de inicio de servicio fue cambiada
+1042,System,Evento de red o configuración del sistema
+13,System,Error con el subsistema de volumen (volmgr)
+10016,System,Error de permisos DCOM
+1074,System,El sistema fue reiniciado o apagado por un usuario
+6005,System,El servicio de registro de eventos fue iniciado
+6006,System,El servicio de registro de eventos fue detenido
+6011,System,Cambio en el nombre de la estación de trabajo
+7022,System,Un servicio quedó colgado al iniciar
+7023,System,Servicio terminó con error
+7024,System,Servicio terminó con error específico
+106,System/GroupPolicy,Tarea o servicio con información de directiva
+140,System,Problema con disco (volsnap)
+5857,Defender,Evento de protección antimalware (comportamiento detectado)
+5858,Defender,Evento de protección antimalware (amenaza detectada)
+5859,Defender,Evento de protección antimalware (acción tomada)
+5860,Defender,Evento de protección antimalware (resultado del escaneo)
+4103,PowerShell,Script de PowerShell ejecutado
+4104,PowerShell,Contenido del script de PowerShell
+4689,Security,Un proceso terminó
+11,System,Error de disco detectado
+98,System,Problemas de disco o espacio en disco
+99,System,Problemas de sistema de archivos o disco
+24576,GroupPolicy,Cambio aplicado por política de grupo
+24577,GroupPolicy,Cambio aplicado por política de grupo
+1024,GroupPolicy,Aplicación exitosa de política
+5156,Security,El firewall permitió una conexión
+5158,Security,Paquete permitido por el firewall
+5025,Security,El servicio IPsec fue detenido
+5031,Security,El firewall bloqueó una aplicación
+1002,Application,Aplicación dejó de responder (hang)
+4720,Security,Se creó una cuenta de usuario
+4738,Security,Se cambió una cuenta de usuario
+4742,Security,Se cambió una cuenta de equipo
+90,PrintService,Problemas con impresión o spooler
+92,PrintService,Problemas con configuración o acceso a servicios de impresión

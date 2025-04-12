@@ -51,11 +51,13 @@ script5win = directorio_script / "src" / "processes" / "windows" / "services.py"
 script1lin = directorio_script / "src" / "network" / "linux" / "network.py"
 script2lin = directorio_script / "src" / "hw_resources" / "linux" / "resources.py"
 script3lin = directorio_script / "src" / "directories" / "linux" / "directories_monitor.py"
+script4lin = directorio_script / "src" / "processes" / "linux" / "processes.py"
+script5lin = directorio_script / "src" / "processes" / "linux" / "services.py"
 
 
 # Definir los scripts para cada sistema operativo
 scripts_windows = [script1win, script2win, script3win, script4win, script5win]
-scripts_linux = [script1lin, script2lin, script3lin]
+scripts_linux = [script1lin, script2lin, script3lin, script4lin, script5lin]
 
 
 # Función para ejecutar un script
@@ -81,6 +83,6 @@ else:
 
 
 # Ejecutar los scripts simultáneamente
-	
+
 with ThreadPoolExecutor() as executor:
 	executor.map(ejecutar_script, scripts)

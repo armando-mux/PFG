@@ -38,7 +38,7 @@ def monitorear_servicios():
         while True:
             servicios = obtener_servicios_en_ejecucion()
             writer.writerows(servicios)  # Escribe todos los servicios en el CSV
-            time.sleep(3600) 
+            time.sleep(600)  
 
 if __name__ == "__main__":
     try:

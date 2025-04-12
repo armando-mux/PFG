@@ -76,7 +76,7 @@ def main():
     
     event_handler = CustomEventHandler(csv_file, excluded)
     observer = Observer()
-	print("Comenzando monitoreo de directorios")
+    print("Comenzando monitoreo de directorios")
     # Bucle para monitorear los paths
     for path in paths:
         observer.schedule(event_handler, path, recursive=True)

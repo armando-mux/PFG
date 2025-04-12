@@ -209,7 +209,7 @@ En el main esta el script que lanza las funcionalidades ya mencionadas (menos la
 
 [ ] YA tengo lista de eventos de windows. Terminar de estructurar script de windows y diseñar el de linux
 [ ] Syscalls en ambos equipos (al menos un conjunto relevante de syscalls)
-[ ] Revisado script directories de windows, actualizar el de linux
+[x] Revisado script directories de windows, actualizar el de linux
 [ ] Implementar lógica de los csv: ahora mismo crean archivos en /log y si ya estan creados, los continua. Implementar compresion automatica (zstd funciona bien) de los archivos para su envio a Azure cuando este hecha la parte de la nube (no urgente de cara a recolecta de datos)
 
 
@@ -222,3 +222,8 @@ En el main esta el script que lanza las funcionalidades ya mencionadas (menos la
 - Usar alguna herramienta como [BeeWare](https://beeware.org/) para empaquetar el programa como .msi, .deb y .rpm
 - He buscado repositorios de datos de comportamiento de equipos sin infectar o infectados, pero no he encontrado ninguno que contenga datos del equipo como tal. Es frecunte encontrar solamente escaneres de los procesos ejecutándose en el equipo o información solamente de la actividad de red. Por eso he pensado en generar datos de equipos sin infectar (reales y simulados con VM) y de equipos infectados con sandboxes (puede ser en local o usando herramientas de Azure).
 
+---------------------------------------------------------
+
+## Dudas.
+
+- En los eventos de windows, depende de que politicas esten activas en el sistema en concreto, captará la totalidad de eventos seleccionados para monitorizar o no. Idea: en el main, en caso de sistemas windows, incluir una comprobación de las politicas de seguridad y cambiarlas de ser necesario, haciendo que cuando se cierre el script vuelvan a su estado original.

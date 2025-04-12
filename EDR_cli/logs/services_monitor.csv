@@ -1,900 +1,599 @@
 Timestamp,Nombre,Estado,Auto-Start,PID,Ruta del ejecutable,Usuario
-2025-03-25 20:34:17,AJRouter,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT AUTHORITY\LocalService
-2025-03-25 20:34:17,ALG,stopped,manual,,C:\Windows\System32\alg.exe,NT AUTHORITY\LocalService
-2025-03-25 20:34:17,AppIDSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT Authority\LocalService
-2025-03-25 20:34:17,Appinfo,running,manual,13908,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-25 20:34:17,AppMgmt,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-25 20:34:17,AppReadiness,stopped,manual,,C:\Windows\System32\svchost.exe -k AppReadiness -p,LocalSystem
-2025-03-25 20:34:17,AppVClient,stopped,disabled,,C:\Windows\system32\AppVClient.exe,LocalSystem
-2025-03-25 20:34:17,AppXSvc,running,manual,3312,C:\Windows\system32\svchost.exe -k wsappx -p,LocalSystem
-2025-03-25 20:34:17,AssignedAccessManagerSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k AssignedAccessManagerSvc,LocalSystem
-2025-03-25 20:34:17,AudioEndpointBuilder,running,automatic,2668,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-25 20:34:17,Audiosrv,running,automatic,4452,C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted -p,NT AUTHORITY\LocalService
-2025-03-25 20:34:17,autotimesvc,stopped,manual,,C:\Windows\system32\svchost.exe -k autoTimeSvc,NT AUTHORITY\LocalService
-2025-03-25 20:34:17,AxInstSV,stopped,manual,,C:\Windows\system32\svchost.exe -k AxInstSVGroup,LocalSystem
-2025-03-25 20:34:17,BDESVC,stopped,manual,,C:\Windows\System32\svchost.exe -k netsvcs -p,localSystem
-2025-03-25 20:34:17,BEService,stopped,manual,,"""C:\Program Files (x86)\Common Files\BattlEye\BEService.exe""",LocalSystem
-2025-03-25 20:34:17,BFE,running,automatic,4828,C:\Windows\system32\svchost.exe -k LocalServiceNoNetworkFirewall -p,NT AUTHORITY\LocalService
-2025-03-25 20:34:17,BITS,stopped,manual,,C:\Windows\System32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-25 20:34:17,brlapi,stopped,manual,,C:\Windows\brltty\bin\brltty.exe,NT AUTHORITY\LocalService
-2025-03-25 20:34:17,BrokerInfrastructure,running,automatic,1032,C:\Windows\system32\svchost.exe -k DcomLaunch -p,LocalSystem
-2025-03-25 20:34:17,BTAGService,running,manual,1596,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted,NT AUTHORITY\LocalService
-2025-03-25 20:34:17,BthAvctpSvc,running,manual,1604,C:\Windows\system32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
-2025-03-25 20:34:17,bthserv,running,manual,1612,C:\Windows\system32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
-2025-03-25 20:34:17,camsvc,running,manual,3024,C:\Windows\system32\svchost.exe -k appmodel -p,LocalSystem
-2025-03-25 20:34:17,CCleanerPerformanceOptimizerService,stopped,manual,,"""C:\Program Files\CCleaner\CCleanerPerformanceOptimizerService.exe""",LocalSystem
-2025-03-25 20:34:17,CDPSvc,running,automatic,3440,C:\Windows\system32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
-2025-03-25 20:34:17,CertPropSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs,LocalSystem
-2025-03-25 20:34:17,ClickToRunSvc,running,automatic,5864,"""C:\Program Files\Common Files\Microsoft Shared\ClickToRun\OfficeClickToRun.exe"" /service",LocalSystem
-2025-03-25 20:34:17,ClipSVC,stopped,manual,,C:\Windows\System32\svchost.exe -k wsappx -p,LocalSystem
-2025-03-25 20:34:17,cloudidsvc,stopped,manual,,C:\Windows\system32\svchost.exe -k CloudIdServiceGroup -p,NT AUTHORITY\NetworkService
-2025-03-25 20:34:17,COMSysApp,stopped,manual,,C:\Windows\system32\dllhost.exe /Processid:{02D4B3F1-FD88-11D1-960D-00805FC79235},LocalSystem
-2025-03-25 20:34:17,CoreMessagingRegistrar,running,automatic,1564,C:\Windows\system32\svchost.exe -k LocalServiceNoNetwork -p,NT AUTHORITY\LocalService
-2025-03-25 20:34:17,cplspcon,running,automatic,2020,C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_6b10ae7f2f9034c5\IntelCpHDCPSvc.exe,LocalSystem
-2025-03-25 20:34:17,CryptSvc,running,automatic,5440,C:\Windows\system32\svchost.exe -k NetworkService -p,NT Authority\NetworkService
-2025-03-25 20:34:17,CscService,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-25 20:34:17,DcomLaunch,running,automatic,1032,C:\Windows\system32\svchost.exe -k DcomLaunch -p,LocalSystem
-2025-03-25 20:34:17,dcsvc,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-25 20:34:17,defragsvc,stopped,manual,,C:\Windows\system32\svchost.exe -k defragsvc,localSystem
-2025-03-25 20:34:17,DeviceAssociationService,running,automatic,2840,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-25 20:34:17,DeviceInstall,stopped,manual,,C:\Windows\system32\svchost.exe -k DcomLaunch -p,LocalSystem
-2025-03-25 20:34:17,DevQueryBroker,running,manual,2636,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-25 20:34:17,Dhcp,running,automatic,2300,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT Authority\LocalService
-2025-03-25 20:34:17,diagnosticshub.standardcollector.service,stopped,manual,,C:\Windows\system32\DiagSvcs\DiagnosticsHub.StandardCollector.Service.exe,LocalSystem
-2025-03-25 20:34:17,diagsvc,stopped,manual,,C:\Windows\System32\svchost.exe -k diagnostics,LocalSystem
-2025-03-25 20:34:17,DiagTrack,running,automatic,5416,C:\Windows\System32\svchost.exe -k utcsvc -p,LocalSystem
-2025-03-25 20:34:17,DialogBlockingService,stopped,disabled,,C:\Windows\system32\svchost.exe -k DialogBlockingService,LocalSystem
-2025-03-25 20:34:17,DispBrokerDesktopSvc,running,automatic,2492,C:\Windows\system32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
-2025-03-25 20:34:17,DisplayEnhancementService,running,manual,2004,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-25 20:34:17,DmEnrollmentSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-25 20:34:17,dmwappushservice,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-25 20:34:17,Dnscache,running,automatic,3376,C:\Windows\system32\svchost.exe -k NetworkService -p,NT AUTHORITY\NetworkService
-2025-03-25 20:34:17,DoSvc,running,automatic,4836,C:\Windows\System32\svchost.exe -k NetworkService -p,NT Authority\NetworkService
-2025-03-25 20:34:17,dot3svc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,localSystem
-2025-03-25 20:34:17,DPS,running,automatic,5424,C:\Windows\System32\svchost.exe -k LocalServiceNoNetwork -p,NT AUTHORITY\LocalService
-2025-03-25 20:34:17,DSAService,running,automatic,5432,"""C:\Program Files (x86)\Intel\Driver and Support Assistant\DSAService.exe""",LocalSystem
-2025-03-25 20:34:17,DSAUpdateService,running,automatic,5448,"""C:\Program Files (x86)\Intel\Driver and Support Assistant\DSAUpdateService.exe""",LocalSystem
-2025-03-25 20:34:17,DsmSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-25 20:34:17,DsSvc,running,manual,4152,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-25 20:34:17,DusmSvc,running,automatic,4588,C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted -p,NT Authority\LocalService
-2025-03-25 20:34:17,Eaphost,stopped,manual,,C:\Windows\System32\svchost.exe -k netsvcs -p,localSystem
-2025-03-25 20:34:17,edgeupdate,stopped,automatic,,"""C:\Program Files (x86)\Microsoft\EdgeUpdate\MicrosoftEdgeUpdate.exe"" /svc",LocalSystem
-2025-03-25 20:34:17,edgeupdatem,stopped,manual,,"""C:\Program Files (x86)\Microsoft\EdgeUpdate\MicrosoftEdgeUpdate.exe"" /medsvc",LocalSystem
-2025-03-25 20:34:17,EFS,stopped,manual,,C:\Windows\System32\lsass.exe,LocalSystem
-2025-03-25 20:34:17,embeddedmode,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-25 20:34:17,EntAppSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k appmodel -p,LocalSystem
-2025-03-25 20:34:17,esifsvc,running,automatic,5752,"""C:\Windows\System32\DriverStore\FileRepository\dptf_cpu.inf_amd64_4ce8bafd96682424\esif_uf.exe""",LocalSystem
-2025-03-25 20:34:17,EventLog,running,automatic,1808,C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted -p,NT AUTHORITY\LocalService
-2025-03-25 20:34:17,EventSystem,running,automatic,1212,C:\Windows\system32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
-2025-03-25 20:34:17,Fax,stopped,manual,,C:\Windows\system32\fxssvc.exe,NT AUTHORITY\NetworkService
-2025-03-25 20:34:17,fdPHost,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
-2025-03-25 20:34:17,FDResPub,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation -p,NT AUTHORITY\LocalService
-2025-03-25 20:34:17,fhsvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-25 20:34:17,FileSyncHelper,stopped,manual,,"""C:\Program Files\Microsoft OneDrive\23.209.1008.0002\FileSyncHelper.exe""",LocalSystem
-2025-03-25 20:34:17,FontCache,running,automatic,2744,C:\Windows\system32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
-2025-03-25 20:34:17,FontCache3.0.0.0,running,manual,8596,C:\Windows\Microsoft.Net\Framework64\v3.0\WPF\PresentationFontCache.exe,NT Authority\LocalService
-2025-03-25 20:34:17,FrameServer,running,manual,15208,C:\Windows\System32\svchost.exe -k Camera,LocalSystem
-2025-03-25 20:34:17,GameInputSvc,stopped,manual,,C:\Windows\System32\GameInputSvc.exe,LocalSystem
-2025-03-25 20:34:17,GoogleChromeElevationService,stopped,manual,,"""C:\Program Files\Google\Chrome\Application\134.0.6998.165\elevation_service.exe""",LocalSystem
-2025-03-25 20:34:17,GoogleUpdaterInternalService136.0.7058.0,stopped,automatic,,"""C:\Program Files (x86)\Google\GoogleUpdater\136.0.7058.0\updater.exe"" --system --windows-service --service=update-internal",LocalSystem
-2025-03-25 20:34:17,GoogleUpdaterService136.0.7058.0,stopped,automatic,,"""C:\Program Files (x86)\Google\GoogleUpdater\136.0.7058.0\updater.exe"" --system --windows-service --service=update",LocalSystem
-2025-03-25 20:34:17,gpsvc,running,automatic,2248,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-25 20:34:17,GraphicsPerfSvc,stopped,manual,,C:\Windows\System32\svchost.exe -k GraphicsPerfSvcGroup,LocalSystem
-2025-03-25 20:34:17,gupdate,stopped,automatic,,"""C:\Program Files (x86)\Google\Update\GoogleUpdate.exe"" /svc",LocalSystem
-2025-03-25 20:34:17,gupdatem,stopped,manual,,"""C:\Program Files (x86)\Google\Update\GoogleUpdate.exe"" /medsvc",LocalSystem
-2025-03-25 20:34:17,hidserv,running,manual,1020,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-25 20:34:17,HPPrintScanDoctorService,running,automatic,5552,"""C:\Program Files\HPPrintScanDoctor\HPPrintScanDoctorService.exe""",LocalSystem
-2025-03-25 20:34:17,HvHost,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-25 20:34:17,icssvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT Authority\LocalService
-2025-03-25 20:34:17,igccservice,running,automatic,5468,C:\Windows\System32\DriverStore\FileRepository\igcc_dch.inf_amd64_8b07a004bf9bbf23\OneApp.IGCC.WinService.exe,LocalSystem
-2025-03-25 20:34:17,igfxCUIService2.0.0.0,running,automatic,2480,C:\Windows\System32\DriverStore\FileRepository\cui_dch.inf_amd64_8f68d4f94f46f7aa\igfxCUIServiceN.exe,LocalSystem
-2025-03-25 20:34:17,IKEEXT,running,automatic,5456,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-25 20:34:17,InstallService,running,manual,16924,C:\Windows\System32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-25 20:34:17,Intel(R) Capability Licensing Service TCP IP Interface,stopped,manual,,C:\Windows\System32\DriverStore\FileRepository\iclsclient.inf_amd64_76523213b78d9046\lib\SocketHeciServer.exe,LocalSystem
-2025-03-25 20:34:17,Intel(R) SUR QC SAM,stopped,manual,,"""C:\Program Files\Intel\SUR\QUEENCREEK\Updater\bin\IntelSoftwareAssetManagerService.exe""",LocalSystem
-2025-03-25 20:34:17,Intel(R) TPM Provisioning Service,stopped,automatic,,C:\Windows\System32\DriverStore\FileRepository\iclsclient.inf_amd64_fc84dfa25a6a7727\lib\TPMProvisioningService.exe,LocalSystem
-2025-03-25 20:34:17,IntelArcControlService,running,automatic,5564,"""C:\Program Files\Intel\Intel Arc Control\ArcControlService.exe""",LocalSystem
-2025-03-25 20:34:17,IntelAudioService,running,automatic,5624,C:\Windows\System32\DriverStore\FileRepository\intcoed.inf_amd64_625d5a9ea859462f\\AS\\IAS\\IntelAudioService.exe,LocalSystem
-2025-03-25 20:34:17,iphlpsvc,running,automatic,5008,C:\Windows\System32\svchost.exe -k NetSvcs -p,LocalSystem
-2025-03-25 20:34:17,IpxlatCfgSvc,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-25 20:34:17,jhi_service,running,automatic,5792,C:\Windows\System32\DriverStore\FileRepository\dal.inf_amd64_af50fdb80983f7bc\jhi_service.exe,LocalSystem
-2025-03-25 20:34:17,KeyIso,running,manual,928,C:\Windows\system32\lsass.exe,LocalSystem
-2025-03-25 20:34:17,KtmRm,stopped,manual,,C:\Windows\System32\svchost.exe -k NetworkServiceAndNoImpersonation -p,NT AUTHORITY\NetworkService
-2025-03-25 20:34:17,LanmanServer,running,automatic,6148,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-25 20:34:17,LanmanWorkstation,running,automatic,5256,C:\Windows\System32\svchost.exe -k NetworkService -p,NT AUTHORITY\NetworkService
-2025-03-25 20:34:17,lfsvc,running,manual,11892,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-25 20:34:17,LicenseManager,running,manual,7600,C:\Windows\System32\svchost.exe -k LocalService -p,NT Authority\LocalService
-2025-03-25 20:34:17,lltdsvc,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
-2025-03-25 20:34:17,lmhosts,running,manual,6024,C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted -p,NT AUTHORITY\LocalService
-2025-03-25 20:34:17,LMS,running,automatic,6004,C:\Windows\System32\DriverStore\FileRepository\lms.inf_amd64_fddb643595e0b8d0\LMS.exe,LocalSystem
-2025-03-25 20:34:17,LSM,running,automatic,1328,C:\Windows\system32\svchost.exe -k DcomLaunch -p,LocalSystem
-2025-03-25 20:34:17,LxpSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs,LocalSystem
-2025-03-25 20:34:17,MapsBroker,stopped,automatic,,C:\Windows\System32\svchost.exe -k NetworkService -p,NT AUTHORITY\NetworkService
-2025-03-25 20:34:17,McpManagementService,stopped,manual,,C:\Windows\system32\svchost.exe -k McpManagementServiceGroup,LocalSystem
-2025-03-25 20:34:17,MDCoreSvc,running,automatic,5728,"""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.25010.11-0\MpDefenderCoreService.exe""",LocalSystem
-2025-03-25 20:34:17,Micro Star SCM,running,automatic,5516,"""C:\Windows\SysWOW64\MSIService.exe""",LocalSystem
-2025-03-25 20:34:17,MicrosoftEdgeElevationService,stopped,manual,,"""C:\Program Files (x86)\Microsoft\Edge\Application\134.0.3124.83\elevation_service.exe""",LocalSystem
-2025-03-25 20:34:17,MixedRealityOpenXRSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-25 20:34:17,mpssvc,running,automatic,4828,C:\Windows\system32\svchost.exe -k LocalServiceNoNetworkFirewall -p,NT Authority\LocalService
-2025-03-25 20:34:17,MSDTC,stopped,manual,,C:\Windows\System32\msdtc.exe,NT AUTHORITY\NetworkService
-2025-03-25 20:34:17,MSI Foundation Service,running,automatic,5572,"""C:\Program Files (x86)\MSI\MSI NBFoundation Service\MSIAPService.exe""",LocalSystem
-2025-03-25 20:34:17,MSI Sendevsvc,running,automatic,5680,"""C:\Program Files (x86)\MSI\MSI NBFoundation Service\Sendevsvc.exe""",LocalSystem
-2025-03-25 20:34:17,MSiSCSI,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-25 20:34:17,msiserver,stopped,manual,,C:\Windows\system32\msiexec.exe /V,LocalSystem
-2025-03-25 20:34:17,MSI_Central_Service,running,automatic,5640,"""C:\Program Files (x86)\MSI\One Dragon Center\MSI_Central_Service.exe""",LocalSystem
-2025-03-25 20:34:17,MsKeyboardFilter,stopped,disabled,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-25 20:34:17,Mystic_Light_Service,running,automatic,5476,"""C:\Program Files (x86)\MSI\One Dragon Center\Mystic_Light\Mystic_Light_Service.exe""",LocalSystem
-2025-03-25 20:34:17,NaturalAuthentication,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-25 20:34:17,NcaSvc,stopped,manual,,C:\Windows\System32\svchost.exe -k NetSvcs -p,LocalSystem
-2025-03-25 20:34:17,NcbService,running,manual,1852,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-25 20:34:17,NcdAutoSetup,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalServiceNoNetwork -p,NT AUTHORITY\LocalService
-2025-03-25 20:34:17,Netlogon,stopped,manual,,C:\Windows\system32\lsass.exe,LocalSystem
-2025-03-25 20:34:17,Netman,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-25 20:34:17,netprofm,running,manual,2948,C:\Windows\System32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
-2025-03-25 20:34:17,NetSetupSvc,stopped,manual,,C:\Windows\System32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-25 20:34:17,NetTcpPortSharing,stopped,disabled,,C:\Windows\Microsoft.NET\Framework64\v4.0.30319\SMSvcHost.exe,NT AUTHORITY\LocalService
-2025-03-25 20:34:17,NgcCtnrSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT AUTHORITY\LocalService
-2025-03-25 20:34:17,NgcSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-25 20:34:17,NlaSvc,running,automatic,2748,C:\Windows\System32\svchost.exe -k NetworkService -p,NT AUTHORITY\NetworkService
-2025-03-25 20:34:17,nsi,running,automatic,2180,C:\Windows\system32\svchost.exe -k LocalService -p,NT Authority\LocalService
-2025-03-25 20:34:17,NVDisplay.ContainerLocalSystem,running,automatic,2876,C:\Windows\System32\DriverStore\FileRepository\nvmi.inf_amd64_ca70e03e74b1e469\Display.NvContainer\NVDisplay.Container.exe -s NVDisplay.ContainerLocalSystem -f C:\ProgramData\NVIDIA\NVDisplay.ContainerLocalSystem.log -l 3 -d C:\Windows\System32\DriverStore\FileRepository\nvmi.inf_amd64_ca70e03e74b1e469\Display.NvContainer\plugins\LocalSystem -r -p 30000 -cfg NVDisplay.ContainerLocalSystem\LocalSystem,LocalSystem
-2025-03-25 20:34:17,NVWMI,running,automatic,5740,C:\Windows\System32\DriverStore\FileRepository\nvmi.inf_amd64_ca70e03e74b1e469\NVWMI\nvWmi64.exe,LocalSystem
-2025-03-25 20:34:17,OneDrive Updater Service,stopped,manual,,"""C:\Program Files\Microsoft OneDrive\23.209.1008.0002\OneDriveUpdaterService.exe""",LocalSystem
-2025-03-25 20:34:17,p2pimsvc,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalServicePeerNet,NT AUTHORITY\LocalService
-2025-03-25 20:34:17,p2psvc,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalServicePeerNet,NT AUTHORITY\LocalService
-2025-03-25 20:34:17,PcaSvc,running,manual,5340,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-25 20:34:17,PeerDistSvc,stopped,manual,,C:\Windows\System32\svchost.exe -k PeerDist,NT AUTHORITY\NetworkService
-2025-03-25 20:34:17,perceptionsimulation,stopped,manual,,C:\Windows\system32\PerceptionSimulation\PerceptionSimulationService.exe,LocalSystem
-2025-03-25 20:34:17,PerfHost,stopped,manual,,C:\Windows\SysWow64\perfhost.exe,NT AUTHORITY\LocalService
-2025-03-25 20:34:17,PhoneSvc,running,manual,2156,C:\Windows\system32\svchost.exe -k LocalService -p,NT Authority\LocalService
-2025-03-25 20:34:17,pla,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalServiceNoNetwork -p,NT AUTHORITY\LocalService
-2025-03-25 20:34:17,PlugPlay,running,manual,1032,C:\Windows\system32\svchost.exe -k DcomLaunch -p,LocalSystem
-2025-03-25 20:34:17,PNRPAutoReg,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalServicePeerNet,NT AUTHORITY\LocalService
-2025-03-25 20:34:17,PNRPsvc,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalServicePeerNet,NT AUTHORITY\LocalService
-2025-03-25 20:34:17,PolicyAgent,stopped,manual,,C:\Windows\system32\svchost.exe -k NetworkServiceNetworkRestricted -p,NT Authority\NetworkService
-2025-03-25 20:34:17,Power,running,automatic,1032,C:\Windows\system32\svchost.exe -k DcomLaunch -p,LocalSystem
-2025-03-25 20:34:17,PrintNotify,stopped,manual,,C:\Windows\system32\svchost.exe -k print,LocalSystem
-2025-03-25 20:34:17,ProfSvc,running,automatic,1860,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-25 20:34:17,PushToInstall,stopped,manual,,C:\Windows\System32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-25 20:34:17,QWAVE,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation -p,NT AUTHORITY\LocalService
-2025-03-25 20:34:17,RasAuto,stopped,manual,,C:\Windows\System32\svchost.exe -k netsvcs -p,localSystem
-2025-03-25 20:34:17,RasMan,running,automatic,6352,C:\Windows\System32\svchost.exe -k netsvcs,localSystem
-2025-03-25 20:34:17,RemoteAccess,stopped,disabled,,C:\Windows\System32\svchost.exe -k netsvcs,localSystem
-2025-03-25 20:34:17,RemoteRegistry,stopped,disabled,,C:\Windows\system32\svchost.exe -k localService -p,NT AUTHORITY\LocalService
-2025-03-25 20:34:17,RetailDemo,stopped,manual,,C:\Windows\System32\svchost.exe -k rdxgroup,LocalSystem
-2025-03-25 20:34:17,RmSvc,running,manual,4020,C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted,NT AUTHORITY\LocalService
-2025-03-25 20:34:17,RpcEptMapper,running,automatic,1276,C:\Windows\system32\svchost.exe -k RPCSS -p,NT AUTHORITY\NetworkService
-2025-03-25 20:34:17,RpcLocator,stopped,manual,,C:\Windows\system32\locator.exe,NT AUTHORITY\NetworkService
-2025-03-25 20:34:17,RpcSs,running,automatic,1276,C:\Windows\system32\svchost.exe -k rpcss -p,NT AUTHORITY\NetworkService
-2025-03-25 20:34:17,RtkAudioUniversalService,running,automatic,5768,"""C:\Windows\System32\DriverStore\FileRepository\realtekservice.inf_amd64_3cf99e411755df38\RtkAudUService64.exe""",LocalSystem
-2025-03-25 20:34:17,SamSs,running,automatic,928,C:\Windows\system32\lsass.exe,LocalSystem
-2025-03-25 20:34:17,SCardSvr,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation,NT AUTHORITY\LocalService
-2025-03-25 20:34:17,ScDeviceEnum,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted,LocalSystem
-2025-03-25 20:34:17,Schedule,running,automatic,1876,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-25 20:34:17,SCPolicySvc,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs,LocalSystem
-2025-03-25 20:34:17,SDRSVC,stopped,manual,,C:\Windows\system32\svchost.exe -k SDRSVC,localSystem
-2025-03-25 20:34:17,seclogon,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-25 20:34:17,SecurityHealthService,running,manual,13152,C:\Windows\system32\SecurityHealthService.exe,LocalSystem
-2025-03-25 20:34:17,SEMgrSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
-2025-03-25 20:34:17,SENS,running,automatic,2292,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-25 20:34:17,Sense,stopped,manual,,"""C:\Program Files\Windows Defender Advanced Threat Protection\MsSense.exe""",LocalSystem
-2025-03-25 20:34:17,SensorDataService,stopped,manual,,C:\Windows\System32\SensorDataService.exe,LocalSystem
-2025-03-25 20:34:17,SensorService,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-25 20:34:17,SensrSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation -p,NT AUTHORITY\LocalService
-2025-03-25 20:34:17,SessionEnv,stopped,manual,,C:\Windows\System32\svchost.exe -k netsvcs -p,localSystem
-2025-03-25 20:34:17,SgrmBroker,stopped,automatic,,C:\Windows\system32\SgrmBroker.exe,LocalSystem
-2025-03-25 20:34:17,SharedAccess,stopped,manual,,C:\Windows\System32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-25 20:34:17,SharedRealitySvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
-2025-03-25 20:34:17,ShellHWDetection,running,automatic,5148,C:\Windows\System32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-25 20:34:17,shpamsvc,stopped,disabled,,C:\Windows\System32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-25 20:34:17,smphost,stopped,manual,,C:\Windows\System32\svchost.exe -k smphost,NT AUTHORITY\NetworkService
-2025-03-25 20:34:17,SmsRouter,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT Authority\LocalService
-2025-03-25 20:34:17,SNMPTRAP,stopped,manual,,C:\Windows\System32\snmptrap.exe,NT AUTHORITY\LocalService
-2025-03-25 20:34:17,spectrum,stopped,manual,,C:\Windows\system32\spectrum.exe,NT AUTHORITY\LocalService
-2025-03-25 20:34:17,Spooler,running,automatic,5192,C:\Windows\System32\spoolsv.exe,LocalSystem
-2025-03-25 20:34:17,sppsvc,stopped,automatic,,C:\Windows\system32\sppsvc.exe,NT AUTHORITY\NetworkService
-2025-03-25 20:34:17,SSDPSRV,running,manual,3924,C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation -p,NT AUTHORITY\LocalService
-2025-03-25 20:34:17,ssh-agent,stopped,disabled,,C:\Windows\System32\OpenSSH\ssh-agent.exe,LocalSystem
-2025-03-25 20:34:17,SstpSvc,running,manual,5496,C:\Windows\system32\svchost.exe -k LocalService -p,NT Authority\LocalService
-2025-03-25 20:34:17,StateRepository,running,manual,3316,C:\Windows\system32\svchost.exe -k appmodel -p,LocalSystem
-2025-03-25 20:34:17,Steam Client Service,running,manual,13732,"""C:\Program Files (x86)\Common Files\Steam\steamservice.exe"" /RunAsService",LocalSystem
-2025-03-25 20:34:17,stisvc,running,automatic,5540,C:\Windows\system32\svchost.exe -k imgsvc,NT Authority\LocalService
-2025-03-25 20:34:17,StorSvc,running,automatic,6188,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-25 20:34:17,svsvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-25 20:34:17,swprv,stopped,manual,,C:\Windows\System32\svchost.exe -k swprv,LocalSystem
-2025-03-25 20:34:17,SysMain,running,automatic,3004,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-25 20:34:17,SystemEventsBroker,running,automatic,1032,C:\Windows\system32\svchost.exe -k DcomLaunch -p,LocalSystem
-2025-03-25 20:34:17,TabletInputService,running,manual,8896,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-25 20:34:17,TapiSrv,running,manual,5916,C:\Windows\System32\svchost.exe -k NetworkService -p,NT AUTHORITY\NetworkService
-2025-03-25 20:34:17,TermService,stopped,manual,,C:\Windows\System32\svchost.exe -k NetworkService,NT Authority\NetworkService
-2025-03-25 20:34:17,Themes,running,automatic,3012,C:\Windows\System32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-25 20:34:17,TieringEngineService,stopped,manual,,C:\Windows\system32\TieringEngineService.exe,localSystem
-2025-03-25 20:34:17,TimeBrokerSvc,running,manual,1868,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT AUTHORITY\LocalService
-2025-03-25 20:34:17,TokenBroker,running,manual,8948,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-25 20:34:17,TrkWks,running,automatic,5528,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-25 20:34:17,TroubleshootingSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-25 20:34:17,TrustedInstaller,stopped,manual,,C:\Windows\servicing\TrustedInstaller.exe,localSystem
-2025-03-25 20:34:17,tzautoupdate,stopped,disabled,,C:\Windows\system32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
-2025-03-25 20:34:17,ucldr_battlegrounds_gl,stopped,manual,,"""C:\Program Files\Common Files\Wellbia.com\ucldr_battlegrounds_gl.exe""",LocalSystem
-2025-03-25 20:34:17,UevAgentService,stopped,disabled,,C:\Windows\system32\AgentService.exe,LocalSystem
-2025-03-25 20:34:17,uhssvc,stopped,disabled,,"""C:\Program Files\Microsoft Update Health Tools\uhssvc.exe""",LocalSystem
-2025-03-25 20:34:17,UmRdpService,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,localSystem
-2025-03-25 20:34:17,upnphost,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation -p,NT AUTHORITY\LocalService
-2025-03-25 20:34:17,UserManager,running,automatic,912,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-25 20:34:17,UsoSvc,running,automatic,9080,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-25 20:34:17,VacSvc,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted -p,NT AUTHORITY\LocalService
-2025-03-25 20:34:17,VaultSvc,running,manual,928,C:\Windows\system32\lsass.exe,LocalSystem
-2025-03-25 20:34:17,VBoxSDS,stopped,manual,,"""C:\Program Files\Oracle\VirtualBox\VBoxSDS.exe""",LocalSystem
-2025-03-25 20:34:17,vds,stopped,manual,,C:\Windows\System32\vds.exe,LocalSystem
-2025-03-25 20:34:17,vmicguestinterface,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-25 20:34:17,vmicheartbeat,stopped,manual,,C:\Windows\system32\svchost.exe -k ICService -p,LocalSystem
-2025-03-25 20:34:17,vmickvpexchange,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-25 20:34:17,vmicrdv,stopped,manual,,C:\Windows\system32\svchost.exe -k ICService -p,LocalSystem
-2025-03-25 20:34:17,vmicshutdown,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-25 20:34:17,vmictimesync,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT AUTHORITY\LocalService
-2025-03-25 20:34:17,vmicvmsession,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-25 20:34:17,vmicvss,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-25 20:34:17,vpnagent,running,automatic,4624,"""C:\Program Files (x86)\Cisco\Cisco AnyConnect Secure Mobility Client\vpnagent.exe""",LocalSystem
-2025-03-25 20:34:17,VSS,stopped,manual,,C:\Windows\system32\vssvc.exe,LocalSystem
-2025-03-25 20:34:17,W32Time,running,automatic,5020,C:\Windows\system32\svchost.exe -k LocalService,NT AUTHORITY\LocalService
-2025-03-25 20:34:17,WaaSMedicSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k wusvcs -p,LocalSystem
-2025-03-25 20:34:17,WalletService,stopped,manual,,C:\Windows\System32\svchost.exe -k appmodel -p,LocalSystem
-2025-03-25 20:34:17,WarpJITSvc,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted,NT Authority\LocalService
-2025-03-25 20:34:17,wbengine,stopped,manual,,"""C:\Windows\system32\wbengine.exe""",localSystem
-2025-03-25 20:34:17,WbioSrvc,running,automatic,4264,C:\Windows\system32\svchost.exe -k WbioSvcGroup,LocalSystem
-2025-03-25 20:34:17,Wcmsvc,running,automatic,4596,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT Authority\LocalService
-2025-03-25 20:34:17,wcncsvc,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalServiceAndNoImpersonation -p,NT AUTHORITY\LocalService
-2025-03-25 20:34:17,WdiServiceHost,running,manual,6200,C:\Windows\System32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
-2025-03-25 20:34:17,WdiSystemHost,running,manual,7080,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-25 20:34:17,WdNisSvc,running,manual,12120,"""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.25010.11-0\NisSrv.exe""",NT AUTHORITY\LocalService
-2025-03-25 20:34:17,WebClient,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
-2025-03-25 20:34:17,Wecsvc,stopped,manual,,C:\Windows\system32\svchost.exe -k NetworkService -p,NT AUTHORITY\NetworkService
-2025-03-25 20:34:17,WEPHOSTSVC,stopped,manual,,C:\Windows\system32\svchost.exe -k WepHostSvcGroup,NT AUTHORITY\LocalService
-2025-03-25 20:34:17,wercplsupport,stopped,manual,,C:\Windows\System32\svchost.exe -k netsvcs -p,localSystem
-2025-03-25 20:34:17,WerSvc,running,manual,18120,C:\Windows\System32\svchost.exe -k WerSvcGroup,localSystem
-2025-03-25 20:34:17,WFDSConMgrSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT AUTHORITY\LocalService
-2025-03-25 20:34:17,WiaRpc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-25 20:34:17,WinDefend,running,automatic,5756,"""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.25010.11-0\MsMpEng.exe""",LocalSystem
-2025-03-25 20:34:17,WinHttpAutoProxySvc,running,manual,3292,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT AUTHORITY\LocalService
-2025-03-25 20:34:17,Winmgmt,running,automatic,3532,C:\Windows\system32\svchost.exe -k netsvcs -p,localSystem
-2025-03-25 20:34:17,WinRM,stopped,manual,,C:\Windows\System32\svchost.exe -k NetworkService -p,NT AUTHORITY\NetworkService
-2025-03-25 20:34:17,wisvc,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-25 20:34:17,WlanSvc,running,automatic,4744,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-25 20:34:17,wlidsvc,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-25 20:34:17,wlpasvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT Authority\LocalService
-2025-03-25 20:34:17,WManSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-25 20:34:17,wmiApSrv,stopped,manual,,C:\Windows\system32\wbem\WmiApSrv.exe,localSystem
-2025-03-25 20:34:17,WMIRegistrationService,running,automatic,5852,C:\Windows\System32\DriverStore\FileRepository\mewmiprov.inf_amd64_d51901c26227fb29\WMIRegistrationService.exe,LocalSystem
-2025-03-25 20:34:17,WMPNetworkSvc,stopped,manual,,"""C:\Program Files\Windows Media Player\wmpnetwk.exe""",NT AUTHORITY\NetworkService
-2025-03-25 20:34:17,workfolderssvc,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
-2025-03-25 20:34:17,WpcMonSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalService,LocalSystem
-2025-03-25 20:34:17,WPDBusEnum,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted,LocalSystem
-2025-03-25 20:34:17,WpnService,running,automatic,5508,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-25 20:34:17,wscsvc,running,automatic,13300,C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted -p,NT AUTHORITY\LocalService
-2025-03-25 20:34:17,WSearch,running,automatic,6888,C:\Windows\system32\SearchIndexer.exe /Embedding,LocalSystem
-2025-03-25 20:34:17,wuauserv,running,manual,17660,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-25 20:34:17,WwanSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,localSystem
-2025-03-25 20:34:17,XblAuthManager,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-25 20:34:17,XblGameSave,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-25 20:34:17,XboxGipSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-25 20:34:17,XboxNetApiSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-25 20:34:17,zksvc,stopped,manual,,"""C:\Program Files\Common Files\PUBG\zksvc.exe""",LocalSystem
-2025-03-25 20:34:17,AarSvc_a7c34,stopped,manual,,C:\Windows\system32\svchost.exe -k AarSvcGroup -p,
-2025-03-25 20:34:17,BcastDVRUserService_a7c34,stopped,manual,,C:\Windows\system32\svchost.exe -k BcastDVRUserService,
-2025-03-25 20:34:17,BluetoothUserService_a7c34,running,manual,8556,C:\Windows\system32\svchost.exe -k BthAppGroup -p,
-2025-03-25 20:34:17,CaptureService_a7c34,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalService -p,
-2025-03-25 20:34:17,cbdhsvc_a7c34,running,manual,9548,C:\Windows\system32\svchost.exe -k ClipboardSvcGroup -p,
-2025-03-25 20:34:17,CDPUserSvc_a7c34,running,automatic,8544,C:\Windows\system32\svchost.exe -k UnistackSvcGroup,
-2025-03-25 20:34:17,ConsentUxUserSvc_a7c34,stopped,manual,,C:\Windows\system32\svchost.exe -k DevicesFlow,
-2025-03-25 20:34:17,CredentialEnrollmentManagerUserSvc_a7c34,stopped,manual,,C:\Windows\system32\CredentialEnrollmentManager.exe,
-2025-03-25 20:34:17,DeviceAssociationBrokerSvc_a7c34,stopped,manual,,C:\Windows\system32\svchost.exe -k DevicesFlow -p,
-2025-03-25 20:34:17,DevicePickerUserSvc_a7c34,stopped,manual,,C:\Windows\system32\svchost.exe -k DevicesFlow,
-2025-03-25 20:34:17,DevicesFlowUserSvc_a7c34,stopped,manual,,C:\Windows\system32\svchost.exe -k DevicesFlow,
-2025-03-25 20:34:17,MessagingService_a7c34,stopped,manual,,C:\Windows\system32\svchost.exe -k UnistackSvcGroup,
-2025-03-25 20:34:17,OneSyncSvc_a7c34,running,automatic,872,C:\Windows\system32\svchost.exe -k UnistackSvcGroup,
-2025-03-25 20:34:17,PimIndexMaintenanceSvc_a7c34,running,manual,872,C:\Windows\system32\svchost.exe -k UnistackSvcGroup,
-2025-03-25 20:34:17,PrintWorkflowUserSvc_a7c34,stopped,manual,,C:\Windows\system32\svchost.exe -k PrintWorkflow,
-2025-03-25 20:34:17,UdkUserSvc_a7c34,stopped,manual,,C:\Windows\system32\svchost.exe -k UdkSvcGroup,
-2025-03-25 20:34:17,UnistoreSvc_a7c34,running,manual,872,C:\Windows\System32\svchost.exe -k UnistackSvcGroup,
-2025-03-25 20:34:17,UserDataSvc_a7c34,running,manual,872,C:\Windows\system32\svchost.exe -k UnistackSvcGroup,
-2025-03-25 20:34:17,WpnUserService_a7c34,running,automatic,8616,C:\Windows\system32\svchost.exe -k UnistackSvcGroup,
-2025-03-26 11:30:35,AJRouter,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT AUTHORITY\LocalService
-2025-03-26 11:30:35,ALG,stopped,manual,,C:\Windows\System32\alg.exe,NT AUTHORITY\LocalService
-2025-03-26 11:30:35,AppIDSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT Authority\LocalService
-2025-03-26 11:30:35,Appinfo,running,manual,13908,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:30:35,AppMgmt,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:30:35,AppReadiness,stopped,manual,,C:\Windows\System32\svchost.exe -k AppReadiness -p,LocalSystem
-2025-03-26 11:30:35,AppVClient,stopped,disabled,,C:\Windows\system32\AppVClient.exe,LocalSystem
-2025-03-26 11:30:35,AppXSvc,running,manual,13792,C:\Windows\system32\svchost.exe -k wsappx -p,LocalSystem
-2025-03-26 11:30:35,AssignedAccessManagerSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k AssignedAccessManagerSvc,LocalSystem
-2025-03-26 11:30:35,AudioEndpointBuilder,running,automatic,2668,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-26 11:30:35,Audiosrv,running,automatic,4452,C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted -p,NT AUTHORITY\LocalService
-2025-03-26 11:30:35,autotimesvc,stopped,manual,,C:\Windows\system32\svchost.exe -k autoTimeSvc,NT AUTHORITY\LocalService
-2025-03-26 11:30:35,AxInstSV,stopped,manual,,C:\Windows\system32\svchost.exe -k AxInstSVGroup,LocalSystem
-2025-03-26 11:30:35,BDESVC,stopped,manual,,C:\Windows\System32\svchost.exe -k netsvcs -p,localSystem
-2025-03-26 11:30:35,BEService,stopped,manual,,"""C:\Program Files (x86)\Common Files\BattlEye\BEService.exe""",LocalSystem
-2025-03-26 11:30:35,BFE,running,automatic,4828,C:\Windows\system32\svchost.exe -k LocalServiceNoNetworkFirewall -p,NT AUTHORITY\LocalService
-2025-03-26 11:30:35,BITS,stopped,manual,,C:\Windows\System32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:30:35,brlapi,stopped,manual,,C:\Windows\brltty\bin\brltty.exe,NT AUTHORITY\LocalService
-2025-03-26 11:30:35,BrokerInfrastructure,running,automatic,1032,C:\Windows\system32\svchost.exe -k DcomLaunch -p,LocalSystem
-2025-03-26 11:30:35,BTAGService,running,manual,1596,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted,NT AUTHORITY\LocalService
-2025-03-26 11:30:35,BthAvctpSvc,running,manual,1604,C:\Windows\system32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
-2025-03-26 11:30:35,bthserv,running,manual,1612,C:\Windows\system32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
-2025-03-26 11:30:35,camsvc,running,manual,3024,C:\Windows\system32\svchost.exe -k appmodel -p,LocalSystem
-2025-03-26 11:30:35,CCleanerPerformanceOptimizerService,stopped,manual,,"""C:\Program Files\CCleaner\CCleanerPerformanceOptimizerService.exe""",LocalSystem
-2025-03-26 11:30:35,CDPSvc,running,automatic,3440,C:\Windows\system32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
-2025-03-26 11:30:35,CertPropSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs,LocalSystem
-2025-03-26 11:30:35,ClickToRunSvc,running,automatic,5864,"""C:\Program Files\Common Files\Microsoft Shared\ClickToRun\OfficeClickToRun.exe"" /service",LocalSystem
-2025-03-26 11:30:35,ClipSVC,stopped,manual,,C:\Windows\System32\svchost.exe -k wsappx -p,LocalSystem
-2025-03-26 11:30:35,cloudidsvc,stopped,manual,,C:\Windows\system32\svchost.exe -k CloudIdServiceGroup -p,NT AUTHORITY\NetworkService
-2025-03-26 11:30:35,COMSysApp,stopped,manual,,C:\Windows\system32\dllhost.exe /Processid:{02D4B3F1-FD88-11D1-960D-00805FC79235},LocalSystem
-2025-03-26 11:30:35,CoreMessagingRegistrar,running,automatic,1564,C:\Windows\system32\svchost.exe -k LocalServiceNoNetwork -p,NT AUTHORITY\LocalService
-2025-03-26 11:30:35,cplspcon,running,automatic,2020,C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_6b10ae7f2f9034c5\IntelCpHDCPSvc.exe,LocalSystem
-2025-03-26 11:30:35,CryptSvc,running,automatic,5440,C:\Windows\system32\svchost.exe -k NetworkService -p,NT Authority\NetworkService
-2025-03-26 11:30:35,CscService,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-26 11:30:35,DcomLaunch,running,automatic,1032,C:\Windows\system32\svchost.exe -k DcomLaunch -p,LocalSystem
-2025-03-26 11:30:35,dcsvc,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:30:35,defragsvc,stopped,manual,,C:\Windows\system32\svchost.exe -k defragsvc,localSystem
-2025-03-26 11:30:35,DeviceAssociationService,running,automatic,2840,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-26 11:30:35,DeviceInstall,stopped,manual,,C:\Windows\system32\svchost.exe -k DcomLaunch -p,LocalSystem
-2025-03-26 11:30:35,DevQueryBroker,running,manual,2636,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-26 11:30:35,Dhcp,running,automatic,2300,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT Authority\LocalService
-2025-03-26 11:30:35,diagnosticshub.standardcollector.service,stopped,manual,,C:\Windows\system32\DiagSvcs\DiagnosticsHub.StandardCollector.Service.exe,LocalSystem
-2025-03-26 11:30:35,diagsvc,stopped,manual,,C:\Windows\System32\svchost.exe -k diagnostics,LocalSystem
-2025-03-26 11:30:35,DiagTrack,running,automatic,5416,C:\Windows\System32\svchost.exe -k utcsvc -p,LocalSystem
-2025-03-26 11:30:35,DialogBlockingService,stopped,disabled,,C:\Windows\system32\svchost.exe -k DialogBlockingService,LocalSystem
-2025-03-26 11:30:35,DispBrokerDesktopSvc,running,automatic,2492,C:\Windows\system32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
-2025-03-26 11:30:35,DisplayEnhancementService,running,manual,2004,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-26 11:30:35,DmEnrollmentSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:30:35,dmwappushservice,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:30:35,Dnscache,running,automatic,3376,C:\Windows\system32\svchost.exe -k NetworkService -p,NT AUTHORITY\NetworkService
-2025-03-26 11:30:35,DoSvc,running,automatic,4836,C:\Windows\System32\svchost.exe -k NetworkService -p,NT Authority\NetworkService
-2025-03-26 11:30:35,dot3svc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,localSystem
-2025-03-26 11:30:35,DPS,running,automatic,5424,C:\Windows\System32\svchost.exe -k LocalServiceNoNetwork -p,NT AUTHORITY\LocalService
-2025-03-26 11:30:35,DSAService,running,automatic,5432,"""C:\Program Files (x86)\Intel\Driver and Support Assistant\DSAService.exe""",LocalSystem
-2025-03-26 11:30:35,DSAUpdateService,running,automatic,5448,"""C:\Program Files (x86)\Intel\Driver and Support Assistant\DSAUpdateService.exe""",LocalSystem
-2025-03-26 11:30:35,DsmSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:30:35,DsSvc,running,manual,4152,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-26 11:30:35,DusmSvc,running,automatic,4588,C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted -p,NT Authority\LocalService
-2025-03-26 11:30:35,Eaphost,stopped,manual,,C:\Windows\System32\svchost.exe -k netsvcs -p,localSystem
-2025-03-26 11:30:35,edgeupdate,stopped,automatic,,"""C:\Program Files (x86)\Microsoft\EdgeUpdate\MicrosoftEdgeUpdate.exe"" /svc",LocalSystem
-2025-03-26 11:30:35,edgeupdatem,stopped,manual,,"""C:\Program Files (x86)\Microsoft\EdgeUpdate\MicrosoftEdgeUpdate.exe"" /medsvc",LocalSystem
-2025-03-26 11:30:35,EFS,stopped,manual,,C:\Windows\System32\lsass.exe,LocalSystem
-2025-03-26 11:30:35,embeddedmode,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-26 11:30:35,EntAppSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k appmodel -p,LocalSystem
-2025-03-26 11:30:35,esifsvc,running,automatic,5752,"""C:\Windows\System32\DriverStore\FileRepository\dptf_cpu.inf_amd64_4ce8bafd96682424\esif_uf.exe""",LocalSystem
-2025-03-26 11:30:35,EventLog,running,automatic,1808,C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted -p,NT AUTHORITY\LocalService
-2025-03-26 11:30:35,EventSystem,running,automatic,1212,C:\Windows\system32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
-2025-03-26 11:30:35,Fax,stopped,manual,,C:\Windows\system32\fxssvc.exe,NT AUTHORITY\NetworkService
-2025-03-26 11:30:35,fdPHost,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
-2025-03-26 11:30:35,FDResPub,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation -p,NT AUTHORITY\LocalService
-2025-03-26 11:30:35,fhsvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-26 11:30:35,FileSyncHelper,stopped,manual,,"""C:\Program Files\Microsoft OneDrive\23.209.1008.0002\FileSyncHelper.exe""",LocalSystem
-2025-03-26 11:30:35,FontCache,running,automatic,2744,C:\Windows\system32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
-2025-03-26 11:30:35,FontCache3.0.0.0,running,manual,8596,C:\Windows\Microsoft.Net\Framework64\v3.0\WPF\PresentationFontCache.exe,NT Authority\LocalService
-2025-03-26 11:30:35,FrameServer,running,manual,15208,C:\Windows\System32\svchost.exe -k Camera,LocalSystem
-2025-03-26 11:30:35,GameInputSvc,stopped,manual,,C:\Windows\System32\GameInputSvc.exe,LocalSystem
-2025-03-26 11:30:35,GoogleChromeElevationService,stopped,manual,,"""C:\Program Files\Google\Chrome\Application\134.0.6998.166\elevation_service.exe""",LocalSystem
-2025-03-26 11:30:35,GoogleUpdaterInternalService136.0.7058.0,stopped,automatic,,"""C:\Program Files (x86)\Google\GoogleUpdater\136.0.7058.0\updater.exe"" --system --windows-service --service=update-internal",LocalSystem
-2025-03-26 11:30:35,GoogleUpdaterService136.0.7058.0,stopped,automatic,,"""C:\Program Files (x86)\Google\GoogleUpdater\136.0.7058.0\updater.exe"" --system --windows-service --service=update",LocalSystem
-2025-03-26 11:30:35,gpsvc,stopped,automatic,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:30:35,GraphicsPerfSvc,stopped,manual,,C:\Windows\System32\svchost.exe -k GraphicsPerfSvcGroup,LocalSystem
-2025-03-26 11:30:35,gupdate,stopped,automatic,,"""C:\Program Files (x86)\Google\Update\GoogleUpdate.exe"" /svc",LocalSystem
-2025-03-26 11:30:35,gupdatem,stopped,manual,,"""C:\Program Files (x86)\Google\Update\GoogleUpdate.exe"" /medsvc",LocalSystem
-2025-03-26 11:30:35,hidserv,running,manual,1020,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-26 11:30:35,HPPrintScanDoctorService,running,automatic,5552,"""C:\Program Files\HPPrintScanDoctor\HPPrintScanDoctorService.exe""",LocalSystem
-2025-03-26 11:30:35,HvHost,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-26 11:30:35,icssvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT Authority\LocalService
-2025-03-26 11:30:35,igccservice,running,automatic,5468,C:\Windows\System32\DriverStore\FileRepository\igcc_dch.inf_amd64_8b07a004bf9bbf23\OneApp.IGCC.WinService.exe,LocalSystem
-2025-03-26 11:30:35,igfxCUIService2.0.0.0,running,automatic,2480,C:\Windows\System32\DriverStore\FileRepository\cui_dch.inf_amd64_8f68d4f94f46f7aa\igfxCUIServiceN.exe,LocalSystem
-2025-03-26 11:30:35,IKEEXT,running,automatic,5456,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:30:35,InstallService,running,manual,16924,C:\Windows\System32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:30:35,Intel(R) Capability Licensing Service TCP IP Interface,stopped,manual,,C:\Windows\System32\DriverStore\FileRepository\iclsclient.inf_amd64_76523213b78d9046\lib\SocketHeciServer.exe,LocalSystem
-2025-03-26 11:30:35,Intel(R) SUR QC SAM,stopped,manual,,"""C:\Program Files\Intel\SUR\QUEENCREEK\Updater\bin\IntelSoftwareAssetManagerService.exe""",LocalSystem
-2025-03-26 11:30:35,Intel(R) TPM Provisioning Service,stopped,automatic,,C:\Windows\System32\DriverStore\FileRepository\iclsclient.inf_amd64_fc84dfa25a6a7727\lib\TPMProvisioningService.exe,LocalSystem
-2025-03-26 11:30:35,IntelArcControlService,running,automatic,5564,"""C:\Program Files\Intel\Intel Arc Control\ArcControlService.exe""",LocalSystem
-2025-03-26 11:30:35,IntelAudioService,running,automatic,5624,C:\Windows\System32\DriverStore\FileRepository\intcoed.inf_amd64_625d5a9ea859462f\\AS\\IAS\\IntelAudioService.exe,LocalSystem
-2025-03-26 11:30:35,iphlpsvc,running,automatic,5008,C:\Windows\System32\svchost.exe -k NetSvcs -p,LocalSystem
-2025-03-26 11:30:35,IpxlatCfgSvc,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-26 11:30:35,jhi_service,running,automatic,5792,C:\Windows\System32\DriverStore\FileRepository\dal.inf_amd64_af50fdb80983f7bc\jhi_service.exe,LocalSystem
-2025-03-26 11:30:35,KeyIso,running,manual,928,C:\Windows\system32\lsass.exe,LocalSystem
-2025-03-26 11:30:35,KtmRm,stopped,manual,,C:\Windows\System32\svchost.exe -k NetworkServiceAndNoImpersonation -p,NT AUTHORITY\NetworkService
-2025-03-26 11:30:35,LanmanServer,running,automatic,6148,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:30:35,LanmanWorkstation,running,automatic,5256,C:\Windows\System32\svchost.exe -k NetworkService -p,NT AUTHORITY\NetworkService
-2025-03-26 11:30:35,lfsvc,running,manual,11892,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:30:35,LicenseManager,running,manual,7600,C:\Windows\System32\svchost.exe -k LocalService -p,NT Authority\LocalService
-2025-03-26 11:30:35,lltdsvc,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
-2025-03-26 11:30:35,lmhosts,running,manual,16616,C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted -p,NT AUTHORITY\LocalService
-2025-03-26 11:30:35,LMS,running,automatic,6004,C:\Windows\System32\DriverStore\FileRepository\lms.inf_amd64_fddb643595e0b8d0\LMS.exe,LocalSystem
-2025-03-26 11:30:35,LSM,running,automatic,1328,C:\Windows\system32\svchost.exe -k DcomLaunch -p,LocalSystem
-2025-03-26 11:30:35,LxpSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs,LocalSystem
-2025-03-26 11:30:35,MapsBroker,stopped,automatic,,C:\Windows\System32\svchost.exe -k NetworkService -p,NT AUTHORITY\NetworkService
-2025-03-26 11:30:35,McpManagementService,stopped,manual,,C:\Windows\system32\svchost.exe -k McpManagementServiceGroup,LocalSystem
-2025-03-26 11:30:35,MDCoreSvc,running,automatic,5728,"""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.25010.11-0\MpDefenderCoreService.exe""",LocalSystem
-2025-03-26 11:30:35,Micro Star SCM,running,automatic,5516,"""C:\Windows\SysWOW64\MSIService.exe""",LocalSystem
-2025-03-26 11:30:35,MicrosoftEdgeElevationService,stopped,manual,,"""C:\Program Files (x86)\Microsoft\Edge\Application\134.0.3124.85\elevation_service.exe""",LocalSystem
-2025-03-26 11:30:35,MixedRealityOpenXRSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-26 11:30:35,mpssvc,running,automatic,4828,C:\Windows\system32\svchost.exe -k LocalServiceNoNetworkFirewall -p,NT Authority\LocalService
-2025-03-26 11:30:35,MSDTC,stopped,manual,,C:\Windows\System32\msdtc.exe,NT AUTHORITY\NetworkService
-2025-03-26 11:30:35,MSI Foundation Service,running,automatic,5572,"""C:\Program Files (x86)\MSI\MSI NBFoundation Service\MSIAPService.exe""",LocalSystem
-2025-03-26 11:30:35,MSI Sendevsvc,running,automatic,5680,"""C:\Program Files (x86)\MSI\MSI NBFoundation Service\Sendevsvc.exe""",LocalSystem
-2025-03-26 11:30:35,MSiSCSI,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:30:35,msiserver,stopped,manual,,C:\Windows\system32\msiexec.exe /V,LocalSystem
-2025-03-26 11:30:35,MSI_Central_Service,running,automatic,5640,"""C:\Program Files (x86)\MSI\One Dragon Center\MSI_Central_Service.exe""",LocalSystem
-2025-03-26 11:30:35,MsKeyboardFilter,stopped,disabled,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:30:35,Mystic_Light_Service,running,automatic,5476,"""C:\Program Files (x86)\MSI\One Dragon Center\Mystic_Light\Mystic_Light_Service.exe""",LocalSystem
-2025-03-26 11:30:35,NaturalAuthentication,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:30:35,NcaSvc,stopped,manual,,C:\Windows\System32\svchost.exe -k NetSvcs -p,LocalSystem
-2025-03-26 11:30:35,NcbService,running,manual,1852,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-26 11:30:35,NcdAutoSetup,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalServiceNoNetwork -p,NT AUTHORITY\LocalService
-2025-03-26 11:30:35,Netlogon,stopped,manual,,C:\Windows\system32\lsass.exe,LocalSystem
-2025-03-26 11:30:35,Netman,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-26 11:30:35,netprofm,running,manual,2948,C:\Windows\System32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
-2025-03-26 11:30:35,NetSetupSvc,stopped,manual,,C:\Windows\System32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:30:35,NetTcpPortSharing,stopped,disabled,,C:\Windows\Microsoft.NET\Framework64\v4.0.30319\SMSvcHost.exe,NT AUTHORITY\LocalService
-2025-03-26 11:30:35,NgcCtnrSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT AUTHORITY\LocalService
-2025-03-26 11:30:35,NgcSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-26 11:30:35,NlaSvc,running,automatic,2748,C:\Windows\System32\svchost.exe -k NetworkService -p,NT AUTHORITY\NetworkService
-2025-03-26 11:30:35,nsi,running,automatic,2180,C:\Windows\system32\svchost.exe -k LocalService -p,NT Authority\LocalService
-2025-03-26 11:30:35,NVDisplay.ContainerLocalSystem,running,automatic,2876,C:\Windows\System32\DriverStore\FileRepository\nvmi.inf_amd64_ca70e03e74b1e469\Display.NvContainer\NVDisplay.Container.exe -s NVDisplay.ContainerLocalSystem -f C:\ProgramData\NVIDIA\NVDisplay.ContainerLocalSystem.log -l 3 -d C:\Windows\System32\DriverStore\FileRepository\nvmi.inf_amd64_ca70e03e74b1e469\Display.NvContainer\plugins\LocalSystem -r -p 30000 -cfg NVDisplay.ContainerLocalSystem\LocalSystem,LocalSystem
-2025-03-26 11:30:35,NVWMI,running,automatic,5740,C:\Windows\System32\DriverStore\FileRepository\nvmi.inf_amd64_ca70e03e74b1e469\NVWMI\nvWmi64.exe,LocalSystem
-2025-03-26 11:30:35,OneDrive Updater Service,stopped,manual,,"""C:\Program Files\Microsoft OneDrive\23.209.1008.0002\OneDriveUpdaterService.exe""",LocalSystem
-2025-03-26 11:30:35,p2pimsvc,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalServicePeerNet,NT AUTHORITY\LocalService
-2025-03-26 11:30:35,p2psvc,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalServicePeerNet,NT AUTHORITY\LocalService
-2025-03-26 11:30:35,PcaSvc,running,manual,5340,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-26 11:30:35,PeerDistSvc,stopped,manual,,C:\Windows\System32\svchost.exe -k PeerDist,NT AUTHORITY\NetworkService
-2025-03-26 11:30:35,perceptionsimulation,stopped,manual,,C:\Windows\system32\PerceptionSimulation\PerceptionSimulationService.exe,LocalSystem
-2025-03-26 11:30:35,PerfHost,stopped,manual,,C:\Windows\SysWow64\perfhost.exe,NT AUTHORITY\LocalService
-2025-03-26 11:30:35,PhoneSvc,running,manual,2156,C:\Windows\system32\svchost.exe -k LocalService -p,NT Authority\LocalService
-2025-03-26 11:30:35,pla,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalServiceNoNetwork -p,NT AUTHORITY\LocalService
-2025-03-26 11:30:35,PlugPlay,running,manual,1032,C:\Windows\system32\svchost.exe -k DcomLaunch -p,LocalSystem
-2025-03-26 11:30:35,PNRPAutoReg,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalServicePeerNet,NT AUTHORITY\LocalService
-2025-03-26 11:30:35,PNRPsvc,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalServicePeerNet,NT AUTHORITY\LocalService
-2025-03-26 11:30:35,PolicyAgent,stopped,manual,,C:\Windows\system32\svchost.exe -k NetworkServiceNetworkRestricted -p,NT Authority\NetworkService
-2025-03-26 11:30:35,Power,running,automatic,1032,C:\Windows\system32\svchost.exe -k DcomLaunch -p,LocalSystem
-2025-03-26 11:30:35,PrintNotify,stopped,manual,,C:\Windows\system32\svchost.exe -k print,LocalSystem
-2025-03-26 11:30:35,ProfSvc,running,automatic,1860,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:30:35,PushToInstall,stopped,manual,,C:\Windows\System32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:30:35,QWAVE,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation -p,NT AUTHORITY\LocalService
-2025-03-26 11:30:35,RasAuto,stopped,manual,,C:\Windows\System32\svchost.exe -k netsvcs -p,localSystem
-2025-03-26 11:30:35,RasMan,running,automatic,6352,C:\Windows\System32\svchost.exe -k netsvcs,localSystem
-2025-03-26 11:30:35,RemoteAccess,stopped,disabled,,C:\Windows\System32\svchost.exe -k netsvcs,localSystem
-2025-03-26 11:30:35,RemoteRegistry,stopped,disabled,,C:\Windows\system32\svchost.exe -k localService -p,NT AUTHORITY\LocalService
-2025-03-26 11:30:35,RetailDemo,stopped,manual,,C:\Windows\System32\svchost.exe -k rdxgroup,LocalSystem
-2025-03-26 11:30:35,RmSvc,running,manual,4020,C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted,NT AUTHORITY\LocalService
-2025-03-26 11:30:35,RpcEptMapper,running,automatic,1276,C:\Windows\system32\svchost.exe -k RPCSS -p,NT AUTHORITY\NetworkService
-2025-03-26 11:30:35,RpcLocator,stopped,manual,,C:\Windows\system32\locator.exe,NT AUTHORITY\NetworkService
-2025-03-26 11:30:35,RpcSs,running,automatic,1276,C:\Windows\system32\svchost.exe -k rpcss -p,NT AUTHORITY\NetworkService
-2025-03-26 11:30:35,RtkAudioUniversalService,running,automatic,5768,"""C:\Windows\System32\DriverStore\FileRepository\realtekservice.inf_amd64_3cf99e411755df38\RtkAudUService64.exe""",LocalSystem
-2025-03-26 11:30:35,SamSs,running,automatic,928,C:\Windows\system32\lsass.exe,LocalSystem
-2025-03-26 11:30:35,SCardSvr,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation,NT AUTHORITY\LocalService
-2025-03-26 11:30:35,ScDeviceEnum,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted,LocalSystem
-2025-03-26 11:30:35,Schedule,running,automatic,1876,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:30:35,SCPolicySvc,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs,LocalSystem
-2025-03-26 11:30:35,SDRSVC,running,manual,17916,C:\Windows\system32\svchost.exe -k SDRSVC,localSystem
-2025-03-26 11:30:35,seclogon,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:30:35,SecurityHealthService,running,manual,13152,C:\Windows\system32\SecurityHealthService.exe,LocalSystem
-2025-03-26 11:30:35,SEMgrSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
-2025-03-26 11:30:35,SENS,running,automatic,2292,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:30:35,Sense,stopped,manual,,"""C:\Program Files\Windows Defender Advanced Threat Protection\MsSense.exe""",LocalSystem
-2025-03-26 11:30:35,SensorDataService,stopped,manual,,C:\Windows\System32\SensorDataService.exe,LocalSystem
-2025-03-26 11:30:35,SensorService,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-26 11:30:35,SensrSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation -p,NT AUTHORITY\LocalService
-2025-03-26 11:30:35,SessionEnv,stopped,manual,,C:\Windows\System32\svchost.exe -k netsvcs -p,localSystem
-2025-03-26 11:30:35,SgrmBroker,stopped,automatic,,C:\Windows\system32\SgrmBroker.exe,LocalSystem
-2025-03-26 11:30:35,SharedAccess,stopped,manual,,C:\Windows\System32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:30:35,SharedRealitySvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
-2025-03-26 11:30:35,ShellHWDetection,running,automatic,5148,C:\Windows\System32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:30:35,shpamsvc,stopped,disabled,,C:\Windows\System32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:30:35,smphost,stopped,manual,,C:\Windows\System32\svchost.exe -k smphost,NT AUTHORITY\NetworkService
-2025-03-26 11:30:35,SmsRouter,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT Authority\LocalService
-2025-03-26 11:30:35,SNMPTRAP,stopped,manual,,C:\Windows\System32\snmptrap.exe,NT AUTHORITY\LocalService
-2025-03-26 11:30:35,spectrum,stopped,manual,,C:\Windows\system32\spectrum.exe,NT AUTHORITY\LocalService
-2025-03-26 11:30:35,Spooler,running,automatic,5192,C:\Windows\System32\spoolsv.exe,LocalSystem
-2025-03-26 11:30:35,sppsvc,stopped,automatic,,C:\Windows\system32\sppsvc.exe,NT AUTHORITY\NetworkService
-2025-03-26 11:30:35,SSDPSRV,running,manual,3924,C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation -p,NT AUTHORITY\LocalService
-2025-03-26 11:30:35,ssh-agent,stopped,disabled,,C:\Windows\System32\OpenSSH\ssh-agent.exe,LocalSystem
-2025-03-26 11:30:35,SstpSvc,running,manual,5496,C:\Windows\system32\svchost.exe -k LocalService -p,NT Authority\LocalService
-2025-03-26 11:30:35,StateRepository,running,manual,3316,C:\Windows\system32\svchost.exe -k appmodel -p,LocalSystem
-2025-03-26 11:30:35,Steam Client Service,stopped,manual,,"""C:\Program Files (x86)\Common Files\Steam\steamservice.exe"" /RunAsService",LocalSystem
-2025-03-26 11:30:35,stisvc,running,automatic,5540,C:\Windows\system32\svchost.exe -k imgsvc,NT Authority\LocalService
-2025-03-26 11:30:35,StorSvc,running,automatic,6188,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-26 11:30:35,svsvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-26 11:30:35,swprv,stopped,manual,,C:\Windows\System32\svchost.exe -k swprv,LocalSystem
-2025-03-26 11:30:35,SysMain,running,automatic,3004,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-26 11:30:35,SystemEventsBroker,running,automatic,1032,C:\Windows\system32\svchost.exe -k DcomLaunch -p,LocalSystem
-2025-03-26 11:30:35,TabletInputService,running,manual,8896,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-26 11:30:35,TapiSrv,running,manual,5916,C:\Windows\System32\svchost.exe -k NetworkService -p,NT AUTHORITY\NetworkService
-2025-03-26 11:30:35,TermService,stopped,manual,,C:\Windows\System32\svchost.exe -k NetworkService,NT Authority\NetworkService
-2025-03-26 11:30:35,Themes,running,automatic,3012,C:\Windows\System32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:30:35,TieringEngineService,stopped,manual,,C:\Windows\system32\TieringEngineService.exe,localSystem
-2025-03-26 11:30:35,TimeBrokerSvc,running,manual,1868,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT AUTHORITY\LocalService
-2025-03-26 11:30:35,TokenBroker,running,manual,8948,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:30:35,TrkWks,running,automatic,5528,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-26 11:30:35,TroubleshootingSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:30:35,TrustedInstaller,stopped,manual,,C:\Windows\servicing\TrustedInstaller.exe,localSystem
-2025-03-26 11:30:35,tzautoupdate,stopped,disabled,,C:\Windows\system32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
-2025-03-26 11:30:35,ucldr_battlegrounds_gl,stopped,manual,,"""C:\Program Files\Common Files\Wellbia.com\ucldr_battlegrounds_gl.exe""",LocalSystem
-2025-03-26 11:30:35,UevAgentService,stopped,disabled,,C:\Windows\system32\AgentService.exe,LocalSystem
-2025-03-26 11:30:35,uhssvc,stopped,disabled,,"""C:\Program Files\Microsoft Update Health Tools\uhssvc.exe""",LocalSystem
-2025-03-26 11:30:35,UmRdpService,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,localSystem
-2025-03-26 11:30:35,upnphost,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation -p,NT AUTHORITY\LocalService
-2025-03-26 11:30:35,UserManager,running,automatic,912,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:30:35,UsoSvc,running,automatic,9080,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:30:35,VacSvc,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted -p,NT AUTHORITY\LocalService
-2025-03-26 11:30:35,VaultSvc,running,manual,928,C:\Windows\system32\lsass.exe,LocalSystem
-2025-03-26 11:30:35,VBoxSDS,stopped,manual,,"""C:\Program Files\Oracle\VirtualBox\VBoxSDS.exe""",LocalSystem
-2025-03-26 11:30:35,vds,stopped,manual,,C:\Windows\System32\vds.exe,LocalSystem
-2025-03-26 11:30:35,vmicguestinterface,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-26 11:30:35,vmicheartbeat,stopped,manual,,C:\Windows\system32\svchost.exe -k ICService -p,LocalSystem
-2025-03-26 11:30:35,vmickvpexchange,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-26 11:30:35,vmicrdv,stopped,manual,,C:\Windows\system32\svchost.exe -k ICService -p,LocalSystem
-2025-03-26 11:30:35,vmicshutdown,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-26 11:30:35,vmictimesync,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT AUTHORITY\LocalService
-2025-03-26 11:30:35,vmicvmsession,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-26 11:30:35,vmicvss,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-26 11:30:35,vpnagent,running,automatic,4624,"""C:\Program Files (x86)\Cisco\Cisco AnyConnect Secure Mobility Client\vpnagent.exe""",LocalSystem
-2025-03-26 11:30:35,VSS,stopped,manual,,C:\Windows\system32\vssvc.exe,LocalSystem
-2025-03-26 11:30:35,W32Time,running,automatic,5020,C:\Windows\system32\svchost.exe -k LocalService,NT AUTHORITY\LocalService
-2025-03-26 11:30:35,WaaSMedicSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k wusvcs -p,LocalSystem
-2025-03-26 11:30:35,WalletService,stopped,manual,,C:\Windows\System32\svchost.exe -k appmodel -p,LocalSystem
-2025-03-26 11:30:35,WarpJITSvc,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted,NT Authority\LocalService
-2025-03-26 11:30:35,wbengine,stopped,manual,,"""C:\Windows\system32\wbengine.exe""",localSystem
-2025-03-26 11:30:35,WbioSrvc,running,automatic,4264,C:\Windows\system32\svchost.exe -k WbioSvcGroup,LocalSystem
-2025-03-26 11:30:35,Wcmsvc,running,automatic,4596,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT Authority\LocalService
-2025-03-26 11:30:35,wcncsvc,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalServiceAndNoImpersonation -p,NT AUTHORITY\LocalService
-2025-03-26 11:30:35,WdiServiceHost,running,manual,6200,C:\Windows\System32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
-2025-03-26 11:30:35,WdiSystemHost,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-26 11:30:35,WdNisSvc,running,manual,12120,"""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.25010.11-0\NisSrv.exe""",NT AUTHORITY\LocalService
-2025-03-26 11:30:35,WebClient,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
-2025-03-26 11:30:35,Wecsvc,stopped,manual,,C:\Windows\system32\svchost.exe -k NetworkService -p,NT AUTHORITY\NetworkService
-2025-03-26 11:30:35,WEPHOSTSVC,stopped,manual,,C:\Windows\system32\svchost.exe -k WepHostSvcGroup,NT AUTHORITY\LocalService
-2025-03-26 11:30:35,wercplsupport,stopped,manual,,C:\Windows\System32\svchost.exe -k netsvcs -p,localSystem
-2025-03-26 11:30:35,WerSvc,stopped,manual,,C:\Windows\System32\svchost.exe -k WerSvcGroup,localSystem
-2025-03-26 11:30:35,WFDSConMgrSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT AUTHORITY\LocalService
-2025-03-26 11:30:35,WiaRpc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-26 11:30:35,WinDefend,running,automatic,5756,"""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.25010.11-0\MsMpEng.exe""",LocalSystem
-2025-03-26 11:30:35,WinHttpAutoProxySvc,running,manual,3292,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT AUTHORITY\LocalService
-2025-03-26 11:30:35,Winmgmt,running,automatic,3532,C:\Windows\system32\svchost.exe -k netsvcs -p,localSystem
-2025-03-26 11:30:35,WinRM,stopped,manual,,C:\Windows\System32\svchost.exe -k NetworkService -p,NT AUTHORITY\NetworkService
-2025-03-26 11:30:35,wisvc,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:30:35,WlanSvc,running,automatic,4744,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-26 11:30:35,wlidsvc,running,manual,17392,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:30:35,wlpasvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT Authority\LocalService
-2025-03-26 11:30:35,WManSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:30:35,wmiApSrv,stopped,manual,,C:\Windows\system32\wbem\WmiApSrv.exe,localSystem
-2025-03-26 11:30:35,WMIRegistrationService,running,automatic,5852,C:\Windows\System32\DriverStore\FileRepository\mewmiprov.inf_amd64_d51901c26227fb29\WMIRegistrationService.exe,LocalSystem
-2025-03-26 11:30:35,WMPNetworkSvc,stopped,manual,,"""C:\Program Files\Windows Media Player\wmpnetwk.exe""",NT AUTHORITY\NetworkService
-2025-03-26 11:30:35,workfolderssvc,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
-2025-03-26 11:30:35,WpcMonSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalService,LocalSystem
-2025-03-26 11:30:35,WPDBusEnum,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted,LocalSystem
-2025-03-26 11:30:35,WpnService,running,automatic,5508,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:30:35,wscsvc,running,automatic,13300,C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted -p,NT AUTHORITY\LocalService
-2025-03-26 11:30:35,WSearch,running,automatic,6888,C:\Windows\system32\SearchIndexer.exe /Embedding,LocalSystem
-2025-03-26 11:30:35,wuauserv,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:30:35,WwanSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,localSystem
-2025-03-26 11:30:35,XblAuthManager,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:30:35,XblGameSave,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:30:35,XboxGipSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:30:35,XboxNetApiSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:30:35,zksvc,stopped,manual,,"""C:\Program Files\Common Files\PUBG\zksvc.exe""",LocalSystem
-2025-03-26 11:30:35,AarSvc_a7c34,stopped,manual,,C:\Windows\system32\svchost.exe -k AarSvcGroup -p,
-2025-03-26 11:30:35,BcastDVRUserService_a7c34,stopped,manual,,C:\Windows\system32\svchost.exe -k BcastDVRUserService,
-2025-03-26 11:30:35,BluetoothUserService_a7c34,running,manual,8556,C:\Windows\system32\svchost.exe -k BthAppGroup -p,
-2025-03-26 11:30:35,CaptureService_a7c34,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalService -p,
-2025-03-26 11:30:35,cbdhsvc_a7c34,running,manual,9548,C:\Windows\system32\svchost.exe -k ClipboardSvcGroup -p,
-2025-03-26 11:30:35,CDPUserSvc_a7c34,running,automatic,8544,C:\Windows\system32\svchost.exe -k UnistackSvcGroup,
-2025-03-26 11:30:35,ConsentUxUserSvc_a7c34,stopped,manual,,C:\Windows\system32\svchost.exe -k DevicesFlow,
-2025-03-26 11:30:35,CredentialEnrollmentManagerUserSvc_a7c34,stopped,manual,,C:\Windows\system32\CredentialEnrollmentManager.exe,
-2025-03-26 11:30:35,DeviceAssociationBrokerSvc_a7c34,stopped,manual,,C:\Windows\system32\svchost.exe -k DevicesFlow -p,
-2025-03-26 11:30:35,DevicePickerUserSvc_a7c34,stopped,manual,,C:\Windows\system32\svchost.exe -k DevicesFlow,
-2025-03-26 11:30:35,DevicesFlowUserSvc_a7c34,stopped,manual,,C:\Windows\system32\svchost.exe -k DevicesFlow,
-2025-03-26 11:30:35,MessagingService_a7c34,stopped,manual,,C:\Windows\system32\svchost.exe -k UnistackSvcGroup,
-2025-03-26 11:30:35,OneSyncSvc_a7c34,running,automatic,872,C:\Windows\system32\svchost.exe -k UnistackSvcGroup,
-2025-03-26 11:30:35,PimIndexMaintenanceSvc_a7c34,running,manual,872,C:\Windows\system32\svchost.exe -k UnistackSvcGroup,
-2025-03-26 11:30:35,PrintWorkflowUserSvc_a7c34,stopped,manual,,C:\Windows\system32\svchost.exe -k PrintWorkflow,
-2025-03-26 11:30:35,UdkUserSvc_a7c34,stopped,manual,,C:\Windows\system32\svchost.exe -k UdkSvcGroup,
-2025-03-26 11:30:35,UnistoreSvc_a7c34,running,manual,872,C:\Windows\System32\svchost.exe -k UnistackSvcGroup,
-2025-03-26 11:30:35,UserDataSvc_a7c34,running,manual,872,C:\Windows\system32\svchost.exe -k UnistackSvcGroup,
-2025-03-26 11:30:35,WpnUserService_a7c34,running,automatic,8616,C:\Windows\system32\svchost.exe -k UnistackSvcGroup,
-2025-03-26 11:30:35,GoogleUpdaterInternalService136.0.7079.0,stopped,automatic,,"""C:\Program Files (x86)\Google\GoogleUpdater\136.0.7079.0\updater.exe"" --system --windows-service --service=update-internal",LocalSystem
-2025-03-26 11:32:47,AJRouter,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT AUTHORITY\LocalService
-2025-03-26 11:32:47,ALG,stopped,manual,,C:\Windows\System32\alg.exe,NT AUTHORITY\LocalService
-2025-03-26 11:32:47,AppIDSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT Authority\LocalService
-2025-03-26 11:32:47,Appinfo,running,manual,13908,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:32:47,AppMgmt,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:32:47,AppReadiness,stopped,manual,,C:\Windows\System32\svchost.exe -k AppReadiness -p,LocalSystem
-2025-03-26 11:32:47,AppVClient,stopped,disabled,,C:\Windows\system32\AppVClient.exe,LocalSystem
-2025-03-26 11:32:47,AppXSvc,running,manual,13792,C:\Windows\system32\svchost.exe -k wsappx -p,LocalSystem
-2025-03-26 11:32:47,AssignedAccessManagerSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k AssignedAccessManagerSvc,LocalSystem
-2025-03-26 11:32:47,AudioEndpointBuilder,running,automatic,2668,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-26 11:32:47,Audiosrv,running,automatic,4452,C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted -p,NT AUTHORITY\LocalService
-2025-03-26 11:32:47,autotimesvc,stopped,manual,,C:\Windows\system32\svchost.exe -k autoTimeSvc,NT AUTHORITY\LocalService
-2025-03-26 11:32:47,AxInstSV,stopped,manual,,C:\Windows\system32\svchost.exe -k AxInstSVGroup,LocalSystem
-2025-03-26 11:32:47,BDESVC,stopped,manual,,C:\Windows\System32\svchost.exe -k netsvcs -p,localSystem
-2025-03-26 11:32:47,BEService,stopped,manual,,"""C:\Program Files (x86)\Common Files\BattlEye\BEService.exe""",LocalSystem
-2025-03-26 11:32:47,BFE,running,automatic,4828,C:\Windows\system32\svchost.exe -k LocalServiceNoNetworkFirewall -p,NT AUTHORITY\LocalService
-2025-03-26 11:32:47,BITS,stopped,manual,,C:\Windows\System32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:32:47,brlapi,stopped,manual,,C:\Windows\brltty\bin\brltty.exe,NT AUTHORITY\LocalService
-2025-03-26 11:32:47,BrokerInfrastructure,running,automatic,1032,C:\Windows\system32\svchost.exe -k DcomLaunch -p,LocalSystem
-2025-03-26 11:32:47,BTAGService,running,manual,1596,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted,NT AUTHORITY\LocalService
-2025-03-26 11:32:47,BthAvctpSvc,running,manual,1604,C:\Windows\system32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
-2025-03-26 11:32:47,bthserv,running,manual,1612,C:\Windows\system32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
-2025-03-26 11:32:47,camsvc,running,manual,3024,C:\Windows\system32\svchost.exe -k appmodel -p,LocalSystem
-2025-03-26 11:32:47,CCleanerPerformanceOptimizerService,stopped,manual,,"""C:\Program Files\CCleaner\CCleanerPerformanceOptimizerService.exe""",LocalSystem
-2025-03-26 11:32:47,CDPSvc,running,automatic,3440,C:\Windows\system32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
-2025-03-26 11:32:47,CertPropSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs,LocalSystem
-2025-03-26 11:32:47,ClickToRunSvc,running,automatic,5864,"""C:\Program Files\Common Files\Microsoft Shared\ClickToRun\OfficeClickToRun.exe"" /service",LocalSystem
-2025-03-26 11:32:47,ClipSVC,stopped,manual,,C:\Windows\System32\svchost.exe -k wsappx -p,LocalSystem
-2025-03-26 11:32:47,cloudidsvc,stopped,manual,,C:\Windows\system32\svchost.exe -k CloudIdServiceGroup -p,NT AUTHORITY\NetworkService
-2025-03-26 11:32:47,COMSysApp,stopped,manual,,C:\Windows\system32\dllhost.exe /Processid:{02D4B3F1-FD88-11D1-960D-00805FC79235},LocalSystem
-2025-03-26 11:32:47,CoreMessagingRegistrar,running,automatic,1564,C:\Windows\system32\svchost.exe -k LocalServiceNoNetwork -p,NT AUTHORITY\LocalService
-2025-03-26 11:32:47,cplspcon,running,automatic,2020,C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_6b10ae7f2f9034c5\IntelCpHDCPSvc.exe,LocalSystem
-2025-03-26 11:32:47,CryptSvc,running,automatic,5440,C:\Windows\system32\svchost.exe -k NetworkService -p,NT Authority\NetworkService
-2025-03-26 11:32:47,CscService,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-26 11:32:47,DcomLaunch,running,automatic,1032,C:\Windows\system32\svchost.exe -k DcomLaunch -p,LocalSystem
-2025-03-26 11:32:47,dcsvc,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:32:47,defragsvc,stopped,manual,,C:\Windows\system32\svchost.exe -k defragsvc,localSystem
-2025-03-26 11:32:47,DeviceAssociationService,running,automatic,2840,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-26 11:32:47,DeviceInstall,stopped,manual,,C:\Windows\system32\svchost.exe -k DcomLaunch -p,LocalSystem
-2025-03-26 11:32:47,DevQueryBroker,running,manual,2636,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-26 11:32:47,Dhcp,running,automatic,2300,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT Authority\LocalService
-2025-03-26 11:32:47,diagnosticshub.standardcollector.service,stopped,manual,,C:\Windows\system32\DiagSvcs\DiagnosticsHub.StandardCollector.Service.exe,LocalSystem
-2025-03-26 11:32:47,diagsvc,stopped,manual,,C:\Windows\System32\svchost.exe -k diagnostics,LocalSystem
-2025-03-26 11:32:47,DiagTrack,running,automatic,5416,C:\Windows\System32\svchost.exe -k utcsvc -p,LocalSystem
-2025-03-26 11:32:47,DialogBlockingService,stopped,disabled,,C:\Windows\system32\svchost.exe -k DialogBlockingService,LocalSystem
-2025-03-26 11:32:47,DispBrokerDesktopSvc,running,automatic,2492,C:\Windows\system32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
-2025-03-26 11:32:47,DisplayEnhancementService,running,manual,2004,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-26 11:32:47,DmEnrollmentSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:32:47,dmwappushservice,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:32:47,Dnscache,running,automatic,3376,C:\Windows\system32\svchost.exe -k NetworkService -p,NT AUTHORITY\NetworkService
-2025-03-26 11:32:47,DoSvc,running,automatic,4836,C:\Windows\System32\svchost.exe -k NetworkService -p,NT Authority\NetworkService
-2025-03-26 11:32:47,dot3svc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,localSystem
-2025-03-26 11:32:47,DPS,running,automatic,5424,C:\Windows\System32\svchost.exe -k LocalServiceNoNetwork -p,NT AUTHORITY\LocalService
-2025-03-26 11:32:47,DSAService,running,automatic,5432,"""C:\Program Files (x86)\Intel\Driver and Support Assistant\DSAService.exe""",LocalSystem
-2025-03-26 11:32:47,DSAUpdateService,running,automatic,5448,"""C:\Program Files (x86)\Intel\Driver and Support Assistant\DSAUpdateService.exe""",LocalSystem
-2025-03-26 11:32:47,DsmSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:32:47,DsSvc,running,manual,4152,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-26 11:32:47,DusmSvc,running,automatic,4588,C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted -p,NT Authority\LocalService
-2025-03-26 11:32:47,Eaphost,stopped,manual,,C:\Windows\System32\svchost.exe -k netsvcs -p,localSystem
-2025-03-26 11:32:47,edgeupdate,stopped,automatic,,"""C:\Program Files (x86)\Microsoft\EdgeUpdate\MicrosoftEdgeUpdate.exe"" /svc",LocalSystem
-2025-03-26 11:32:47,edgeupdatem,stopped,manual,,"""C:\Program Files (x86)\Microsoft\EdgeUpdate\MicrosoftEdgeUpdate.exe"" /medsvc",LocalSystem
-2025-03-26 11:32:47,EFS,stopped,manual,,C:\Windows\System32\lsass.exe,LocalSystem
-2025-03-26 11:32:47,embeddedmode,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-26 11:32:47,EntAppSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k appmodel -p,LocalSystem
-2025-03-26 11:32:47,esifsvc,running,automatic,5752,"""C:\Windows\System32\DriverStore\FileRepository\dptf_cpu.inf_amd64_4ce8bafd96682424\esif_uf.exe""",LocalSystem
-2025-03-26 11:32:47,EventLog,running,automatic,1808,C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted -p,NT AUTHORITY\LocalService
-2025-03-26 11:32:47,EventSystem,running,automatic,1212,C:\Windows\system32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
-2025-03-26 11:32:47,Fax,stopped,manual,,C:\Windows\system32\fxssvc.exe,NT AUTHORITY\NetworkService
-2025-03-26 11:32:47,fdPHost,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
-2025-03-26 11:32:47,FDResPub,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation -p,NT AUTHORITY\LocalService
-2025-03-26 11:32:47,fhsvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-26 11:32:47,FileSyncHelper,stopped,manual,,"""C:\Program Files\Microsoft OneDrive\23.209.1008.0002\FileSyncHelper.exe""",LocalSystem
-2025-03-26 11:32:47,FontCache,running,automatic,2744,C:\Windows\system32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
-2025-03-26 11:32:47,FontCache3.0.0.0,running,manual,8596,C:\Windows\Microsoft.Net\Framework64\v3.0\WPF\PresentationFontCache.exe,NT Authority\LocalService
-2025-03-26 11:32:47,FrameServer,running,manual,15208,C:\Windows\System32\svchost.exe -k Camera,LocalSystem
-2025-03-26 11:32:47,GameInputSvc,stopped,manual,,C:\Windows\System32\GameInputSvc.exe,LocalSystem
-2025-03-26 11:32:47,GoogleChromeElevationService,stopped,manual,,"""C:\Program Files\Google\Chrome\Application\134.0.6998.166\elevation_service.exe""",LocalSystem
-2025-03-26 11:32:47,GoogleUpdaterInternalService136.0.7058.0,stopped,automatic,,"""C:\Program Files (x86)\Google\GoogleUpdater\136.0.7058.0\updater.exe"" --system --windows-service --service=update-internal",LocalSystem
-2025-03-26 11:32:47,GoogleUpdaterService136.0.7058.0,stopped,automatic,,"""C:\Program Files (x86)\Google\GoogleUpdater\136.0.7058.0\updater.exe"" --system --windows-service --service=update",LocalSystem
-2025-03-26 11:32:47,gpsvc,stopped,automatic,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:32:47,GraphicsPerfSvc,stopped,manual,,C:\Windows\System32\svchost.exe -k GraphicsPerfSvcGroup,LocalSystem
-2025-03-26 11:32:47,gupdate,stopped,automatic,,"""C:\Program Files (x86)\Google\Update\GoogleUpdate.exe"" /svc",LocalSystem
-2025-03-26 11:32:47,gupdatem,stopped,manual,,"""C:\Program Files (x86)\Google\Update\GoogleUpdate.exe"" /medsvc",LocalSystem
-2025-03-26 11:32:47,hidserv,running,manual,1020,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-26 11:32:47,HPPrintScanDoctorService,running,automatic,5552,"""C:\Program Files\HPPrintScanDoctor\HPPrintScanDoctorService.exe""",LocalSystem
-2025-03-26 11:32:47,HvHost,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-26 11:32:47,icssvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT Authority\LocalService
-2025-03-26 11:32:47,igccservice,running,automatic,5468,C:\Windows\System32\DriverStore\FileRepository\igcc_dch.inf_amd64_8b07a004bf9bbf23\OneApp.IGCC.WinService.exe,LocalSystem
-2025-03-26 11:32:47,igfxCUIService2.0.0.0,running,automatic,2480,C:\Windows\System32\DriverStore\FileRepository\cui_dch.inf_amd64_8f68d4f94f46f7aa\igfxCUIServiceN.exe,LocalSystem
-2025-03-26 11:32:47,IKEEXT,running,automatic,5456,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:32:47,InstallService,running,manual,16924,C:\Windows\System32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:32:47,Intel(R) Capability Licensing Service TCP IP Interface,stopped,manual,,C:\Windows\System32\DriverStore\FileRepository\iclsclient.inf_amd64_76523213b78d9046\lib\SocketHeciServer.exe,LocalSystem
-2025-03-26 11:32:47,Intel(R) SUR QC SAM,stopped,manual,,"""C:\Program Files\Intel\SUR\QUEENCREEK\Updater\bin\IntelSoftwareAssetManagerService.exe""",LocalSystem
-2025-03-26 11:32:47,Intel(R) TPM Provisioning Service,stopped,automatic,,C:\Windows\System32\DriverStore\FileRepository\iclsclient.inf_amd64_fc84dfa25a6a7727\lib\TPMProvisioningService.exe,LocalSystem
-2025-03-26 11:32:47,IntelArcControlService,running,automatic,5564,"""C:\Program Files\Intel\Intel Arc Control\ArcControlService.exe""",LocalSystem
-2025-03-26 11:32:47,IntelAudioService,running,automatic,5624,C:\Windows\System32\DriverStore\FileRepository\intcoed.inf_amd64_625d5a9ea859462f\\AS\\IAS\\IntelAudioService.exe,LocalSystem
-2025-03-26 11:32:47,iphlpsvc,running,automatic,5008,C:\Windows\System32\svchost.exe -k NetSvcs -p,LocalSystem
-2025-03-26 11:32:47,IpxlatCfgSvc,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-26 11:32:47,jhi_service,running,automatic,5792,C:\Windows\System32\DriverStore\FileRepository\dal.inf_amd64_af50fdb80983f7bc\jhi_service.exe,LocalSystem
-2025-03-26 11:32:47,KeyIso,running,manual,928,C:\Windows\system32\lsass.exe,LocalSystem
-2025-03-26 11:32:47,KtmRm,stopped,manual,,C:\Windows\System32\svchost.exe -k NetworkServiceAndNoImpersonation -p,NT AUTHORITY\NetworkService
-2025-03-26 11:32:47,LanmanServer,running,automatic,6148,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:32:47,LanmanWorkstation,running,automatic,5256,C:\Windows\System32\svchost.exe -k NetworkService -p,NT AUTHORITY\NetworkService
-2025-03-26 11:32:47,lfsvc,running,manual,11892,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:32:47,LicenseManager,running,manual,7600,C:\Windows\System32\svchost.exe -k LocalService -p,NT Authority\LocalService
-2025-03-26 11:32:47,lltdsvc,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
-2025-03-26 11:32:47,lmhosts,running,manual,16616,C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted -p,NT AUTHORITY\LocalService
-2025-03-26 11:32:47,LMS,running,automatic,6004,C:\Windows\System32\DriverStore\FileRepository\lms.inf_amd64_fddb643595e0b8d0\LMS.exe,LocalSystem
-2025-03-26 11:32:47,LSM,running,automatic,1328,C:\Windows\system32\svchost.exe -k DcomLaunch -p,LocalSystem
-2025-03-26 11:32:47,LxpSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs,LocalSystem
-2025-03-26 11:32:47,MapsBroker,stopped,automatic,,C:\Windows\System32\svchost.exe -k NetworkService -p,NT AUTHORITY\NetworkService
-2025-03-26 11:32:47,McpManagementService,stopped,manual,,C:\Windows\system32\svchost.exe -k McpManagementServiceGroup,LocalSystem
-2025-03-26 11:32:47,MDCoreSvc,running,automatic,5728,"""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.25010.11-0\MpDefenderCoreService.exe""",LocalSystem
-2025-03-26 11:32:47,Micro Star SCM,running,automatic,5516,"""C:\Windows\SysWOW64\MSIService.exe""",LocalSystem
-2025-03-26 11:32:47,MicrosoftEdgeElevationService,stopped,manual,,"""C:\Program Files (x86)\Microsoft\Edge\Application\134.0.3124.85\elevation_service.exe""",LocalSystem
-2025-03-26 11:32:47,MixedRealityOpenXRSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-26 11:32:47,mpssvc,running,automatic,4828,C:\Windows\system32\svchost.exe -k LocalServiceNoNetworkFirewall -p,NT Authority\LocalService
-2025-03-26 11:32:47,MSDTC,stopped,manual,,C:\Windows\System32\msdtc.exe,NT AUTHORITY\NetworkService
-2025-03-26 11:32:47,MSI Foundation Service,running,automatic,5572,"""C:\Program Files (x86)\MSI\MSI NBFoundation Service\MSIAPService.exe""",LocalSystem
-2025-03-26 11:32:47,MSI Sendevsvc,running,automatic,5680,"""C:\Program Files (x86)\MSI\MSI NBFoundation Service\Sendevsvc.exe""",LocalSystem
-2025-03-26 11:32:47,MSiSCSI,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:32:47,msiserver,stopped,manual,,C:\Windows\system32\msiexec.exe /V,LocalSystem
-2025-03-26 11:32:47,MSI_Central_Service,running,automatic,5640,"""C:\Program Files (x86)\MSI\One Dragon Center\MSI_Central_Service.exe""",LocalSystem
-2025-03-26 11:32:47,MsKeyboardFilter,stopped,disabled,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:32:47,Mystic_Light_Service,running,automatic,5476,"""C:\Program Files (x86)\MSI\One Dragon Center\Mystic_Light\Mystic_Light_Service.exe""",LocalSystem
-2025-03-26 11:32:47,NaturalAuthentication,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:32:47,NcaSvc,stopped,manual,,C:\Windows\System32\svchost.exe -k NetSvcs -p,LocalSystem
-2025-03-26 11:32:47,NcbService,running,manual,1852,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-26 11:32:47,NcdAutoSetup,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalServiceNoNetwork -p,NT AUTHORITY\LocalService
-2025-03-26 11:32:47,Netlogon,stopped,manual,,C:\Windows\system32\lsass.exe,LocalSystem
-2025-03-26 11:32:47,Netman,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-26 11:32:47,netprofm,running,manual,2948,C:\Windows\System32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
-2025-03-26 11:32:47,NetSetupSvc,stopped,manual,,C:\Windows\System32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:32:47,NetTcpPortSharing,stopped,disabled,,C:\Windows\Microsoft.NET\Framework64\v4.0.30319\SMSvcHost.exe,NT AUTHORITY\LocalService
-2025-03-26 11:32:47,NgcCtnrSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT AUTHORITY\LocalService
-2025-03-26 11:32:47,NgcSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-26 11:32:47,NlaSvc,running,automatic,2748,C:\Windows\System32\svchost.exe -k NetworkService -p,NT AUTHORITY\NetworkService
-2025-03-26 11:32:47,nsi,running,automatic,2180,C:\Windows\system32\svchost.exe -k LocalService -p,NT Authority\LocalService
-2025-03-26 11:32:47,NVDisplay.ContainerLocalSystem,running,automatic,2876,C:\Windows\System32\DriverStore\FileRepository\nvmi.inf_amd64_ca70e03e74b1e469\Display.NvContainer\NVDisplay.Container.exe -s NVDisplay.ContainerLocalSystem -f C:\ProgramData\NVIDIA\NVDisplay.ContainerLocalSystem.log -l 3 -d C:\Windows\System32\DriverStore\FileRepository\nvmi.inf_amd64_ca70e03e74b1e469\Display.NvContainer\plugins\LocalSystem -r -p 30000 -cfg NVDisplay.ContainerLocalSystem\LocalSystem,LocalSystem
-2025-03-26 11:32:47,NVWMI,running,automatic,5740,C:\Windows\System32\DriverStore\FileRepository\nvmi.inf_amd64_ca70e03e74b1e469\NVWMI\nvWmi64.exe,LocalSystem
-2025-03-26 11:32:47,OneDrive Updater Service,stopped,manual,,"""C:\Program Files\Microsoft OneDrive\23.209.1008.0002\OneDriveUpdaterService.exe""",LocalSystem
-2025-03-26 11:32:47,p2pimsvc,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalServicePeerNet,NT AUTHORITY\LocalService
-2025-03-26 11:32:47,p2psvc,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalServicePeerNet,NT AUTHORITY\LocalService
-2025-03-26 11:32:47,PcaSvc,running,manual,5340,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-26 11:32:47,PeerDistSvc,stopped,manual,,C:\Windows\System32\svchost.exe -k PeerDist,NT AUTHORITY\NetworkService
-2025-03-26 11:32:47,perceptionsimulation,stopped,manual,,C:\Windows\system32\PerceptionSimulation\PerceptionSimulationService.exe,LocalSystem
-2025-03-26 11:32:47,PerfHost,stopped,manual,,C:\Windows\SysWow64\perfhost.exe,NT AUTHORITY\LocalService
-2025-03-26 11:32:47,PhoneSvc,running,manual,2156,C:\Windows\system32\svchost.exe -k LocalService -p,NT Authority\LocalService
-2025-03-26 11:32:47,pla,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalServiceNoNetwork -p,NT AUTHORITY\LocalService
-2025-03-26 11:32:47,PlugPlay,running,manual,1032,C:\Windows\system32\svchost.exe -k DcomLaunch -p,LocalSystem
-2025-03-26 11:32:47,PNRPAutoReg,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalServicePeerNet,NT AUTHORITY\LocalService
-2025-03-26 11:32:47,PNRPsvc,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalServicePeerNet,NT AUTHORITY\LocalService
-2025-03-26 11:32:47,PolicyAgent,stopped,manual,,C:\Windows\system32\svchost.exe -k NetworkServiceNetworkRestricted -p,NT Authority\NetworkService
-2025-03-26 11:32:47,Power,running,automatic,1032,C:\Windows\system32\svchost.exe -k DcomLaunch -p,LocalSystem
-2025-03-26 11:32:47,PrintNotify,stopped,manual,,C:\Windows\system32\svchost.exe -k print,LocalSystem
-2025-03-26 11:32:47,ProfSvc,running,automatic,1860,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:32:47,PushToInstall,stopped,manual,,C:\Windows\System32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:32:47,QWAVE,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation -p,NT AUTHORITY\LocalService
-2025-03-26 11:32:47,RasAuto,stopped,manual,,C:\Windows\System32\svchost.exe -k netsvcs -p,localSystem
-2025-03-26 11:32:47,RasMan,running,automatic,6352,C:\Windows\System32\svchost.exe -k netsvcs,localSystem
-2025-03-26 11:32:47,RemoteAccess,stopped,disabled,,C:\Windows\System32\svchost.exe -k netsvcs,localSystem
-2025-03-26 11:32:47,RemoteRegistry,stopped,disabled,,C:\Windows\system32\svchost.exe -k localService -p,NT AUTHORITY\LocalService
-2025-03-26 11:32:47,RetailDemo,stopped,manual,,C:\Windows\System32\svchost.exe -k rdxgroup,LocalSystem
-2025-03-26 11:32:47,RmSvc,running,manual,4020,C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted,NT AUTHORITY\LocalService
-2025-03-26 11:32:47,RpcEptMapper,running,automatic,1276,C:\Windows\system32\svchost.exe -k RPCSS -p,NT AUTHORITY\NetworkService
-2025-03-26 11:32:47,RpcLocator,stopped,manual,,C:\Windows\system32\locator.exe,NT AUTHORITY\NetworkService
-2025-03-26 11:32:47,RpcSs,running,automatic,1276,C:\Windows\system32\svchost.exe -k rpcss -p,NT AUTHORITY\NetworkService
-2025-03-26 11:32:47,RtkAudioUniversalService,running,automatic,5768,"""C:\Windows\System32\DriverStore\FileRepository\realtekservice.inf_amd64_3cf99e411755df38\RtkAudUService64.exe""",LocalSystem
-2025-03-26 11:32:47,SamSs,running,automatic,928,C:\Windows\system32\lsass.exe,LocalSystem
-2025-03-26 11:32:47,SCardSvr,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation,NT AUTHORITY\LocalService
-2025-03-26 11:32:47,ScDeviceEnum,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted,LocalSystem
-2025-03-26 11:32:47,Schedule,running,automatic,1876,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:32:47,SCPolicySvc,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs,LocalSystem
-2025-03-26 11:32:47,SDRSVC,running,manual,17916,C:\Windows\system32\svchost.exe -k SDRSVC,localSystem
-2025-03-26 11:32:47,seclogon,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:32:47,SecurityHealthService,running,manual,13152,C:\Windows\system32\SecurityHealthService.exe,LocalSystem
-2025-03-26 11:32:47,SEMgrSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
-2025-03-26 11:32:47,SENS,running,automatic,2292,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:32:47,Sense,stopped,manual,,"""C:\Program Files\Windows Defender Advanced Threat Protection\MsSense.exe""",LocalSystem
-2025-03-26 11:32:47,SensorDataService,stopped,manual,,C:\Windows\System32\SensorDataService.exe,LocalSystem
-2025-03-26 11:32:47,SensorService,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-26 11:32:47,SensrSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation -p,NT AUTHORITY\LocalService
-2025-03-26 11:32:47,SessionEnv,stopped,manual,,C:\Windows\System32\svchost.exe -k netsvcs -p,localSystem
-2025-03-26 11:32:47,SgrmBroker,stopped,automatic,,C:\Windows\system32\SgrmBroker.exe,LocalSystem
-2025-03-26 11:32:47,SharedAccess,stopped,manual,,C:\Windows\System32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:32:47,SharedRealitySvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
-2025-03-26 11:32:47,ShellHWDetection,running,automatic,5148,C:\Windows\System32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:32:47,shpamsvc,stopped,disabled,,C:\Windows\System32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:32:47,smphost,stopped,manual,,C:\Windows\System32\svchost.exe -k smphost,NT AUTHORITY\NetworkService
-2025-03-26 11:32:47,SmsRouter,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT Authority\LocalService
-2025-03-26 11:32:47,SNMPTRAP,stopped,manual,,C:\Windows\System32\snmptrap.exe,NT AUTHORITY\LocalService
-2025-03-26 11:32:47,spectrum,stopped,manual,,C:\Windows\system32\spectrum.exe,NT AUTHORITY\LocalService
-2025-03-26 11:32:47,Spooler,running,automatic,5192,C:\Windows\System32\spoolsv.exe,LocalSystem
-2025-03-26 11:32:47,sppsvc,stopped,automatic,,C:\Windows\system32\sppsvc.exe,NT AUTHORITY\NetworkService
-2025-03-26 11:32:47,SSDPSRV,running,manual,3924,C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation -p,NT AUTHORITY\LocalService
-2025-03-26 11:32:47,ssh-agent,stopped,disabled,,C:\Windows\System32\OpenSSH\ssh-agent.exe,LocalSystem
-2025-03-26 11:32:47,SstpSvc,running,manual,5496,C:\Windows\system32\svchost.exe -k LocalService -p,NT Authority\LocalService
-2025-03-26 11:32:47,StateRepository,running,manual,3316,C:\Windows\system32\svchost.exe -k appmodel -p,LocalSystem
-2025-03-26 11:32:47,Steam Client Service,stopped,manual,,"""C:\Program Files (x86)\Common Files\Steam\steamservice.exe"" /RunAsService",LocalSystem
-2025-03-26 11:32:47,stisvc,running,automatic,5540,C:\Windows\system32\svchost.exe -k imgsvc,NT Authority\LocalService
-2025-03-26 11:32:47,StorSvc,running,automatic,6188,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-26 11:32:47,svsvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-26 11:32:47,swprv,stopped,manual,,C:\Windows\System32\svchost.exe -k swprv,LocalSystem
-2025-03-26 11:32:47,SysMain,running,automatic,3004,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-26 11:32:47,SystemEventsBroker,running,automatic,1032,C:\Windows\system32\svchost.exe -k DcomLaunch -p,LocalSystem
-2025-03-26 11:32:47,TabletInputService,running,manual,8896,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-26 11:32:47,TapiSrv,running,manual,5916,C:\Windows\System32\svchost.exe -k NetworkService -p,NT AUTHORITY\NetworkService
-2025-03-26 11:32:47,TermService,stopped,manual,,C:\Windows\System32\svchost.exe -k NetworkService,NT Authority\NetworkService
-2025-03-26 11:32:47,Themes,running,automatic,3012,C:\Windows\System32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:32:47,TieringEngineService,stopped,manual,,C:\Windows\system32\TieringEngineService.exe,localSystem
-2025-03-26 11:32:47,TimeBrokerSvc,running,manual,1868,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT AUTHORITY\LocalService
-2025-03-26 11:32:47,TokenBroker,running,manual,8948,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:32:47,TrkWks,running,automatic,5528,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-26 11:32:47,TroubleshootingSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:32:47,TrustedInstaller,stopped,manual,,C:\Windows\servicing\TrustedInstaller.exe,localSystem
-2025-03-26 11:32:47,tzautoupdate,stopped,disabled,,C:\Windows\system32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
-2025-03-26 11:32:47,ucldr_battlegrounds_gl,stopped,manual,,"""C:\Program Files\Common Files\Wellbia.com\ucldr_battlegrounds_gl.exe""",LocalSystem
-2025-03-26 11:32:47,UevAgentService,stopped,disabled,,C:\Windows\system32\AgentService.exe,LocalSystem
-2025-03-26 11:32:47,uhssvc,stopped,disabled,,"""C:\Program Files\Microsoft Update Health Tools\uhssvc.exe""",LocalSystem
-2025-03-26 11:32:47,UmRdpService,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,localSystem
-2025-03-26 11:32:47,upnphost,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation -p,NT AUTHORITY\LocalService
-2025-03-26 11:32:47,UserManager,running,automatic,912,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:32:47,UsoSvc,running,automatic,9080,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:32:47,VacSvc,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted -p,NT AUTHORITY\LocalService
-2025-03-26 11:32:47,VaultSvc,running,manual,928,C:\Windows\system32\lsass.exe,LocalSystem
-2025-03-26 11:32:47,VBoxSDS,stopped,manual,,"""C:\Program Files\Oracle\VirtualBox\VBoxSDS.exe""",LocalSystem
-2025-03-26 11:32:47,vds,stopped,manual,,C:\Windows\System32\vds.exe,LocalSystem
-2025-03-26 11:32:47,vmicguestinterface,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-26 11:32:47,vmicheartbeat,stopped,manual,,C:\Windows\system32\svchost.exe -k ICService -p,LocalSystem
-2025-03-26 11:32:47,vmickvpexchange,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-26 11:32:47,vmicrdv,stopped,manual,,C:\Windows\system32\svchost.exe -k ICService -p,LocalSystem
-2025-03-26 11:32:47,vmicshutdown,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-26 11:32:47,vmictimesync,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT AUTHORITY\LocalService
-2025-03-26 11:32:47,vmicvmsession,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-26 11:32:47,vmicvss,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-26 11:32:47,vpnagent,running,automatic,4624,"""C:\Program Files (x86)\Cisco\Cisco AnyConnect Secure Mobility Client\vpnagent.exe""",LocalSystem
-2025-03-26 11:32:47,VSS,stopped,manual,,C:\Windows\system32\vssvc.exe,LocalSystem
-2025-03-26 11:32:47,W32Time,running,automatic,5020,C:\Windows\system32\svchost.exe -k LocalService,NT AUTHORITY\LocalService
-2025-03-26 11:32:47,WaaSMedicSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k wusvcs -p,LocalSystem
-2025-03-26 11:32:47,WalletService,stopped,manual,,C:\Windows\System32\svchost.exe -k appmodel -p,LocalSystem
-2025-03-26 11:32:47,WarpJITSvc,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted,NT Authority\LocalService
-2025-03-26 11:32:47,wbengine,stopped,manual,,"""C:\Windows\system32\wbengine.exe""",localSystem
-2025-03-26 11:32:47,WbioSrvc,running,automatic,4264,C:\Windows\system32\svchost.exe -k WbioSvcGroup,LocalSystem
-2025-03-26 11:32:47,Wcmsvc,running,automatic,4596,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT Authority\LocalService
-2025-03-26 11:32:47,wcncsvc,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalServiceAndNoImpersonation -p,NT AUTHORITY\LocalService
-2025-03-26 11:32:47,WdiServiceHost,running,manual,6200,C:\Windows\System32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
-2025-03-26 11:32:47,WdiSystemHost,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-26 11:32:47,WdNisSvc,running,manual,12120,"""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.25010.11-0\NisSrv.exe""",NT AUTHORITY\LocalService
-2025-03-26 11:32:47,WebClient,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
-2025-03-26 11:32:47,Wecsvc,stopped,manual,,C:\Windows\system32\svchost.exe -k NetworkService -p,NT AUTHORITY\NetworkService
-2025-03-26 11:32:47,WEPHOSTSVC,stopped,manual,,C:\Windows\system32\svchost.exe -k WepHostSvcGroup,NT AUTHORITY\LocalService
-2025-03-26 11:32:47,wercplsupport,stopped,manual,,C:\Windows\System32\svchost.exe -k netsvcs -p,localSystem
-2025-03-26 11:32:47,WerSvc,stopped,manual,,C:\Windows\System32\svchost.exe -k WerSvcGroup,localSystem
-2025-03-26 11:32:47,WFDSConMgrSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT AUTHORITY\LocalService
-2025-03-26 11:32:47,WiaRpc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-26 11:32:47,WinDefend,running,automatic,5756,"""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.25010.11-0\MsMpEng.exe""",LocalSystem
-2025-03-26 11:32:47,WinHttpAutoProxySvc,running,manual,3292,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT AUTHORITY\LocalService
-2025-03-26 11:32:47,Winmgmt,running,automatic,3532,C:\Windows\system32\svchost.exe -k netsvcs -p,localSystem
-2025-03-26 11:32:47,WinRM,stopped,manual,,C:\Windows\System32\svchost.exe -k NetworkService -p,NT AUTHORITY\NetworkService
-2025-03-26 11:32:47,wisvc,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:32:47,WlanSvc,running,automatic,4744,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
-2025-03-26 11:32:47,wlidsvc,running,manual,17392,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:32:47,wlpasvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT Authority\LocalService
-2025-03-26 11:32:47,WManSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:32:47,wmiApSrv,stopped,manual,,C:\Windows\system32\wbem\WmiApSrv.exe,localSystem
-2025-03-26 11:32:47,WMIRegistrationService,running,automatic,5852,C:\Windows\System32\DriverStore\FileRepository\mewmiprov.inf_amd64_d51901c26227fb29\WMIRegistrationService.exe,LocalSystem
-2025-03-26 11:32:47,WMPNetworkSvc,stopped,manual,,"""C:\Program Files\Windows Media Player\wmpnetwk.exe""",NT AUTHORITY\NetworkService
-2025-03-26 11:32:47,workfolderssvc,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
-2025-03-26 11:32:47,WpcMonSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalService,LocalSystem
-2025-03-26 11:32:47,WPDBusEnum,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted,LocalSystem
-2025-03-26 11:32:47,WpnService,running,automatic,5508,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:32:47,wscsvc,running,automatic,13300,C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted -p,NT AUTHORITY\LocalService
-2025-03-26 11:32:47,WSearch,running,automatic,6888,C:\Windows\system32\SearchIndexer.exe /Embedding,LocalSystem
-2025-03-26 11:32:47,wuauserv,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:32:47,WwanSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,localSystem
-2025-03-26 11:32:47,XblAuthManager,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:32:47,XblGameSave,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:32:47,XboxGipSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:32:47,XboxNetApiSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
-2025-03-26 11:32:47,zksvc,stopped,manual,,"""C:\Program Files\Common Files\PUBG\zksvc.exe""",LocalSystem
-2025-03-26 11:32:47,AarSvc_a7c34,stopped,manual,,C:\Windows\system32\svchost.exe -k AarSvcGroup -p,
-2025-03-26 11:32:47,BcastDVRUserService_a7c34,stopped,manual,,C:\Windows\system32\svchost.exe -k BcastDVRUserService,
-2025-03-26 11:32:47,BluetoothUserService_a7c34,running,manual,8556,C:\Windows\system32\svchost.exe -k BthAppGroup -p,
-2025-03-26 11:32:47,CaptureService_a7c34,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalService -p,
-2025-03-26 11:32:47,cbdhsvc_a7c34,running,manual,9548,C:\Windows\system32\svchost.exe -k ClipboardSvcGroup -p,
-2025-03-26 11:32:47,CDPUserSvc_a7c34,running,automatic,8544,C:\Windows\system32\svchost.exe -k UnistackSvcGroup,
-2025-03-26 11:32:47,ConsentUxUserSvc_a7c34,stopped,manual,,C:\Windows\system32\svchost.exe -k DevicesFlow,
-2025-03-26 11:32:47,CredentialEnrollmentManagerUserSvc_a7c34,stopped,manual,,C:\Windows\system32\CredentialEnrollmentManager.exe,
-2025-03-26 11:32:47,DeviceAssociationBrokerSvc_a7c34,stopped,manual,,C:\Windows\system32\svchost.exe -k DevicesFlow -p,
-2025-03-26 11:32:47,DevicePickerUserSvc_a7c34,stopped,manual,,C:\Windows\system32\svchost.exe -k DevicesFlow,
-2025-03-26 11:32:47,DevicesFlowUserSvc_a7c34,stopped,manual,,C:\Windows\system32\svchost.exe -k DevicesFlow,
-2025-03-26 11:32:47,MessagingService_a7c34,stopped,manual,,C:\Windows\system32\svchost.exe -k UnistackSvcGroup,
-2025-03-26 11:32:47,OneSyncSvc_a7c34,running,automatic,872,C:\Windows\system32\svchost.exe -k UnistackSvcGroup,
-2025-03-26 11:32:47,PimIndexMaintenanceSvc_a7c34,running,manual,872,C:\Windows\system32\svchost.exe -k UnistackSvcGroup,
-2025-03-26 11:32:47,PrintWorkflowUserSvc_a7c34,stopped,manual,,C:\Windows\system32\svchost.exe -k PrintWorkflow,
-2025-03-26 11:32:47,UdkUserSvc_a7c34,stopped,manual,,C:\Windows\system32\svchost.exe -k UdkSvcGroup,
-2025-03-26 11:32:47,UnistoreSvc_a7c34,running,manual,872,C:\Windows\System32\svchost.exe -k UnistackSvcGroup,
-2025-03-26 11:32:47,UserDataSvc_a7c34,running,manual,872,C:\Windows\system32\svchost.exe -k UnistackSvcGroup,
-2025-03-26 11:32:47,WpnUserService_a7c34,running,automatic,8616,C:\Windows\system32\svchost.exe -k UnistackSvcGroup,
-2025-03-26 11:32:47,GoogleUpdaterInternalService136.0.7079.0,stopped,automatic,,"""C:\Program Files (x86)\Google\GoogleUpdater\136.0.7079.0\updater.exe"" --system --windows-service --service=update-internal",LocalSystem
+2025-04-11 19:38:00,AJRouter,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT AUTHORITY\LocalService
+2025-04-11 19:38:00,ALG,stopped,manual,,C:\Windows\System32\alg.exe,NT AUTHORITY\LocalService
+2025-04-11 19:38:00,AppIDSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT Authority\LocalService
+2025-04-11 19:38:00,Appinfo,running,manual,9560,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:38:00,AppMgmt,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:38:00,AppReadiness,stopped,manual,,C:\Windows\System32\svchost.exe -k AppReadiness -p,LocalSystem
+2025-04-11 19:38:00,AppVClient,stopped,disabled,,C:\Windows\system32\AppVClient.exe,LocalSystem
+2025-04-11 19:38:00,AppXSvc,running,manual,10884,C:\Windows\system32\svchost.exe -k wsappx -p,LocalSystem
+2025-04-11 19:38:00,AssignedAccessManagerSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k AssignedAccessManagerSvc,LocalSystem
+2025-04-11 19:38:00,AudioEndpointBuilder,running,automatic,3088,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-04-11 19:38:00,Audiosrv,running,automatic,4472,C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted -p,NT AUTHORITY\LocalService
+2025-04-11 19:38:00,autotimesvc,stopped,manual,,C:\Windows\system32\svchost.exe -k autoTimeSvc,NT AUTHORITY\LocalService
+2025-04-11 19:38:00,AxInstSV,stopped,manual,,C:\Windows\system32\svchost.exe -k AxInstSVGroup,LocalSystem
+2025-04-11 19:38:00,BDESVC,stopped,manual,,C:\Windows\System32\svchost.exe -k netsvcs -p,localSystem
+2025-04-11 19:38:00,BEService,stopped,manual,,"""C:\Program Files (x86)\Common Files\BattlEye\BEService.exe""",LocalSystem
+2025-04-11 19:38:00,BFE,running,automatic,4828,C:\Windows\system32\svchost.exe -k LocalServiceNoNetworkFirewall -p,NT AUTHORITY\LocalService
+2025-04-11 19:38:00,BITS,stopped,manual,,C:\Windows\System32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:38:00,brlapi,stopped,manual,,C:\Windows\brltty\bin\brltty.exe,NT AUTHORITY\LocalService
+2025-04-11 19:38:00,BrokerInfrastructure,running,automatic,1052,C:\Windows\system32\svchost.exe -k DcomLaunch -p,LocalSystem
+2025-04-11 19:38:00,BTAGService,running,manual,1584,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted,NT AUTHORITY\LocalService
+2025-04-11 19:38:00,BthAvctpSvc,running,manual,1592,C:\Windows\system32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
+2025-04-11 19:38:00,bthserv,running,manual,1616,C:\Windows\system32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
+2025-04-11 19:38:00,camsvc,running,manual,2932,C:\Windows\system32\svchost.exe -k appmodel -p,LocalSystem
+2025-04-11 19:38:00,CCleanerPerformanceOptimizerService,stopped,manual,,"""C:\Program Files\CCleaner\CCleanerPerformanceOptimizerService.exe""",LocalSystem
+2025-04-11 19:38:00,CDPSvc,running,automatic,9456,C:\Windows\system32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
+2025-04-11 19:38:00,CertPropSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs,LocalSystem
+2025-04-11 19:38:00,ClickToRunSvc,running,automatic,5948,"""C:\Program Files\Common Files\Microsoft Shared\ClickToRun\OfficeClickToRun.exe"" /service",LocalSystem
+2025-04-11 19:38:00,ClipSVC,stopped,manual,,C:\Windows\System32\svchost.exe -k wsappx -p,LocalSystem
+2025-04-11 19:38:00,cloudidsvc,stopped,manual,,C:\Windows\system32\svchost.exe -k CloudIdServiceGroup -p,NT AUTHORITY\NetworkService
+2025-04-11 19:38:00,COMSysApp,stopped,manual,,C:\Windows\system32\dllhost.exe /Processid:{02D4B3F1-FD88-11D1-960D-00805FC79235},LocalSystem
+2025-04-11 19:38:00,CoreMessagingRegistrar,running,automatic,1708,C:\Windows\system32\svchost.exe -k LocalServiceNoNetwork -p,NT AUTHORITY\LocalService
+2025-04-11 19:38:00,cplspcon,running,automatic,1996,C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_6b10ae7f2f9034c5\IntelCpHDCPSvc.exe,LocalSystem
+2025-04-11 19:38:00,CryptSvc,running,automatic,5524,C:\Windows\system32\svchost.exe -k NetworkService -p,NT Authority\NetworkService
+2025-04-11 19:38:00,CscService,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-04-11 19:38:00,DcomLaunch,running,automatic,1052,C:\Windows\system32\svchost.exe -k DcomLaunch -p,LocalSystem
+2025-04-11 19:38:00,dcsvc,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:38:00,defragsvc,stopped,manual,,C:\Windows\system32\svchost.exe -k defragsvc,localSystem
+2025-04-11 19:38:00,DeviceAssociationService,running,automatic,2788,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-04-11 19:38:00,DeviceInstall,stopped,manual,,C:\Windows\system32\svchost.exe -k DcomLaunch -p,LocalSystem
+2025-04-11 19:38:00,DevQueryBroker,running,manual,2780,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-04-11 19:38:00,Dhcp,running,automatic,2352,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT Authority\LocalService
+2025-04-11 19:38:00,diagnosticshub.standardcollector.service,stopped,manual,,C:\Windows\system32\DiagSvcs\DiagnosticsHub.StandardCollector.Service.exe,LocalSystem
+2025-04-11 19:38:00,diagsvc,stopped,manual,,C:\Windows\System32\svchost.exe -k diagnostics,LocalSystem
+2025-04-11 19:38:00,DiagTrack,running,automatic,5516,C:\Windows\System32\svchost.exe -k utcsvc -p,LocalSystem
+2025-04-11 19:38:00,DialogBlockingService,stopped,disabled,,C:\Windows\system32\svchost.exe -k DialogBlockingService,LocalSystem
+2025-04-11 19:38:00,DispBrokerDesktopSvc,running,automatic,2608,C:\Windows\system32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
+2025-04-11 19:38:00,DisplayEnhancementService,running,manual,1984,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-04-11 19:38:00,DmEnrollmentSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:38:00,dmwappushservice,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:38:00,Dnscache,running,automatic,3336,C:\Windows\system32\svchost.exe -k NetworkService -p,NT AUTHORITY\NetworkService
+2025-04-11 19:38:00,DoSvc,running,automatic,4836,C:\Windows\System32\svchost.exe -k NetworkService -p,NT Authority\NetworkService
+2025-04-11 19:38:00,dot3svc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,localSystem
+2025-04-11 19:38:00,DPS,running,automatic,5532,C:\Windows\System32\svchost.exe -k LocalServiceNoNetwork -p,NT AUTHORITY\LocalService
+2025-04-11 19:38:00,DSAService,running,automatic,5544,"""C:\Program Files (x86)\Intel\Driver and Support Assistant\x86\DSAService.exe""",LocalSystem
+2025-04-11 19:38:00,DSAUpdateService,running,automatic,5552,"""C:\Program Files (x86)\Intel\Driver and Support Assistant\x86\DSAUpdateService.exe""",LocalSystem
+2025-04-11 19:38:00,DsmSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:38:00,DsSvc,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-04-11 19:38:00,DusmSvc,running,automatic,4592,C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted -p,NT Authority\LocalService
+2025-04-11 19:38:00,Eaphost,stopped,manual,,C:\Windows\System32\svchost.exe -k netsvcs -p,localSystem
+2025-04-11 19:38:00,edgeupdate,stopped,automatic,,"""C:\Program Files (x86)\Microsoft\EdgeUpdate\MicrosoftEdgeUpdate.exe"" /svc",LocalSystem
+2025-04-11 19:38:00,edgeupdatem,stopped,manual,,"""C:\Program Files (x86)\Microsoft\EdgeUpdate\MicrosoftEdgeUpdate.exe"" /medsvc",LocalSystem
+2025-04-11 19:38:00,EFS,stopped,manual,,C:\Windows\System32\lsass.exe,LocalSystem
+2025-04-11 19:38:00,embeddedmode,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-04-11 19:38:00,EntAppSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k appmodel -p,LocalSystem
+2025-04-11 19:38:00,esifsvc,running,automatic,5880,"""C:\Windows\System32\DriverStore\FileRepository\dptf_cpu.inf_amd64_4ce8bafd96682424\esif_uf.exe""",LocalSystem
+2025-04-11 19:38:00,EventLog,running,automatic,1856,C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted -p,NT AUTHORITY\LocalService
+2025-04-11 19:38:00,EventSystem,running,automatic,1020,C:\Windows\system32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
+2025-04-11 19:38:00,Fax,stopped,manual,,C:\Windows\system32\fxssvc.exe,NT AUTHORITY\NetworkService
+2025-04-11 19:38:00,fdPHost,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
+2025-04-11 19:38:00,FDResPub,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation -p,NT AUTHORITY\LocalService
+2025-04-11 19:38:00,fhsvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-04-11 19:38:00,FileSyncHelper,stopped,manual,,"""C:\Program Files\Microsoft OneDrive\23.209.1008.0002\FileSyncHelper.exe""",LocalSystem
+2025-04-11 19:38:00,FontCache,running,automatic,3096,C:\Windows\system32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
+2025-04-11 19:38:00,FontCache3.0.0.0,running,manual,9188,C:\Windows\Microsoft.Net\Framework64\v3.0\WPF\PresentationFontCache.exe,NT Authority\LocalService
+2025-04-11 19:38:00,FrameServer,running,manual,16132,C:\Windows\System32\svchost.exe -k Camera,LocalSystem
+2025-04-11 19:38:00,GameInputSvc,stopped,manual,,C:\Windows\System32\GameInputSvc.exe,LocalSystem
+2025-04-11 19:38:00,GoogleChromeElevationService,stopped,manual,,"""C:\Program Files\Google\Chrome\Application\135.0.7049.85\elevation_service.exe""",LocalSystem
+2025-04-11 19:38:00,GoogleUpdaterInternalService136.0.7079.0,stopped,automatic,,"""C:\Program Files (x86)\Google\GoogleUpdater\136.0.7079.0\updater.exe"" --system --windows-service --service=update-internal",LocalSystem
+2025-04-11 19:38:00,GoogleUpdaterService136.0.7079.0,stopped,automatic,,"""C:\Program Files (x86)\Google\GoogleUpdater\136.0.7079.0\updater.exe"" --system --windows-service --service=update",LocalSystem
+2025-04-11 19:38:00,gpsvc,stopped,automatic,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:38:00,GraphicsPerfSvc,stopped,manual,,C:\Windows\System32\svchost.exe -k GraphicsPerfSvcGroup,LocalSystem
+2025-04-11 19:38:00,gupdate,stopped,automatic,,"""C:\Program Files (x86)\Google\Update\GoogleUpdate.exe"" /svc",LocalSystem
+2025-04-11 19:38:00,gupdatem,stopped,manual,,"""C:\Program Files (x86)\Google\Update\GoogleUpdate.exe"" /medsvc",LocalSystem
+2025-04-11 19:38:00,hidserv,running,manual,2028,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-04-11 19:38:00,HPPrintScanDoctorService,running,automatic,5612,"""C:\Program Files\HPPrintScanDoctor\HPPrintScanDoctorService.exe""",LocalSystem
+2025-04-11 19:38:00,HvHost,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-04-11 19:38:00,icssvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT Authority\LocalService
+2025-04-11 19:38:00,igccservice,running,automatic,5584,C:\Windows\System32\DriverStore\FileRepository\igcc_dch.inf_amd64_8b07a004bf9bbf23\OneApp.IGCC.WinService.exe,LocalSystem
+2025-04-11 19:38:00,igfxCUIService2.0.0.0,running,automatic,2480,C:\Windows\System32\DriverStore\FileRepository\cui_dch.inf_amd64_8f68d4f94f46f7aa\igfxCUIServiceN.exe,LocalSystem
+2025-04-11 19:38:00,IKEEXT,running,automatic,5632,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:38:00,InstallService,running,manual,10184,C:\Windows\System32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:38:00,Intel(R) Capability Licensing Service TCP IP Interface,stopped,manual,,C:\Windows\System32\DriverStore\FileRepository\iclsclient.inf_amd64_76523213b78d9046\lib\SocketHeciServer.exe,LocalSystem
+2025-04-11 19:38:00,Intel(R) SUR QC SAM,stopped,manual,,"""C:\Program Files\Intel\SUR\QUEENCREEK\Updater\bin\IntelSoftwareAssetManagerService.exe""",LocalSystem
+2025-04-11 19:38:00,Intel(R) TPM Provisioning Service,stopped,automatic,,C:\Windows\System32\DriverStore\FileRepository\iclsclient.inf_amd64_fc84dfa25a6a7727\lib\TPMProvisioningService.exe,LocalSystem
+2025-04-11 19:38:00,IntelArcControlService,running,automatic,5576,"""C:\Program Files\Intel\Intel Arc Control\ArcControlService.exe""",LocalSystem
+2025-04-11 19:38:00,IntelAudioService,running,automatic,5760,C:\Windows\System32\DriverStore\FileRepository\intcoed.inf_amd64_625d5a9ea859462f\\AS\\IAS\\IntelAudioService.exe,LocalSystem
+2025-04-11 19:38:00,iphlpsvc,running,automatic,5000,C:\Windows\System32\svchost.exe -k NetSvcs -p,LocalSystem
+2025-04-11 19:38:00,IpxlatCfgSvc,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-04-11 19:38:00,jhi_service,running,automatic,5692,C:\Windows\System32\DriverStore\FileRepository\dal.inf_amd64_af50fdb80983f7bc\jhi_service.exe,LocalSystem
+2025-04-11 19:38:00,KeyIso,running,manual,660,C:\Windows\system32\lsass.exe,LocalSystem
+2025-04-11 19:38:00,KtmRm,stopped,manual,,C:\Windows\System32\svchost.exe -k NetworkServiceAndNoImpersonation -p,NT AUTHORITY\NetworkService
+2025-04-11 19:38:00,LanmanServer,running,automatic,6140,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:38:00,LanmanWorkstation,running,automatic,5348,C:\Windows\System32\svchost.exe -k NetworkService -p,NT AUTHORITY\NetworkService
+2025-04-11 19:38:00,lfsvc,running,manual,9412,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:38:00,LicenseManager,running,manual,11984,C:\Windows\System32\svchost.exe -k LocalService -p,NT Authority\LocalService
+2025-04-11 19:38:00,lltdsvc,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
+2025-04-11 19:38:00,lmhosts,running,manual,10928,C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted -p,NT AUTHORITY\LocalService
+2025-04-11 19:38:00,LMS,running,automatic,5956,C:\Windows\System32\DriverStore\FileRepository\lms.inf_amd64_fddb643595e0b8d0\LMS.exe,LocalSystem
+2025-04-11 19:38:00,LSM,running,automatic,1332,C:\Windows\system32\svchost.exe -k DcomLaunch -p,LocalSystem
+2025-04-11 19:38:00,LxpSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs,LocalSystem
+2025-04-11 19:38:00,MapsBroker,stopped,automatic,,C:\Windows\System32\svchost.exe -k NetworkService -p,NT AUTHORITY\NetworkService
+2025-04-11 19:38:00,McpManagementService,stopped,manual,,C:\Windows\system32\svchost.exe -k McpManagementServiceGroup,LocalSystem
+2025-04-11 19:38:00,MDCoreSvc,running,automatic,5896,"""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.25030.2-0\MpDefenderCoreService.exe""",LocalSystem
+2025-04-11 19:38:00,Micro Star SCM,running,automatic,5600,"""C:\Windows\SysWOW64\MSIService.exe""",LocalSystem
+2025-04-11 19:38:00,MicrosoftEdgeElevationService,stopped,manual,,"""C:\Program Files (x86)\Microsoft\Edge\Application\135.0.3179.66\elevation_service.exe""",LocalSystem
+2025-04-11 19:38:00,MixedRealityOpenXRSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-04-11 19:38:00,mpssvc,running,automatic,4828,C:\Windows\system32\svchost.exe -k LocalServiceNoNetworkFirewall -p,NT Authority\LocalService
+2025-04-11 19:38:00,MSDTC,stopped,manual,,C:\Windows\System32\msdtc.exe,NT AUTHORITY\NetworkService
+2025-04-11 19:38:00,MSI Foundation Service,running,automatic,5624,"""C:\Program Files (x86)\MSI\MSI NBFoundation Service\MSIAPService.exe""",LocalSystem
+2025-04-11 19:38:00,MSI Sendevsvc,running,automatic,5656,"""C:\Program Files (x86)\MSI\MSI NBFoundation Service\Sendevsvc.exe""",LocalSystem
+2025-04-11 19:38:00,MSiSCSI,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:38:00,msiserver,stopped,manual,,C:\Windows\system32\msiexec.exe /V,LocalSystem
+2025-04-11 19:38:00,MSI_Central_Service,running,automatic,5716,"""C:\Program Files (x86)\MSI\One Dragon Center\MSI_Central_Service.exe""",LocalSystem
+2025-04-11 19:38:00,MsKeyboardFilter,stopped,disabled,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:38:00,Mystic_Light_Service,running,automatic,5560,"""C:\Program Files (x86)\MSI\One Dragon Center\Mystic_Light\Mystic_Light_Service.exe""",LocalSystem
+2025-04-11 19:38:00,NaturalAuthentication,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:38:00,NcaSvc,stopped,manual,,C:\Windows\System32\svchost.exe -k NetSvcs -p,LocalSystem
+2025-04-11 19:38:00,NcbService,running,manual,1796,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-04-11 19:38:00,NcdAutoSetup,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalServiceNoNetwork -p,NT AUTHORITY\LocalService
+2025-04-11 19:38:00,Netlogon,stopped,manual,,C:\Windows\system32\lsass.exe,LocalSystem
+2025-04-11 19:38:00,Netman,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-04-11 19:38:00,netprofm,running,manual,3020,C:\Windows\System32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
+2025-04-11 19:38:00,NetSetupSvc,stopped,manual,,C:\Windows\System32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:38:00,NetTcpPortSharing,stopped,disabled,,C:\Windows\Microsoft.NET\Framework64\v4.0.30319\SMSvcHost.exe,NT AUTHORITY\LocalService
+2025-04-11 19:38:00,NgcCtnrSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT AUTHORITY\LocalService
+2025-04-11 19:38:00,NgcSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-04-11 19:38:00,NlaSvc,running,automatic,2756,C:\Windows\System32\svchost.exe -k NetworkService -p,NT AUTHORITY\NetworkService
+2025-04-11 19:38:00,nsi,running,automatic,2140,C:\Windows\system32\svchost.exe -k LocalService -p,NT Authority\LocalService
+2025-04-11 19:38:00,NVDisplay.ContainerLocalSystem,running,automatic,2896,C:\Windows\System32\DriverStore\FileRepository\nvmi.inf_amd64_ca70e03e74b1e469\Display.NvContainer\NVDisplay.Container.exe -s NVDisplay.ContainerLocalSystem -f C:\ProgramData\NVIDIA\NVDisplay.ContainerLocalSystem.log -l 3 -d C:\Windows\System32\DriverStore\FileRepository\nvmi.inf_amd64_ca70e03e74b1e469\Display.NvContainer\plugins\LocalSystem -r -p 30000 -cfg NVDisplay.ContainerLocalSystem\LocalSystem,LocalSystem
+2025-04-11 19:38:00,NVWMI,running,automatic,5792,C:\Windows\System32\DriverStore\FileRepository\nvmi.inf_amd64_ca70e03e74b1e469\NVWMI\nvWmi64.exe,LocalSystem
+2025-04-11 19:38:00,OneDrive Updater Service,stopped,manual,,"""C:\Program Files\Microsoft OneDrive\23.209.1008.0002\OneDriveUpdaterService.exe""",LocalSystem
+2025-04-11 19:38:00,p2pimsvc,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalServicePeerNet,NT AUTHORITY\LocalService
+2025-04-11 19:38:00,p2psvc,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalServicePeerNet,NT AUTHORITY\LocalService
+2025-04-11 19:38:00,PcaSvc,running,manual,11400,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-04-11 19:38:00,PeerDistSvc,stopped,manual,,C:\Windows\System32\svchost.exe -k PeerDist,NT AUTHORITY\NetworkService
+2025-04-11 19:38:00,perceptionsimulation,stopped,manual,,C:\Windows\system32\PerceptionSimulation\PerceptionSimulationService.exe,LocalSystem
+2025-04-11 19:38:00,PerfHost,stopped,manual,,C:\Windows\SysWow64\perfhost.exe,NT AUTHORITY\LocalService
+2025-04-11 19:38:00,PhoneSvc,running,manual,2108,C:\Windows\system32\svchost.exe -k LocalService -p,NT Authority\LocalService
+2025-04-11 19:38:00,pla,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalServiceNoNetwork -p,NT AUTHORITY\LocalService
+2025-04-11 19:38:00,PlugPlay,running,manual,1052,C:\Windows\system32\svchost.exe -k DcomLaunch -p,LocalSystem
+2025-04-11 19:38:00,PNRPAutoReg,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalServicePeerNet,NT AUTHORITY\LocalService
+2025-04-11 19:38:00,PNRPsvc,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalServicePeerNet,NT AUTHORITY\LocalService
+2025-04-11 19:38:00,PolicyAgent,stopped,manual,,C:\Windows\system32\svchost.exe -k NetworkServiceNetworkRestricted -p,NT Authority\NetworkService
+2025-04-11 19:38:00,Power,running,automatic,1052,C:\Windows\system32\svchost.exe -k DcomLaunch -p,LocalSystem
+2025-04-11 19:38:00,PrintNotify,stopped,manual,,C:\Windows\system32\svchost.exe -k print,LocalSystem
+2025-04-11 19:38:00,ProfSvc,running,automatic,2100,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:38:00,PushToInstall,stopped,manual,,C:\Windows\System32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:38:00,QWAVE,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation -p,NT AUTHORITY\LocalService
+2025-04-11 19:38:00,RasAuto,stopped,manual,,C:\Windows\System32\svchost.exe -k netsvcs -p,localSystem
+2025-04-11 19:38:00,RasMan,running,automatic,6708,C:\Windows\System32\svchost.exe -k netsvcs,localSystem
+2025-04-11 19:38:00,RemoteAccess,stopped,disabled,,C:\Windows\System32\svchost.exe -k netsvcs,localSystem
+2025-04-11 19:38:00,RemoteRegistry,stopped,disabled,,C:\Windows\system32\svchost.exe -k localService -p,NT AUTHORITY\LocalService
+2025-04-11 19:38:00,RetailDemo,stopped,manual,,C:\Windows\System32\svchost.exe -k rdxgroup,LocalSystem
+2025-04-11 19:38:00,RmSvc,running,manual,4056,C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted,NT AUTHORITY\LocalService
+2025-04-11 19:38:00,RpcEptMapper,running,automatic,1244,C:\Windows\system32\svchost.exe -k RPCSS -p,NT AUTHORITY\NetworkService
+2025-04-11 19:38:00,RpcLocator,stopped,manual,,C:\Windows\system32\locator.exe,NT AUTHORITY\NetworkService
+2025-04-11 19:38:00,RpcSs,running,automatic,1244,C:\Windows\system32\svchost.exe -k rpcss -p,NT AUTHORITY\NetworkService
+2025-04-11 19:38:00,RtkAudioUniversalService,running,automatic,5772,"""C:\Windows\System32\DriverStore\FileRepository\realtekservice.inf_amd64_3cf99e411755df38\RtkAudUService64.exe""",LocalSystem
+2025-04-11 19:38:00,SamSs,running,automatic,660,C:\Windows\system32\lsass.exe,LocalSystem
+2025-04-11 19:38:00,SCardSvr,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation,NT AUTHORITY\LocalService
+2025-04-11 19:38:00,ScDeviceEnum,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted,LocalSystem
+2025-04-11 19:38:00,Schedule,running,automatic,1888,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:38:00,SCPolicySvc,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs,LocalSystem
+2025-04-11 19:38:00,SDRSVC,stopped,manual,,C:\Windows\system32\svchost.exe -k SDRSVC,localSystem
+2025-04-11 19:38:00,seclogon,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:38:00,SecurityHealthService,running,manual,12320,C:\Windows\system32\SecurityHealthService.exe,LocalSystem
+2025-04-11 19:38:00,SEMgrSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
+2025-04-11 19:38:00,SENS,running,automatic,2248,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:38:00,Sense,stopped,manual,,"""C:\Program Files\Windows Defender Advanced Threat Protection\MsSense.exe""",LocalSystem
+2025-04-11 19:38:00,SensorDataService,stopped,manual,,C:\Windows\System32\SensorDataService.exe,LocalSystem
+2025-04-11 19:38:00,SensorService,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-04-11 19:38:00,SensrSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation -p,NT AUTHORITY\LocalService
+2025-04-11 19:38:00,SessionEnv,stopped,manual,,C:\Windows\System32\svchost.exe -k netsvcs -p,localSystem
+2025-04-11 19:38:00,SgrmBroker,stopped,automatic,,C:\Windows\system32\SgrmBroker.exe,LocalSystem
+2025-04-11 19:38:00,SharedAccess,stopped,manual,,C:\Windows\System32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:38:00,SharedRealitySvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
+2025-04-11 19:38:00,ShellHWDetection,running,automatic,5248,C:\Windows\System32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:38:00,shpamsvc,stopped,disabled,,C:\Windows\System32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:38:00,smphost,stopped,manual,,C:\Windows\System32\svchost.exe -k smphost,NT AUTHORITY\NetworkService
+2025-04-11 19:38:00,SmsRouter,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT Authority\LocalService
+2025-04-11 19:38:00,SNMPTRAP,stopped,manual,,C:\Windows\System32\snmptrap.exe,NT AUTHORITY\LocalService
+2025-04-11 19:38:00,spectrum,stopped,manual,,C:\Windows\system32\spectrum.exe,NT AUTHORITY\LocalService
+2025-04-11 19:38:00,Spooler,running,automatic,5284,C:\Windows\System32\spoolsv.exe,LocalSystem
+2025-04-11 19:38:00,sppsvc,stopped,automatic,,C:\Windows\system32\sppsvc.exe,NT AUTHORITY\NetworkService
+2025-04-11 19:38:00,SSDPSRV,running,manual,3964,C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation -p,NT AUTHORITY\LocalService
+2025-04-11 19:38:00,ssh-agent,stopped,disabled,,C:\Windows\System32\OpenSSH\ssh-agent.exe,LocalSystem
+2025-04-11 19:38:00,SstpSvc,running,manual,5568,C:\Windows\system32\svchost.exe -k LocalService -p,NT Authority\LocalService
+2025-04-11 19:38:00,StateRepository,running,manual,3180,C:\Windows\system32\svchost.exe -k appmodel -p,LocalSystem
+2025-04-11 19:38:00,Steam Client Service,stopped,manual,,"""C:\Program Files (x86)\Common Files\Steam\steamservice.exe"" /RunAsService",LocalSystem
+2025-04-11 19:38:00,stisvc,running,automatic,5664,C:\Windows\system32\svchost.exe -k imgsvc,NT Authority\LocalService
+2025-04-11 19:38:00,StorSvc,running,automatic,5036,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-04-11 19:38:00,svsvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-04-11 19:38:00,swprv,stopped,manual,,C:\Windows\System32\svchost.exe -k swprv,LocalSystem
+2025-04-11 19:38:00,SysMain,running,automatic,2260,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-04-11 19:38:00,SystemEventsBroker,running,automatic,1052,C:\Windows\system32\svchost.exe -k DcomLaunch -p,LocalSystem
+2025-04-11 19:38:00,TabletInputService,running,manual,9220,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-04-11 19:38:00,TapiSrv,running,manual,6224,C:\Windows\System32\svchost.exe -k NetworkService -p,NT AUTHORITY\NetworkService
+2025-04-11 19:38:00,TermService,stopped,manual,,C:\Windows\System32\svchost.exe -k NetworkService,NT Authority\NetworkService
+2025-04-11 19:38:00,Themes,running,automatic,2264,C:\Windows\System32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:38:00,TieringEngineService,stopped,manual,,C:\Windows\system32\TieringEngineService.exe,localSystem
+2025-04-11 19:38:00,TimeBrokerSvc,running,manual,1804,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT AUTHORITY\LocalService
+2025-04-11 19:38:00,TokenBroker,running,manual,5420,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:38:00,TrkWks,running,automatic,5592,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-04-11 19:38:00,TroubleshootingSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:38:00,TrustedInstaller,stopped,manual,,C:\Windows\servicing\TrustedInstaller.exe,localSystem
+2025-04-11 19:38:00,tzautoupdate,stopped,disabled,,C:\Windows\system32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
+2025-04-11 19:38:00,ucldr_battlegrounds_gl,stopped,manual,,"""C:\Program Files\Common Files\Wellbia.com\ucldr_battlegrounds_gl.exe""",LocalSystem
+2025-04-11 19:38:00,UevAgentService,stopped,disabled,,C:\Windows\system32\AgentService.exe,LocalSystem
+2025-04-11 19:38:00,uhssvc,stopped,disabled,,"""C:\Program Files\Microsoft Update Health Tools\uhssvc.exe""",LocalSystem
+2025-04-11 19:38:00,UmRdpService,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,localSystem
+2025-04-11 19:38:00,upnphost,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation -p,NT AUTHORITY\LocalService
+2025-04-11 19:38:00,UserManager,running,automatic,2440,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:38:00,UsoSvc,running,automatic,10516,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:38:00,VacSvc,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted -p,NT AUTHORITY\LocalService
+2025-04-11 19:38:00,VaultSvc,running,manual,660,C:\Windows\system32\lsass.exe,LocalSystem
+2025-04-11 19:38:00,VBoxSDS,stopped,manual,,"""C:\Program Files\Oracle\VirtualBox\VBoxSDS.exe""",LocalSystem
+2025-04-11 19:38:00,vds,stopped,manual,,C:\Windows\System32\vds.exe,LocalSystem
+2025-04-11 19:38:00,vmicguestinterface,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-04-11 19:38:00,vmicheartbeat,stopped,manual,,C:\Windows\system32\svchost.exe -k ICService -p,LocalSystem
+2025-04-11 19:38:00,vmickvpexchange,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-04-11 19:38:00,vmicrdv,stopped,manual,,C:\Windows\system32\svchost.exe -k ICService -p,LocalSystem
+2025-04-11 19:38:00,vmicshutdown,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-04-11 19:38:00,vmictimesync,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT AUTHORITY\LocalService
+2025-04-11 19:38:00,vmicvmsession,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-04-11 19:38:00,vmicvss,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-04-11 19:38:00,vpnagent,running,automatic,4632,"""C:\Program Files (x86)\Cisco\Cisco AnyConnect Secure Mobility Client\vpnagent.exe""",LocalSystem
+2025-04-11 19:38:00,VSS,stopped,manual,,C:\Windows\system32\vssvc.exe,LocalSystem
+2025-04-11 19:38:00,W32Time,running,automatic,4288,C:\Windows\system32\svchost.exe -k LocalService,NT AUTHORITY\LocalService
+2025-04-11 19:38:00,WaaSMedicSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k wusvcs -p,LocalSystem
+2025-04-11 19:38:00,WalletService,stopped,manual,,C:\Windows\System32\svchost.exe -k appmodel -p,LocalSystem
+2025-04-11 19:38:00,WarpJITSvc,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted,NT Authority\LocalService
+2025-04-11 19:38:00,wbengine,stopped,manual,,"""C:\Windows\system32\wbengine.exe""",localSystem
+2025-04-11 19:38:00,WbioSrvc,running,automatic,4264,C:\Windows\system32\svchost.exe -k WbioSvcGroup,LocalSystem
+2025-04-11 19:38:00,Wcmsvc,running,automatic,4600,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT Authority\LocalService
+2025-04-11 19:38:00,wcncsvc,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalServiceAndNoImpersonation -p,NT AUTHORITY\LocalService
+2025-04-11 19:38:00,WdiServiceHost,running,manual,6268,C:\Windows\System32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
+2025-04-11 19:38:00,WdiSystemHost,running,manual,12488,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-04-11 19:38:00,WdNisSvc,running,manual,12860,"""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.25030.2-0\NisSrv.exe""",NT AUTHORITY\LocalService
+2025-04-11 19:38:00,WebClient,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
+2025-04-11 19:38:00,Wecsvc,stopped,manual,,C:\Windows\system32\svchost.exe -k NetworkService -p,NT AUTHORITY\NetworkService
+2025-04-11 19:38:00,WEPHOSTSVC,stopped,manual,,C:\Windows\system32\svchost.exe -k WepHostSvcGroup,NT AUTHORITY\LocalService
+2025-04-11 19:38:00,wercplsupport,stopped,manual,,C:\Windows\System32\svchost.exe -k netsvcs -p,localSystem
+2025-04-11 19:38:00,WerSvc,running,manual,7012,C:\Windows\System32\svchost.exe -k WerSvcGroup,localSystem
+2025-04-11 19:38:00,WFDSConMgrSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT AUTHORITY\LocalService
+2025-04-11 19:38:00,WiaRpc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-04-11 19:38:00,WinDefend,running,automatic,5828,"""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.25030.2-0\MsMpEng.exe""",LocalSystem
+2025-04-11 19:38:00,WinHttpAutoProxySvc,running,manual,3244,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT AUTHORITY\LocalService
+2025-04-11 19:38:00,Winmgmt,running,automatic,3628,C:\Windows\system32\svchost.exe -k netsvcs -p,localSystem
+2025-04-11 19:38:00,WinRM,stopped,manual,,C:\Windows\System32\svchost.exe -k NetworkService -p,NT AUTHORITY\NetworkService
+2025-04-11 19:38:00,wisvc,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:38:00,WlanSvc,running,automatic,4776,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-04-11 19:38:00,wlidsvc,running,manual,8984,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:38:00,wlpasvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT Authority\LocalService
+2025-04-11 19:38:00,WManSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:38:00,wmiApSrv,stopped,manual,,C:\Windows\system32\wbem\WmiApSrv.exe,localSystem
+2025-04-11 19:38:00,WMIRegistrationService,running,automatic,5840,C:\Windows\System32\DriverStore\FileRepository\mewmiprov.inf_amd64_d51901c26227fb29\WMIRegistrationService.exe,LocalSystem
+2025-04-11 19:38:00,WMPNetworkSvc,stopped,manual,,"""C:\Program Files\Windows Media Player\wmpnetwk.exe""",NT AUTHORITY\NetworkService
+2025-04-11 19:38:00,workfolderssvc,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
+2025-04-11 19:38:00,WpcMonSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalService,LocalSystem
+2025-04-11 19:38:00,WPDBusEnum,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted,LocalSystem
+2025-04-11 19:38:00,WpnService,running,automatic,5640,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:38:00,wscsvc,running,automatic,5220,C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted -p,NT AUTHORITY\LocalService
+2025-04-11 19:38:00,WSearch,running,automatic,7404,C:\Windows\system32\SearchIndexer.exe /Embedding,LocalSystem
+2025-04-11 19:38:00,wuauserv,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:38:00,WwanSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,localSystem
+2025-04-11 19:38:00,XblAuthManager,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:38:00,XblGameSave,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:38:00,XboxGipSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:38:00,XboxNetApiSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:38:00,zksvc,stopped,manual,,"""C:\Program Files\Common Files\PUBG\zksvc.exe""",LocalSystem
+2025-04-11 19:38:00,AarSvc_a85c6,stopped,manual,,C:\Windows\system32\svchost.exe -k AarSvcGroup -p,
+2025-04-11 19:38:00,BcastDVRUserService_a85c6,stopped,manual,,C:\Windows\system32\svchost.exe -k BcastDVRUserService,
+2025-04-11 19:38:00,BluetoothUserService_a85c6,running,manual,9128,C:\Windows\system32\svchost.exe -k BthAppGroup -p,
+2025-04-11 19:38:00,CaptureService_a85c6,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalService -p,
+2025-04-11 19:38:00,cbdhsvc_a85c6,running,manual,9984,C:\Windows\system32\svchost.exe -k ClipboardSvcGroup -p,
+2025-04-11 19:38:00,CDPUserSvc_a85c6,running,automatic,9120,C:\Windows\system32\svchost.exe -k UnistackSvcGroup,
+2025-04-11 19:38:00,ConsentUxUserSvc_a85c6,stopped,manual,,C:\Windows\system32\svchost.exe -k DevicesFlow,
+2025-04-11 19:38:00,CredentialEnrollmentManagerUserSvc_a85c6,stopped,manual,,C:\Windows\system32\CredentialEnrollmentManager.exe,
+2025-04-11 19:38:00,DeviceAssociationBrokerSvc_a85c6,stopped,manual,,C:\Windows\system32\svchost.exe -k DevicesFlow -p,
+2025-04-11 19:38:00,DevicePickerUserSvc_a85c6,stopped,manual,,C:\Windows\system32\svchost.exe -k DevicesFlow,
+2025-04-11 19:38:00,DevicesFlowUserSvc_a85c6,running,manual,17164,C:\Windows\system32\svchost.exe -k DevicesFlow,
+2025-04-11 19:38:00,MessagingService_a85c6,stopped,manual,,C:\Windows\system32\svchost.exe -k UnistackSvcGroup,
+2025-04-11 19:38:00,OneSyncSvc_a85c6,running,automatic,5728,C:\Windows\system32\svchost.exe -k UnistackSvcGroup,
+2025-04-11 19:38:00,PimIndexMaintenanceSvc_a85c6,running,manual,5728,C:\Windows\system32\svchost.exe -k UnistackSvcGroup,
+2025-04-11 19:38:00,PrintWorkflowUserSvc_a85c6,running,manual,13584,C:\Windows\system32\svchost.exe -k PrintWorkflow,
+2025-04-11 19:38:00,UdkUserSvc_a85c6,stopped,manual,,C:\Windows\system32\svchost.exe -k UdkSvcGroup,
+2025-04-11 19:38:00,UnistoreSvc_a85c6,running,manual,5728,C:\Windows\System32\svchost.exe -k UnistackSvcGroup,
+2025-04-11 19:38:00,UserDataSvc_a85c6,running,manual,5728,C:\Windows\system32\svchost.exe -k UnistackSvcGroup,
+2025-04-11 19:38:00,WpnUserService_a85c6,running,automatic,9200,C:\Windows\system32\svchost.exe -k UnistackSvcGroup,
+2025-04-11 19:54:13,AJRouter,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT AUTHORITY\LocalService
+2025-04-11 19:54:13,ALG,stopped,manual,,C:\Windows\System32\alg.exe,NT AUTHORITY\LocalService
+2025-04-11 19:54:13,AppIDSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT Authority\LocalService
+2025-04-11 19:54:13,Appinfo,running,manual,9560,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:54:13,AppMgmt,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:54:13,AppReadiness,stopped,manual,,C:\Windows\System32\svchost.exe -k AppReadiness -p,LocalSystem
+2025-04-11 19:54:13,AppVClient,stopped,disabled,,C:\Windows\system32\AppVClient.exe,LocalSystem
+2025-04-11 19:54:13,AppXSvc,running,manual,10884,C:\Windows\system32\svchost.exe -k wsappx -p,LocalSystem
+2025-04-11 19:54:13,AssignedAccessManagerSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k AssignedAccessManagerSvc,LocalSystem
+2025-04-11 19:54:13,AudioEndpointBuilder,running,automatic,3088,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-04-11 19:54:13,Audiosrv,running,automatic,4472,C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted -p,NT AUTHORITY\LocalService
+2025-04-11 19:54:13,autotimesvc,stopped,manual,,C:\Windows\system32\svchost.exe -k autoTimeSvc,NT AUTHORITY\LocalService
+2025-04-11 19:54:13,AxInstSV,stopped,manual,,C:\Windows\system32\svchost.exe -k AxInstSVGroup,LocalSystem
+2025-04-11 19:54:13,BDESVC,stopped,manual,,C:\Windows\System32\svchost.exe -k netsvcs -p,localSystem
+2025-04-11 19:54:13,BEService,stopped,manual,,"""C:\Program Files (x86)\Common Files\BattlEye\BEService.exe""",LocalSystem
+2025-04-11 19:54:13,BFE,running,automatic,4828,C:\Windows\system32\svchost.exe -k LocalServiceNoNetworkFirewall -p,NT AUTHORITY\LocalService
+2025-04-11 19:54:13,BITS,stopped,manual,,C:\Windows\System32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:54:13,brlapi,stopped,manual,,C:\Windows\brltty\bin\brltty.exe,NT AUTHORITY\LocalService
+2025-04-11 19:54:13,BrokerInfrastructure,running,automatic,1052,C:\Windows\system32\svchost.exe -k DcomLaunch -p,LocalSystem
+2025-04-11 19:54:13,BTAGService,running,manual,1584,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted,NT AUTHORITY\LocalService
+2025-04-11 19:54:13,BthAvctpSvc,running,manual,1592,C:\Windows\system32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
+2025-04-11 19:54:13,bthserv,running,manual,1616,C:\Windows\system32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
+2025-04-11 19:54:13,camsvc,running,manual,2932,C:\Windows\system32\svchost.exe -k appmodel -p,LocalSystem
+2025-04-11 19:54:13,CCleanerPerformanceOptimizerService,stopped,manual,,"""C:\Program Files\CCleaner\CCleanerPerformanceOptimizerService.exe""",LocalSystem
+2025-04-11 19:54:13,CDPSvc,running,automatic,9456,C:\Windows\system32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
+2025-04-11 19:54:13,CertPropSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs,LocalSystem
+2025-04-11 19:54:13,ClickToRunSvc,running,automatic,5948,"""C:\Program Files\Common Files\Microsoft Shared\ClickToRun\OfficeClickToRun.exe"" /service",LocalSystem
+2025-04-11 19:54:13,ClipSVC,stopped,manual,,C:\Windows\System32\svchost.exe -k wsappx -p,LocalSystem
+2025-04-11 19:54:13,cloudidsvc,stopped,manual,,C:\Windows\system32\svchost.exe -k CloudIdServiceGroup -p,NT AUTHORITY\NetworkService
+2025-04-11 19:54:13,COMSysApp,stopped,manual,,C:\Windows\system32\dllhost.exe /Processid:{02D4B3F1-FD88-11D1-960D-00805FC79235},LocalSystem
+2025-04-11 19:54:13,CoreMessagingRegistrar,running,automatic,1708,C:\Windows\system32\svchost.exe -k LocalServiceNoNetwork -p,NT AUTHORITY\LocalService
+2025-04-11 19:54:13,cplspcon,running,automatic,1996,C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_6b10ae7f2f9034c5\IntelCpHDCPSvc.exe,LocalSystem
+2025-04-11 19:54:13,CryptSvc,running,automatic,5524,C:\Windows\system32\svchost.exe -k NetworkService -p,NT Authority\NetworkService
+2025-04-11 19:54:13,CscService,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-04-11 19:54:13,DcomLaunch,running,automatic,1052,C:\Windows\system32\svchost.exe -k DcomLaunch -p,LocalSystem
+2025-04-11 19:54:13,dcsvc,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:54:13,defragsvc,stopped,manual,,C:\Windows\system32\svchost.exe -k defragsvc,localSystem
+2025-04-11 19:54:13,DeviceAssociationService,running,automatic,2788,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-04-11 19:54:13,DeviceInstall,stopped,manual,,C:\Windows\system32\svchost.exe -k DcomLaunch -p,LocalSystem
+2025-04-11 19:54:13,DevQueryBroker,running,manual,2780,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-04-11 19:54:13,Dhcp,running,automatic,2352,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT Authority\LocalService
+2025-04-11 19:54:13,diagnosticshub.standardcollector.service,stopped,manual,,C:\Windows\system32\DiagSvcs\DiagnosticsHub.StandardCollector.Service.exe,LocalSystem
+2025-04-11 19:54:13,diagsvc,stopped,manual,,C:\Windows\System32\svchost.exe -k diagnostics,LocalSystem
+2025-04-11 19:54:13,DiagTrack,running,automatic,5516,C:\Windows\System32\svchost.exe -k utcsvc -p,LocalSystem
+2025-04-11 19:54:13,DialogBlockingService,stopped,disabled,,C:\Windows\system32\svchost.exe -k DialogBlockingService,LocalSystem
+2025-04-11 19:54:13,DispBrokerDesktopSvc,running,automatic,2608,C:\Windows\system32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
+2025-04-11 19:54:13,DisplayEnhancementService,running,manual,1984,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-04-11 19:54:13,DmEnrollmentSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:54:13,dmwappushservice,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:54:13,Dnscache,running,automatic,3336,C:\Windows\system32\svchost.exe -k NetworkService -p,NT AUTHORITY\NetworkService
+2025-04-11 19:54:13,DoSvc,running,automatic,4836,C:\Windows\System32\svchost.exe -k NetworkService -p,NT Authority\NetworkService
+2025-04-11 19:54:13,dot3svc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,localSystem
+2025-04-11 19:54:13,DPS,running,automatic,5532,C:\Windows\System32\svchost.exe -k LocalServiceNoNetwork -p,NT AUTHORITY\LocalService
+2025-04-11 19:54:13,DSAService,running,automatic,5544,"""C:\Program Files (x86)\Intel\Driver and Support Assistant\x86\DSAService.exe""",LocalSystem
+2025-04-11 19:54:13,DSAUpdateService,running,automatic,5552,"""C:\Program Files (x86)\Intel\Driver and Support Assistant\x86\DSAUpdateService.exe""",LocalSystem
+2025-04-11 19:54:13,DsmSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:54:13,DsSvc,running,manual,11864,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-04-11 19:54:13,DusmSvc,running,automatic,4592,C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted -p,NT Authority\LocalService
+2025-04-11 19:54:13,Eaphost,stopped,manual,,C:\Windows\System32\svchost.exe -k netsvcs -p,localSystem
+2025-04-11 19:54:13,edgeupdate,stopped,automatic,,"""C:\Program Files (x86)\Microsoft\EdgeUpdate\MicrosoftEdgeUpdate.exe"" /svc",LocalSystem
+2025-04-11 19:54:13,edgeupdatem,stopped,manual,,"""C:\Program Files (x86)\Microsoft\EdgeUpdate\MicrosoftEdgeUpdate.exe"" /medsvc",LocalSystem
+2025-04-11 19:54:13,EFS,stopped,manual,,C:\Windows\System32\lsass.exe,LocalSystem
+2025-04-11 19:54:13,embeddedmode,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-04-11 19:54:13,EntAppSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k appmodel -p,LocalSystem
+2025-04-11 19:54:13,esifsvc,running,automatic,5880,"""C:\Windows\System32\DriverStore\FileRepository\dptf_cpu.inf_amd64_4ce8bafd96682424\esif_uf.exe""",LocalSystem
+2025-04-11 19:54:13,EventLog,running,automatic,1856,C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted -p,NT AUTHORITY\LocalService
+2025-04-11 19:54:13,EventSystem,running,automatic,1020,C:\Windows\system32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
+2025-04-11 19:54:13,Fax,stopped,manual,,C:\Windows\system32\fxssvc.exe,NT AUTHORITY\NetworkService
+2025-04-11 19:54:13,fdPHost,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
+2025-04-11 19:54:13,FDResPub,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation -p,NT AUTHORITY\LocalService
+2025-04-11 19:54:13,fhsvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-04-11 19:54:13,FileSyncHelper,stopped,manual,,"""C:\Program Files\Microsoft OneDrive\23.209.1008.0002\FileSyncHelper.exe""",LocalSystem
+2025-04-11 19:54:13,FontCache,running,automatic,3096,C:\Windows\system32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
+2025-04-11 19:54:13,FontCache3.0.0.0,running,manual,9188,C:\Windows\Microsoft.Net\Framework64\v3.0\WPF\PresentationFontCache.exe,NT Authority\LocalService
+2025-04-11 19:54:13,FrameServer,running,manual,16132,C:\Windows\System32\svchost.exe -k Camera,LocalSystem
+2025-04-11 19:54:13,GameInputSvc,stopped,manual,,C:\Windows\System32\GameInputSvc.exe,LocalSystem
+2025-04-11 19:54:13,GoogleChromeElevationService,stopped,manual,,"""C:\Program Files\Google\Chrome\Application\135.0.7049.85\elevation_service.exe""",LocalSystem
+2025-04-11 19:54:13,GoogleUpdaterInternalService136.0.7079.0,stopped,automatic,,"""C:\Program Files (x86)\Google\GoogleUpdater\136.0.7079.0\updater.exe"" --system --windows-service --service=update-internal",LocalSystem
+2025-04-11 19:54:13,GoogleUpdaterService136.0.7079.0,stopped,automatic,,"""C:\Program Files (x86)\Google\GoogleUpdater\136.0.7079.0\updater.exe"" --system --windows-service --service=update",LocalSystem
+2025-04-11 19:54:13,gpsvc,stopped,automatic,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:54:13,GraphicsPerfSvc,stopped,manual,,C:\Windows\System32\svchost.exe -k GraphicsPerfSvcGroup,LocalSystem
+2025-04-11 19:54:13,gupdate,stopped,automatic,,"""C:\Program Files (x86)\Google\Update\GoogleUpdate.exe"" /svc",LocalSystem
+2025-04-11 19:54:13,gupdatem,stopped,manual,,"""C:\Program Files (x86)\Google\Update\GoogleUpdate.exe"" /medsvc",LocalSystem
+2025-04-11 19:54:13,hidserv,running,manual,2028,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-04-11 19:54:13,HPPrintScanDoctorService,running,automatic,5612,"""C:\Program Files\HPPrintScanDoctor\HPPrintScanDoctorService.exe""",LocalSystem
+2025-04-11 19:54:13,HvHost,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-04-11 19:54:13,icssvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT Authority\LocalService
+2025-04-11 19:54:13,igccservice,running,automatic,5584,C:\Windows\System32\DriverStore\FileRepository\igcc_dch.inf_amd64_8b07a004bf9bbf23\OneApp.IGCC.WinService.exe,LocalSystem
+2025-04-11 19:54:13,igfxCUIService2.0.0.0,running,automatic,2480,C:\Windows\System32\DriverStore\FileRepository\cui_dch.inf_amd64_8f68d4f94f46f7aa\igfxCUIServiceN.exe,LocalSystem
+2025-04-11 19:54:13,IKEEXT,running,automatic,5632,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:54:13,InstallService,running,manual,10184,C:\Windows\System32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:54:13,Intel(R) Capability Licensing Service TCP IP Interface,stopped,manual,,C:\Windows\System32\DriverStore\FileRepository\iclsclient.inf_amd64_76523213b78d9046\lib\SocketHeciServer.exe,LocalSystem
+2025-04-11 19:54:13,Intel(R) SUR QC SAM,stopped,manual,,"""C:\Program Files\Intel\SUR\QUEENCREEK\Updater\bin\IntelSoftwareAssetManagerService.exe""",LocalSystem
+2025-04-11 19:54:13,Intel(R) TPM Provisioning Service,stopped,automatic,,C:\Windows\System32\DriverStore\FileRepository\iclsclient.inf_amd64_fc84dfa25a6a7727\lib\TPMProvisioningService.exe,LocalSystem
+2025-04-11 19:54:13,IntelArcControlService,running,automatic,5576,"""C:\Program Files\Intel\Intel Arc Control\ArcControlService.exe""",LocalSystem
+2025-04-11 19:54:13,IntelAudioService,running,automatic,5760,C:\Windows\System32\DriverStore\FileRepository\intcoed.inf_amd64_625d5a9ea859462f\\AS\\IAS\\IntelAudioService.exe,LocalSystem
+2025-04-11 19:54:13,iphlpsvc,running,automatic,5000,C:\Windows\System32\svchost.exe -k NetSvcs -p,LocalSystem
+2025-04-11 19:54:13,IpxlatCfgSvc,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-04-11 19:54:13,jhi_service,running,automatic,5692,C:\Windows\System32\DriverStore\FileRepository\dal.inf_amd64_af50fdb80983f7bc\jhi_service.exe,LocalSystem
+2025-04-11 19:54:13,KeyIso,running,manual,660,C:\Windows\system32\lsass.exe,LocalSystem
+2025-04-11 19:54:13,KtmRm,stopped,manual,,C:\Windows\System32\svchost.exe -k NetworkServiceAndNoImpersonation -p,NT AUTHORITY\NetworkService
+2025-04-11 19:54:13,LanmanServer,running,automatic,6140,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:54:13,LanmanWorkstation,running,automatic,5348,C:\Windows\System32\svchost.exe -k NetworkService -p,NT AUTHORITY\NetworkService
+2025-04-11 19:54:13,lfsvc,running,manual,9412,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:54:13,LicenseManager,running,manual,11984,C:\Windows\System32\svchost.exe -k LocalService -p,NT Authority\LocalService
+2025-04-11 19:54:13,lltdsvc,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
+2025-04-11 19:54:13,lmhosts,running,manual,10928,C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted -p,NT AUTHORITY\LocalService
+2025-04-11 19:54:13,LMS,running,automatic,5956,C:\Windows\System32\DriverStore\FileRepository\lms.inf_amd64_fddb643595e0b8d0\LMS.exe,LocalSystem
+2025-04-11 19:54:13,LSM,running,automatic,1332,C:\Windows\system32\svchost.exe -k DcomLaunch -p,LocalSystem
+2025-04-11 19:54:13,LxpSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs,LocalSystem
+2025-04-11 19:54:13,MapsBroker,stopped,automatic,,C:\Windows\System32\svchost.exe -k NetworkService -p,NT AUTHORITY\NetworkService
+2025-04-11 19:54:13,McpManagementService,stopped,manual,,C:\Windows\system32\svchost.exe -k McpManagementServiceGroup,LocalSystem
+2025-04-11 19:54:13,MDCoreSvc,running,automatic,5896,"""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.25030.2-0\MpDefenderCoreService.exe""",LocalSystem
+2025-04-11 19:54:13,Micro Star SCM,running,automatic,5600,"""C:\Windows\SysWOW64\MSIService.exe""",LocalSystem
+2025-04-11 19:54:13,MicrosoftEdgeElevationService,stopped,manual,,"""C:\Program Files (x86)\Microsoft\Edge\Application\135.0.3179.66\elevation_service.exe""",LocalSystem
+2025-04-11 19:54:13,MixedRealityOpenXRSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-04-11 19:54:13,mpssvc,running,automatic,4828,C:\Windows\system32\svchost.exe -k LocalServiceNoNetworkFirewall -p,NT Authority\LocalService
+2025-04-11 19:54:13,MSDTC,stopped,manual,,C:\Windows\System32\msdtc.exe,NT AUTHORITY\NetworkService
+2025-04-11 19:54:13,MSI Foundation Service,running,automatic,5624,"""C:\Program Files (x86)\MSI\MSI NBFoundation Service\MSIAPService.exe""",LocalSystem
+2025-04-11 19:54:13,MSI Sendevsvc,running,automatic,5656,"""C:\Program Files (x86)\MSI\MSI NBFoundation Service\Sendevsvc.exe""",LocalSystem
+2025-04-11 19:54:13,MSiSCSI,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:54:13,msiserver,stopped,manual,,C:\Windows\system32\msiexec.exe /V,LocalSystem
+2025-04-11 19:54:13,MSI_Central_Service,running,automatic,5716,"""C:\Program Files (x86)\MSI\One Dragon Center\MSI_Central_Service.exe""",LocalSystem
+2025-04-11 19:54:13,MsKeyboardFilter,stopped,disabled,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:54:13,Mystic_Light_Service,running,automatic,5560,"""C:\Program Files (x86)\MSI\One Dragon Center\Mystic_Light\Mystic_Light_Service.exe""",LocalSystem
+2025-04-11 19:54:13,NaturalAuthentication,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:54:13,NcaSvc,stopped,manual,,C:\Windows\System32\svchost.exe -k NetSvcs -p,LocalSystem
+2025-04-11 19:54:13,NcbService,running,manual,1796,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-04-11 19:54:13,NcdAutoSetup,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalServiceNoNetwork -p,NT AUTHORITY\LocalService
+2025-04-11 19:54:13,Netlogon,stopped,manual,,C:\Windows\system32\lsass.exe,LocalSystem
+2025-04-11 19:54:13,Netman,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-04-11 19:54:13,netprofm,running,manual,3020,C:\Windows\System32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
+2025-04-11 19:54:13,NetSetupSvc,stopped,manual,,C:\Windows\System32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:54:13,NetTcpPortSharing,stopped,disabled,,C:\Windows\Microsoft.NET\Framework64\v4.0.30319\SMSvcHost.exe,NT AUTHORITY\LocalService
+2025-04-11 19:54:13,NgcCtnrSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT AUTHORITY\LocalService
+2025-04-11 19:54:13,NgcSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-04-11 19:54:13,NlaSvc,running,automatic,2756,C:\Windows\System32\svchost.exe -k NetworkService -p,NT AUTHORITY\NetworkService
+2025-04-11 19:54:13,nsi,running,automatic,2140,C:\Windows\system32\svchost.exe -k LocalService -p,NT Authority\LocalService
+2025-04-11 19:54:13,NVDisplay.ContainerLocalSystem,running,automatic,2896,C:\Windows\System32\DriverStore\FileRepository\nvmi.inf_amd64_ca70e03e74b1e469\Display.NvContainer\NVDisplay.Container.exe -s NVDisplay.ContainerLocalSystem -f C:\ProgramData\NVIDIA\NVDisplay.ContainerLocalSystem.log -l 3 -d C:\Windows\System32\DriverStore\FileRepository\nvmi.inf_amd64_ca70e03e74b1e469\Display.NvContainer\plugins\LocalSystem -r -p 30000 -cfg NVDisplay.ContainerLocalSystem\LocalSystem,LocalSystem
+2025-04-11 19:54:13,NVWMI,running,automatic,5792,C:\Windows\System32\DriverStore\FileRepository\nvmi.inf_amd64_ca70e03e74b1e469\NVWMI\nvWmi64.exe,LocalSystem
+2025-04-11 19:54:13,OneDrive Updater Service,stopped,manual,,"""C:\Program Files\Microsoft OneDrive\23.209.1008.0002\OneDriveUpdaterService.exe""",LocalSystem
+2025-04-11 19:54:13,p2pimsvc,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalServicePeerNet,NT AUTHORITY\LocalService
+2025-04-11 19:54:13,p2psvc,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalServicePeerNet,NT AUTHORITY\LocalService
+2025-04-11 19:54:13,PcaSvc,running,manual,11400,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-04-11 19:54:13,PeerDistSvc,stopped,manual,,C:\Windows\System32\svchost.exe -k PeerDist,NT AUTHORITY\NetworkService
+2025-04-11 19:54:13,perceptionsimulation,stopped,manual,,C:\Windows\system32\PerceptionSimulation\PerceptionSimulationService.exe,LocalSystem
+2025-04-11 19:54:13,PerfHost,stopped,manual,,C:\Windows\SysWow64\perfhost.exe,NT AUTHORITY\LocalService
+2025-04-11 19:54:13,PhoneSvc,running,manual,2108,C:\Windows\system32\svchost.exe -k LocalService -p,NT Authority\LocalService
+2025-04-11 19:54:13,pla,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalServiceNoNetwork -p,NT AUTHORITY\LocalService
+2025-04-11 19:54:13,PlugPlay,running,manual,1052,C:\Windows\system32\svchost.exe -k DcomLaunch -p,LocalSystem
+2025-04-11 19:54:13,PNRPAutoReg,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalServicePeerNet,NT AUTHORITY\LocalService
+2025-04-11 19:54:13,PNRPsvc,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalServicePeerNet,NT AUTHORITY\LocalService
+2025-04-11 19:54:13,PolicyAgent,stopped,manual,,C:\Windows\system32\svchost.exe -k NetworkServiceNetworkRestricted -p,NT Authority\NetworkService
+2025-04-11 19:54:13,Power,running,automatic,1052,C:\Windows\system32\svchost.exe -k DcomLaunch -p,LocalSystem
+2025-04-11 19:54:13,PrintNotify,running,manual,1520,C:\Windows\system32\svchost.exe -k print,LocalSystem
+2025-04-11 19:54:13,ProfSvc,running,automatic,2100,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:54:13,PushToInstall,stopped,manual,,C:\Windows\System32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:54:13,QWAVE,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation -p,NT AUTHORITY\LocalService
+2025-04-11 19:54:13,RasAuto,stopped,manual,,C:\Windows\System32\svchost.exe -k netsvcs -p,localSystem
+2025-04-11 19:54:13,RasMan,running,automatic,6708,C:\Windows\System32\svchost.exe -k netsvcs,localSystem
+2025-04-11 19:54:13,RemoteAccess,stopped,disabled,,C:\Windows\System32\svchost.exe -k netsvcs,localSystem
+2025-04-11 19:54:13,RemoteRegistry,stopped,disabled,,C:\Windows\system32\svchost.exe -k localService -p,NT AUTHORITY\LocalService
+2025-04-11 19:54:13,RetailDemo,stopped,manual,,C:\Windows\System32\svchost.exe -k rdxgroup,LocalSystem
+2025-04-11 19:54:13,RmSvc,running,manual,4056,C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted,NT AUTHORITY\LocalService
+2025-04-11 19:54:13,RpcEptMapper,running,automatic,1244,C:\Windows\system32\svchost.exe -k RPCSS -p,NT AUTHORITY\NetworkService
+2025-04-11 19:54:13,RpcLocator,stopped,manual,,C:\Windows\system32\locator.exe,NT AUTHORITY\NetworkService
+2025-04-11 19:54:13,RpcSs,running,automatic,1244,C:\Windows\system32\svchost.exe -k rpcss -p,NT AUTHORITY\NetworkService
+2025-04-11 19:54:13,RtkAudioUniversalService,running,automatic,5772,"""C:\Windows\System32\DriverStore\FileRepository\realtekservice.inf_amd64_3cf99e411755df38\RtkAudUService64.exe""",LocalSystem
+2025-04-11 19:54:13,SamSs,running,automatic,660,C:\Windows\system32\lsass.exe,LocalSystem
+2025-04-11 19:54:13,SCardSvr,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation,NT AUTHORITY\LocalService
+2025-04-11 19:54:13,ScDeviceEnum,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted,LocalSystem
+2025-04-11 19:54:13,Schedule,running,automatic,1888,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:54:13,SCPolicySvc,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs,LocalSystem
+2025-04-11 19:54:13,SDRSVC,stopped,manual,,C:\Windows\system32\svchost.exe -k SDRSVC,localSystem
+2025-04-11 19:54:13,seclogon,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:54:13,SecurityHealthService,running,manual,12320,C:\Windows\system32\SecurityHealthService.exe,LocalSystem
+2025-04-11 19:54:13,SEMgrSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
+2025-04-11 19:54:13,SENS,running,automatic,2248,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:54:13,Sense,stopped,manual,,"""C:\Program Files\Windows Defender Advanced Threat Protection\MsSense.exe""",LocalSystem
+2025-04-11 19:54:13,SensorDataService,stopped,manual,,C:\Windows\System32\SensorDataService.exe,LocalSystem
+2025-04-11 19:54:13,SensorService,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-04-11 19:54:13,SensrSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation -p,NT AUTHORITY\LocalService
+2025-04-11 19:54:13,SessionEnv,stopped,manual,,C:\Windows\System32\svchost.exe -k netsvcs -p,localSystem
+2025-04-11 19:54:13,SgrmBroker,stopped,automatic,,C:\Windows\system32\SgrmBroker.exe,LocalSystem
+2025-04-11 19:54:13,SharedAccess,stopped,manual,,C:\Windows\System32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:54:13,SharedRealitySvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
+2025-04-11 19:54:13,ShellHWDetection,running,automatic,5248,C:\Windows\System32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:54:13,shpamsvc,stopped,disabled,,C:\Windows\System32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:54:13,smphost,stopped,manual,,C:\Windows\System32\svchost.exe -k smphost,NT AUTHORITY\NetworkService
+2025-04-11 19:54:13,SmsRouter,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT Authority\LocalService
+2025-04-11 19:54:13,SNMPTRAP,stopped,manual,,C:\Windows\System32\snmptrap.exe,NT AUTHORITY\LocalService
+2025-04-11 19:54:13,spectrum,stopped,manual,,C:\Windows\system32\spectrum.exe,NT AUTHORITY\LocalService
+2025-04-11 19:54:13,Spooler,running,automatic,5284,C:\Windows\System32\spoolsv.exe,LocalSystem
+2025-04-11 19:54:13,sppsvc,stopped,automatic,,C:\Windows\system32\sppsvc.exe,NT AUTHORITY\NetworkService
+2025-04-11 19:54:13,SSDPSRV,running,manual,3964,C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation -p,NT AUTHORITY\LocalService
+2025-04-11 19:54:13,ssh-agent,stopped,disabled,,C:\Windows\System32\OpenSSH\ssh-agent.exe,LocalSystem
+2025-04-11 19:54:13,SstpSvc,running,manual,5568,C:\Windows\system32\svchost.exe -k LocalService -p,NT Authority\LocalService
+2025-04-11 19:54:13,StateRepository,running,manual,3180,C:\Windows\system32\svchost.exe -k appmodel -p,LocalSystem
+2025-04-11 19:54:13,Steam Client Service,stopped,manual,,"""C:\Program Files (x86)\Common Files\Steam\steamservice.exe"" /RunAsService",LocalSystem
+2025-04-11 19:54:13,stisvc,running,automatic,5664,C:\Windows\system32\svchost.exe -k imgsvc,NT Authority\LocalService
+2025-04-11 19:54:13,StorSvc,running,automatic,5036,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-04-11 19:54:13,svsvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-04-11 19:54:13,swprv,stopped,manual,,C:\Windows\System32\svchost.exe -k swprv,LocalSystem
+2025-04-11 19:54:13,SysMain,running,automatic,2260,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-04-11 19:54:13,SystemEventsBroker,running,automatic,1052,C:\Windows\system32\svchost.exe -k DcomLaunch -p,LocalSystem
+2025-04-11 19:54:13,TabletInputService,running,manual,9220,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-04-11 19:54:13,TapiSrv,running,manual,6224,C:\Windows\System32\svchost.exe -k NetworkService -p,NT AUTHORITY\NetworkService
+2025-04-11 19:54:13,TermService,stopped,manual,,C:\Windows\System32\svchost.exe -k NetworkService,NT Authority\NetworkService
+2025-04-11 19:54:13,Themes,running,automatic,2264,C:\Windows\System32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:54:13,TieringEngineService,stopped,manual,,C:\Windows\system32\TieringEngineService.exe,localSystem
+2025-04-11 19:54:13,TimeBrokerSvc,running,manual,1804,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT AUTHORITY\LocalService
+2025-04-11 19:54:13,TokenBroker,running,manual,5420,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:54:13,TrkWks,running,automatic,5592,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-04-11 19:54:13,TroubleshootingSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:54:13,TrustedInstaller,stopped,manual,,C:\Windows\servicing\TrustedInstaller.exe,localSystem
+2025-04-11 19:54:13,tzautoupdate,stopped,disabled,,C:\Windows\system32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
+2025-04-11 19:54:13,ucldr_battlegrounds_gl,stopped,manual,,"""C:\Program Files\Common Files\Wellbia.com\ucldr_battlegrounds_gl.exe""",LocalSystem
+2025-04-11 19:54:13,UevAgentService,stopped,disabled,,C:\Windows\system32\AgentService.exe,LocalSystem
+2025-04-11 19:54:13,uhssvc,stopped,disabled,,"""C:\Program Files\Microsoft Update Health Tools\uhssvc.exe""",LocalSystem
+2025-04-11 19:54:13,UmRdpService,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,localSystem
+2025-04-11 19:54:13,upnphost,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation -p,NT AUTHORITY\LocalService
+2025-04-11 19:54:13,UserManager,running,automatic,2440,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:54:13,UsoSvc,running,automatic,10516,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:54:13,VacSvc,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted -p,NT AUTHORITY\LocalService
+2025-04-11 19:54:13,VaultSvc,running,manual,660,C:\Windows\system32\lsass.exe,LocalSystem
+2025-04-11 19:54:13,VBoxSDS,stopped,manual,,"""C:\Program Files\Oracle\VirtualBox\VBoxSDS.exe""",LocalSystem
+2025-04-11 19:54:13,vds,stopped,manual,,C:\Windows\System32\vds.exe,LocalSystem
+2025-04-11 19:54:13,vmicguestinterface,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-04-11 19:54:13,vmicheartbeat,stopped,manual,,C:\Windows\system32\svchost.exe -k ICService -p,LocalSystem
+2025-04-11 19:54:13,vmickvpexchange,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-04-11 19:54:13,vmicrdv,stopped,manual,,C:\Windows\system32\svchost.exe -k ICService -p,LocalSystem
+2025-04-11 19:54:13,vmicshutdown,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-04-11 19:54:13,vmictimesync,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT AUTHORITY\LocalService
+2025-04-11 19:54:13,vmicvmsession,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-04-11 19:54:13,vmicvss,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-04-11 19:54:13,vpnagent,running,automatic,4632,"""C:\Program Files (x86)\Cisco\Cisco AnyConnect Secure Mobility Client\vpnagent.exe""",LocalSystem
+2025-04-11 19:54:13,VSS,stopped,manual,,C:\Windows\system32\vssvc.exe,LocalSystem
+2025-04-11 19:54:13,W32Time,running,automatic,4288,C:\Windows\system32\svchost.exe -k LocalService,NT AUTHORITY\LocalService
+2025-04-11 19:54:13,WaaSMedicSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k wusvcs -p,LocalSystem
+2025-04-11 19:54:13,WalletService,stopped,manual,,C:\Windows\System32\svchost.exe -k appmodel -p,LocalSystem
+2025-04-11 19:54:13,WarpJITSvc,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted,NT Authority\LocalService
+2025-04-11 19:54:13,wbengine,stopped,manual,,"""C:\Windows\system32\wbengine.exe""",localSystem
+2025-04-11 19:54:13,WbioSrvc,running,automatic,4264,C:\Windows\system32\svchost.exe -k WbioSvcGroup,LocalSystem
+2025-04-11 19:54:13,Wcmsvc,running,automatic,4600,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT Authority\LocalService
+2025-04-11 19:54:13,wcncsvc,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalServiceAndNoImpersonation -p,NT AUTHORITY\LocalService
+2025-04-11 19:54:13,WdiServiceHost,running,manual,6268,C:\Windows\System32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
+2025-04-11 19:54:13,WdiSystemHost,running,manual,13528,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-04-11 19:54:13,WdNisSvc,running,manual,12860,"""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.25030.2-0\NisSrv.exe""",NT AUTHORITY\LocalService
+2025-04-11 19:54:13,WebClient,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
+2025-04-11 19:54:13,Wecsvc,stopped,manual,,C:\Windows\system32\svchost.exe -k NetworkService -p,NT AUTHORITY\NetworkService
+2025-04-11 19:54:13,WEPHOSTSVC,stopped,manual,,C:\Windows\system32\svchost.exe -k WepHostSvcGroup,NT AUTHORITY\LocalService
+2025-04-11 19:54:13,wercplsupport,stopped,manual,,C:\Windows\System32\svchost.exe -k netsvcs -p,localSystem
+2025-04-11 19:54:13,WerSvc,stopped,manual,,C:\Windows\System32\svchost.exe -k WerSvcGroup,localSystem
+2025-04-11 19:54:13,WFDSConMgrSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT AUTHORITY\LocalService
+2025-04-11 19:54:13,WiaRpc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-04-11 19:54:13,WinDefend,running,automatic,5828,"""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.25030.2-0\MsMpEng.exe""",LocalSystem
+2025-04-11 19:54:13,WinHttpAutoProxySvc,running,manual,3244,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT AUTHORITY\LocalService
+2025-04-11 19:54:13,Winmgmt,running,automatic,3628,C:\Windows\system32\svchost.exe -k netsvcs -p,localSystem
+2025-04-11 19:54:13,WinRM,stopped,manual,,C:\Windows\System32\svchost.exe -k NetworkService -p,NT AUTHORITY\NetworkService
+2025-04-11 19:54:13,wisvc,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:54:13,WlanSvc,running,automatic,4776,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,LocalSystem
+2025-04-11 19:54:13,wlidsvc,running,manual,8984,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:54:13,wlpasvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p,NT Authority\LocalService
+2025-04-11 19:54:13,WManSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:54:13,wmiApSrv,stopped,manual,,C:\Windows\system32\wbem\WmiApSrv.exe,localSystem
+2025-04-11 19:54:13,WMIRegistrationService,running,automatic,5840,C:\Windows\System32\DriverStore\FileRepository\mewmiprov.inf_amd64_d51901c26227fb29\WMIRegistrationService.exe,LocalSystem
+2025-04-11 19:54:13,WMPNetworkSvc,stopped,manual,,"""C:\Program Files\Windows Media Player\wmpnetwk.exe""",NT AUTHORITY\NetworkService
+2025-04-11 19:54:13,workfolderssvc,stopped,manual,,C:\Windows\System32\svchost.exe -k LocalService -p,NT AUTHORITY\LocalService
+2025-04-11 19:54:13,WpcMonSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalService,LocalSystem
+2025-04-11 19:54:13,WPDBusEnum,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted,LocalSystem
+2025-04-11 19:54:13,WpnService,running,automatic,5640,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:54:13,wscsvc,running,automatic,5220,C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted -p,NT AUTHORITY\LocalService
+2025-04-11 19:54:13,WSearch,running,automatic,7404,C:\Windows\system32\SearchIndexer.exe /Embedding,LocalSystem
+2025-04-11 19:54:13,wuauserv,running,manual,3284,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:54:13,WwanSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p,localSystem
+2025-04-11 19:54:13,XblAuthManager,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:54:13,XblGameSave,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:54:13,XboxGipSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:54:13,XboxNetApiSvc,stopped,manual,,C:\Windows\system32\svchost.exe -k netsvcs -p,LocalSystem
+2025-04-11 19:54:13,zksvc,stopped,manual,,"""C:\Program Files\Common Files\PUBG\zksvc.exe""",LocalSystem
+2025-04-11 19:54:13,AarSvc_a85c6,stopped,manual,,C:\Windows\system32\svchost.exe -k AarSvcGroup -p,
+2025-04-11 19:54:13,BcastDVRUserService_a85c6,stopped,manual,,C:\Windows\system32\svchost.exe -k BcastDVRUserService,
+2025-04-11 19:54:13,BluetoothUserService_a85c6,running,manual,9128,C:\Windows\system32\svchost.exe -k BthAppGroup -p,
+2025-04-11 19:54:13,CaptureService_a85c6,stopped,manual,,C:\Windows\system32\svchost.exe -k LocalService -p,
+2025-04-11 19:54:13,cbdhsvc_a85c6,running,manual,9984,C:\Windows\system32\svchost.exe -k ClipboardSvcGroup -p,
+2025-04-11 19:54:13,CDPUserSvc_a85c6,running,automatic,9120,C:\Windows\system32\svchost.exe -k UnistackSvcGroup,
+2025-04-11 19:54:13,ConsentUxUserSvc_a85c6,stopped,manual,,C:\Windows\system32\svchost.exe -k DevicesFlow,
+2025-04-11 19:54:13,CredentialEnrollmentManagerUserSvc_a85c6,stopped,manual,,C:\Windows\system32\CredentialEnrollmentManager.exe,
+2025-04-11 19:54:13,DeviceAssociationBrokerSvc_a85c6,stopped,manual,,C:\Windows\system32\svchost.exe -k DevicesFlow -p,
+2025-04-11 19:54:13,DevicePickerUserSvc_a85c6,stopped,manual,,C:\Windows\system32\svchost.exe -k DevicesFlow,
+2025-04-11 19:54:13,DevicesFlowUserSvc_a85c6,running,manual,17164,C:\Windows\system32\svchost.exe -k DevicesFlow,
+2025-04-11 19:54:13,MessagingService_a85c6,stopped,manual,,C:\Windows\system32\svchost.exe -k UnistackSvcGroup,
+2025-04-11 19:54:13,OneSyncSvc_a85c6,running,automatic,5728,C:\Windows\system32\svchost.exe -k UnistackSvcGroup,
+2025-04-11 19:54:13,PimIndexMaintenanceSvc_a85c6,running,manual,5728,C:\Windows\system32\svchost.exe -k UnistackSvcGroup,
+2025-04-11 19:54:13,PrintWorkflowUserSvc_a85c6,running,manual,13584,C:\Windows\system32\svchost.exe -k PrintWorkflow,
+2025-04-11 19:54:13,UdkUserSvc_a85c6,stopped,manual,,C:\Windows\system32\svchost.exe -k UdkSvcGroup,
+2025-04-11 19:54:13,UnistoreSvc_a85c6,running,manual,5728,C:\Windows\System32\svchost.exe -k UnistackSvcGroup,
+2025-04-11 19:54:13,UserDataSvc_a85c6,running,manual,5728,C:\Windows\system32\svchost.exe -k UnistackSvcGroup,
+2025-04-11 19:54:13,WpnUserService_a85c6,running,automatic,9200,C:\Windows\system32\svchost.exe -k UnistackSvcGroup,
