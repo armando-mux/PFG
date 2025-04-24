@@ -57,8 +57,5 @@ def listar_reglas():
     subprocess.run(["auditctl", "-l"])
 
 if __name__ == "__main__":
-    if subprocess.geteuid() != 0:
-        print("[!] Debes ejecutar este script como root.")
-    else:
-        aplicar_reglas()
-        listar_reglas()
+    aplicar_reglas()
+    listar_reglas()
