@@ -1,5 +1,12 @@
+from pathlib import Path
+import re
 import subprocess
+import csv
 
+ruta_log = Path(__file__).resolve().parent.parent.parent.parent / "logs" / "events.csv"
+campos = ["timestamp", "event_id", "type", "uid", "auid", "exe", "syscall", "success", "path", "key", "host"]
+expresion_regular = re.compile(r'type=([A-Z_]+)\s+msg=audit\((\d+)\.(\d+):(\d+)\):\s(.*)')
+    
 # Definimos las reglas que queremos aplicar
 reglas = [
     # --- Usuarios y privilegios ---
@@ -51,11 +58,53 @@ def aplicar_reglas():
         except subprocess.CalledProcessError as e:
             print(f"[!] Error aplicando regla: {' '.join(regla)}")
             print(f"    {e}")
-
-def listar_reglas():
-    print("\n[*] Reglas activas actualmente:")
-    subprocess.run(["auditctl", "-l"])
-
-if __name__ == "__main__":
+            
+def extraer_campos(tipo, timestamp, id, data):
+    campos = {
+        "timestamp": timestamp,
+        "event_id": id,
+        "type": tipo,
+        "uid": "N/A",
+        "auid": "N/A",
+        "exe": "N/A",
+        "syscall": "N/A",
+        "success": "N/A",
+        "path": "N/A",
+        "key": "N/A",
+        "host": "N/A"
+    }
+    for k in ["uid", "auid", "exe", "syscall", "success", "key", "path", "host"]:
+        match = re.search(rf"{k}=([^\s]+)", data)
+        if match:
+            campos[k] = match.group(1)  
+            
+    return campos
+    
+                
+def main():
     aplicar_reglas()
-    listar_reglas()
+    
+    comando = subprocess.Popen(
+        ["tail", "-F", "/var/log/audit/audit.log"],
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
+        universal_newlines=True
+    )   
+    
+    with open(ruta_log, mode='a', newline='', encoding='utf-8') as file:
+        writer = csv.DictWriter(ruta_log, fieldnames=campos)
+        writer.writeheader()
+        if file.tell() == 0:
+            writer.writeheader()
+        for line in comando.stdout:
+            match = expresion_regular.search(line)
+            if match:
+                tipo, ts_sec, ts_usec, id, datos = match.groups()
+                timestamp = f"{ts_sec}.{ts_usec}"
+                row = extraer_campos(tipo, timestamp, id, datos)
+                writer.writerow(row)
+                print(f"[+] Evento registrado: {row['type']} {row['timestamp']} key={row['key']}")
+                
+if __name__ == "__main__":
+    main()
+    
