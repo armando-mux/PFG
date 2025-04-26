@@ -92,7 +92,7 @@ def main():
     )   
     
     with open(ruta_log, mode='a', newline='', encoding='utf-8') as file:
-        writer = csv.DictWriter(ruta_log, fieldnames=campos)
+        writer = csv.DictWriter(file, fieldnames=campos)
         writer.writeheader()
         if file.tell() == 0:
             writer.writeheader()
