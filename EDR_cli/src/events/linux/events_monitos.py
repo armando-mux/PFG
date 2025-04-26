@@ -117,7 +117,7 @@ def main():
             match = expresion_regular.search(line)
             if match:
                 tipo, ts_sec, ts_usec, id, datos = match.groups()
-                timestamp = f"{datetime.datetime.fromtimestamp(ts_sec) + datetime.timedelta(milliseconds=ts_usec)}"
+                timestamp = f"{datetime.datetime.fromtimestamp(int(ts_sec)) + datetime.timedelta(milliseconds=int(ts_usec))}"
                 row = extraer_campos(tipo, timestamp, id, datos)
                 if tipo in keys:
                     writer.writerow(row)
