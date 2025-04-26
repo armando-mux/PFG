@@ -1,3 +1,4 @@
+import datetime
 from pathlib import Path
 import re
 import subprocess
@@ -6,7 +7,27 @@ import csv
 ruta_log = Path(__file__).resolve().parent.parent.parent.parent / "logs" / "events.csv"
 campos = ["timestamp", "event_id", "type", "uid", "auid", "exe", "syscall", "success", "path", "key", "host"]
 expresion_regular = re.compile(r'type=([A-Z_]+)\s+msg=audit\((\d+)\.(\d+):(\d+)\):\s(.*)')
-    
+keys = [
+    "passwd_changes",
+    "group_changes",
+    "shadow_changes",
+    "sudoers_changes",
+    "su_attempt",
+    "sudo_exec",
+    "cron_changes",
+    "cron_daily_changes",
+    "spool_cron_changes",
+    "systemd_services_changes",
+    "authlog_changes",
+    "syslog_changes",
+    "auditlog_changes",
+    "iptables_changes",
+    "ufw_changes",
+    "hostname_changes",
+    "hostsfile_changes",
+    "resolv_changes",
+    "tmp_script_exec"
+]   
 # Definimos las reglas que queremos aplicar
 reglas = [
     # --- Usuarios y privilegios ---
@@ -26,9 +47,6 @@ reglas = [
 
     # --- Cambios de servicios ---
     ["auditctl", "-w", "/etc/systemd/system/", "-p", "wa", "-k", "systemd_services_changes"],
-
-    # --- Acceso a claves SSH ---
-    ["auditctl", "-w", "/home/", "-p", "wa", "-k", "ssh_keys_changes"],
 
     # --- Logs importantes ---
     ["auditctl", "-w", "/var/log/auth.log", "-p", "wa", "-k", "authlog_changes"],
@@ -83,7 +101,6 @@ def extraer_campos(tipo, timestamp, id, data):
                 
 def main():
     aplicar_reglas()
-    
     comando = subprocess.Popen(
         ["tail", "-F", "/var/log/audit/audit.log"],
         stdout=subprocess.PIPE,
@@ -100,10 +117,12 @@ def main():
             match = expresion_regular.search(line)
             if match:
                 tipo, ts_sec, ts_usec, id, datos = match.groups()
-                timestamp = f"{ts_sec}.{ts_usec}"
+                timestamp = f"{datetime.datetime.fromtimestamp(ts_sec) + datetime.timedelta(milliseconds=ts_usec)}"
                 row = extraer_campos(tipo, timestamp, id, datos)
-                writer.writerow(row)
-                print(f"[+] Evento registrado: {row['type']} {row['timestamp']} key={row['key']}")
+                if tipo in keys:
+                    writer.writerow(row)
+                    print(f"[+] Evento registrado: {row['type']} {row['timestamp']} key={row['key']}")
+                
                 
 if __name__ == "__main__":
     main()

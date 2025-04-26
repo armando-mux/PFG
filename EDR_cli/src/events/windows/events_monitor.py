@@ -2,6 +2,7 @@ from pathlib import Path
 import win32evtlog
 import csv
 import time
+import datetime
 import xml.etree.ElementTree as ET
 
 def callback(reason, context, evt):
@@ -18,11 +19,21 @@ def callback(reason, context, evt):
         eventid = xml.find('.//{*}EventID').text
         level = xml.find('.//{*}Level').text
         channel = xml.find('.//{*}Channel').text
+        
         time = xml.find('.//{*}TimeCreated').attrib
+        time = time['SystemTime']
+        if '.' in time:
+            main_part, fraction = time.split('.')
+            fraction = fraction.rstrip('Z')  # quitamos la Z para tratar los números
+            fraction = (fraction + '000000')[:6]  # rellenamos y recortamos exactamente a 6 dígitos
+            time = f"{main_part}.{fraction}Z"
+        time = datetime.datetime.strptime(time, "%Y-%m-%dT%H:%M:%S.%fZ")
+        time = time.replace(tzinfo=datetime.timezone.utc).astimezone()
+        print(time)
         computer = xml.find('.//{*}Computer').text
         
         
-        print(f"Evento recibido: {eventid} - {provider['Name']} - {level} - {channel} - {time['SystemTime']} - {computer}")
+        print(f"Evento recibido: {eventid} - {provider['Name']} - {level} - {channel} - {time} - {computer}")
         
         # Escribir la fila en el CSV
         writer.writerow({
@@ -30,7 +41,7 @@ def callback(reason, context, evt):
             'EventID': eventid,
             'Level': level,
             'Channel': channel,
-            'TimeCreated': time["SystemTime"],
+            'TimeCreated': time,
             'Computer': computer
         })
         file.flush()

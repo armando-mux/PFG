@@ -1,22 +1,7 @@
 Provider,EventID,Level,Channel,TimeCreated,Computer
-Microsoft-Windows-PowerShell,4104,5,Microsoft-Windows-PowerShell/Operational,2025-04-20T09:45:48.6058172Z,DESKTOP-AOEVUGH
-Microsoft-Windows-PowerShell,4104,5,Microsoft-Windows-PowerShell/Operational,2025-04-20T09:45:54.5158475Z,DESKTOP-AOEVUGH
-Microsoft-Windows-PowerShell,4104,5,Microsoft-Windows-PowerShell/Operational,2025-04-20T09:46:05.0146689Z,DESKTOP-AOEVUGH
-Microsoft-Windows-PowerShell,4104,5,Microsoft-Windows-PowerShell/Operational,2025-04-20T09:46:19.1427773Z,DESKTOP-AOEVUGH
-Microsoft-Windows-PowerShell,4104,5,Microsoft-Windows-PowerShell/Operational,2025-04-20T09:46:20.5713118Z,DESKTOP-AOEVUGH
-Microsoft-Windows-PowerShell,4104,5,Microsoft-Windows-PowerShell/Operational,2025-04-20T09:46:20.5896482Z,DESKTOP-AOEVUGH
-Microsoft-Windows-PowerShell,4104,5,Microsoft-Windows-PowerShell/Operational,2025-04-20T09:46:24.2084327Z,DESKTOP-AOEVUGH
-Microsoft-Windows-PowerShell,4104,5,Microsoft-Windows-PowerShell/Operational,2025-04-20T09:46:24.2945414Z,DESKTOP-AOEVUGH
-Microsoft-Windows-PowerShell,4104,5,Microsoft-Windows-PowerShell/Operational,2025-04-20T09:46:25.9243069Z,DESKTOP-AOEVUGH
-Microsoft-Windows-PowerShell,4104,5,Microsoft-Windows-PowerShell/Operational,2025-04-20T09:46:25.9600067Z,DESKTOP-AOEVUGH
-Microsoft-Windows-PowerShell,4104,5,Microsoft-Windows-PowerShell/Operational,2025-04-20T09:46:25.9622398Z,DESKTOP-AOEVUGH
-Microsoft-Windows-PowerShell,4104,5,Microsoft-Windows-PowerShell/Operational,2025-04-20T09:46:25.9692161Z,DESKTOP-AOEVUGH
-Microsoft-Windows-PowerShell,4104,5,Microsoft-Windows-PowerShell/Operational,2025-04-20T09:46:25.9733651Z,DESKTOP-AOEVUGH
-Microsoft-Windows-PowerShell,4104,5,Microsoft-Windows-PowerShell/Operational,2025-04-20T09:46:25.9894721Z,DESKTOP-AOEVUGH
-Microsoft-Windows-PowerShell,4104,5,Microsoft-Windows-PowerShell/Operational,2025-04-20T09:46:28.9399243Z,DESKTOP-AOEVUGH
-Microsoft-Windows-PowerShell,4104,5,Microsoft-Windows-PowerShell/Operational,2025-04-22T09:21:19.8022599Z,DESKTOP-AOEVUGH
-Microsoft-Windows-PowerShell,4104,5,Microsoft-Windows-PowerShell/Operational,2025-04-22T09:21:19.8067269Z,DESKTOP-AOEVUGH
-Microsoft-Windows-PowerShell,4104,5,Microsoft-Windows-PowerShell/Operational,2025-04-22T09:21:19.8182786Z,DESKTOP-AOEVUGH
-Microsoft-Windows-PowerShell,4104,5,Microsoft-Windows-PowerShell/Operational,2025-04-22T09:21:19.8222621Z,DESKTOP-AOEVUGH
-Microsoft-Windows-PowerShell,4104,5,Microsoft-Windows-PowerShell/Operational,2025-04-22T09:21:19.8346456Z,DESKTOP-AOEVUGH
-Microsoft-Windows-PowerShell,4104,5,Microsoft-Windows-PowerShell/Operational,2025-04-22T09:21:19.8864560Z,DESKTOP-AOEVUGH
+Microsoft-Windows-PowerShell,4104,5,Microsoft-Windows-PowerShell/Operational,2025-04-26T15:55:51.8227970Z,DESKTOP-AOEVUGH
+Microsoft-Windows-PowerShell,4104,5,Microsoft-Windows-PowerShell/Operational,2025-04-26 18:33:28.444543+02:00,DESKTOP-AOEVUGH
+Microsoft-Windows-Security-Auditing,4624,0,Security,2025-04-26 18:34:24.563471+02:00,DESKTOP-AOEVUGH
+Microsoft-Windows-Security-Auditing,4672,0,Security,2025-04-26 18:34:24.563485+02:00,DESKTOP-AOEVUGH
+Microsoft-Windows-Security-Auditing,4624,0,Security,2025-04-26 18:34:24.662752+02:00,DESKTOP-AOEVUGH
+Microsoft-Windows-Security-Auditing,4672,0,Security,2025-04-26 18:34:24.662756+02:00,DESKTOP-AOEVUGH
