@@ -7,6 +7,7 @@ import csv
 ruta_log = Path(__file__).resolve().parent.parent.parent.parent / "logs" / "events.csv"
 campos = ["timestamp", "event_id", "type", "uid", "auid", "exe", "syscall", "success", "path", "key", "host"]
 expresion_regular = re.compile(r'type=([A-Z_]+)\s+msg=audit\((\d+)\.(\d+):(\d+)\):\s(.*)')
+expresion_key = re.compile(r'key="([.*?])"')
 keys = [
     "passwd_changes",
     "group_changes",
@@ -115,10 +116,13 @@ def main():
             writer.writeheader()
         for line in comando.stdout:
             match = expresion_regular.search(line)
+            matchkey = expresion_key.search(line)
+            print(matchkey)
             if match:
                 tipo, ts_sec, ts_usec, id, datos = match.groups()
                 timestamp = f"{datetime.datetime.fromtimestamp(int(ts_sec)) + datetime.timedelta(milliseconds=int(ts_usec))}"
                 row = extraer_campos(tipo, timestamp, id, datos)
+                print(tipo)
                 if tipo in keys:
                     writer.writerow(row)
                     print(f"[+] Evento registrado: {row['type']} {row['timestamp']} key={row['key']}")
