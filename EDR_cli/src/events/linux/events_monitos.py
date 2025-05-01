@@ -117,16 +117,14 @@ def main():
         for line in comando.stdout:
             match = expresion_regular.search(line)
             matchkey = expresion_key.search(line)
-            if match & matchkey:
+            if match and matchkey:
                 print(matchkey)
                 tipo, ts_sec, ts_usec, id, datos = match.groups()
                 timestamp = f"{datetime.datetime.fromtimestamp(int(ts_sec)) + datetime.timedelta(milliseconds=int(ts_usec))}"
                 row = extraer_campos(tipo, timestamp, id, datos)
-                if matchkey in keys:
-                    writer.writerow(row)
-                    print(f"[+] Evento registrado: {row['type']} {row['timestamp']} key={row['key']}")
-                
-                
+                writer.writerow(row)
+                print(f"[+] Evento registrado: {row['type']} {row['timestamp']} key={row['key']}")
+   
 if __name__ == "__main__":
     main()
     
