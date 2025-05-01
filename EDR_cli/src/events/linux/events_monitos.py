@@ -117,8 +117,8 @@ def main():
         for line in comando.stdout:
             match = expresion_regular.search(line)
             matchkey = expresion_key.search(line)
-            print(matchkey)
-            if match:
+            if match & matchkey:
+                print(matchkey)
                 tipo, ts_sec, ts_usec, id, datos = match.groups()
                 timestamp = f"{datetime.datetime.fromtimestamp(int(ts_sec)) + datetime.timedelta(milliseconds=int(ts_usec))}"
                 row = extraer_campos(tipo, timestamp, id, datos)
