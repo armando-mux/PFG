@@ -123,8 +123,7 @@ def main():
                 timestamp = f"{datetime.datetime.fromtimestamp(int(ts_sec)) + datetime.timedelta(milliseconds=int(ts_usec))}"
                 row = extraer_campos(tipo, timestamp, id, datos)
                 writer.writerow(row)
-                print(f"[+] Evento registrado: {row['type']} {row['timestamp']} key={row['key']}")
-   
+                
 if __name__ == "__main__":
     main()
     
