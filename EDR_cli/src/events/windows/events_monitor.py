@@ -24,17 +24,15 @@ def callback(reason, context, evt):
         time = time['SystemTime']
         if '.' in time:
             main_part, fraction = time.split('.')
-            fraction = fraction.rstrip('Z')  # quitamos la Z para tratar los números
-            fraction = (fraction + '000000')[:6]  # rellenamos y recortamos exactamente a 6 dígitos
+            fraction = fraction.rstrip('Z')  
+            fraction = (fraction + '000000')[:6]  
             time = f"{main_part}.{fraction}Z"
         time = datetime.datetime.strptime(time, "%Y-%m-%dT%H:%M:%S.%fZ")
         time = time.replace(tzinfo=datetime.timezone.utc).astimezone()
-        print(time)
         computer = xml.find('.//{*}Computer').text
         
         
-        print(f"Evento recibido: {eventid} - {provider['Name']} - {level} - {channel} - {time} - {computer}")
-        
+       
         # Escribir la fila en el CSV
         writer.writerow({
             'Provider': provider['Name'],

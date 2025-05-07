@@ -118,12 +118,11 @@ def main():
             match = expresion_regular.search(line)
             matchkey = expresion_key.search(line)
             if match and matchkey:
-                print(matchkey)
                 tipo, ts_sec, ts_usec, id, datos = match.groups()
                 timestamp = f"{datetime.datetime.fromtimestamp(int(ts_sec)) + datetime.timedelta(milliseconds=int(ts_usec))}"
                 row = extraer_campos(tipo, timestamp, id, datos)
                 writer.writerow(row)
-                
+                file.flush()
 if __name__ == "__main__":
     main()
     
