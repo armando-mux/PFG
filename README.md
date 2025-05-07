@@ -207,15 +207,15 @@ En el main esta el script que lanza las funcionalidades ya mencionadas (menos la
 
 ## COSAS QUE HACER 
 
-[x] YA tengo lista de eventos de windows. Terminar de estructurar script de windows y diseñar el de linux
+- [x] YA tengo lista de eventos de windows. Terminar de estructurar script de windows y diseñar el de linux
 
-[ ] Syscalls en ambos equipos (al menos un conjunto relevante de syscalls)
+- [ ] Syscalls en ambos equipos (al menos un conjunto relevante de syscalls)
 
-[x] Revisado script directories de windows, actualizar el de linux
+- [x] Revisado script directories de windows, actualizar el de linux
 
-[ ] Implementar lógica de los csv: ahora mismo crean archivos en /log y si ya estan creados, los continua. Implementar compresion automatica (zstd funciona bien) de los archivos para su envio a Azure cuando este hecha la parte de la nube (no urgente de cara a recolecta de datos)
+- [ ] Implementar lógica de los csv: ahora mismo crean archivos en /log y si ya estan creados, los continua. Implementar compresion automatica (zstd funciona bien) de los archivos para su envio a Azure cuando este hecha la parte de la nube (no urgente de cara a recolecta de datos)
 
-[ ] Monitorizar uso de la GPU para principales fabricantes.
+- [ ] Monitorizar uso de la GPU para principales fabricantes.
 
 
 --------------------------------------------------------
