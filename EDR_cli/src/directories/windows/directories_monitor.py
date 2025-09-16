@@ -19,7 +19,7 @@ from src import utils
 # Función para inicializar el archivo de registro CSV
 
 file_counter = 0
-max_file_size = 20 * 1024 
+max_file_size = 1 * 1024 * 1024 
 
 def initialize_csv_file(csv_file):
     if not os.path.exists(csv_file):

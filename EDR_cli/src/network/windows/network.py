@@ -78,7 +78,7 @@ def get_interfaces():
 def start_capture(output_dir):
     os.makedirs(output_dir, exist_ok=True)
     file_index = 0
-    max_file_size = 20 * 1024  # Tamaño máximo del archivo en bytes (10 MB)
+    max_file_size = 1 * 1024 * 1024 
     outputabsdir = output_dir.resolve()
     current_file_path = outputabsdir / f"network_data{file_index}.csv"
     csv_name = f"{socket.gethostname()}/NETWORK/network_data{file_index}.csv"

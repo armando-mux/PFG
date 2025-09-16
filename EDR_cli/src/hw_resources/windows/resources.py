@@ -22,7 +22,7 @@ file_counter = 0
 
 
 # Tamaño máximo permitido del archivo en bytes (10 MB)
-max_file_size = 2 * 1024 
+max_file_size = 1 * 1024 * 1024 
 current_file_name = f"{ruta_log}\\{name_base}_{file_counter}.csv"
 
 
