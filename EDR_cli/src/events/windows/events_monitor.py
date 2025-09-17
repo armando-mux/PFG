@@ -144,7 +144,7 @@ def register_events(csv_file, max_file_size):
 
 def main(): 
     file_counter = 0
-    max_file_size = 1 * 1024 * 1024  # 1 MB 
+    max_file_size = 100 * 1024  # 1 MB 
     ruta_log = Path(__file__).resolve().parent.parent.parent.parent / "logs"
     name_base =  f"events{file_counter}.csv"
     csv_file = f"{ruta_log}/{name_base}"

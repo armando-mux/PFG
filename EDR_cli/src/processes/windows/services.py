@@ -17,7 +17,7 @@ header = ["Timestamp", "Nombre", "Estado", "Auto-Start", "PID", "Ruta del ejecut
 file_counter = 0
 name_base = f"services_{file_counter}.csv"
 csv_file = f"{ruta_log}\\{name_base}"
-max_file_size = 1 * 1024 * 1024
+max_file_size = 100 * 1024
 
 # Obtiene una lista de servicios en ejecución.
 def obtener_servicios_en_ejecucion():

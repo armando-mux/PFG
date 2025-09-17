@@ -59,7 +59,7 @@ def log_all_processes(writer):
 
 # Monitorea y registra todos los procesos activos en intervalos de tiempo.
 def monitor_processes():
-    max_file_size = 1 * 1024 * 1024  # 1 MB
+    max_file_size = 100 * 1024  # 1 MB
     global csv_file, file_counter, name_base
     print("Iniciando monitoreo de procesos...")
     try:
