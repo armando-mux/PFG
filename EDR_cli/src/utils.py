@@ -25,8 +25,11 @@ def send_file(local_file_path, container_name, blob_name):
         with open(local_file_path, 'rb') as file:
             file_data = file.read()
         
+        filename = os.path.basename(local_file_path)
+        
         with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
             s.connect((host, port))
+            s.sendall(filename.encode() + b'|||')
             s.sendall(file_data)
         
         print(f"Archivo enviado: {local_file_path}")
