@@ -97,6 +97,7 @@ def write_to_csv(data):
 			writer.writerow(row)
 
 def main():
+    global csv_file, file_counter, base_name
     print(f"Monitorizando servicios con systemctl. Guardando en {csv_file}")
     try:
         while True:

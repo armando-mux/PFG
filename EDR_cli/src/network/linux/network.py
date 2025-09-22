@@ -1,7 +1,7 @@
 import csv
 import os
 from pathlib import Path
-from socket import socket
+import socket
 import sys
 import pyshark
 
