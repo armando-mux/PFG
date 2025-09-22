@@ -46,6 +46,7 @@ def create_new_file():
 
 
 def main():
+    global current_file_name, file_counter
     try:
         # Crea el archivo inicial
         create_new_file()
@@ -77,13 +78,13 @@ def main():
             
             # Verifica el tamaño del archivo antes de escribir
             if os.path.exists(current_file_name) and os.path.getsize(current_file_name) > max_file_size:
-                global file_counter
+     
                 name = socket.gethostname()
                 print(f"El archivo {current_file_name} ha alcanzado el tamaño máximo permitido.")
                 nombre_1 = f"{name}/{name_base}_{file_counter}.csv"
                 utils.send_file(current_file_name, "prueba", nombre_1)
                 os.remove(current_file_name)  # Elimina el archivo antiguo
-                file_counter =+ 1
+                file_counter += 1
                 current_file_name = f"{ruta_log}/{name_base}_{file_counter}.csv"
                 create_new_file()
 
