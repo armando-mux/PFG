@@ -4,7 +4,10 @@ import re
 import subprocess
 import csv
 
-ruta_log = Path(__file__).resolve().parent.parent.parent.parent / "logs" / "events.csv"
+counter = 0
+max_file_size = 5 * 1024 * 1024  # 5 MB
+
+ruta_log = Path(__file__).resolve().parent.parent.parent.parent / "logs"
 campos = ["timestamp", "event_id", "type", "uid", "auid", "exe", "syscall", "success", "path", "key", "host"]
 expresion_regular = re.compile(r'type=([A-Z_]+)\s+msg=audit\((\d+)\.(\d+):(\d+)\):\s(.*)')
 expresion_key = re.compile(r'key="(.*?)"')
@@ -99,8 +102,7 @@ def extraer_campos(tipo, timestamp, id, data):
             
     return campos
     
-                
-def main():
+def register_events(csv_file, max_file_size=max_file_size):
     aplicar_reglas()
     comando = subprocess.Popen(
         ["tail", "-F", "/var/log/audit/audit.log"],
@@ -109,7 +111,7 @@ def main():
         universal_newlines=True
     )   
     
-    with open(ruta_log, mode='a', newline='', encoding='utf-8') as file:
+    with open(csv_file, mode='a', newline='', encoding='utf-8') as file:
         writer = csv.DictWriter(file, fieldnames=campos)
         writer.writeheader()
         if file.tell() == 0:
@@ -123,6 +125,9 @@ def main():
                 row = extraer_campos(tipo, timestamp, id, datos)
                 writer.writerow(row)
                 file.flush()
+                
+    
 if __name__ == "__main__":
-    main()
+    csv_file = f"{ruta_log}/events{counter}.csv"
+    register_events(csv_file)
     
