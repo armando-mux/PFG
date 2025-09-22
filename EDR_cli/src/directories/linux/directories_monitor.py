@@ -1,11 +1,21 @@
 import datetime
 import os
+import socket
+import sys
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 import time
 import csv
 from pathlib import Path
 import re
+from src import utils
+
+file_counter = 0
+max_file_size = 100 * 1024
+
+BASE_DIR = Path(__file__).resolve().parent.parent.parent.parent
+if str(BASE_DIR) not in sys.path:
+    sys.path.insert(0, str(BASE_DIR))
 
 # Función para inicializar el archivo de registro CSV
 def initialize_csv_file(csv_file):
@@ -64,13 +74,15 @@ class CustomEventHandler(FileSystemEventHandler):
 
 
 def main(): 
+    global file_counter, max_file_size, name_base
     
     # Paths a monitorear	
     paths = ["/home/", "/usr/bin/", "/tmp/", "/var/tmp/", "/mnt/" ]
     
     # Path del archivo de log
     ruta_log = Path(__file__).resolve().parent.parent.parent.parent / "logs" 
-    csv_file = f"{ruta_log}/filesystem_event.csv"
+    name_base = f"filesystem_event{file_counter}.csv"
+    csv_file = f"{ruta_log}/{name_base}"
     
     # Paths exluidos del monitoreo (bucle infinito)
     excluded = [re.compile(str(ruta_log.parent.parent.parent))]
@@ -88,10 +100,31 @@ def main():
     try:
         observer.start()
         while True:
+            if os.path.exists(csv_file) and os.path.getsize(csv_file) > max_file_size:
+                observer.stop()
+                event_handler.write_buffer(event_handler.buffer)
+                name = socket.gethostname()
+                nombre_1 = f"{name}/DIRECTORIES/{name_base}"
+                utils.send_file(csv_file, "prueba", nombre_1)
+                os.remove(csv_file)
+                file_counter += 1
+                name_base = f"filesystem_event{file_counter}.csv"
+                csv_file = f"{ruta_log}/{name_base}"
+                initialize_csv_file(csv_file)
+                event_handler = CustomEventHandler(csv_file, excluded)
+                observer = Observer()
+                for path in paths:
+                    observer.schedule(event_handler, path, recursive=True)
+                observer.start()
             time.sleep(1)
+            
     except KeyboardInterrupt:
         observer.stop()
         event_handler.write_buffer(event_handler.buffer)
+        name = socket.gethostname()
+        nombre_1 = f"{name}/DIRECTORIES/{name_base}"
+        utils.send_file(csv_file, "prueba", nombre_1)
+        os.remove(csv_file)
     observer.join()
 
 

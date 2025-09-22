@@ -1,6 +1,7 @@
 from azure.storage.blob import BlobServiceClient, BlobClient, ContainerClient
 import socket
 import sys
+import os
 
 """ def send_file(local_file_path, container_name, blob_name):
 
