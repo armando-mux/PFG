@@ -1,4 +1,5 @@
 import datetime
+import os
 from pathlib import Path
 import re
 import subprocess
@@ -125,7 +126,8 @@ def register_events(csv_file, max_file_size=max_file_size):
                 row = extraer_campos(tipo, timestamp, id, datos)
                 writer.writerow(row)
                 file.flush()
-                
+            if os.path.exists(csv_file) and os.path.getsize(csv_file) > max_file_size:
+                comando.terminate()        
     
 if __name__ == "__main__":
     csv_file = f"{ruta_log}/events{counter}.csv"
