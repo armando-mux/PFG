@@ -8,6 +8,9 @@ import time
 import csv
 from pathlib import Path
 import re
+BASE_DIR = Path(__file__).resolve().parent.parent.parent.parent
+if str(BASE_DIR) not in sys.path:
+    sys.path.insert(0, str(BASE_DIR))
 from src import utils
 
 file_counter = 0
