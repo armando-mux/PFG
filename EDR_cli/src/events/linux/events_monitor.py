@@ -132,4 +132,8 @@ def register_events(csv_file, max_file_size=max_file_size):
 if __name__ == "__main__":
     csv_file = f"{ruta_log}/events{counter}.csv"
     register_events(csv_file)
+    while True:
+        counter += 1
+        csv_file = f"{ruta_log}/events{counter}.csv"
+        register_events(csv_file)
     
