@@ -3,11 +3,19 @@ import csv
 from datetime import datetime
 import time
 from pathlib import Path  
+import os
+import sys
+BASE_DIR = Path(__file__).resolve().parent.parent.parent.parent
+if str(BASE_DIR) not in sys.path:
+    sys.path.insert(0, str(BASE_DIR))
+from src import utils
 
 # Configuración del archivo CSV
+file_counter = 0
+base_name = f"services_monitor{file_counter}.csv"
 ruta_log = Path(__file__).resolve().parent.parent.parent.parent / "logs" 
-csv_file = f"{ruta_log}/services_monitor.csv"
-
+csv_file = f"{ruta_log}/{base_name}"
+max_file_size = 2 * 1024
 headers = [
     "timestamp",
     "service_name",
@@ -96,8 +104,18 @@ def main():
             if services:
                 write_to_csv(services)
                 print(f"[{datetime.now().isoformat()}] Registrados {len(services)} servicios.")
+                
+            if  os.path.exists(csv_file) and os.path.getsize(csv_file) > max_file_size:
+                utils.send_file(csv_file, "prueba", f"{base_name}")
+                os.remove(csv_file)
+                file_counter += 1
+                base_name = f"services_monitor{file_counter}.csv"
+                csv_file = f"{ruta_log}/{base_name}"
+            
             time.sleep(1800)
     except KeyboardInterrupt:
+        utils.send_file(csv_file, "prueba", f"{base_name}")
+        os.remove(csv_file)
         print("\nMonitorización detenida.")
 
 if __name__ == "__main__":
