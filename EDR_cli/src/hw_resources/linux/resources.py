@@ -1,10 +1,11 @@
 from pathlib import Path
 import socket
+import sys
 import time
 import psutil
 import csv
 import os
-from src import utils
+
 
 BASE_DIR = Path(__file__).resolve().parent.parent.parent.parent
 if str(BASE_DIR) not in sys.path:
@@ -81,10 +82,11 @@ def main():
                 print(f"El archivo {current_file_name} ha alcanzado el tamaño máximo permitido.")
                 nombre_1 = f"{name}/{name_base}_{file_counter}.csv"
                 utils.send_file(current_file_name, "prueba", nombre_1)
-                
+                os.remove(current_file_name)  # Elimina el archivo antiguo
                 file_counter =+ 1
+                current_file_name = f"{ruta_log}/{name_base}_{file_counter}.csv"
                 create_new_file()
-            
+
             # Escribe los datos en el archivo actual
             with open(current_file_name, mode='a', newline='') as csvfile:
                 writer = csv.writer(csvfile)
@@ -96,6 +98,7 @@ def main():
         name = socket.gethostname()
         nombre_1 = f"{name}/{name_base}_{file_counter}.csv"
         utils.send_file(current_file_name, "prueba", nombre_1)
+        os.remove(current_file_name) 
         print("Monitoreo detenido por el usuario.")
 if __name__ == "__main__":
     main()
