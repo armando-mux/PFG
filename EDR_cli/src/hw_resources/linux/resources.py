@@ -6,6 +6,12 @@ import csv
 import os
 from src import utils
 
+BASE_DIR = Path(__file__).resolve().parent.parent.parent.parent
+if str(BASE_DIR) not in sys.path:
+    sys.path.insert(0, str(BASE_DIR))
+    
+from src import utils
+
 # Directorio y nombre base del archivo de registro
 name_base = "HW_resources"
 ruta_log = Path(__file__).resolve().parent.parent.parent.parent / "logs"

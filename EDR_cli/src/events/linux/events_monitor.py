@@ -4,6 +4,12 @@ from pathlib import Path
 import re
 import subprocess
 import csv
+BASE_DIR = Path(__file__).resolve().parent.parent.parent.parent
+if str(BASE_DIR) not in sys.path:
+    sys.path.insert(0, str(BASE_DIR))
+from src import utils
+import socket
+
 
 counter = 0
 max_file_size = 5 * 1024 * 1024  # 5 MB
@@ -130,10 +136,22 @@ def register_events(csv_file, max_file_size=max_file_size):
                 comando.terminate()        
     
 if __name__ == "__main__":
+    name_base = f"events{counter}.csv"
     csv_file = f"{ruta_log}/events{counter}.csv"
     register_events(csv_file)
-    while True:
-        counter += 1
-        csv_file = f"{ruta_log}/events{counter}.csv"
-        register_events(csv_file)
-    
+    try:
+        while True:
+            name = socket.gethostname()
+            nombre_1 = f"{name}/DIRECTORIES/{name_base}"
+            utils.send_file(csv_file, "prueba", nombre_1)
+            os.remove(csv_file)
+            counter += 1
+            name_base = f"events{counter}.csv"
+            csv_file = f"{ruta_log}/{name_base}"
+            register_events(csv_file)
+    except KeyboardInterrupt:
+        print("Monitoreo detenido por el usuario.")
+        name = socket.gethostname()
+        nombre_1 = f"{name}/DIRECTORIES/{name_base}"
+        utils.send_file(csv_file, "prueba", nombre_1)
+        os.remove(csv_file)

@@ -1,10 +1,16 @@
 import csv
 import os
 from pathlib import Path
+from socket import socket
+import sys
 import pyshark
 
- 
+BASE_DIR = Path(__file__).resolve().parent.parent.parent.parent
+if str(BASE_DIR) not in sys.path:
+    sys.path.insert(0, str(BASE_DIR))
+from src import utils
 
+max_file_size = 10 * 1024 
 # Clase para representar un paquete de red con métodos de inicializacion, de toString y de conversión a lista para escritura en CSV
 class Paquete:
     def __init__ (self, timestamp, ip_src, ip_dst, port_src, port_dst, transport_protocol, app_protocol, length):
@@ -58,11 +64,12 @@ def handle_packet(paquete, csv_writer):
         
         
 # Función para iniciar la captura de paquetes de red y escribirlos en archivos CSV
-def start_capture(output_dir, max_file_size_mb=10):
+def start_capture(output_dir):
     os.makedirs(output_dir, exist_ok=True)
     file_index = 0
     outputabsdir = os.path.abspath(output_dir)
     current_file_path = os.path.join(outputabsdir, f"packets_{file_index}.csv")
+    csv_name = f"{socket.gethostname()}/NETWORK/network_data{file_index}.csv"
     print(f"Ruta {current_file_path} creada")
     file_handle = open(current_file_path, mode='w', newline='')
     csv_writer = csv.writer(file_handle)
@@ -76,26 +83,32 @@ def start_capture(output_dir, max_file_size_mb=10):
         for packet in cap.sniff_continuously():
             handle_packet(packet, csv_writer)
             file_handle.flush()
-            # El siguiente codigo comienza a implementar la logica de dividir los archivos de captura en archivos de 10MB
-            # para ir creando nuevos archivos de captura y subiendo a la nube los ya creados, pero esta inacabado
-            if os.path.getsize(current_file_path) > max_file_size_mb * 1024 * 1024:
+            
+            if os.path.getsize(current_file_path) > max_file_size :
+                utils.send_file(current_file_path, "prueba", csv_name)
                 file_handle.close()
+                os.remove(current_file_path)
                 file_index += 1
                 current_file_path = os.path.join(outputabsdir, f"packets_{file_index}.csv")
                 file_handle = open(current_file_path, mode='w', newline='')
+                csv_name = f"{socket.gethostname()}/NETWORK/network_data{file_index}.csv"
                 csv_writer = csv.writer(file_handle)
                 csv_writer.writerow([
                     "timestamp", "ip_src", "ip_dst", 
                     "port_src", "port_dst", 
                     "transport_protocol", "app_protocol", "length"
                 ])
-    finally:
+    except KeyboardInterrupt:
+        utils.send_file(current_file_path, "prueba", csv_name)
         file_handle.close()
+        cap.eventloop.stop()
+        os.remove(current_file_path)
+
         
         
 def main():
     ruta_log = Path(__file__).resolve().parent.parent.parent.parent / "logs"
-    start_capture(output_dir=ruta_log, max_file_size_mb=10)
+    start_capture(output_dir=ruta_log)
 
 if __name__ == "__main__":
     main()

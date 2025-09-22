@@ -18,7 +18,7 @@ import os
 
 # Esta funcion esta pensada para usarla en la generacion de datos con MV infectadas. En vez de usar un share de 
 # azure, se pasa por un socket normal a otra MV con la que tiene una red interna (así se evita la conexcion a internet)
-
+"""""
 def send_file(local_file_path, container_name, blob_name):
     host = "10.0.0.1"
     port = 50001
@@ -39,3 +39,6 @@ def send_file(local_file_path, container_name, blob_name):
     except Exception as e:
         print(f"Error: {e}")
         return False
+"""
+def send_file(local_file_path, container_name, blob_name):
+    print(f"Simulando el envio del archivo {local_file_path} al contenedor {container_name} con el nombre de blob {blob_name}")

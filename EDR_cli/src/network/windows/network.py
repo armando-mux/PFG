@@ -97,8 +97,7 @@ def start_capture(output_dir):
         for packet in cap.sniff_continuously():
             handle_packet(packet, csv_writer)
             file_handle.flush()
-            # El siguiente codigo comienza a implementar la logica de dividir los archivos de captura en archivos de 10MB
-            # para ir creando nuevos archivos de captura y subiendo a la nube los ya creados, pero esta inacabado
+            
             if os.path.getsize(current_file_path) > max_file_size:
                 utils.send_file(current_file_path, "prueba", csv_name)
                 file_handle.close()
