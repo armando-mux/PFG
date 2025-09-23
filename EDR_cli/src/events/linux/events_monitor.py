@@ -139,8 +139,9 @@ def register_events(csv_file, max_file_size=max_file_size):
 if __name__ == "__main__":
     name_base = f"events{counter}.csv"
     csv_file = f"{ruta_log}/events{counter}.csv"
-    register_events(csv_file)
+    
     try:
+        register_events(csv_file)
         while True:
             name = socket.gethostname()
             nombre_1 = f"{name}/DIRECTORIES/{name_base}"
