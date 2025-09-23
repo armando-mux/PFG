@@ -68,17 +68,6 @@ scripts_windows = [script1win, script2win, script3win, script4win, script5win, s
 scripts_linux = [script1lin, script2lin, script3lin, script4lin, script5lin, script6lin]
 
 
-# Función para ejecutar un script
-def ejecutar_script(script):
-	try:
-		if sistema_operativo == "Windows":
-			subprocess.run(["python", script], check=True)
-		elif sistema_operativo == "Linux":
-			subprocess.run(["python3", script], check=True)
-	except subprocess.CalledProcessError as e:
-		print(f"Error al ejecutar {script}: {e}")
-
-
 
 # Seleccionar los scripts correspondientes
 if sistema_operativo == "Windows":
@@ -93,11 +82,18 @@ else:
 processes = []
 
 try:
-    for script in scripts:
-        p = subprocess.Popen(["python", script])
-        processes.append(p)
-    while True:
-        pass    
+    if sistema_operativo == "Windows":
+        for script in scripts:
+            p = subprocess.Popen(["python", script])
+            processes.append(p)
+        while True:
+            pass  
+    elif sistema_operativo == "Linux":
+        for script in scripts:
+            p = subprocess.Popen(["python3", script])
+            processes.append(p)
+        while True:
+            pass  
 except KeyboardInterrupt:
     print("Interrupción detectada. Terminando scripts...")
     for p in processes:
