@@ -75,7 +75,16 @@ reglas = [
     ["auditctl", "-w", "/etc/resolv.conf", "-p", "wa", "-k", "resolv_changes"],
 
     # --- Ejecución de scripts en /tmp ---
-    ["auditctl", "-a", "always,exit", "-F", "dir=/tmp/", "-F", "perm=x", "-k", "tmp_script_exec"]
+    ["auditctl", "-a", "always,exit", "-F", "dir=/tmp/", "-F", "perm=x", "-k", "tmp_script_exec"],
+    
+    # --- Syscalls de encryptacion
+    ["auditctl", "-a", "always,exit", "-S", "keyctl", "-k", "kernel_key_operations"],
+    ["auditctl", "-a", "always,exit", "-S", "add_key", "-k", "key_management"],
+    ["auditctl", "-a", "always,exit", "-S", "request_key", "-k", "key_request"]
+    
+    # --- TECNICAS DE EVASION O DE MODIFICACION DE POITICAS DE SEGURIDAD
+    ["auditctl", "-a", "always,exit", "-F", "path=/usr/bin/systemctl", "-F", "perm=x", "-k", "systemctl_execution"],
+    ["auditctl", "-a", "always,exit", "-F", "path=/usr/bin/pkill", "-F", "path=/usr/bin/killall", "-F", "perm=x", "-k", "process_killing_tools"]
 ]
 
 

@@ -80,7 +80,7 @@ def main():
     global file_counter, max_file_size, name_base
     
     # Paths a monitorear	
-    paths = ["/home/", "/usr/bin/", "/tmp/", "/var/tmp/", "/mnt/" ]
+    paths = ["/home/", "/usr/bin/", "/tmp/", "/var/tmp/", "/mnt/", "/opt/"]
     
     # Path del archivo de log
     ruta_log = Path(__file__).resolve().parent.parent.parent.parent / "logs" 
