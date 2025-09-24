@@ -15,7 +15,7 @@ from src import utils
 # Configuración del archivo CSV
 ruta_log = Path(__file__).resolve().parent.parent.parent.parent / "logs" 
 file_counter = 0
-max_file_size = 2 * 1024 
+max_file_size = 10 * 1024 
 header = ["Timestamp", "PID", "Nombre", "Ruta", "Usuario", "Tiempo de creación", "Proceso padre",
           "Numero lecturas", "Bytes leidos", "Numero escrituras", "Bytes escritos"]
 

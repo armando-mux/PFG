@@ -13,7 +13,7 @@ import socket
 
 
 counter = 0
-max_file_size = 5 * 1024 * 1024  # 5 MB
+max_file_size = 8 * 1024 # 5 MB
 
 ruta_log = Path(__file__).resolve().parent.parent.parent.parent / "logs"
 campos = ["timestamp", "event_id", "type", "uid", "auid", "exe", "syscall", "success", "path", "key", "host"]
@@ -38,7 +38,12 @@ keys = [
     "hostname_changes",
     "hostsfile_changes",
     "resolv_changes",
-    "tmp_script_exec"
+    "tmp_script_exec", 
+    "kernel_key_operations",
+    "key_management",
+    "key_request",
+    "systemctl_execution",
+    "process_killing_tools"
 ]   
 # Definimos las reglas que queremos aplicar
 reglas = [
@@ -80,7 +85,7 @@ reglas = [
     # --- Syscalls de encryptacion
     ["auditctl", "-a", "always,exit", "-S", "keyctl", "-k", "kernel_key_operations"],
     ["auditctl", "-a", "always,exit", "-S", "add_key", "-k", "key_management"],
-    ["auditctl", "-a", "always,exit", "-S", "request_key", "-k", "key_request"]
+    ["auditctl", "-a", "always,exit", "-S", "request_key", "-k", "key_request"],
     
     # --- TECNICAS DE EVASION O DE MODIFICACION DE POITICAS DE SEGURIDAD
     ["auditctl", "-a", "always,exit", "-F", "path=/usr/bin/systemctl", "-F", "perm=x", "-k", "systemctl_execution"],

@@ -14,7 +14,7 @@ if str(BASE_DIR) not in sys.path:
 from src import utils
 
 file_counter = 0
-max_file_size = 100 * 1024
+max_file_size =  15* 1024
 
 BASE_DIR = Path(__file__).resolve().parent.parent.parent.parent
 if str(BASE_DIR) not in sys.path:

@@ -15,7 +15,7 @@ file_counter = 0
 base_name = f"services_monitor{file_counter}.csv"
 ruta_log = Path(__file__).resolve().parent.parent.parent.parent / "logs" 
 csv_file = f"{ruta_log}/{base_name}"
-max_file_size = 2 * 1024
+max_file_size = 10 * 1024
 headers = [
     "timestamp",
     "service_name",
@@ -113,7 +113,7 @@ def main():
                 base_name = f"services_monitor{file_counter}.csv"
                 csv_file = f"{ruta_log}/{base_name}"
             
-            time.sleep(1800)
+            time.sleep(6)
     except KeyboardInterrupt:
         utils.send_file(csv_file, "prueba", f"{base_name}")
         os.remove(csv_file)
