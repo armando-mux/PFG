@@ -89,7 +89,8 @@ reglas = [
     
     # --- TECNICAS DE EVASION O DE MODIFICACION DE POITICAS DE SEGURIDAD
     ["auditctl", "-a", "always,exit", "-F", "path=/usr/bin/systemctl", "-F", "perm=x", "-k", "systemctl_execution"],
-    ["auditctl", "-a", "always,exit", "-F", "path=/usr/bin/pkill", "-F", "path=/usr/bin/killall", "-F", "perm=x", "-k", "process_killing_tools"]
+    ["auditctl", "-a",  "always,exit", "-F", "path=/usr/bin/pkill", "-F",  "perm=x",  "-k",  "process_killing_tools"],
+    ["auditctl", "-a", "always,exit", "-F", "path=/usr/bin/killall", "-F", "perm=x", "-k", "process_killing_tools"]
 ]
 
 
