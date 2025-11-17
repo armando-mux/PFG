@@ -1,9 +1,13 @@
 # PFG
-En este repositorio se pueden encontrar los scripts desarrollados hasta el momento del PFG. En primer lugar, se resumen los datos recopilados en los scripts ya desarrollados, luego se enumeran las cosas que quedan por hacer en la etapa actual del proyecto (cosas implementables ya) y por último consideraciones sobre los sucesivos pasos a dar. 
+El proyecto de PFG que estoy desarrollando consiste en un POC de un sistema EDR para la detección de ransomware en tiempo real, basado en el análisis del comportamiento del sistema (orientado a Windows 10 y Ubuntu). Por un lado, se dispone de una utilidad local encargada de recoger datos sobre el uso y comportamiento del sistema. Estos datos se envían posteriormente a un Blob Storage de Azure, donde se llevarán a cabo tareas de tratamiento y extracción de features que actúen como indicadores de compromiso.
 
-## RESUMEN DEL ESTADO DEL PROYECTO
+A continuación, se utiliza un modelo de machine learning previamente entrenado para distinguir entre trazas de ejecución pertenecientes a sistemas infectados y no infectados. En caso de detectarse un positivo, se ejecutará una acción sencilla en Azure, como por ejemplo notificar la situación por correo electrónico.
 
-Dentro de /EDR_cli/src se encuentran los scripts que aportan las principales funcionalidades. Dentro de src, podemos encontrar  directorios. Todos ellos se subdividen en linux o windows que son las plataformas para las que había pensado desarrollar el programa. La razón por la que los he separado es que al final se empaquetará la aplicación en un .msi, un .deb o .rpm y de esta forma no es necesario duplicar archivos. Los datos que pretendo recolectar son los siguientes (algunos aún no estan implementados):
+Actualmente, los procesos de extracción, transformación y análisis de datos, así como el modelo de ML, están implementados en local. Resta integrar todos estos componentes dentro de un flujo completo en Azure. A continuación, se describen las diferentes partes del trabajo ya realizado.
+
+## Recolección local de datos (EDR_cli)
+
+Dentro de /EDR_cli/src se encuentran los scripts que aportan las principales funcionalidades. Dentro de src, podemos encontrar  directorios. Todos ellos se subdividen en linux o windows que son las plataformas para las que había pensado desarrollar el programa. Los datos que pretendo recolectar son los siguientes (algunos aún no estan implementados):
 
 - Recursos de HW como memoria o CPU (falta implementar GPU).
 - Procesos, servicios y cambios en los mismos.
@@ -199,32 +203,12 @@ En ambos casos he tenido que incorporar listas de exclusión de directorios porq
 
 ### MAIN
 
-En el main esta el script que lanza las funcionalidades ya mencionadas (menos la de test de recursos). Antes comprueba que esten las librerias usadas ya instaladas y, en caso de no estarlo, las instala (o lo intenta, estoy teniendo algunos problemas con Ubuntu y otros SO basados en Lnux). De todas formas esto es provisional, mi idea final es empaquetarlo todo como un programa instalable. 
+En el main esta el script que lanza las funcionalidades ya mencionadas (menos la de test de recursos). Antes comprueba que esten las librerias usadas ya instaladas y, en caso de no estarlo, las instala. Cada 30 segundos guarda los logs generados hasta el momento y los envía a un Blob storage en Azure.
 
 -------------------------------------------------------
 
+## Generación de datos
+## Procesamiento de datos
+En esta parte, una vez tratado como se recolectan los datos y cuales son, voy a tratar los procesos seguidos para homogeneizar los datos de ambos sistemas operativos y la extracción de features interesantes.
 
-
-## COSAS QUE HACER 
-
-- [x] YA tengo lista de eventos de windows. Terminar de estructurar script de windows y diseñar el de linux
-- [x] Syscalls en ambos equipos (al menos un conjunto relevante de syscalls) implementado en eventos
-- [x] Revisado script directories de windows, actualizar el de linux
-- [ ] Implementar lógica de los csv: ahora mismo crean archivos en /log y si ya estan creados, los continua. Implementar compresion automatica (zstd funciona bien) de los archivos para su envio a Azure cuando este hecha la parte de la nube (no urgente de cara a recolecta de datos)
-- [ ] Monitorizar uso de la GPU para principales fabricantes.
-
-
---------------------------------------------------------
-
-
-## PRÓXIMOS PASOS
-
-- Diseñar el uso de servicios de Azure Student (con este paquete me dan algunos servicios de la nube + 100$ para gastar en servicios extra).
-- Usar alguna herramienta como [BeeWare](https://beeware.org/) para empaquetar el programa como .msi, .deb y .rpm
-- He buscado repositorios de datos de comportamiento de equipos sin infectar o infectados, pero no he encontrado ninguno que contenga datos del equipo como tal. Es frecunte encontrar solamente escaneres de los procesos ejecutándose en el equipo o información solamente de la actividad de red. Por eso he pensado en generar datos de equipos sin infectar (reales y simulados con VM) y de equipos infectados con sandboxes (puede ser en local o usando herramientas de Azure).
-
----------------------------------------------------------
-
-## Dudas.
-
-- En los eventos de windows, depende de que politicas esten activas en el sistema en concreto, captará la totalidad de eventos seleccionados para monitorizar o no. Idea: en el main, en caso de sistemas windows, incluir una comprobación de las politicas de seguridad y cambiarlas de ser necesario, haciendo que cuando se cierre el script vuelvan a su estado original.
+### Preprocesamiento de datos
