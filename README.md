@@ -203,12 +203,110 @@ En ambos casos he tenido que incorporar listas de exclusión de directorios porq
 
 ### MAIN
 
-En el main esta el script que lanza las funcionalidades ya mencionadas (menos la de test de recursos). Antes comprueba que esten las librerias usadas ya instaladas y, en caso de no estarlo, las instala. Cada 30 segundos guarda los logs generados hasta el momento y los envía a un Blob storage en Azure.
+En el main esta el script que lanza las funcionalidades ya mencionadas. Antes comprueba que esten las librerias usadas ya instaladas y, en caso de no estarlo, las instala. Cada 30 segundos guarda los logs generados hasta el momento y los envía a un Blob storage en Azure.
 
 -------------------------------------------------------
 
-## Generación de datos
+## Generación de un conjunto de datos inicial.
+
+Para la generación del conjunto de datos inicial, se configuró un entorno de laboratorio aislado utilizando máquinas virtuales con VirtualBox. La infraestructura constó de los siguientes elementos:
+
+- Máquina de Control: Un sistema Ubuntu donde se desplegó InetSim para simular servicios de red y suplir la falta de conectividad a Internet.
+
+- Máquinas Objetivo: Dos instancias adicionales, una con Ubuntu y otra con Windows 10, en las cuales se almacenaron muestras de ransomware para su análisis.
+
+Tras la preparación, las máquinas objetivo fueron aisladas en una red interna privada, conectadas únicamente a la máquina de control. Sobre este entorno, se ejecutó un proceso iterativo que consistía en iniciar el agente EDR y, posteriormente, ejecutar las muestras de malware. Cuando ya tenia los datos almacenados, se recuperaba la imagen del sistema y se inicia del proceso de nuevo.
+
+Debido a la falta de conexión a Internet real, se seleccionaron específicamente familias de ransomware que incorporaban claves de cifrado hardcodeadas en su código, permitiendo su funcionamiento en modo offline o híbrido. Como consecuencia de esta limitación, el análisis de la actividad de red resultó ser de bajo valor, ya que principalmente se observaron intentos fallidos de conexión a servidores de Comando y Control (C&C). Por este motivo, los datos de red fueron excluidos del análisis posterior.
+
+-----------------------------------------------------
+
 ## Procesamiento de datos
+
 En esta parte, una vez tratado como se recolectan los datos y cuales son, voy a tratar los procesos seguidos para homogeneizar los datos de ambos sistemas operativos y la extracción de features interesantes.
 
 ### Preprocesamiento de datos
+
+En el Jupyter Notebook de preprocesamiento de datos se lleva a cabo la labor de hacer homogeneos los logs extraidos de ambos sistemas operativos y de arreglar algunas incidencias de los datos.
+
+### Extracción de features
+
+En este Jupyter Notebook se extraen de todos los campos de datos especificados en apartados anteriores features interesantes y digeribles por el modelo de ML a emplear. Las features se dividen en cinco grupos: de actividad de directorios, de actividad de hardware, de eventos del sistema, de procesos activos y de servicios. Para aumentar un poco el número de muestras se ha decidido dividir todas las ejecuciones de que se disponen en ventanas temporales de 30 segundos. De esta forma, cada fila del resultado final son las métricas correspondientes a una ejecución que puede o no estar infectada.
+
+#### Features de eventos
+
+| Feature | Descripción |
+|---------|-------------|
+| EventID_entropy | Mide el grado de incertidumbre o aleatoriedad en la secuencia de IDs de eventos del sistema |
+| Event_count | Número total de eventos del sistema registrados en una ventana de tiempo determinada |
+
+#### Features de directorios
+
+| Feature | Descripción |
+|---------|-------------|
+| Total_filesystem_events | Número total de eventos relacionados con el sistema de archivos |
+| Create_filesystem_events | Cantidad de eventos de creación de archivos o directorios |
+| Modify_filesystem_events | Número de eventos de modificación de archivos existentes |
+| Delete_filesystem_events | Cantidad de eventos de eliminación de archivos o directorios |
+| Avg_path_length | Longitud promedio de las rutas de archivo involucradas en los eventos |
+| Unique_path_count | Número de rutas de archivo únicas afectadas por los eventos |
+| Directory_event_ratio | Proporción de eventos que ocurren en directorios versus archivos |
+
+#### Features de uso de hardware
+
+| Feature | Descripción |
+|---------|-------------|
+| CPU_mean | Uso promedio de la CPU como porcentaje del total |
+| CPU_std | Desviación estándar del uso de la CPU |
+| CPU_user | Porcentaje de tiempo de CPU empleado en procesos de usuario |
+| CPU_system | Porcentaje de tiempo de CPU empleado en procesos del sistema |
+| CPU_interrupt | Porcentaje de tiempo de CPU manejando interrupciones |
+| CPU_wait | Porcentaje de tiempo de CPU en estado de espera |
+| Mem_used_mean | Memoria RAM utilizada en promedio |
+| Mem_used_std | Desviación estándar del uso de memoria RAM |
+| Used_mem_ratio | Proporción de memoria RAM utilizada respecto al total disponible |
+| Disk_read | Cantidad de datos leídos del disco |
+| Disk_write | Cantidad de datos escritos en el disco |
+| Disk_read_write_ratio | Proporción entre operaciones de lectura y escritura en disco |
+
+#### Features de servicios
+
+| Feature | Descripción |
+|---------|-------------|
+| num_services | Número total de servicios del sistema en ejecución |
+| num_unique_paths_services | Cantidad de rutas únicas donde se localizan los ejecutables de los servicios |
+
+#### Features de procesos
+
+| Feature | Descripción |
+|---------|-------------|
+| Num_processes | Número total de procesos en ejecución en el sistema |
+| Avg_num_reads | Número promedio de operaciones de lectura por proceso |
+| Avg_num_writes | Número promedio de operaciones de escritura por proceso |
+| Avg_bytes_read | Cantidad promedio de bytes leídos por proceso |
+| Avg_bytes_written | Cantidad promedio de bytes escritos por proceso |
+| write_read_ratio | Proporción entre operaciones de escritura y lectura |
+| std_bytes_written | Desviación estándar de los bytes escritos entre procesos |
+| procceses_with_more_writes_than_reads_percentage | Porcentaje de procesos que escriben más de lo que leen |
+| entropy_path | Medida de aleatoriedad en las rutas de ejecución de los procesos |
+| processes_without_path | Número de procesos sin ruta de ejecución identificable |
+| orphan_processes | Cantidad de procesos huérfanos (sin proceso padre activo) |
+| different_parents_per_processes | Ratio de procesos con padres diferentes |
+| unique_users | Número de usuarios únicos que poseen procesos en ejecución |
+
+### Ajustes finales
+
+Para terminar antes de abordar el modelo se hacen algunos cambios como sustituir los posibles NaNs con las medias de esa misma ventana temporal.
+
+## Desarrollo del modelo
+
+La fase actual consiste en el entrenamiento y evaluación de tres modelos de machine learning basados en árboles de decisión: Random Forest, XGBoost y LightGBM, para una tarea de clasificación binaria. Para mejorar la robustez y el rendimiento general del sistema, se empleará una estrategia de ensamble por votación. La predicción final se obtendrá a partir del consenso mayoritario de las clasificaciones individuales de los tres algoritmos. Este enfoque permite una escalabilidad sencilla, ya que el sistema puede ampliarse fácilmente con nuevos modelos o modificarse mediante la asignación de pesos específicos a cada votante.
+
+# To do
+
+- [ ] Finalizar la implementación de los tres modelos y crear el ensamble por votación.
+- [ ] Refactorizar y pulir el `EDR_cli` (actualmente en estado solo funcional).
+- [ ] Implementar la conexión y envío de datos a Azure Blob Storage mediante un archivo de configuración.
+- [ ] Desarrollar una Azure Function para consultar y visualizar los datos generados por cada cliente (host con `EDR_cli`).
+- [ ] Implementar un sistema de alertas automáticas (por correo) ante la detección de una ventana temporal clasificada como positiva.
+- [ ] (Consultar) Diseñar un mecanismo de retroalimentación para re-entrenar los modelos con los nuevos datos y falsos positivos/negativos.
